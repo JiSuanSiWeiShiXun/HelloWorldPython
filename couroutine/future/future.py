@@ -1,4 +1,7 @@
 # coding=utf-8
+"""
+多线程/多进程 作为执行单元，执行I/O阻塞的
+"""
 from concurrent import futures
 import time
 import os
@@ -20,10 +23,10 @@ def waste_time(x):
 
 if __name__ == "__main__":
     # 顺序执行
-    # s = time.time()
-    # for num in NUMBER_LIST:
-    #     waste_time(num)
-    # print(f"sequential program spent {time.time() - s} s.")
+    s = time.time()
+    for num in NUMBER_LIST:
+        waste_time(num)
+    print(f"sequential program spent {time.time() - s} s.")
 
     # 线程池
     s = time.time()
@@ -38,7 +41,7 @@ if __name__ == "__main__":
     s = time.time()
     executor = futures.ProcessPoolExecutor(max_workers=MAX_WORKERS)
     for num in NUMBER_LIST:
-        future_list.append(executor.submit(waste_time, num))
+        future_list.append(executor.submit(waste_time, num))    # 返回Future()
     for future in futures.as_completed(future_list, timeout=10):
         print(future.result(), type(future.result()))
     print(f"multi_process program spent {time.time() - s} s")

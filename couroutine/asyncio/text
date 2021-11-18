@@ -1,0 +1,137 @@
+D:\ep\robot_test>go run -x -work .
+WORK=C:\Users\youling\AppData\Local\Temp\go-build594172542
+go: finding module for package github.com/JiSuanSiWeiShiXun/HelloWorld/util/test
+go: finding module for package github.com/JiSuanSiWeiShiXun/HelloWorld/util
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/@v/list
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@v/list
+# get https://goproxy.byted.org/github.com/@v/list
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/@v/list
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@v/list
+# get https://goproxy.byted.org/github.com/@v/list: 404 Not Found (0.177s)
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/@v/list: 404 Not Found (0.346s)
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@v/list: 200 OK (1.030s)
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@latest
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@latest: 200 OK (0.460s)
+go: downloading github.com/JiSuanSiWeiShiXun/HelloWorld v0.0.0-20210909034458-768046b46704
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@v/v0.0.0-20210909034458-768046b46704.zip
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@v/list: 200 OK (1.701s)
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@latest
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@v/v0.0.0-20210909034458-768046b46704.zip: 200 OK (0.209s)
+# get https://sum.golang.google.cn/lookup/github.com/!ji!suan!si!wei!shi!xun/!hello!world@v0.0.0-20210909034458-768046b46704
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@latest: 200 OK (0.340s)
+go: downloading github.com/JiSuanSiWeiShiXun/HelloWorld/util/test v0.0.0-20210909034458-768046b46704
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@v/v0.0.0-20210909034458-768046b46704.zip
+# get https://sum.golang.google.cn/lookup/github.com/!ji!suan!si!wei!shi!xun/!hello!world@v0.0.0-20210909034458-768046b46704: 200 OK (0.358s)
+# get https://sum.golang.google.cn/tile/8/0/x026/600
+# get https://sum.golang.google.cn/tile/8/1/104.p/125
+# get https://sum.golang.google.cn/tile/8/2/000.p/104
+# get https://sum.golang.google.cn/tile/8/1/103
+# get https://sum.golang.google.cn/tile/8/0/x026/749.p/165
+# get https://sum.golang.google.cn/tile/8/1/104.p/125: 200 OK (0.100s)
+# get https://sum.golang.google.cn/tile/8/2/000.p/104: 200 OK (0.131s)
+# get https://sum.golang.google.cn/tile/8/1/103: 200 OK (0.131s)
+# get https://sum.golang.google.cn/tile/8/0/x026/749.p/165: 200 OK (0.159s)
+# get https://sum.golang.google.cn/tile/8/0/x026/600: 200 OK (0.160s)
+# get https://sum.golang.google.cn/tile/8/0/x026/744
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@v/v0.0.0-20210909034458-768046b46704.zip: 200 OK (0.246s)
+# get https://sum.golang.google.cn/lookup/github.com/!ji!suan!si!wei!shi!xun/!hello!world/util/test@v0.0.0-20210909034458-768046b46704
+# get https://sum.golang.google.cn/tile/8/0/x026/744: 200 OK (0.108s)
+# get https://sum.golang.google.cn/lookup/github.com/!ji!suan!si!wei!shi!xun/!hello!world/util/test@v0.0.0-20210909034458-768046b46704: 200 OK (0.108s)
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/@v/list: 404 Not Found (2.595s)
+go: found github.com/JiSuanSiWeiShiXun/HelloWorld/util in github.com/JiSuanSiWeiShiXun/HelloWorld v0.0.0-20210909034458-768046b46704
+go: found github.com/JiSuanSiWeiShiXun/HelloWorld/util/test in github.com/JiSuanSiWeiShiXun/HelloWorld/util/test v0.0.0-20210909034458-768046b46704
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@v/v0.0.0-20210909034458-768046b46704.mod
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@v/v0.0.0-20210909034458-768046b46704.mod
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/util/test/@v/v0.0.0-20210909034458-768046b46704.mod: 200 OK (0.135s)
+# get https://goproxy.byted.org/github.com/%21ji%21suan%21si%21wei%21shi%21xun/%21hello%21world/@v/v0.0.0-20210909034458-768046b46704.mod: 200 OK (0.187s)
+mkdir -p $WORK\b036\
+mkdir -p $WORK\b037\
+cat >$WORK\b037\importcfg << 'EOF' # internal
+# import config
+packagefile fmt=D:\Go\pkg\windows_amd64\fmt.a
+EOF
+cd C:\Users\youling\go\pkg\mod\github.com\!ji!suan!si!wei!shi!xun\!hello!world\util\test@v0.0.0-20210909034458-768046b46704
+"D:\\Go\\pkg\\tool\\windows_amd64\\compile.exe" -o "$WORK\\b037\\_pkg_.a" -trimpath "$WORK\\b037=>" -p github.com/JiSuanSiWeiShiXun/HelloWorld/util/test -lang=go1.15 -complete -buildid X5Rws5ddS8vB
+EDBsOhzI/X5Rws5ddS8vBEDBsOhzI -goversion go1.15.6 -D "" -importcfg "$WORK\\b037\\importcfg" -pack -c=4 "C:\\Users\\youling\\go\\pkg\\mod\\github.com\\!ji!suan!si!wei!shi!xun\\!hello!world\\util\\te
+st@v0.0.0-20210909034458-768046b46704\\test.go"
+cat >$WORK\b036\importcfg << 'EOF' # internal
+# import config
+packagefile errors=D:\Go\pkg\windows_amd64\errors.a
+packagefile fmt=D:\Go\pkg\windows_amd64\fmt.a
+EOF
+cd C:\Users\youling\go\pkg\mod\github.com\!ji!suan!si!wei!shi!xun\!hello!world@v0.0.0-20210909034458-768046b46704\util
+"D:\\Go\\pkg\\tool\\windows_amd64\\compile.exe" -o "$WORK\\b036\\_pkg_.a" -trimpath "$WORK\\b036=>" -p github.com/JiSuanSiWeiShiXun/HelloWorld/util -lang=go1.15 -complete -buildid LbbHgDe62GxQY8RFg
+c_k/LbbHgDe62GxQY8RFgc_k -goversion go1.15.6 -D "" -importcfg "$WORK\\b036\\importcfg" -pack -c=4 "C:\\Users\\youling\\go\\pkg\\mod\\github.com\\!ji!suan!si!wei!shi!xun\\!hello!world@v0.0.0-2021090
+9034458-768046b46704\\util\\util.go"
+"D:\\Go\\pkg\\tool\\windows_amd64\\buildid.exe" -w "$WORK\\b037\\_pkg_.a" # internal
+cp "$WORK\\b037\\_pkg_.a" "C:\\Users\\youling\\AppData\\Local\\go-build\\53\\534cd7f0d9ee86b0f99db1aa1a85ee0b713bc214cd0cdeb180118ae3e2960919-d" # internal
+"D:\\Go\\pkg\\tool\\windows_amd64\\buildid.exe" -w "$WORK\\b036\\_pkg_.a" # internal
+cp "$WORK\\b036\\_pkg_.a" "C:\\Users\\youling\\AppData\\Local\\go-build\\62\\62461840a011826ee67593995375887bf56c7f5d0ba9d1477fae77497257c9ab-d" # internal
+mkdir -p $WORK\b001\
+cat >$WORK\b001\_gomod_.go << 'EOF' # internal
+package main
+import _ "unsafe"
+//go:linkname __debug_modinfo__ runtime.modinfo
+var __debug_modinfo__ = "0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\trobot_test\nmod\trobot_test\t(devel)\t\ndep\tgithub.com/JiSuanSiWeiShiXun/HelloWorld\tv0.0.0-20210909034458-768046b46704
+\th1:qobpPKx2uOg1myCeFvYM1p2fP9y0L6y35Ews5XX7pI8=\ndep\tgithub.com/JiSuanSiWeiShiXun/HelloWorld/util/test\tv0.0.0-20210909034458-768046b46704\th1:8lDsaK2aEqJrl/voOnSlxcGF9f2efghFhnosjRxHI7E=\n\xf92
+C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2"
+        EOF
+cat >$WORK\b001\importcfg << 'EOF' # internal
+# import config
+packagefile fmt=D:\Go\pkg\windows_amd64\fmt.a
+packagefile github.com/JiSuanSiWeiShiXun/HelloWorld/util=$WORK\b036\_pkg_.a
+packagefile github.com/JiSuanSiWeiShiXun/HelloWorld/util/test=$WORK\b037\_pkg_.a
+packagefile runtime=D:\Go\pkg\windows_amd64\runtime.a
+EOF
+cd D:\ep\robot_test
+"D:\\Go\\pkg\\tool\\windows_amd64\\compile.exe" -o "$WORK\\b001\\_pkg_.a" -trimpath "$WORK\\b001=>" -p main -lang=go1.15 -complete -buildid nnJvBHh9amhesOdy4O9H/nnJvBHh9amhesOdy4O9H -dwarf=false -g
+oversion go1.15.6 -D "" -importcfg "$WORK\\b001\\importcfg" -pack -c=4 "D:\\ep\\robot_test\\helloworld.go" "D:\\ep\\robot_test\\main.go" "$WORK\\b001\\_gomod_.go"
+"D:\\Go\\pkg\\tool\\windows_amd64\\buildid.exe" -w "$WORK\\b001\\_pkg_.a" # internal
+cp "$WORK\\b001\\_pkg_.a" "C:\\Users\\youling\\AppData\\Local\\go-build\\87\\87758b0081f3eb8519b0fd20ed66a21c88e63a0f7dbf9558ad10ffb2de124996-d" # internal
+cat >$WORK\b001\importcfg.link << 'EOF' # internal
+packagefile robot_test=$WORK\b001\_pkg_.a
+packagefile fmt=D:\Go\pkg\windows_amd64\fmt.a
+packagefile github.com/JiSuanSiWeiShiXun/HelloWorld/util=$WORK\b036\_pkg_.a
+packagefile github.com/JiSuanSiWeiShiXun/HelloWorld/util/test=$WORK\b037\_pkg_.a
+packagefile runtime=D:\Go\pkg\windows_amd64\runtime.a
+packagefile errors=D:\Go\pkg\windows_amd64\errors.a
+packagefile internal/fmtsort=D:\Go\pkg\windows_amd64\internal\fmtsort.a
+packagefile io=D:\Go\pkg\windows_amd64\io.a
+packagefile math=D:\Go\pkg\windows_amd64\math.a
+packagefile os=D:\Go\pkg\windows_amd64\os.a
+packagefile reflect=D:\Go\pkg\windows_amd64\reflect.a
+packagefile strconv=D:\Go\pkg\windows_amd64\strconv.a
+packagefile sync=D:\Go\pkg\windows_amd64\sync.a
+packagefile unicode/utf8=D:\Go\pkg\windows_amd64\unicode\utf8.a
+packagefile internal/bytealg=D:\Go\pkg\windows_amd64\internal\bytealg.a
+packagefile internal/cpu=D:\Go\pkg\windows_amd64\internal\cpu.a
+packagefile runtime/internal/atomic=D:\Go\pkg\windows_amd64\runtime\internal\atomic.a
+packagefile runtime/internal/math=D:\Go\pkg\windows_amd64\runtime\internal\math.a
+packagefile runtime/internal/sys=D:\Go\pkg\windows_amd64\runtime\internal\sys.a
+packagefile internal/reflectlite=D:\Go\pkg\windows_amd64\internal\reflectlite.a
+packagefile sort=D:\Go\pkg\windows_amd64\sort.a
+packagefile math/bits=D:\Go\pkg\windows_amd64\math\bits.a
+packagefile internal/oserror=D:\Go\pkg\windows_amd64\internal\oserror.a
+packagefile internal/poll=D:\Go\pkg\windows_amd64\internal\poll.a
+packagefile internal/syscall/execenv=D:\Go\pkg\windows_amd64\internal\syscall\execenv.a
+packagefile internal/syscall/windows=D:\Go\pkg\windows_amd64\internal\syscall\windows.a
+packagefile internal/testlog=D:\Go\pkg\windows_amd64\internal\testlog.a
+packagefile sync/atomic=D:\Go\pkg\windows_amd64\sync\atomic.a
+packagefile syscall=D:\Go\pkg\windows_amd64\syscall.a
+packagefile time=D:\Go\pkg\windows_amd64\time.a
+packagefile unicode/utf16=D:\Go\pkg\windows_amd64\unicode\utf16.a
+packagefile internal/unsafeheader=D:\Go\pkg\windows_amd64\internal\unsafeheader.a
+packagefile unicode=D:\Go\pkg\windows_amd64\unicode.a
+packagefile internal/race=D:\Go\pkg\windows_amd64\internal\race.a
+packagefile internal/syscall/windows/sysdll=D:\Go\pkg\windows_amd64\internal\syscall\windows\sysdll.a
+packagefile internal/syscall/windows/registry=D:\Go\pkg\windows_amd64\internal\syscall\windows\registry.a
+EOF
+mkdir -p $WORK\b001\exe\
+cd .
+"D:\\Go\\pkg\\tool\\windows_amd64\\link.exe" -o "$WORK\\b001\\exe\\robot_test.exe" -importcfg "$WORK\\b001\\importcfg.link" -s -w -buildmode=pie -buildid=diySQ3ubtFOccqIVc5hi/nnJvBHh9amhesOdy4O9H/R
+A7M6DgGOE1-XnIk8z4m/diySQ3ubtFOccqIVc5hi -extld=gcc "$WORK\\b001\\_pkg_.a"
+$WORK\b001\exe\robot_test.exe
+init util/test package, test is a new module under path HelloWorld/util/test
+Hello World!
+Package util print:
+Name: youling, Age: 24
