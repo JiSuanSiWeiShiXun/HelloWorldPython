@@ -1,0 +1,21 @@
+﻿int	string	int	int	int	int	int	int	int	int	int	int	int[]
+PKEY1												
+nID	描述	实弹防御	能量防御	爆破防御	物理防御	无属性防御	黄盾实弹伤害吸收率	黄盾能量伤害吸收率	黄盾爆破伤害吸收率	黄盾物理伤害吸收率	黄盾无属性伤害吸收率	接受伤害类型(普通=1，建筑=2)
+nID	desc	defenseAmmo	defenseLight	defenseBlast	defenseMelee	defenseNonAttribute	yellowShieldAmmoAbsorb	yellowShieldLightAbsorb	yellowShieldBlastAbsort	yellowShieldMeleeAbsort	yellowShieldNonAttributeAbsort	namageTargetType
+1	test											1,2
+2	炮台	25	20	20	25	0	0	0	0	0	0	1
+3	机甲：训练场飞行靶机	0	0	0	0	0	0	0	0	0	0	1
+4	美术模型测试新模	0	0	0	0	0	0	0	0	0	0	1
+5	美术模型测试旧模	0	0	0	0	0	0	0	0	0	0	1
+6	NPC矛榫	10	10	10	10	0	0	0	0	0	0	1
+7	NPC恩赫里亚	15	20	15	15	0	0	0	0	0	0	1
+8	NPC龙渊	10	15	10	10	0	0	0	0	0	0	1
+9	NPC三角龙	25	20	20	25	0	0	0	0	0	0	1
+10	NPC鸣神	10	15	10	10	0	0	0	0	0	0	1
+11	NPC德拉姆	20	25	15	20	0	100	100	100	0	30	1
+12	NPC赤霄	20	25	15	20	0	100	100	100	0	30	1
+13	恩赫里亚召唤无人机definition	0	0	0	0	0	0	0	0	0	0	1
+14	核心运输安置模式：航天飞机	0	0	0	0	0	0	0	0	0	0	1
+15	激光炮台	25	20	20	25	0	0	0	0	0	0	1
+16	NPC鸣神捕捉网	10	15	10	10	0	0	0	0	0	0	1
+17	德拉姆防御无人机	0	0	0	0	0	0	0	0	0	0	1

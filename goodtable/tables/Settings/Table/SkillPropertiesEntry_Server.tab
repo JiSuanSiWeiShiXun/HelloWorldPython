@@ -1,0 +1,31 @@
+﻿int	string	string	string
+PKEY1			
+ID	名称	描述	词条描述模板
+ID	Name	Desc	descTemplate
+10019	saSkillCountRecover	技能使用次数的恢复时间	
+10026	saSkillCountRecoverMax	技能使用次数的充能上限	
+10027	saSkillBulletPerMagazine	子弹技能弹夹上限	
+10052	saLockDistanceFix	锁定距离	
+10053	saLockAreaFix	锁定范围	
+10054	saLockTimeFix	锁定时间	
+10071	saLockTargetBlockedDelay	锁定目标遮挡脱锁延时	
+10072	saLockTargetOutOfAreaUnlockDelay	锁定目标超出距离脱锁延时	
+10073	saLockTargetOutOfDistanceDelay	锁定目标超出准星范围脱锁延时	
+10074	saLockTargetSwitchTargetDelay	锁定目标切换目标延时	
+10086	saSkillBulletDamage	子弹伤害增加值	
+10087	saBulletSpeed	子弹速度(物理,跟踪,抛物弹道)	
+10088	saBulletRange	子弹最大飞行距离	
+10089	saBulletTraceAngularSpeed	追踪弹道角速度	
+10090	saBulletJitterWeight1	集弹率内环权重	
+10091	saBulletJitterWeight2	集弹率二环权重	
+10092	saBulletJitterWeight3	集弹率三环权重	
+10093	saSkillCDChange	CD时长变化	
+10094	saBulletHitTargetDamage	子弹 命中机甲伤害	
+10095	saBulletAOEDamage	AOE机甲伤害	
+10096	saBulletBuildingDamage	建筑伤害	
+10097	saBulletTraceEndPosRadius	子弹 命中时最大偏移半径(单位为 0.01u)	
+10098	saBulletTraceMissRate	子弹 期望的被闪避率	
+10108	saSkillCountRecoverInit	技能使用次数的充能初始值	
+10207	atReloadSpeed	换弹时间增减（毫秒）	
+10922	saBulletPhysTrackHitRatio	子弹 物理弹道命中率曲线	
+10933	saBulletParaRadiusCurve	抛物线弹道半径控制曲线	

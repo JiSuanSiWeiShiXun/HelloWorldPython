@@ -1,0 +1,7 @@
+﻿int	string	bool	float	int	int
+PKEY1					
+画质档位,0~3顺序Low,Medium,High,Art	画质名	是否开启特效动画	基于特效可视距离优先级的剔除规则，值越小，判断越严格,优先级越低的特效将不会播放，最大值1(不剔除)，最小值0(全剔除)	每个建筑最多可同时播放的烟雾特效数量	每个碎块最多可同时播放的烟雾特效数量
+index	qualityName	enableEffectAnimation	effectCutOffProrityThreshold	maxSomkeCountPerBuilding	maxSmokeCountPerChunk
+0	Low	0	0.5	2	1
+1	Medium	1	0.8	4	2
+2	High	1	1	8	3

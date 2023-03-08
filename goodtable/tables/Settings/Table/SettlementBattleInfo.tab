@@ -1,0 +1,18 @@
+﻿int	int[]	enum.BattleStatisUIType	int	LangText
+PKEY1		None-0,Damage-1,Hurt-2,Kill-3,Assist-4,MissileMissCount-5,CustomScore-6,Intercept-7,Push-8,Disturb-9,Occupy-10,Interrupt-11,Dismantle-12,DamageNpc-13		
+序号	地图玩法的ID，用于配置不同玩法展示不同数据，配置为 0 代表所有玩法地图均展示该数据	与服务器数据对应，程序匹配数据用	UI界面上展示的顺序，数值越小顺序越高	信息项的标题
+ID	MapID	DataType	OrderFlag	Title
+1	0	1	1	伤害
+2	0	2	2	承受伤害
+3	0	3	3	击坠
+4	0	4	4	助攻
+5	0	5	5	躲避导弹
+6	10,712	6	6	上传
+7	10,712	7	7	截断
+8	125	6	6	样本
+9	15,1116	8	9	推进
+10	15,1116	9	10	干扰
+13	3	10	9	占领
+14	3	11	10	打断
+15	13	12	9	拆除
+16	11	13	9	破坏

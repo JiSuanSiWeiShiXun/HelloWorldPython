@@ -1,0 +1,11 @@
+﻿int	string	string
+PKEY1		
+逻辑模板ID	描述	加载Key
+LogicTemplateID	Desc	LoadKey
+1	宝箱	Assets/Settings/LogicSettings/Entity/TaskBox_Collider.prefab
+2	狗牌	Assets/Settings/LogicSettings/Entity/HPRegenObject.prefab
+3	炮台	Assets/Settings/LogicSettings/Entity/NT1_Prefab_SoTest_Logic.prefab
+4	空投信标	Assets/Settings/LogicSettings/Entity/AirdropBeacon_Physics.prefab
+5	道具	Assets/Settings/LogicSettings/Entity/Item_Physics.prefab
+6	复活设施	Assets/Settings/LogicSettings/Entity/ResapwnEquipment_Physics.prefab
+7	传送门	Assets/Settings/LogicSettings/Entity/Warp_Physics.prefab

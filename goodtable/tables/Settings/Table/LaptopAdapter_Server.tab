@@ -1,0 +1,8 @@
+﻿int	int	int	int	bool	bool	int	int	float	int
+PKEY1									
+画质档位,0~3顺序Low,Medium,High,Art	GPU排行(对应DeviceVideoCardScore表的index,顺序Low,Medium,High,Art)	CPU排行(对应DeviceVideoCardScore表的index,顺序Low,Medium,High,Art)	内存MB(顺序Low,Medium,High,Art)	是否启用DynamicResolution	是否关闭EcoSystem	ULOD Level画质分档,0~3顺序High,Mid,Low,Culled	ULOD	ULOD LodBias画质分档	 最大特效数量
+Quality	GpuIndex	CpuIndex	Memory	allowDynamicResolution	closeEcoSystem	uLodLevels	uLodLevelOther	uLodBias	maxEffectCount
+0	405	440	13000	1	1	1	2	0.3	125
+1	175	251	13000	0	0	0	1	0.5	150
+2	14	172	13000	0	0	0	0	1	175
+3	4	0	13000	0	0	0	0	1	200

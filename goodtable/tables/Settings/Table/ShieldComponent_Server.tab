@@ -1,0 +1,9 @@
+﻿int	string	int[]
+PKEY1		
+nID	描述	护盾组(盾的ID)
+nID	desc	Shields
+1	test	
+2	NPC恩赫里亚	10280109
+3	NPC龙渊	10320102
+4	NPC三角龙护盾	14420202,10420222
+5	玛什马克：技能C_攻防一体盾	1673

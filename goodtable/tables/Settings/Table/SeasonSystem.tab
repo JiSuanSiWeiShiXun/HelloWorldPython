@@ -1,0 +1,7 @@
+﻿int	string	int	DateTime	DateTime	DateTime	int	int	int	enum.CurrencyType
+PKEY1									External
+赛季ID	赛季名称	BP的ID	赛季开始时间	赛季结束时间	周开启时间	赛季图标ID	周数量	BP会员价格	货币类型
+ID	Name	BpId	StartTime	EndTime	WeekTaskStartTime	IconId	WeekCount	BPMemberPrice	BpCurrencyType
+1	漆黑的星辰	1	2022/11/14 05:00:00	2024/01/14 05:00:00	2022/11/14 06:00:00		8	1680	102
+2	祈愿的幻梦	2	2024/01/15 05:00:00	2025/01/15 05:00:00	2024/01/15 06:00:00		8	1680	102
+3	徘徊的白羽	3	2025/01/15 05:00:00	2026/01/15 05:00:00	2025/01/15 06:00:00		8	1680	102

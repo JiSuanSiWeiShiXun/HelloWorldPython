@@ -1,0 +1,11 @@
+﻿int	int	int[]	string[]	string[]	int[]	enum.EQuestStatus
+PKEY1						未接取-UnDo-0,可领取-CanDo-1,进行中-Doing-2,已经达成-Done-3,已交-Commit-4,已领奖-Rewarded-5,已过期-TimeOut-6
+序号	任务Id	界面Ids	输入组名（组名、命令名逐一对应）	输入命令名（组名、命令名逐一对应）	技能槽位	任务状态
+id	questId	viewIds	groupNames	cmdNames	slots	status
+1	20	1304,1399,10026,10029,10051,10052	System,System	Mouse X,Mouse Y		3
+2	21	10001	Mecha,Mecha,Mecha,Mecha,Mecha,Mecha	MoveFront, MoveBack, MoveLeft, MoveRight,QuickLand, Enemy Lock	7	3
+3	55				1	2
+4	55				2	2
+7	352				3	2
+8	353				4	2
+9	354				5	2

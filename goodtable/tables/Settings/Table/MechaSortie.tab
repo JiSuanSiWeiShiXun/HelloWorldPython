@@ -1,0 +1,8 @@
+﻿int	string	string	string	string
+PKEY1				
+机甲配置ID	出击仓升起预制资源	开始出击预制资源	等待就绪预制资源	飞出出击仓预制资源
+ID	SortieRising	SortieStart	SortieLoading	SortieOut
+10012	M12_SortieRising	M12_SortieStart	M12_SortieLoading	M12_SortieOut
+10001	M1_SortieRising	M1_SortieStart	M1_SortieLoading	M1_SortieOut
+10005	M5_SortieRising	M5_SortieStart	M5_SortieLoading	M5_SortieOut
+10002	M2_SortieRising	M2_SortieStart	M2_SortieLoading	M2_SortieOut

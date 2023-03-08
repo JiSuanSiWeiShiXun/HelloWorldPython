@@ -1,0 +1,12 @@
+﻿int	LangText	int	int	int	int	int	int	int	int	int	int	int	int
+PKEY1													
+Id	结算名	结算类型：\n\n配置使用哪种结算界面UI及交互，目前的结算类型有：\n0，无结算\n1，正常对局结算\n2，训练模式结算	击坠	被击坠	评级	伤害	运矿	助攻	阻拦	样本	占领	打断	伤害npc
+Id	Name	Type	Data1	Data2	Data3	Data4	Data5	Data6	Data7	Data8	Data9	Data10	Data11
+1	常规结算	1	1	2	5	4	0	3	0	0	0		
+2	运矿结算	1	1	2	7	6	4	3	5	0	0		
+3	训练结算	2	1	2	0	4	0	3	0	0	0		
+4	EIC样本结算	1	1	2	6	4	0	3	0	5	0		
+5	战斗演算中枢（死斗）	0	1	2	5	4	0	3	0	0	0		
+6	捡矿结算	1	1	2	7	6	4	3	0	0	0		
+7	咯拉欧布天坑结算	1	1	2	7	6	0	3	0	0	4	5	
+8	格查尔运输线	1	1	2	6	5		3					4

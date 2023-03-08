@@ -1,0 +1,23 @@
+﻿int	string	string
+PKEY1		
+ID	类型名	中文名
+id	name	cnName
+0	None	空
+1	Teach	教学
+2	DoublePush	星屿自律岛
+3	VirtualBattle3V3	虚拟对战3v3
+4	MiesEye	密斯之眼
+5	Lobby	大厅
+6	VirtualTrain	虚拟训练
+7	Battle	局内
+8	Canyon	艾特纳烟谷
+9	Swamp	绿洲爆破
+10	DefenseMap	攻防
+11	Marshmack	玛什马克
+12	Main	main
+13	StrongHold	据点战
+14	MegaKill	机械核心
+15	FallBattle	天降武装
+16	ArtMiesEye	美术密斯之眼
+17	Scuffle	战斗演算中枢
+18	Fortress	要塞

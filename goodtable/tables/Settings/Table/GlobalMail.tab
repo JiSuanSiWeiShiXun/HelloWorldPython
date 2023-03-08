@@ -1,0 +1,5 @@
+﻿int	string	string	string	enum.AttachmentType[]	int[]	int[]	enum.SendType	int	int	enum.RecvCondition
+PKEY1				无-None-0,货币-Currency-1,道具-Item-2			无-None-0,首次登录-FirstLogin-1,活动期间登录-LoginDuringActivity-2,定时发送-OnSpecificTime-3			无-None-0
+邮件ID	邮件标题	邮件内容	发送者名称	附件类型列表	附件ID列表	附件数量列表	邮件发送条件类型	活动ID	时间参数	接受者条件
+ID	MailTittle	MailContent	Sender	MailAttachmentTypeList	MailAttachmentIdList	MailAttachmentCountList	Type	ActivityID	Timestamp	Condition
+1	“焰心中队”作战任务部署	各位“焰心中队”测试驾驶员：\n\n        本次“焰心”共研服测试作战任务即将开启，请确认以下任务部署：\n        1、本次测试时间为2022年12月29日~2023年1月2日，每晚19:00~24:00。\n        2、由于功能调整，匹配模式/新地图AI暂未开启，各位驾驶员可通过自定义房间进行体验。\n        3、各中队成员可根据“新地图作战时间表”在内部测试驾驶员的协同作战下，快速的掌握新地图的作战技巧，以更好的应对本次作战任务。\n        4、如在测试中遇到任何问题，可通过“焰心中队”群中告知群管理员，或将问题记录于在线文档中，我们将及时解决。\n\n        为确保各位测试驾驶员能够更好应对本次多样的任务要求，薪火重工开发部研制了一系列机体武装与武装配件，请注意查收核对相关物资\n签收单。\n        期望各位测试驾驶员能够向开发部反馈任务期间相关武装的战斗体验，您所有的作战数据与反馈都将成为BREAK机体研发的重要资料。\n\n        祝各位任务顺利！	作战指挥部	2,2,2	200003,200004,200005	1,1,1	2	9		0

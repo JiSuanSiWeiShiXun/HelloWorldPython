@@ -1,0 +1,792 @@
+﻿int	string	enum.BattleTipsType	LangText	float	string[]	string[]	enum.BattleTipsColor	enum.CustomBattleTipsType	string[]
+PKEY1		OneLevel-0,TowLevel-1,ThreeLevel-2,KillTip-3,AssistTip-4,SkillTip-5					Yellow-0,Blue-1,Red-2	空-None-0,密斯之眼拾矿-MiesPickMeneral-1,密斯之眼交矿-MiesSubmitMeneral-2,爆破模式拾取炸弹-SwampPickMineralTip-3,爆破模式安装炸弹-SwampSubmitMineralTip-4,进度组件-ProgressTip-5	
+唯一标识	事件名	提示类型	提示内容	持续时间	语音	提示音	颜色配置	自定义提示	进度条音效
+id	eventName	battleTipsType	content	duration	voiceNames	beepNames	battleTipsColor	customBattleTipsType	progressSoundNames
+1	TestOneLevel	0	一级提示%s	3	Play_UI_EIC_Code_Submit		0	0	
+2	TestTowLevel	1	二级提示%s	3	Play_UI_EIC_Code_Submit		0	0	
+3	TestThreeLevel	2	三级提示%s	3	Play_UI_EIC_Code_Submit		0	0	
+4	TestKillTip	3	%s	3	Play_Vox_Hostile_Unit_Destroyed	Play_UI_Battle_Elimination	0	0	
+5	TestAssistTip	4	%s	3	Play_Vox_Assist_Confirmed	Play_UI_Battle_Assist	0	0	
+6	TestSkillTip	5	技能%s	0	Play_Vox_Preparing	Play_UI_Skill_Cooldown	0	0	
+7	MissileWarning	5		0		Play_UI_Missile_Warning	0	0	
+8	HeatHight	5		0			0	0	
+9	FailSkillAction	5		0		Play_UI_Skill_Cooldown	0	0	
+10	SkillLockLost	5	需要锁定对象	0.9	Play_Vox_Target_Parameter_Required	Play_UI_Skill_Cooldown	0	0	
+11	SpinerCountAdd1	5		0		Play_M5_Aim_Charge_1st	0	0	
+12	SpinerCountAdd2	5		0		Play_M5_Aim_Charge_2nd	0	0	
+13	SpinerCountAdd3	5		0		Play_M5_Aim_Charge_3rd	0	0	
+14	SpinerCountAdd4	5		0		Play_M5_Aim_Charge_4th	0	0	
+15	M1SkillDisable	5	需要飞行器形态	2	Play_Vox_Air_Vehicle		0	0	
+16	ZoomMagnificationChange	5		0		Play_M5_Sniper_Rifle_Scope_Change	0	0	
+18	OutOfLockDistance	5	目标不在武装的有效射程	1	Play_Vox_Out_Of_Weapon_Range		0	0	
+19	CloserThanMinLockDistance	5	目标进入近距离锁定盲区	2	Play_Vox_Out_Of_Weapon_Range		0	0	
+20	EnergyEmpty	5	能量耗尽保护	1	Play_Vox_Excess_Power_Exhausted		0	0	
+21	EnergyRecover	5	能量回复中	1			0	0	
+22	EnergyValueLow	5	低能量水平	1	Play_Vox_Low_Excess_Power		0	0	
+23	EnergyEmpty2	5	能量回复中	1			0	0	
+24	EnergyOverThreshold	5	能量供给正常	1	Play_UI_Energy_Reach_Threshold		0	0	
+25	EnergyFull	5		0		Play_UI_Full_Energy	0	0	
+26	EnergyEmptyToSkill	5	能量不足	1.5	Play_Vox_Not_Enough_Energy		0	0	
+27	Dying	5		0		Play_UI_HP_Low	0	0	
+28	StopDying	5		0		Break_UI_HP_Low	0	0	
+29	HpLow	5		0			0	0	
+30	HightDamage	5		0		Play_UI_Missile_Warning	0	0	
+31	ShieldBreak	5	护盾离线	1	Play_Vox_Fluid_Defender_Offline	Play_UI_Shield_Break	0	0	
+32	ShieldLow	5		0		Play_UI_Low_Shield	0	0	
+33	ShieldFull	5		0		Play_UI_Shield_Full	0	0	
+34	ShieldOverThreshold	5	护盾重启	1	Play_Vox_Fluid_Defender_Restarting	Play_UI_Shield_Charge	0	0	
+35	EnemyShieldBreak	5		0		Play_UI_Battle_Enemy_Shield_Break	0	0	
+36	Hit	5		0		Play_UI_Hitmarker_Mech	0	0	
+37	HitShield	5		0		Play_UI_Hitmarker_Shield	0	0	
+38	Kill	5		0		Play_UI_Battle_Elimination	0	0	
+39	TeammateDie	5		0			0	0	
+40	AssitanKill	5		0			0	0	
+41	AssistTip	4	%s	2	Play_Vox_Assist_Confirmed	Play_UI_Battle_Assist	0	0	
+42	BeHitByDamageSkill	5		0		Play_UI_Missile_Warning	0	0	
+43	SelfBeKill	5		0		Play_UI_Battle_Death_Notice	0	0	
+44	SelfBeKillTip	5		0		Play_Vox_Escape_Capsule_Activated	0	0	
+45	KillTip	3	%s	3	Play_Vox_Hostile_Unit_Destroyed		0	0	
+46	LockEnemy	5		0		Play_UI_Battle_Aim	0	0	
+47	BeLocked	5		0		Play_UI_Locked_Warning	0	0	
+48	MutiLockAdd	5		0		Play_UI_Battle_Aim_Multi	0	0	
+49	LockChange	5		0		Play_UI_Battle_Aim_Shift	0	0	
+50	IntoLockView	5		0		Play_UI_Enemy_Spotted	0	0	
+51	LockOuting	5		0		Play_UI_Lock_Cancel	0	0	
+52	AccurateLock	5		0		Play_UI_Battle_Aim	0	0	
+53	InterferenceLock	5		0		Play_M5_Drone_Disturbance_Notice	0	0	
+54	YellowBeLockShow	5		0		Play_UI_Missile_Warning_01	0	0	
+55	FailReleaseSkill	5		0		Play_UI_Skill_Cooldown	0	0	
+56	SkillFailOpenState	5		0		Play_UI_Skill_Cooldown	0	0	
+57	SkillFailRigid	5		0		Play_UI_Skill_Cooldown	0	0	
+58	NoBullet	5		0		Play_UI_Skill_Cooldown	0	0	
+59	SkillCooling	5	武器未就绪	4	Play_Vox_Preparing	Play_UI_Skill_Cooldown	0	0	
+60	NoCount	5	武器未就绪	2	Play_Vox_Preparing	Play_UI_Skill_Cooldown	0	0	
+61	BeginReload	5	武器装填中	1	Play_Vox_Reloading		0	0	
+62	EquipCooling	5		0			0	0	
+63	OwnerTeamHalf	5		0		Play_UI_Battle_Skill_Ready	0	0	
+64	M1ScanActivation	5		0		Play_UI_M1_Scan_Confirm	0	0	
+65	M1ScanEnermy	5		0		Play_UI_M1_Scan_Confirm	0	0	
+66	M5InSteath	5	光学迷彩已启用	2	Play_Vox_Optical_Camouflage_Enabled		0	0	
+67	M5LeaveSteath	5	光学迷彩已关闭	2	Play_Vox_Optical_Camouflage_Closed		0	0	
+68	CanExitSpawnFly	5		0		Play_Vox_Ready_To_Switch_To_Manual_Control	0	0	
+69	StartMineralPick	2		0		Play_Vox_Key_Device_Securing_CN	0	0	
+70	StopMineralPick	2		0		Stop_Vox_Key_Device_Securing_CN	0	0	
+71	Event30001	2	任务目标：将中间能量方块推至敌方基地，占领尽可能多的区域	5			0	0	
+72	Event30002	2	被击坠的次数越多，重返战场的时间越长	5			0	0	
+73	Event30003	2	能量方块密钥已刷新，夺取并上交后可控制能量方块移动一段距离	5			0	0	
+74	Event30004	2	成功击退敌方干扰机甲，方块能量获得15秒免疫干扰效果	15			0	0	
+75	Event30005	0	我方运输车被<color=#ef2818>阻挡</color>，占领<color=#fbc944>据点</color>可立刻解除阻挡，敌方占领会延长阻挡时间	10			0	0	
+76	Event30006	0	<color=#f74a59>敌方</color>运输车据点已激活，占领后可延长敌方运输车阻挡时间	10			0	0	
+77	Event30007	2	成功占领我方据点，运输车阻挡被解除	10					
+78	Event30008	2	<color=#cdfcff>我方据点</color>被敌方占领，我方运输车阻挡时间被延长	10			0	0	
+79	Event30009	2	成功占领<color=#f74a59>敌方据点</color>，敌方运输车阻挡时间被延长	10					
+80	Event300100	2	<color=#cdfcff>我方运输车</color>阻挡时间到，可以继续前进	10					
+81	Event300101	0	<color=#cdfcff>据点A</color>已激活，<color=#fbc944>占领A点</color>以解除运输车束缚	10			0	0	
+82	Event300102	2	据点A已<color=#fbc944>关闭</color>，运输车束缚已解除	10			0	0	
+83	Event300103	2	<color=#cdfcff>我方</color>已占领据点A，运输车束缚<color=#fbc944>已解除</color>	10			0	0	
+84	Event300104	2	<color=#cdfcff>据点A</color>被<color=#f74a59>敌方</color>占领，我方运输车束缚将在据点A关闭后解除	10					
+85	Event300105	1	进入作战区域，即将开始争夺1号信号控制台	30	Play_Vox_Starting_Fight_For_Console_A		1	0	
+86	Event300106	1	阶段目标：率先激活1号信号控制台	15	Play_Vox_Activate_First_Console_A,SetState_Interact_State_1_On		1	0	
+87	Event300107	1	信号连通，主脑载具快速行进	3	Play_Vox_Signal_Connection_Drving_Fast,SetState_Interact_State_1_None,SetState_Interact_State_2_None	UI_Gemstone_Ally_Heat_Enter	1	0	
+88	Event300108	1	阶段目标：靠近载具以中继信号，确保继续行进	15	Play_Vox_Relay_Signal_Keep_Travelling,SetState_Interact_State_1_None,SetState_Interact_State_2_None		1	0	
+89	Event300109	1	阶段目标：率先激活2号信号控制台	15	Play_Vox_Activate_First_Console_B,SetState_Interact_State_1_On		1	0	
+90	Event300110	1	阶段目标：率先激活3号信号控制台	15	Play_Vox_Activate_First_Console_C,SetState_Interact_State_2_On		1	0	
+91	Event300111	1	即将开始争夺2号信号控制台	5	Play_Vox_Starting_Fight_For_Console_B		1	0	
+92	Event300112	1	即将开始争夺3号信号控制台	5	Play_Vox_Starting_Fight_For_Console_C		1	0	
+93	Event1	2		0			0	0	
+94	Event2	2		0			0	0	
+95	Event3	2		0			0	0	
+96	Event4	2		0			0	0	
+97	Event80080	2		0			0	0	
+98	Event80081	2	<color=#04faf9>A点</color>密钥已发出，<color=#fddb8b>120秒</color>后投放	4	Play_Vox_EIC_Countdown120_A		0	0	
+99	Event80082	2	<color=#04faf9>B点</color>密钥已发出，<color=#fddb8b>120秒</color>后投放	4	Play_Vox_EIC_Countdown120_B		0	0	
+100	Event80083	2	<color=#04faf9>C点</color>密钥已发出，<color=#fddb8b>120秒</color>后投放	4	Play_Vox_EIC_Countdown120_C		0	0	
+101	Event80086	2		0			0	0	
+102	Event80087	2		0			0	0	
+103	Event80088	2		0			0	0	
+104	Event80100	2		0			0	0	
+105	Event80101	2		0			0	0	
+106	Event80102	2		0			0	0	
+107	Event80091	2	矿石已被<color=#66FFF4>%sn</color>提交	6	Play_Vox_EIC_Teammate_Upload		0	0	
+108	Event81000	2		0			0	0	
+109	Event81001	2		0			0	0	
+110	Event81002	2		0			0	0	
+111	Event81003	2		0			0	0	
+112	Event81004	2		0			0	0	
+113	Event81005	2		0			0	0	
+114	Event81006	2		0			0	0	
+115	Event81007	2		0			0	0	
+116	Event81008	2		0			0	0	
+117	Event81009	2		0			0	0	
+118	Event81010	2		0			0	0	
+119	Event81011	2		0			0	0	
+120	Event81012	2		0			0	0	
+121	Event81013	2		0			0	0	
+122	Event81030	2		0			0	0	
+123	Event81031	2		0			0	0	
+124	Event81032	2		0			0	0	
+125	Event81033	2		0			0	0	
+126	Event81034	2		0			0	0	
+127	Event81035	2		0			0	0	
+128	Event81036	2		0			0	0	
+129	Event81037	2		0			0	0	
+130	Event81038	2		0			0	0	
+131	Event81039	2		0			0	0	
+132	Event619001	2		0			0	0	
+133	Event619002	2		0			0	0	
+134	Event619003	2		0			0	0	
+135	Event619004	2		0			0	0	
+136	Event619005	2		0			0	0	
+137	Event619006	2		0			0	0	
+138	Event619007	2		0			0	0	
+139	Event619008	2		0			0	0	
+140	Event619009	2		0			0	0	
+141	Event82011	2	<color=#04faf9>A点</color>密钥已发出，<color=#fddb8b>60秒</color>后投放	4	Play_Vox_EIC_Countdown60_A		0	0	
+142	Event82012	2	<color=#04faf9>B点</color>密钥已发出，<color=#fddb8b>60秒</color>后投放	4	Play_Vox_EIC_Countdown60_B		0	0	
+143	Event82013	2	<color=#04faf9>C点</color>密钥已发出，<color=#fddb8b>60秒</color>后投放	4	Play_Vox_EIC_Countdown60_C		0	0	
+144	Event82001	2	<color=#04faf9>A点</color>密钥已投放	4	Play_Vox_EIC_Generate_A		0	0	
+145	Event82002	2	<color=#04faf9>B点</color>密钥已投放	4	Play_Vox_EIC_Generate_B		0	0	
+146	Event82003	2	<color=#04faf9>C点</color>密钥已投放	4	Play_Vox_EIC_Generate_C		0	0	
+147	Event80020	0	作战目标：确保<color=#04faf9>密钥设备</color>，提交至<color=#04faf9>中央发射井</color>以控制设施	6	Play_Vox_Mission_Start		0	0	
+148	Event80052	2	<color=#04faf9>B点</color>密钥已发出，<color=#fddb8b>60秒</color>后投放	4	Play_Vox_EIC_Countdown60_B		0	0	
+149	Event58000	2	<color=#04faf9>维修装置</color>还有<color=#fddb8b>30秒</color>投放	4	Play_Vox_Airdrop_Deploying_In_30_Seconds		0	0	
+150	Event58001	2	<color=#04faf9>维修装置</color>即将投放	4	Play_Vox_Airdrop_Deployed		0	0	
+151	Event83011	2	<color=#04faf9>A点</color>密钥已发出，<color=#fddb8b>10秒</color>后投放	4	Play_Vox_EIC_Countdown10_A		0	0	
+152	Event83012	2	<color=#04faf9>B点</color>密钥已发出，<color=#fddb8b>10秒</color>后投放	4	Play_Vox_EIC_Countdown10_B		0	0	
+153	Event83013	2	<color=#04faf9>C点</color>密钥已发出，<color=#fddb8b>10秒</color>后投放	4	Play_Vox_EIC_Countdown10_C		0	0	
+154	Event80051	2	<color=#04faf9>A点</color>密钥已发出，<color=#fddb8b>60秒</color>后投放	4	Play_Vox_EIC_Countdown60_A		0	0	
+155	Event80053	2	<color=#04faf9>C点</color>密钥已发出，<color=#fddb8b>60秒</color>后投放	4	Play_Vox_EIC_Countdown60_C		0	0	
+156	Event30050	2	作战目标：占领晶体矿场，夺取小矿井产出的晶体，累积积分赢得胜利	10			0	0	
+157	Event30051	2	<color=#04faf9>1号矿井</color>已开始采集晶体，<color=#fddb8b>60秒</color>后晶体即将产出	2			0	0	
+158	Event30052	2	<color=#04faf9>1号矿井</color>已开始采集晶体，<color=#fddb8b>30秒</color>后晶体即将产出	3			0	0	
+159	Event30053	0	<color=#04faf9>1号矿井</color>晶体产出	3			0	0	
+160	Event30054	2	<color=#04faf9>1号矿井</color>的晶体已经被<color=#04faf9>%sn</color>夺取	3			0	0	
+161	Event30055	2	<color=#04faf9>2号矿井</color>已开始采集晶体，<color=#fddb8b>60秒</color>后晶体即将产出	3			0	0	
+162	Event30056	2	<color=#04faf9>2号矿井</color>已开始采集晶体，<color=#fddb8b>30秒</color>后晶体即将产出	3			0	0	
+163	Event30057	0	<color=#04faf9>2号矿井</color>晶体产出	3			0	0	
+164	Event30058	2	<color=#04faf9>2号矿井</color>的晶体已经被<color=#04faf9>%sn</color>夺取	3			0	0	
+165	Event30059	2	<color=#04faf9>3号矿井</color>已开始采集晶体，<color=#fddb8b>60秒</color>后晶体即将产出	3			0	0	
+166	Event30060	2	<color=#04faf9>3号矿井</color>已开始采集晶体，<color=#fddb8b>30秒</color>后晶体即将产出	3			0	0	
+167	Event30061	0	<color=#04faf9>3号矿井</color>晶体产出	3			0	0	
+168	Event30062	2	<color=#04faf9>3号矿井</color>的晶体已经被<color=#04faf9>%sn</color>夺取	3			0	0	
+169	Event30069	2	<color=#04faf9>B点晶体矿场</color>被夺取后可以稳定产出矿石	5			0	0	
+170	Event619619	2	进入加时阶段，率先获得2分的阵营立刻获胜	4			0	0	
+171	Event10020	2		0			0	0	
+172	Event10030	2		0		Play_UI_Battle_Assist	0	0	
+173	Event10070	2		0			0	0	
+174	Event10090	2		0			0	0	
+175	Event10110	2		0			0	0	
+176	Event10130	2		0			0	0	
+177	Event10140	2		0			0	0	
+178	Event10150	2		0			0	0	
+179	MineralPickProcess	0	系统正在解锁密钥 %s	999			0	1	
+180	Event10160	2		0			0	0	
+181	Event10170	2		0			0	0	
+182	Event10180	2		0			0	0	
+183	Event10190	2		0			0	0	
+184	Event10200	2		0			0	0	
+185	Event10210	2		0			0	0	
+186	Event10220	2	%sn%sh完成了最后一击	2			0	0	
+187	Event10230	2	%sn%sh完成了复仇	2			0	0	
+188	Event10240	2	%sn%sh成为了救星	2			0	0	
+189	Event10250	2	%sn%sh技高一筹	2			0	0	
+190	Event10260	2	%sn%sh达成你瞅啥	2			0	0	
+191	Event10270	2	%sn%sh成为了生存大师	2			0	0	
+192	Event10280	2	%sn%sh达成了还有谁	2			0	0	
+193	Event10290	2	%sn%sh达成了便当王	2			0	0	
+194	Event10300	2	%sn%sh成为了死神	2			0	0	
+195	Event84000	1	我方已确保密钥，请提供掩护	3	Play_Vox_EIC_Teammate_Get,SetState_Interact_State_1_None,SetState_Interact_State_2_On		1	0	
+196	Event84001	1	警告！密钥被敌方夺取，请立即拦截	3	Play_Vox_EIC_Enemy_Get,SetState_Interact_State_1_None,SetState_Interact_State_2_On		2	0	
+197	Event84002	1	我方密钥数据已核验	3	Play_Vox_EIC_Teammate_Upload,SetState_Interact_State_3_None,SetState_Interact_State_4_On	Play_UI_EIC_Code_Submit	1	0	
+198	Event84003	1	拦截失败，敌方已上传数据	3	Play_Vox_EIC_Enemy_Upload,SetState_Interact_State_3_None,SetState_Interact_State_4_On	Play_UI_Enemy_EIC_Code_Submit	2	0	
+199	Event84004	1	任务机被击落，我方秘钥被毁	3	Play_Vox_EIC_Teammate_Destroy,SetState_Die_Y		2	0	
+200	Event84005	1	敌方任务机已摧毁，拦截成功	3	Play_Vox_EIC_Enemy_Destroy,SetState_Die_Y		1	0	
+201	Event84046	0	已成功上传密钥	3	Play_Vox_Security_Data_Verified,SetState_Interact_State_3_None,SetState_Interact_State_4_On	Play_UI_EIC_Code_Submit	0	0	
+202	Event84045	0	已确保密钥设备，请递送至中央发射井	6	Play_Vox_Key_Deliver_Notice,SetState_Interact_State_1_None,SetState_Interact_State_2_On		0	0	
+203	Event84047	1	我方已接入发射井	3	Play_Vox_Ally_Accessed_To_The_Drill,SetState_Interact_State_2_None,SetState_Interact_State_3_On,SetState_Interact_State_1_None		1	0	SetState_Interact_State_Level_1，SetState_Interact_State_Level_2，SetState_Interact_State_Level_3
+204	Event84048	1	敌方正在侵入发射井	3	Play_Vox_Enemy_Is_Hacking_Into_The_Drill,SetState_Interact_State_2_None,SetState_Interact_State_3_On,SetState_Interact_State_1_None		2	0	SetState_Interact_State_Level_1，SetState_Interact_State_Level_2，SetState_Interact_State_Level_3
+205	Event84049	0	密钥设备已接入发射井	3	Play_Vox_Key_Device_Accessed_To_The_Drill,SetState_Interact_State_2_None,SetState_Interact_State_3_On,SetState_Interact_State_1_None		0	0	SetState_Interact_State_Level_1，SetState_Interact_State_Level_2，SetState_Interact_State_Level_3
+206	Event84050	0	密钥设备已接入发射井	9999	Play_Vox_Key_Device_Accessed_To_The_Drill,SetState_Interact_State_2_None,SetState_Interact_State_3_On		0	2	SetState_Interact_State_Level_1，SetState_Interact_State_Level_2，SetState_Interact_State_Level_3
+207	Event82021	2	<color=#04faf9>A点</color>密钥已发出，<color=#fddb8b>30秒</color>后投放	4	Play_Vox_EIC_Countdown30_A		0	0	
+208	Event82022	2	<color=#04faf9>B点</color>密钥已发出，<color=#fddb8b>30秒</color>后投放	4	Play_Vox_EIC_Countdown30_B		0	0	
+209	Event82023	2	<color=#04faf9>C点</color>密钥已发出，<color=#fddb8b>30秒</color>后投放	4	Play_Vox_EIC_Countdown30_C		0	0	
+210	Event629001	2		0			0	0	
+211	Event629002	2		0			0	0	
+212	Event629003	2		0			0	0	
+213	Event629004	1		0			1	0	
+214	Event629005	1	我方正与<color=#46cbfc>B点</color>管控设备对接通讯频段	3	Play_Vox_We_Are_Taking_Objective_B		1	0	
+215	Event629006	1		0			1	0	
+216	Event629007	1		0			1	0	
+217	Event629008	1	我方开始接收<color=#46cbfc>B点</color>监控设备数据	3	Play_Vox_We_Have_Taken_Objective_B		1	0	
+218	Event629009	1		0			1	0	
+219	Event629010	1	我方接管<color=#46cbfc>全部区域</color>，检索效率提升	3	Play_Vox_We_Control_All_Objectives		1	0	
+220	Event629011	1		0			1	0	
+221	Event629012	1	我方正切断敌方与<color=#46cbfc>B点</color>管控设备通讯	3	Play_Vox_We_Are_Taking_Enemies_Objective_B		1	0	
+222	Event629013	1		0			1	0	
+223	Event629014	1		0			2	0	
+224	Event629015	1	敌方正与<color=#f74a59>B点</color>管控设备对接通讯频段	3	Play_Vox_Enemies_Are_Taking_Objective_B		2	0	
+225	Event629016	1		0			2	0	
+226	Event629017	1		0			2	0	
+227	Event629018	1	敌方开始接收<color=#f74a59>B点</color>管控设备数据	3	Play_Vox_Enemies_Have_Taken_Objective_B		2	0	
+228	Event629019	1		0			2	0	
+229	Event629020	1	敌方接管<color=#f74a59>全部区域</color>，检索效率提升	3	Play_Vox_Enemies_Control_All_Objectives		2	0	
+230	Event629021	1		0			2	0	
+231	Event629022	1	敌方正切断我方与<color=#f74a59>B点</color>管控设备通讯	3	Play_Vox_Enemies_Are_Taking_Our_Objective_B		2	0	
+232	Event629023	1		0			2	0	
+233	Event6191001	1	我方正与<color=#46cbfc>采集区</color>主控制台对接通讯频段	3	Play_Vox_We_Collection_Abutment_The_Communication		1	0	
+234	Event6191002	1	敌方正与<color=#f74a59>采集区</color>主控制台对接通讯频段	3	Play_Vox_Enemies_Collection_Abutment_The_Communication		2	0	
+235	Event6191011	1	我方正与<color=#46cbfc>凝练区</color>主控制台对接通讯频段	3	Play_Vox_We_Coagulation_Abutment_The_Communication		1	0	
+236	Event6191012	1	敌方正与<color=#f74a59>凝练区</color>主控制台对接通讯频段	3	Play_Vox_Enemies_Coagulation_Abutment_The_Communication		2	0	
+237	Event6191003	1	我方已接管<color=#46cbfc>采集区</color>主控制台，开始上传入侵数据	3	Play_Vox_We_Have_Taken_Main_Console_Of_Collection		1	0	
+238	Event6191004	1	敌方已接管<color=#f74a59>采集区</color>主控制台，开始上传入侵数据	2	Play_Vox_Enemies_Have_Taken_Main_Console_Of_Collection		2	0	
+239	Event6191013	1	我方已接管<color=#46cbfc>凝练区</color>主控制台，开始上传入侵数据	3	Play_Vox_We_Have_Taken_Main_Console_Of_Coagulation		1	0	
+240	Event6191014	1	敌方已接管<color=#f74a59>凝练区</color>主控制台，开始上传入侵数据	3	Play_Vox_Enemies_Have_Taken_Main_Console_Of_Coagulation		2	0	
+241	Event6191005	1	我方成功夺回<color=#46cbfc>采集区</color>主控制台，开始对接通讯频段	3	Play_Vox_We_Recapture_Main_Console_Of_Collection		1	0	
+242	Event6191006	1	敌方夺取了<color=#f74a59>采集区</color>主控制台，开始对接通讯频段	3	Play_Vox_Enemies_Recapture_Main_Console_Of_Collection		2	0	
+243	Event6191015	1	我方成功夺回<color=#46cbfc>凝练区</color>主控制台，开始对接通讯频段	3	Play_Vox_We_Recapture_Main_Console_Of_Coagulation		1	0	
+244	Event6191016	1	敌方夺取了<color=#f74a59>凝练区</color>主控制台，开始对接通讯频段	3	Play_Vox_Enemies_Recapture_Main_Console_Of_Coagulation		2	0	
+245	Event6191021	2	<color=#04faf9>A点</color>的备用控制台已准备就绪	4	Play_Vox_The_Standby_Is_Ready_A		0	0	
+246	Event6191022	2	<color=#04faf9>A点</color>的备用控制台还有<color=#04faf9>30秒</color>就绪	4	Play_Vox_The_Standby_Is_Ready_In_30_Seconds_A		0	0	
+247	Event6191023	2	<color=#04faf9>A点</color>的备用控制台还有<color=#04faf9>60秒</color>就绪	4	Play_Vox_The_Standby_Is_Ready_In_60_Seconds_A		0	0	
+248	Event6191031	2	<color=#04faf9>B点</color>的备用控制台已准备就绪	4	Play_Vox_The_Standby_Is_Ready_B		0	0	
+249	Event6191032	2	<color=#04faf9>B点</color>的备用控制台还有<color=#04faf9>30秒</color>就绪	4	Play_Vox_The_Standby_Is_Ready_In_30_Seconds_B		0	0	
+250	Event6191033	2	<color=#04faf9>B点</color>的备用控制台还有<color=#04faf9>60秒</color>就绪	4	Play_Vox_The_Standby_Is_Ready_In_60_Seconds_B		0	0	
+251	Event6191051	0	数据发送中	2	Play_Vox_Data_Sending		0	0	
+252	Event6191052	0	数据成功发送	3	Play_Vox_Data_Sent_Successfully		0	0	
+253	Event6191053	1	我方成功发送一组数据	3	Play_Vox_We_Sent_Data_Successfully		1	0	
+254	Event6191054	1	敌方成功发送一组数据	3	Play_Vox_Enemies_Sent_Data_Successfully		2	0	
+255	Event6191041	2	<color=#04faf9>C点</color>的备用控制台已准备就绪	4	Play_Vox_The_Standby_Is_Ready_C		0	0	
+256	Event6191042	2	<color=#04faf9>C点</color>的备用控制台还有<color=#04faf9>30秒</color>就绪	4	Play_Vox_The_Standby_Is_Ready_In_30_Seconds_C		0	0	
+257	Event6191043	2	<color=#04faf9>C点</color>的备用控制台还有<color=#04faf9>60秒</color>就绪	4	Play_Vox_The_Standby_Is_Ready_In_60_Seconds_C		0	0	
+258	Event6191000	0	作战目标：利用<color=#04faf9>控制台</color>上传数据，侵入管理中枢<color=#04faf9>控制该地区</color>	10	Play_Vox_Intrusion_Management_Center_Controls		0	0	
+259	Event30010	2	作战目标：击败敌方夺取密匙，开启空投的设备集装箱	3			0	0	
+260	Event30011	2	<color=#04faf9>A点</color>空投设备集装箱已发出，<color=#fddb8b>30秒</color>后投放	3			0	0	
+261	Event30012	2	<color=#04faf9>A点</color>空投设备集装箱已到位	0			0	0	
+262	Event30013	2	<color=#04faf9>B点</color>空投设备集装箱已发出，<color=#fddb8b>30秒</color>后投放	3			0	0	
+263	Event30014	2	<color=#04faf9>B点</color>空投设备集装箱已到位	0			0	0	
+264	Event30015	2	<color=#04faf9>C点</color>空投设备集装箱已发出，<color=#fddb8b>30秒</color>后投放	3			0	0	
+265	Event30016	2	<color=#04faf9>C点</color>空投设备集装箱已到位	0			0	0	
+266	Event30017	2	<color=#04faf9>红方</color>成功开启了空投设备集装箱	0			0	0	
+267	Event30018	2	<color=#04faf9>蓝方</color>成功开启了空投设备集装箱	0			0	0	
+268	Event30019	2	<color=#04faf9>红方机甲</color>已夺取敌方<color=#04faf9>蓝方</color>的密匙，获胜机甲可以前往打开空投设备集装箱	3			0	0	
+269	Event30020	2	<color=#04faf9>蓝方机甲</color>已夺取敌方<color=#04faf9>红方</color>的密匙，获胜机甲可以前往打开空投设备集装箱	0			0	0	
+270	Event30030	2	作战目标：击败敌方积累<color=#04faf9>战斗记录</color>，在<color=#04faf9>上传设备</color>上传数据获得积分	6			0	0	
+271	Event30031	2	<color=#04faf9>战斗记录上传设备A</color>已激活，<color=#fddb8b>20秒</color>后可以上传记录	3			0	0	
+272	Event30032	2	<color=#04faf9>战斗记录上传设备A</color>已激活，<color=#fddb8b>20秒</color>后设备将关闭	3			0	0	
+273	Event30033	2	<color=#04faf9>战斗记录上传设备A</color>将于<color=#04faf9>10秒</color>后关闭	3			0	0	
+274	Event30034	2	<color=#04faf9>战斗记录上传设备A</color>已关闭	3			0	0	
+275	Event30035	2	<color=#04faf9>B点</color>上传设备已激活，<color=#fddb8b>30秒</color>后可以上传徽章	2			0	0	
+276	Event30036	2	<color=#04faf9>B点</color>上传设备已激活	3			0	0	
+277	Event30037	2	<color=#04faf9>B点</color>上传设备已过热，<color=#fddb8b>30秒</color>后设备将关闭	3			0	0	
+278	Event30038	2	<color=#04faf9>B点</color>上传设备已关闭	3			0	0	
+279	Event30039	2	<color=#04faf9>C点</color>上传设备已激活，<color=#fddb8b>30秒</color>后可以上传徽章	3			0	0	
+280	Event30040	2	<color=#04faf9>C点</color>上传设备已激活	3			0	0	
+281	Event30041	2	<color=#04faf9>C点</color>上传设备已过热，<color=#fddb8b>30秒</color>后设备将关闭	3			0	0	
+282	Event30042	2	<color=#04faf9>C点</color>上传设备已关闭	3			0	0	
+283	Event30043	2	<color=#04faf9>红方</color>成功上传了战斗记录	2			0	0	
+284	Event30044	2	<color=#04faf9>蓝方</color>成功上传了战斗记录	3			0	0	
+285	Event30045	2	<color=#04faf9>%sn</color>连续击破了2架敌方机甲，<color=#04faf9>大杀特杀</color>中，上传战斗记录成功可获得<color=#04faf9>2倍</color>积分	3			0	0	
+286	Event30046	2	<color=#04faf9>%sn</color>连续击破了3架敌方机甲，它已经<color=#04faf9>主宰比赛</color>，上传战斗记录成功可获得<color=#04faf9>3倍</color>积分	3			0	0	
+287	Event30047	2	<color=#04faf9>%sn</color>连续击破了4架敌方机甲，它已经<color=#04faf9>无人能挡</color>，上传战斗记录成功可获得<color=#04faf9>4倍</color>积分	3			0	0	
+288	Event30048	2	<color=#04faf9>%sn</color>连续击破了5架敌方机甲，它已经<color=#04faf9>如神一般</color>，上传战斗记录成功可获得<color=#04faf9>5倍</color>积分	3			0	0	
+289	Event30049	2	<color=#04faf9>%sn</color>连续击破了6架敌方机甲，它已经<color=#04faf9>超越神了</color>，上传战斗记录成功可<color=#04faf9>直接获胜</color>	3			0	0	
+290	Event88888888	1	%s	3			2	0	
+291	Event80001	2	我方开始清点样本量	5	Play_Vox_Counting_EIC_Mineral_Samples		0	0	
+292	Event80002	2	敌方开始清点样本量	5	Play_Vox_Enemies_Counting_EIC_Mineral_Samples		0	0	
+293	Event80003	2	我方样本清点中断	2	Play_Vox_Counting_Progress_Aborted		0	0	
+294	Event80004	2	敌方样本清点中断	2	Play_Vox_Enemies_Counting_Progress_Ended		0	0	
+295	Event80005	2	我方将于10秒后脱离战场	2	Play_Vox_We_Will_RTB_In_10_Seconds		0	0	
+296	Event80006	2	敌方将于10秒后脱离战场	2	Play_Vox_Enemies_Will_Escape_In_10_Seconds		0	0	
+297	Event80007	2	EIC样本已送至地表	2	Play_Vox_EIC_Mineral_Samples_Were_Sent_Out		0	0	
+298	Event80008	2	作战时间剩余1分钟	2	Play_Vox_Mission_Will_End_In_60_seconds		0	0	
+299	Event80009	2	击坠携带%s个EIC样本机体	2	Play_Vox_EIC_Destroyed_A_Unit		0	0	
+300	Event80010	2	EIC样本生成结束	2	Play_Vox_All_EIC_Mineral_Sample_Were_Sent_Out		0	0	
+301	Event80000	2	作战目标：截获更多的EIC样本，直至作战结束	2	Play_Vox_Mission_Start_Gemstone		0	0	
+302	Event40000	2	检测机甲移动功能，按下<color=#04faf9>W,A,S,D</color>移动机甲	999			0	0	
+303	Event40001	2	检测机甲转向功能，<color=#04faf9>左右移动鼠标</color>控制机甲转向	999			0	0	
+304	Event40002	2	检测机甲冲刺功能，<color=#04faf9>按住Shift键+W键</color>控制机甲向前冲刺	999			0	0	
+305	Event40003	2	机甲冲刺过程中会消耗<color=#04faf9>能量</color>，能量值位于战斗面板右侧	999			0	0	
+306	Event40004	2	检测机甲飞行功能，<color=#04faf9>长按住Space键</color>控制机甲向上攀升，机甲飞行过程中会消耗<color=#04faf9>能量</color>	999			0	0	
+307	Event40005	2	检测机甲常规作战能力，<color=#04faf9>按住鼠标左键</color>控制机甲进行射击	4			0	0	
+308	Event40006	2	机甲已搭载<color=#04faf9>自动换弹</color>功能，正在自动装填子弹	3			0	0	
+309	Event40007	2	机甲已搭载<color=#04faf9>自动锁定敌人</color>功能，完成锁定后进行攻击	999			0	0	
+310	Event6191061	1	我方正与<color=#46cbfc>运输区</color>主控制台对接通讯频段	3	Play_Vox_We_Collection_Abutment_The_Communication		1	0	
+311	Event40009	2	停止冲刺可<color=#04faf9>逐渐恢复能量</color>	999			0	0	
+312	Event40010	2	停止飞行可<color=#04faf9>逐渐恢复能量</color>	999			0	0	
+313	Event85001	0	作战目标：歼灭所有敌机，赢得胜利	5	Play_Vox_Annihilate_All_Enemy_Planes		0	0	
+314	Event85002	1	我方损伤过半，请慎重作战	5	Play_Vox_We_Lost_Half_Of_Our_Forces		2	0	
+315	Event85003	1	歼敌进程过半，请继续进攻	5	Play_Vox_Our_Enemies_Lost_Half_Of_Their_Forces		1	0	
+316	Event85004	0	双方增援赶到，作战继续进行	5	Play_Vox_Reinforcements_From_Both_Sides_Arrived	Play_UI_Overtime_Enter	0	0	
+317	Event85005	1	请沉着应战	3	Play_Vox_Please_Be_Calm		2	0	
+318	Event85006	1	作战目标即将达成	3	Play_Vox_Combat_Objectives_To_Be_Achieved		1	0	
+319	Event85007	1	敌方作战进程增加	4	Play_Vox_Our_Enemies_Combat_Progress_Increases		2	0	
+320	Event85008	1	我方作战进程增加	4	Play_Vox_Our_Combat_Progress_Increases		1	0	
+321	Event6191062	1	敌方正与<color=#f74a59>运输区</color>主控制台对接通讯频段	3	Play_Vox_Enemies_Collection_Abutment_The_Communication		2	0	
+322	Event6191063	1	我方已接管<color=#46cbfc>运输区</color>主控制台，开始上传入侵数据	3	Play_Vox_We_Have_Taken_Main_Console_Of_Collection		1	0	
+323	Event6191064	1	敌方已接管<color=#f74a59>运输区</color>主控制台，开始上传入侵数据	2	Play_Vox_Enemies_Have_Taken_Main_Console_Of_Collection		2	0	
+324	Event6191065	1	我方成功夺回<color=#46cbfc>运输区</color>主控制台，开始对接通讯频段	3	Play_Vox_We_Recapture_Main_Console_Of_Collection		1	0	
+325	Event6191066	1	敌方夺取了<color=#f74a59>运输区</color>主控制台，开始对接通讯频段	3	Play_Vox_Enemies_Recapture_Main_Console_Of_Collection		2	0	
+327	M2InSteath	5	光学迷彩已启用	2	Play_Vox_Optical_Camouflage_Enabled		0	0	
+328	M2LeaveSteath	5	光学迷彩已关闭	2	Play_Vox_Optical_Camouflage_Closed		0	0	
+329	M2InUnreal	5	幻影已启用	2	Play_Vox_Phantom_Enabled		0	0	
+330	M2LeaveUnreal	5	幻影已关闭	2	Play_Vox_Phantom_Closed		0	0	
+332	SkillDisable	5	当前无法使用	1	Play_Vox_Currently_Unavailable				
+333	NotInterruptPreSkill	5	当前无法使用	1	Play_Vox_Currently_Unavailable				
+334	Event6191071	1	<color=#46cbfc>采集区</color>还有<color=#46cbfc>60s</color>解除限制	3			0	0	
+335	Event6191072	1	<color=#46cbfc>采集区</color>还有<color=#46cbfc>30s</color>解除限制	3			0	0	
+336	Event6191073	1	<color=#46cbfc>采集区</color>已解除限制	3			0	0	
+337	Event6191081	1	<color=#46cbfc>凝练区</color>还有<color=#46cbfc>60s</color>解除限制	3			0	0	
+338	Event6191082	1	<color=#46cbfc>凝练区</color>还有<color=#46cbfc>30s</color>解除限制	3			0	0	
+339	Event6191083	1	<color=#46cbfc>凝练区</color>已解除限制	3			0	0	
+340	Event6191091	1	<color=#46cbfc>运输区</color>还有<color=#46cbfc>60s</color>解除限制	3			0	0	
+341	Event6191092	1	<color=#46cbfc>运输区</color>还有<color=#46cbfc>30s</color>解除限制	3			0	0	
+342	Event6191093	1	<color=#46cbfc>运输区</color>已解除限制	3			0	0	
+343	SlashingMode	5	斩击模式	2	Play_Vox_Slashing_Mode				
+344	ShootingMode	5	射击模式	2	Play_Vox_Shooting_Mode				
+345	LandStiff	5	机体平衡中	2	Play_Vox_Stabilizing				
+346	DroneLaunched	5	无人机释放	2	Play_Vox_Drone_Deployed				
+348	ShieldActivate	5	防御盾生效	2	Play_Vox_Shield_Activate				
+349	ShieldDeactivate	5	防御盾失效	2	Play_Vox_Shield_Deactivate				
+350	DroneReturned	5	无人机回收	2	Play_Vox_Drone_Returned				
+351	Event351	1	密钥10秒后将在我方基地生成，准备前往解码点安置	10			1		
+352	Event352	1	密钥10秒后将在敌方基地生成，阻止敌方前往解码点安置	10			2		
+353	Event353	1	密钥已在我方基地生成，150秒内有效	10			1		
+354	Event354	1	密钥已在敌方基地生成，150秒内有效	10			2		
+355	Event355	1	我方密钥携带者被击毁，密钥已掉落	10			2		
+356	Event356	1	敌方密钥携带者已被击毁，密钥已掉落	10			1		
+357	Event357	1	我方正在安置密钥	10			1		
+358	Event358	1	敌方正在安置密钥	10			2		
+359	Event359	1	我方密钥在解码点1安置成功，5秒后开始编译	5			1		
+360	Event360	1	我方密钥在解码点2安置成功，5秒后开始编译	5			1		
+361	Event361	1	敌方密钥在解码点1安置成功，5秒后开始编译	5			2		
+362	Event362	1	敌方密钥在解码点2安置成功，5秒后开始编译	5			2		
+363	Event363	1	密钥还有10秒完成编译	5			0		
+364	Event364	1	敌方正在拆除密钥，请尽快阻止	10			2		
+365	Event365	1	我方密钥在解码点1成功编译，获得本轮胜利	10			1		
+366	Event366	1	我方密钥在解码点2成功编译，获得本轮胜利	10			1		
+367	Event367	1	敌方密钥在解码点1成功编译，获得本轮胜利	10			2		
+368	Event368	1	敌方密钥在解码点2成功编译，获得本轮胜利	10			2		
+369	Event369	1	我方成功拆除密钥，获得本轮胜利	10			1		
+370	Event370	1	敌方成功拆除密钥，获得本轮胜利	10			2		
+371	Event371	1	本轮作战目标：携带密钥前往解码点	10			1		
+372	Event372	1	本轮作战目标：阻止敌方前往解码点	10			2		
+373	Event373	1	密钥还有30秒有效时间	5			0		
+374	Event374	1	密钥还有10秒有效时间	5			0		
+375	Event375	1	密钥未成功安置，防守方获得本轮胜利	10			0		
+376	Event376	1	进入战斗：争夺充能核心，以激活己方密钥。	25			1		
+377	Event377	1	阶段目标：争夺充能核心，以激活己方密钥。	25			1		
+378	Event378	1	目标变更：将我方密钥运回。	60			1		
+379	Event379	1	目标变更：阻止敌方运回密钥。	60			0		
+380	Event380	1	即将开启密钥充能，请前往中央区域做好充能准备。	25			1		
+381	Event381	1	密钥持续时间到，未拾取密钥已销毁，。	10			0		
+382	Event382	1	密钥携带者即将暴露	5			2		
+383	Event383	1	密钥已开始编译，90秒后编译成功	5			2		
+384	Event384	1	密钥监测塔已激活，正在同步携带者信息	10			0		
+385	Event385	1	密钥监测塔能量已耗尽，即将关闭	10			0		
+386	Event386	0	本次作战训练将在5分钟后结束	5			0	0	
+387	Event387	0	本次作战训练将在2分钟后结束	5			0	0	
+388	Event388	0	本次作战训练将在1分钟后结束	5			0	0	
+389	Event389	0	本次作战训练将在30秒后结束	5			0	0	
+390	Event390	0	1号发射井将于90秒后开启	10			0	0	
+391	Event391	0	2号发射井将于90秒后开启	10			0	0	
+392	Event392	0	3号发射井将于90秒后开启	10			0	0	
+393	Event393	0	4号发射井将于90秒后开启	10			0	0	
+394	Event394	0	5号发射井将于90秒后开启	10			0	0	
+395	Event395	0	6号发射井将于90秒后开启	10			0	0	
+396	Event396	0	7号发射井将于90秒后开启	10			0	0	
+397	Event397	0	8号发射井将于90秒后开启	10			0	0	
+398	Event398	0	9号发射井将于90秒后开启	10			0	0	
+399	Event399	0	10号发射井将于90秒后开启	10			0	0	
+400	Event400	0	11号发射井将于90秒后开启	10			0	0	
+401	Event401	0	12号发射井将于90秒后开启	10			0	0	
+402	Event402	0	13号发射井将于90秒后开启	10			0	0	
+403	Event403	0	14号发射井将于90秒后开启	10			0	0	
+404	Event404	0	15号发射井将于90秒后开启	10			0	0	
+405	Event405	0	16号发射井将于90秒后开启	10			0	0	
+406	Event406	0	17号发射井将于90秒后开启	10			0	0	
+407	Event407	0	18号发射井将于90秒后开启	10			0	0	
+408	Event408	0	19号发射井将于90秒后开启	10			0	0	
+409	Event409	0	20号发射井将于90秒后开启	10			0	0	
+410	Event410	0	21号发射井将于90秒后开启	10			0	0	
+411	Event411	0	22号发射井将于90秒后开启	10			0	0	
+412	Event412	0	1号发射井已开启	10			0	0	
+413	Event413	0	2号发射井已开启	10			0	0	
+414	Event414	0	3号发射井已开启	10			0	0	
+415	Event415	0	4号发射井已开启	10			0	0	
+416	Event416	0	5号发射井已开启	10			0	0	
+417	Event417	0	6号发射井已开启	10			0	0	
+418	Event418	0	7号发射井已开启	10			0	0	
+419	Event419	0	8号发射井已开启	10			0	0	
+420	Event420	0	9号发射井已开启	10			0	0	
+421	Event421	0	10号发射井已开启	10			0	0	
+422	Event422	0	11号发射井已开启	10			0	0	
+423	Event423	0	12号发射井已开启	10			0	0	
+424	Event424	0	13号发射井已开启	10			0	0	
+425	Event425	0	14号发射井已开启	10			0	0	
+426	Event426	0	15号发射井已开启	10			0	0	
+427	Event427	0	16号发射井已开启	10			0	0	
+428	Event428	0	17号发射井已开启	10			0	0	
+429	Event429	0	18号发射井已开启	10			0	0	
+430	Event430	0	19号发射井已开启	10			0	0	
+431	Event431	0	20号发射井已开启	10			0	0	
+432	Event432	0	21号发射井已开启	10			0	0	
+433	Event433	0	22号发射井已开启	10			0	0	
+434	Event434	2	1号发射井关闭	10			1	0	
+435	Event435	2	2号发射井关闭	10			1	0	
+436	Event436	2	3号发射井关闭	10			1	0	
+437	Event437	2	4号发射井关闭	10			1	0	
+438	Event438	2	5号发射井关闭	10			1	0	
+439	Event439	2	6号发射井关闭	10			1	0	
+440	Event440	2	7号发射井关闭	10			1	0	
+441	Event441	2	8号发射井关闭	10			1	0	
+442	Event442	2	9号发射井关闭	10			1	0	
+443	Event443	2	10号发射井关闭	10			1	0	
+444	Event444	2	11号发射井关闭	10			1	0	
+445	Event445	2	12号发射井关闭	10			1	0	
+446	Event446	2	13号发射井关闭	10			1	0	
+447	Event447	2	14号发射井关闭	10			1	0	
+448	Event448	2	15号发射井关闭	10			1	0	
+449	Event449	2	16号发射井关闭	10			1	0	
+450	Event450	2	17号发射井关闭	10			1	0	
+451	Event451	2	18号发射井关闭	10			1	0	
+452	Event452	2	19号发射井关闭	10			1	0	
+453	Event453	2	20号发射井关闭	10			1	0	
+454	Event454	2	21号发射井关闭	10			1	0	
+455	Event455	2	22号发射井关闭	10			1	0	
+456	Event456	0	1号大发射井将在2分30秒后开启	10			0	0	
+457	Event457	0	2号大发射井将在2分30秒后开启	10			0	0	
+458	Event458	0	3号大发射井将在2分30秒后开启	10			0	0	
+459	Event459	0	1号大发射井开启	10			0	0	
+460	Event460	0	2号大发射井开启	10			0	0	
+461	Event461	0	3号大发射井开启	10			0	0	
+462	Event462	2	1号大发射井关闭	10			1	0	
+463	Event463	2	2号大发射井关闭	10			1	0	
+464	Event464	2	3号大发射井关闭	10			1	0	
+465	Event465	1	本发射井还可使用2次	10			1	0	
+466	Event466	1	本发射井还可使用1次	10			1	0	
+467	Event467	1	本发射井已归属我方	10			1	0	
+468	Event468	0	作战目标2：占领发射井来将装备包带出玛什马克，通过大发射井撤离获得高额经验奖励！	15			0	0	
+469	Event469	0	作战目标1：在玛什马克内寻找强化芯片强化自己，收集装置和装备包！	15			0	0	
+470	Event470	0	各区域控制台已解锁，请前往争夺	10			0	0	
+471	Event471	0	我方已控制全部控制台，进入60秒决胜阶段	10			1	0	
+472	Event472	0	敌方已控制全部控制台，进入60秒决胜阶段	10			2	0	
+473	Event473	0	我方决胜阶段被打断	10			2	0	
+474	Event474	0	敌方决胜阶段被打断	10			1	0	
+475	Event475	0	阶段一：携带密钥至解码点进行安置	9999			0		
+476	Event476	0	阶段二：保护我方解码点密钥不被敌方拆除	9999			0		
+477	Event477	0	阶段一：阻止敌方前往解码点安置密钥	9999			0		
+478	Event478	0	阶段二：前往解码点拆除敌方已安置的密钥	9999			0		
+479	Event479	1	我方密钥在解码点3安置成功，5秒后开始编译	5			0		
+480	Event480	1	敌方密钥在解码点3安置成功，5秒后开始编译	5			2		
+481	Event481	1	我方密钥在解码点3成功编译，获得本轮胜利	10			1		
+482	Event482	1	敌方密钥在解码点3成功编译，获得本轮胜利	10			2		
+483	Event483	0	决胜阶段还剩25秒结束，我方即将胜利	10			1	0	
+484	Event484	0	决胜阶段还剩25秒结束，敌方即将胜利	10			2	0	
+485	Event485	0	决胜阶段还剩20秒结束，我方即将胜利	10			1	0	
+486	Event486	0	决胜阶段还剩20秒结束，敌方即将胜利	10			2	0	
+487	Event487	0	决胜阶段还剩15秒结束，我方即将胜利	10			1	0	
+488	Event488	0	决胜阶段还剩15秒结束，敌方即将胜利	10			2	0	
+489	Event489	0	决胜阶段还剩10秒结束，我方即将胜利	10			1	0	
+490	Event490	0	决胜阶段还剩10秒结束，敌方即将胜利	10			2	0	
+491	Event491	0	决胜阶段还剩5秒结束，我方即将胜利	10			1	0	
+492	Event492	0	决胜阶段还剩5秒结束，敌方即将胜利	10			2	0	
+493	Event493	0	决胜阶段结束，我方胜利	10			1	0	
+494	Event494	0	决胜阶段结束，敌方胜利	10			2	0	
+495	Event495	0	各区域控制台还剩30秒解锁	10			0	0	
+496	Event496	0	各区域控制台还剩10秒解锁	10			0	0	
+497	Event497	0	各区域控制台还剩5秒解锁	10			0	0	
+498	Event498	0	区域1被我方占领	5			1	0	
+499	Event499	0	敌方区域1被我方占领	5			1	0	
+500	Event500	0	区域1被敌方占领	5			2	0	
+501	Event501	0	我方区域1被敌方占领	5			2	0	
+502	Event502	0	区域2被我方占领	5			1	0	
+503	Event503	0	敌方区域2被我方占领	5			1	0	
+504	Event504	0	区域2被敌方占领	5			2	0	
+505	Event505	0	我方区域2被敌方占领	5			2	0	
+506	Event506	1	我方密钥已生成，90秒后完成编译。	5			1		
+507	Event507	0	决胜阶段还剩55秒结束，我方即将胜利	5			1	0	
+508	Event508	0	决胜阶段还剩55秒结束，敌方即将胜利	5			2	0	
+509	Event509	0	决胜阶段还剩50秒结束，我方即将胜利	5			1	0	
+510	Event510	0	决胜阶段还剩50秒结束，敌方即将胜利	5			2	0	
+511	Event511	0	决胜阶段还剩45秒结束，我方即将胜利	5			1	0	
+512	Event512	0	决胜阶段还剩45秒结束，敌方即将胜利	5			2	0	
+513	Event513	0	决胜阶段还剩40秒结束，我方即将胜利	5			1	0	
+514	Event514	0	决胜阶段还剩40秒结束，敌方即将胜利	5			2	0	
+515	Event515	0	决胜阶段还剩35秒结束，我方即将胜利	5			1	0	
+516	Event516	0	决胜阶段还剩35秒结束，敌方即将胜利	5			2	0	
+517	Event517	0	决胜阶段还剩30秒结束，我方即将胜利	5			1	0	
+518	Event518	0	决胜阶段还剩30秒结束，敌方即将胜利	5			2	0	
+519	Event519	1	无可发射的装备包，请通过击杀携带装备包的敌人，拾取野外资源来获得装备包！	10			1	0	
+520	Event520	1	该发射井已经被占领了，无法进行发射	8			2	0	
+521	Event521	1	阶段持续时间到，继续上传已拾取密钥。	10			1		
+522	Event522	1	阶段持续时间到，阻止敌方上传已拾取密钥。	10			0		
+523	Event523	0	全区域控制度达到指定值，控制全部控制台的阵营将开启决胜阶段	10			0	0	
+524	Event524	0	各区域控制台还剩20秒解锁	10			0	0	
+525	Event525	0	作战目标：夺取EIC晶体，前往供能区域为我方设备供能	8			0		
+526	Event526	0	EIC晶体还有60秒生成	8			0		
+527	Event527	0	EIC晶体还有30秒生成	8			0		
+528	Event528	0	EIC晶体已生成，请前往争夺	8			0		
+529	Event529	1	A点EIC晶体已被我方获取，请前往供能区为设备供能	8			1		
+530	Event530	1	A点EIC晶体已被敌方获取，请前往争夺	8			2		
+531	Event531	0	EIC晶体被销毁，A点即将重新生成EIC晶体	8			0		
+532	Event532	0	A点EIC晶体还有30秒生成	8			0		
+533	Event533	0	A点EIC晶体已生成，请前往争夺	8			0		
+534	Event534	1	B点EIC晶体已被我方获取，请前往供能区为设备供能	8			1		
+535	Event535	1	B点EIC晶体已被敌方获取，请前往争夺	8			2		
+536	Event536	0	EIC晶体被销毁，B点即将重新生成EIC晶体	8			0		
+537	Event537	0	B点EIC晶体还有30秒生成	8			0		
+538	Event538	0	B点EIC晶体已生成，请前往争夺	8			0		
+539	Event539	0	当前不在供能区内，EIC晶体将于5秒后自动销毁	8			2		
+540	Event540	0	当前不在供能区内，EIC晶体将于4秒后自动销毁	8			2		
+541	Event541	0	当前不在供能区内，EIC晶体将于3秒后自动销毁	8			2		
+542	Event542	0	当前不在供能区内，EIC晶体将于2秒后自动销毁	8			2		
+543	Event543	0	当前不在供能区内，EIC晶体将于1秒后自动销毁	8			2		
+544	Event544	0	EIC晶体自动销毁	8			2		
+545	Event545	1	我方击败敌方EIC晶体携带机体	8			1		
+546	Event546	1	敌方击败我方EIC晶体携带机体	8			2		
+547	Event547	0	敌方EIC晶体销毁，剩余能量被我方获取	8			1		
+548	Event548	0	我方EIC晶体销毁，剩余能量被敌方获取	8			2		
+549	Event549	0	我方进入供能区，开始为设备提供能量	8			1		
+550	Event550	0	敌方进入供能区，开始为设备提供能量	8			2		
+551	Event551	1	我方正在解码点安置密钥	3	Play_Vox_Ally_Accessed_To_The_Drill		1	0	
+552	Event552	1	敌方正在解码点安置密钥	3	Play_Vox_Enemy_Is_Hacking_Into_The_Drill		2	0	
+553	Event553	1	密钥设备已在解码点安置	3	Play_Vox_Key_Device_Accessed_To_The_Drill		0	0	
+554	Event554	0	我方正在解码点1安置密钥	9999	Play_Vox_Key_Device_Accessed_To_The_Drill		1	4	
+555	Event555	1	开始控制运输车	5			1		
+556	Event556	0	作战目标：击破敌方防御炮台	99999			0		
+557	Event557	1	中立据点还有60秒解锁	8			0		
+558	Event558	1	中央据点还有30秒解锁	8			0		
+559	Event559	1	中央据点已解锁	8			0		
+560	Event560	0	阶段一：夺取中央据点，以解除敌方炮台防御立场	99999			1		
+561	Event561	0	中央据点被我方占领，敌方炮台防御立场消失	8			1		
+562	Event562	0	中央据点被敌方占领，我方炮台防御立场消失	8			2		
+563	Event563	1	阶段一还剩10秒结束	8			0		
+564	Event564	1	阶段一即将结束，将根据占领进度确定中立据点归属	8			0		
+565	Event565	0	阶段二：进攻敌方防御炮台	99999			1		
+566	Event566	0	阶段二：保护我方防御炮台	99999			2		
+567	Event567	1	据点1炮台防御立场还有60秒消失	8			0		
+568	Event568	1	据点1炮台防御立场还有30秒消失	8			0		
+569	Event569	1	据点1炮台防御立场已消失	8			0		
+570	Event570	1	据点2炮台防御立场还有60秒消失	8			0		
+571	Event571	1	据点2炮台防御立场还有30秒消失	8			0		
+572	Event572	1	据点2炮台防御立场已消失	8			0		
+573	Event573	1	阶段二还剩30秒结束	8			0		
+574	Event574	1	阶段二还剩10秒结束	8			0		
+575	Event575	1	阶段二已结束，炮台防御立场恢复	8			0		
+576	Event576	1	成功控制运输车，运输车移动速度提升10%	5			1		
+577	Event577	1	距离运输车过远，失去对运输车的控制。	5			0		
+578	Event578	0	我方正在拆除密钥 %s	999			1	3	
+579	Event579	0	我方正在解码点2安置密钥	9999	Play_Vox_Key_Device_Accessed_To_The_Drill		1	4	
+580	Event580	0	我方正在解码点3安置密钥	9999	Play_Vox_Key_Device_Accessed_To_The_Drill		1	4	
+581	Event581	1	中央据点已解锁，还剩下4次解锁能量	8			0		
+582	Event582	1	中央据点已解锁，还剩下3次解锁能量	8			0		
+583	Event583	1	中央据点已解锁，还剩下2次解锁能量	8			0		
+584	Event584	1	中央据点已解锁，还剩下1次解锁能量	8			0		
+585	Event585	1	中央据点已解锁，本次是最后一次开启	8			0		
+586	Event586	1	您的晶体核心不足！	3			0	0	
+587	Event587	1	您的背包已满，请先使用或丢弃道具！	3			0	0	
+588	Event588	1	该类物品的带出上限已满！	3			0	0	
+589	Event589	1	此发射井可带出的物品上限已满！	3			0	0	
+590	Event590	1	发射井物品已经装入！	3			0	0	
+591	Event591	1	这个物品无法放入发射井！	3			0	0	
+592	Event592	1	列车1已发车	8			0		
+593	Event593	1	列车1全部炮台被击破	8			0		
+594	Event594	1	核心1还有10秒关闭	8			0		
+595	Event595	1	列车1已到达目标点	8			0		
+596	Event596	1	列车2已发车	8			0		
+597	Event597	1	列车2全部炮台被击破	8			0		
+598	Event598	1	核心2还有10秒关闭	8			0		
+599	Event599	1	列车2已到达目标点	8			0		
+600	Event600	1	列车3已发车	8			0		
+601	Event601	1	列车3全部炮台被击破	8			0		
+602	Event602	1	核心3还有10秒关闭	8			0		
+603	Event603	1	列车3已到达目标点	8			0		
+604	Event604	1	作战目标：争夺核心	8			0		
+605	Event605	0	击破敌方列车炮台	999999			2		
+606	Event606	0	守护我方列车炮台	999999			1		
+607	Event607	1	我方失去舵手，15秒内无法控制运输车。	5			0		
+608	RepairFriendlyForces	5	正在修理友军	8			0		
+609	RepairYourself	5	正在修理自身	8			0		
+610	MultiLock	5	多锁模式	1			0		
+611	SingleLock	5	单锁模式	1			0		
+612	EnergycubeOccupyProcess	0	正在控制运输车 %s	999			0	2	
+613	MechaLoading	5	正在装载	3			0		
+614	MechaLoadingSuccess	5	装载成功	3	Play_Vox_Successful_Loading		0		
+615	MechaLeave	5	载机已脱离	3	Play_Vox_Load_Disengagement		0		
+616	Event616	1	失控武装还有10秒在区域A出现	10			2		
+617	Event617	1	失控武装还有10秒在区域B出现	10			2		
+618	Event618	1	失控武装还有10秒在区域C出现	10			2		
+619	Event619	1	失控武装已在区域A出现	10			2		
+620	Event620	1	失控武装已在区域B出现	10			2		
+621	Event621	1	失控武装已在区域C出现	10			2		
+622	Event622	0	核心提交点还有10秒开启	10			0		
+623	Event623	0	核心提交点已开启	10			0		
+624	Event624	0	核心提交点已关闭	10			0		
+625	Event625	1	敌方已进入核心提交点	5			2		
+626	Event626	1	我方已进入核心提交点	5			1		
+627	Event627	0	正在核心提交点上传核心	10			1	4	
+628	Event628	1	核心数量不足，无法提交	5			2		
+629	Event629	1	补给飞船30秒后即将进入半岛各地，空投大量晶体核心和道具！！！	10			0		
+630	Event630	1	空投飞船已经进入半岛，留意其路径上的补给物资！！！	10			0		
+631	Event631	1	核心装置还有60秒后将在区域A生成	10			0		
+632	Event632	1	核心装置还有60秒后将在区域B生成	10			0		
+633	Event633	1	核心装置还有60秒后将在区域C生成	10			0		
+634	Event634	1	核心装置还有30秒后将在区域A生成	10			0		
+635	Event635	1	核心装置还有30秒后将在区域B生成	10			0		
+636	Event636	1	核心装置还有30秒后将在区域C生成	10			0		
+637	Event637	1	核心装置还有10秒后将在区域A生成	5			0		
+638	Event638	1	核心装置还有10秒后将在区域B生成	5			0		
+639	Event639	1	核心装置还有10秒后将在区域C生成	5			0		
+640	Event640	1	核心装置已在区域A生成	10			0		
+641	Event641	1	核心装置已在区域B生成	10			0		
+642	Event642	1	核心装置已在区域C生成	10			0		
+643	Event643	1	核心装置已被拾取	5			0		
+644	Event644	1	我方核心装置已上传成功，正在激活飞船	5			1		
+645	Event645	1	我方飞船已生成，请持续保护30秒钟	10			1		
+646	Event646	1	敌方飞船已生成，请在30秒内完成摧毁	10			2		
+647	Event647	1	飞船可被攻击时间还剩25秒	5			0		
+648	Event648	1	飞船可被攻击时间还剩20秒	5			0		
+649	Event649	1	飞船可被攻击时间还剩15秒	5			0		
+650	Event650	1	飞船可被攻击时间还剩10秒	5			0		
+651	Event651	1	我方飞船已被摧毁	10			1		
+652	Event652	1	敌方飞船已被摧毁	10			2		
+653	Event653	1	成功保护我方飞船，获得本轮胜利	10			0		
+654	Event654	1	敌方飞船未被摧毁，对方获得本轮胜利	10			2		
+655	Event65	1	敌方核心装置已上传成功，正在激活飞船	5			2		
+656	Event656	1	飞船可被攻击时间还剩5秒	5			0		
+657	Event657	0	我方正在上传核心装置信息	999			1	2	
+660	Event660	0	作战目标：关闭尘屑散布器，确保区域设施正常运行	99999	Play_Vox_Target_Dust_Spreader_Turn_Off		0	0	
+661	Event661	1	尘屑散布器还有10秒被投放	10	Play_Vox_Dust_Spreader_Countdown10		0	0	
+662	Event662	1	尘屑散布器已被投放	10	Play_Vox_Dust_Spreader_Deployed		0	0	
+663	Event663	1	尘屑散布器已被我方关闭	5	Play_Vox_Dust_Spreader_Closed_By_Ally		1	0	
+664	Event664	1	尘屑散布器已被敌方关闭	5	Play_Vox_Dust_Spreader_Closed_By_Enermy		2	0	
+665	Event665	1	进入战斗：充能核心将在30秒后开启，争夺所有充能核心	20			1		
+666	Event666	1	阶段目标：充能核心将在5秒后开启，争夺所有充能核心	5			1		
+667	Event667	1	阶段目标：充能核心已开启，争夺所有充能核心	10			0		
+668	Event668	1	我方成功夺取1号充能核心	5	SetTrigger_Battle_Succeed		1		
+669	Event669	1	我方成功夺取2号充能核心	5	SetTrigger_Battle_Succeed		1		
+670	Event670	1	我方成功夺取3号充能核心	5	SetTrigger_Battle_Succeed		1		
+671	Event671	1	我方失去1号充能核心	5	SetTrigger_Battle_Fail		2		
+672	Event672	1	我方失去2号充能核心	5	SetTrigger_Battle_Fail		2		
+673	Event673	1	我方失去3号充能核心	5	SetTrigger_Battle_Fail		2		
+675	Event675	2	1号发射井还有30秒关闭	10			0	0	
+676	Event676	2	2号发射井还有30秒关闭	10			0	0	
+677	Event677	2	3号发射井还有30秒关闭	10			0	0	
+678	Event678	2	4号发射井还有30秒关闭	10			0	0	
+679	Event679	2	5号发射井还有30秒关闭	10			0	0	
+680	Event680	2	6号发射井还有30秒关闭	10			0	0	
+681	Event681	2	7号发射井还有30秒关闭	10			0	0	
+682	Event682	2	8号发射井还有30秒关闭	10			0	0	
+683	Event683	2	9号发射井还有30秒关闭	10			0	0	
+684	Event684	2	10号发射井还有30秒关闭	10			0	0	
+685	Event685	2	11号发射井还有30秒关闭	10			0	0	
+686	Event686	2	12号发射井还有30秒关闭	10			0	0	
+687	Event687	2	13号发射井还有30秒关闭	10			0	0	
+688	Event688	2	14号发射井还有30秒关闭	10			0	0	
+689	Event689	2	15号发射井还有30秒关闭	10			0	0	
+690	Event690	2	16号发射井还有30秒关闭	10			0	0	
+691	Event691	2	17号发射井还有30秒关闭	10			0	0	
+692	Event692	2	18号发射井还有30秒关闭	10			0	0	
+693	Event693	2	19号发射井还有30秒关闭	10			0	0	
+694	Event694	2	20号发射井还有30秒关闭	10			0	0	
+695	Event695	2	21号发射井还有30秒关闭	10			0	0	
+696	Event696	2	22号发射井还有30秒关闭	10			0	0	
+697	Event697	2	1号大发射井还有30秒关闭	10			0	0	
+698	Event698	2	2号大发射井还有30秒关闭	10			0	0	
+699	Event699	2	3号大发射井还有30秒关闭	10			0	0	
+700	Event700	2	未被占领的发射井将于30秒后关闭	10			0	0	
+701	Event701	2	未被占领的大发射井将于30秒后关闭	10			0	0	
+702	Event702	1	%s到达限制获得的数量上限！	3			0		
+703	Event703	0	作战目标：摧毁敌方装甲运载车的防御炮台	99999	Play_Vox_Target_1_Destroy_The_Barbette		0		
+704	Event704	0	作战目标：摧毁敌方装甲运载车的EIC反应堆	99999	Play_Vox_Target_2_Destroy_The_Core		0		
+705	Event705	0	作战目标：保护我方装甲运载车的防御炮台	99999	Play_Vox_Target_1_Defend_Our_Barbette		0		
+706	Event706	0	作战目标：保护我方装甲运载车的EIC反应堆	99999	Play_Vox_Target_2_Defend_Our_Core		0		
+707	Event707	1	干扰减弱，装甲运载车继续行驶	5	Play_Vox_Armored_Car_Keep_Driving,SetState_Interact_State_1_None		0		
+709	Event709	1	装甲运载车防御炮台被摧毁	5	Play_Vox_Barbette_Destroyed,SetTrigger_Battle_Succeed		0		
+710	Event710	1	装甲运载车防御炮台被全部摧毁，EIC反应堆暴露	5	Play_Vox_All_Barbette_Destroyed,SetState_Interact_State_2_On		0		
+711	ProgressTest	0	发射井占领进度	99999			0	5	
+712	Event712	0	作战目标：击杀敌方，摧毁装甲运载车防御力场	99999			0		
+713	Event713	0	作战目标：击毁装甲运载车动能核心	99999			0		
+714	Event714	0	作战目标：击杀敌方，修复装甲运载车防御力场	99999			0		
+715	Event715	0	作战目标：保护装甲运载车动能核心	99999			0		
+716	Event716	1	防御力场已摧毁，动能核心暴露	5			0		
+717	Event717	1	防御立场已修复，动能核心隐藏	5			0		
+718	Event718	1	动能核心破裂，装甲运载车停止运行	5			0		
+719	Event719	1	装甲运载车已驶入检查站	5			0		
+720	Event720	1	装甲运载车已抵达终点站	5			0		
+721	Event721	1	装甲运载车已驶出检查站	5			0		
+722	Event722	1	动能核心正常运行，拦截失败	5			0		
+723	Event723	1	动能核心正常运作，护送成功	5			0		
+724	Event724	1	装甲运载车正在接受检查	99999			0		
+725	Event725	0	作战目标增加：保护我方支援武装	99999	Play_Vox_Defend_Our_Support_Arms,SetState_Interact_State_1_On		0		
+726	Event726	0	作战目标增加：击坠敌方支援武装	99999	Play_Vox_Destroy_The_Support_Arms_CN,SetState_Interact_State_1_On		0		
+727	Event727	1	我方支援武装前来增援，敌方装甲运载车行进受阻	5	Play_Vox_Enermy_Armored_Car_Blocked		1		
+728	Event728	1	敌方支援武装前来拦截，我方装甲运载车行进受阻	5	Play_Vox_Our_Armored_Car_Blocked		2		
+729	Event729	1	防御炮台保护力场失效	5	Play_Vox_Barbette_Invalid		0		
+732	Event732	1	大型尘屑散布器还有10秒被投放	10	Play_Vox_Large_Dust_Spreader_Countdown10		0	0	
+733	Event733	1	大型尘屑散布器已被投放	10	Play_Vox_Large_Dust_Spreader_Deployed		0	0	
+734	Event734	1	大型尘屑散布器已被我方关闭	5	Play_Vox_Large_Dust_Spreader_Dismantle_By_Ally		1	0	
+735	Event735	1	大型尘屑散布器已被敌方关闭	5	Play_Vox_Large_Dust_Spreader_Dismantle_By_Enemy		2	0	
+736	Event736	0	作战目标增加：关闭大型尘屑散布器，获得高额奖励	99999	Play_Vox_Target_Large_Dust_Spreader_Turn_Off		0	0	
+737	Event737	0	警告：已离开作战区域，机体能量持续消耗中	99999	Play_Vox_Mecha_Energy_Continuous_Consumption		2		
+738	Event738	0	警告：已远离作战区域，机体已断连	5	Play_Vox_Mecha_Disconnected		2		
+739	Event739	0	警告：已远离作战区域，机体将于<color=#fddb8b>3秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+740	Event740	0	警告：已远离作战区域，机体将于<color=#fddb8b>2秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+741	Event741	0	警告：已远离作战区域，机体将于<color=#fddb8b>1秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+742	Event742	1	击坠精英的战利品不要一个人独享哦，这是队友的份！	3			2		
+743	Event743	0	作战目标：引导机械狗至敌方城墙薄弱处，以损毁城墙	99999			0		
+744	Event744	0	作战目标：干扰敌方机械狗前进，保护我方城墙	99999			0		
+745	Event745	0	作战目标更新：引导机械狗至核心处，以损毁核心	99999			0		
+746	Event746	0	作战目标更新：干扰敌方机械狗前进，保护我方核心	99999			0		
+747	Event747	1	机械狗已在1号制造点制造完毕	5			0		
+748	Event748	1	机械狗已在2号制造点制造完毕	5			0		
+749	Event749	1	机械狗已在1号制造点制造完毕	5			0		
+750	Event750	1	机械狗已在2号制造点制造完毕	5			0		
+751	Event751	1		5			0		
+752	Event752	1		5			0		
+753	Event753	1	左侧城墙损毁，1号制造点重新选址	5			0		
+754	Event754	1	右侧城墙损毁，2号知道点重新选址	5			0		
+755	Event755	1	左侧城墙受到攻击，耐久度下降	5			0		
+756	Event756	1	右侧城墙受到攻击，耐久度下降	5			0		
+757	Event757	1	核心受到攻击，耐久度下降	5			0		
+758	Event758	1	左侧城墙耐久度降为0，已损毁	5			0		
+759	Event759	1	右侧城墙耐久度降为0，已损毁	5			0		
+760	Event760	1	核心耐久度降为0，已损毁	5			0		
+761	Event761	1	佣金订单【%s】已经接受！	6			1		
+762	HighSpeedModeOpen	5	开启高机动组件	2			0		
+763	HighSpeedModeClose	5	关闭高机动组件	2			0		
+764	Event764	2		10	Play_Vox_Warning		0		
+765	Event765	0	警告：已远离作战区域，机体将于<color=#fddb8b>4秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+766	Event766	0	警告：已远离作战区域，机体将于<color=#fddb8b>5秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+767	Event767	1	佣金订单【%s】完成！	6			0	2	
+768	Event768	1	佣金订单【%s】已经失败！	6			2		
+769	NoExEnergy	5	没有额外能量值				0		
+770	IsSpaceEnough	5	空间不足		Play_Vox_Lack_Of_Space		0		
+771	EngineFailure	5	引擎失效		Play_Vox_Engine_Failure		0		
+772	EngineStop	5	引擎关闭中		Play_Vox_Engine_Closing		0		
+773	Event773	1	交互完成开启护送受伤的运输车！	5			0		
+774	Event774	1	护送运输车完成，获得史诗芯片·攻击！	5			0		
+775	Event775	1	阶段目标：靠近载具以中继信号，确保继续行进	15	Play_Vox_Relay_Signal_Keep_Travelling,SetState_Interact_State_1_None,SetState_Interact_State_2_None		1	0	
+776	Event776	1	警告！EIC尘屑当量超过警戒值，作战区域即将遭遇电磁风暴	8	Play_Vox_Cairo_Storm_Warning		0	0	
+777	Event777	1	EIC尘屑当量降于稳定值，电磁风暴消散	6	Play_Vox_Cairo_Storm_Easing		0	0	
+778	Event778	0	本轮作战结束，攻守互换，60秒后装甲运载车重新驶出	60	Play_Vox_Switch_Sides		0		
+779	Event779	1	交互完成将接受佣金订单：通缉！	5			0		
+780	Event780	1	交互完成将接受佣金订单：护送！	5			0		
+781	Event781	1	交互完成将接受佣金订单：保护！	5			0		
+782	Event782	1	交互完成将接受佣金订单：占领！	5			0		
+783	Event783	1	交互完成将接受佣金订单：探索！	5			0		
+784	Event784	1	交互完成将接受佣金订单：寻找！	5			0		
+785	Event785	1	交互完成将接受佣金订单：采集！	5			0		
+786	Event786	1	交互完成将接受佣金订单：对话！	5			0		
+787	Event787	1	交互完成将接受佣金订单：防守！	5			0		
+788	Event788	1	交互完成将接受佣金订单：却敌！	5			0		
+789	Event789	1	交互完成将接受佣金订单：实验！	5			0		
+790	Event790	1	交互完成将接受佣金订单：拆迁！	5			0		
+791	Event791	1	无快捷道具可使用！	5			0		
+792	Event792	1	无【%s】可以使用！	5			0		
+793	HighEnergyBeamWarning	5	高能射束预警	3	Play_Vox_High_Energy_Beam_Warning		0		
+796	Event796	0	警告：已远离作战区域，机体将于<color=#fddb8b>6秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+797	Event797	0	警告：已远离作战区域，机体将于<color=#fddb8b>7秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+798	Event798	0	警告：已远离作战区域，机体将于<color=#fddb8b>8秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+799	Event799	0	警告：已远离作战区域，机体将于<color=#fddb8b>9秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		
+800	Event800	0	警告：已远离作战区域，机体将于<color=#fddb8b>10秒</color>后断连	20	Play_UI_Battle_Softwall_Alarm		2		

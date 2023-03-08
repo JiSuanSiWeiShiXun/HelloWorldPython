@@ -1,0 +1,12 @@
+﻿uint	string	string	string
+PKEY1			
+自定义分数编号	变量名称	分数定义	备注
+ID	Name	Type	Definition
+1	CustomScore1	提交分数	策划请不要修改，仅供参考
+2	CustomScore2	拦截分数	策划请不要修改，仅供参考
+3	CustomScore3	推进分数	策划请不要修改，仅供参考
+4	CustomScore4	干扰分数	策划请不要修改，仅供参考
+5	CustomScore5	击退分数	策划请不要修改，仅供参考
+6	CustomScore6	占领分数	策划请不要修改，仅供参考
+7	CustomScore7	打断占领分数	策划请不要修改，仅供参考
+8	CustomScore8	对NPC伤害总值	策划请不要修改，仅供参考

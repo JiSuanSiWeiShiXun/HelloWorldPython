@@ -1,0 +1,5 @@
+﻿uint	uint	uint	long	uint[]	int[]	uint	long	uint[]	int[]	int	int	int	float	string	string	enum.ESystemMailTemplateId	enum.ESystemMailTemplateId	string	string
+PKEY1																External	External		
+月卡ID	直购商品ID	可获得货币类型	购买即可获得货币	购买即可获得道具ID	购买即可获得道具数量	每日赠送货币类型	每日赠送货币	每日赠送道具ID	每日赠送道具数量	持续时间（天）	每日刷新（s）	最多可叠加天数	UI价格	图标路径	商品描述	购买即可获得邮件模板	每日赠送邮件模板	礼包描述	礼包标题
+ID	productID	currencyID	currencyCount	ItemIDs	ItemCounts	dailyCurrencyId	dailyCurrencyCount	dailyItemIDs	dailyItemCounts	duration	dailyRefreshTime	overlayDays	price	iconPath	productDescription	MailId	dailyMailId	giftPackDescription	giftPackTitle
+1	200001	102	200			102	30			30	18000	35	68	Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	月相协议	7	6	包含购买立即获得的道具，与30日内每日登录可获得道具	月相协议赠与道具

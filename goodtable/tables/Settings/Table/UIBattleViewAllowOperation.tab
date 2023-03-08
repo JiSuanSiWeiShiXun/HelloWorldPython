@@ -1,0 +1,6 @@
+﻿int	int[]	enum.ViewAllowOpType[]
+PKEY1	gameplayList	移动-Move-1,技能-Skill-2,游戏设置-Gameplay-3,聊天-Chat-4
+ID	玩法id	允许穿透的操作
+ID	gameplayList	allowOperation
+1		1,3
+2		4

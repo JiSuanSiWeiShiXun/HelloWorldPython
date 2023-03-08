@@ -1,0 +1,5 @@
+﻿int	string	uint
+PKEY1		
+炮台ID	描述	配置文件ID
+towerID	description	towerConfigID
+101	普通炮台	10003

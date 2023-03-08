@@ -1,0 +1,6 @@
+{
+    "dockerComposeFile": "../deploy/docker-compose.yml",
+    "service": "flask",
+    "workspaceFolder": "/home/flask",
+    "shutdownAction": "stopCompose"
+}

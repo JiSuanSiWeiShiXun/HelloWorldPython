@@ -1,0 +1,9 @@
+# encoding: utf-8
+services:
+  python:
+    build: ./
+    image: hello.world.python/desing_pattern:dev
+    container_name: python-desing_pattern
+    command: tail -f /dev/null
+    volumes:
+      - ../:/home/design_pattern/

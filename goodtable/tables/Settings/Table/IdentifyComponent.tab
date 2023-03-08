@@ -1,0 +1,16 @@
+﻿int	string	int	int	int	int	int	int	bool	int
+PKEY1									
+nID	描述	最大探知范围半径	标准信号范围半径	侦查识别范围半径	雷达感知范围半径	绝对信号范围半径	最大探知目标数	ESM	识别度下降延时(将要低于1级时)(毫秒)
+nID	desc	maxIdentifyRange	standardSignalRange	identifyRange	radarInductionRange	absoluteSignalRange	identifyNum	esm	decreaseValueDelay
+1	test								
+2	3v3争夺战车密钥	5000	200	350	200	10	5		
+3	NPC矛榫	5000	563	375	750	10	8	1	1000
+4	NPC恩赫里亚	5000	563	375	750	10	8	1	1500
+5	NPC龙渊	5000	1125	750	1500	10	15	1	1500
+6	NPC三角龙	5000	750	500	1000	10	8		1000
+7	NPC鸣神	5000	1125	750	1500	10	15	1	1500
+8	NPC德拉姆	5000	563	375	750	10	8	1	1000
+9	NPC赤霄	5000	563	375	750	10	8	1	1000
+10	恩赫里亚召唤无人机definition	5000	2563	2375	2750	10	18	1	0
+11	长列车护卫队：运载机	10	10	10	10	10	5		0
+12	新建								

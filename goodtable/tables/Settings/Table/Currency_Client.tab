@@ -1,0 +1,9 @@
+﻿uint	string	string	long	long	bool	int	int	enum.OverLimitType	int	int	int	int
+PKEY1								无-None-0,发邮件-Mail-1				
+货币编号	货币名称	货币描述	周上限	总上限	局内货币（每局重置）	道具ID	周上限可累计周数	超总持有上限处理类型	系统可获取上限	系统可获取上限恢复时间（秒）	系统可获取上限回复量	货币资源路径ID
+ID	Name	Description	upperLimitOfWeek	upperLimit	isGameplayCurrency	itemId	accumulativeWeek	overLimitType	systemLimit	systemLimitRecoverTime	systemLimitRecoverCount	iconId
+101	路网信用币	边境路网运作的通用货币，可通过边境商会（Matrix Caravan）购买各种资源。	50000	300000		100001		1	-1			80002
+102	芯石	高纯度EIC大晶体，价值难以估量。秘密交易常用的硬通货，可以轻易兑换成各种资源。	-1	200000		100002		1	-1			80003
+103	舰长经验	账号级数值，主要用于舰长等级提升	3000	100000		100003			-1			80004
+104	BP经验	账号级数值，主要用于BP等级提升	50000	-1		100004	1	0	-1	0	0	80005
+105	芯石原矿	灾后，民间常用芯石原矿作为临时货币。此时原矿也被称为方晶代币，依据其重量和品质换算币值。	-1	-1	1	100005			-1			80006

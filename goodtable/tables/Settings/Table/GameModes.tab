@@ -1,0 +1,6 @@
+﻿string	string	enum.GameModeType	string	string	enum.SpawnPointType	int	int	bool	int	int	int	float
+PKEY1		PVP-0,PVE-1			固定模式-Fixed-0,随机模式-Random-1,地图选点-Locate-2							
+关键词	名称	模式类型  PVP  PVE	分组（UI上显示使用）	资源路径	出生/复活模式: 固定模式 随机模式 地图选点	小队人数	阵营数量	场景筛选	队伍级别算法: 1队长选择（PVE） 2自动平均	匹配分级数	匹配级别范围	跨级匹配时间（秒）
+Key	Name	ModeType	Group	ResourcePath	RandomSpawnPoint	SquadPlayers	CampCount	SceneFilter	TeamLevelFunc	MatchLevelCount	MatchLevelRange	CrossMatchTime
+FlowTestMode_2V2	心流测试2V2	0			0	2	2	1	2	20	2	30
+FlowTestMode_3V3	心流测试3V3	0			0	3	2	1	2	20	2	30

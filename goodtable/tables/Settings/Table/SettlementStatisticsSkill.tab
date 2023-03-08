@@ -1,0 +1,154 @@
+﻿int	int	uint	bool	uint	string[]	string[]	int[]	uint	string
+PKEY1									
+ID	机甲ID	技能ID	是否显示在界面上	使用该技能数据替换自身数据	数据类型的名字	数据公式(数据枚举参照BattleStatisticsDef.cs)	数据显示类型(0-百分比,1-数值,2-时间)	同槽位技能子组	技能使用次数公式
+vKey	mechaID	skillID	isShowInView	dataReplaceSkillID	dataDisplayName	dataFormula	dataDisplayType	dataSkillGroup	skillCountFormula
+1	10001	10110101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+2	10001	10120701	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+3	10001	10120706	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+4	10001	10120101	1		识别隐形数	SearchCount	1	0	
+5	10001	10180201	1		形态总时长,形态输出比	MechaChangedDuration,MechaChangedDamage/Damage	2,0	0	
+6	10001	10120801	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+7	10001	10110103	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+8	10001	10130201	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+9	10001	10120904	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+10	10001	10120901	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+11	10012	11210501	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+12	10012	11210401	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+13	10012	18220101	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged+MechaSeparateShieldCost)	1,0	0	
+14	10012	18230101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+15	10012	18210101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+16	10012	11210402	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+17	10012	11210403	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+18	10012	19980205	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+19	10012	19980201	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+20	10012	19980101	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+21	10012	19980206	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+22	10012	11210901	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+23	10012	11220901	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+24	10012	11220902	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+25	10012	11250901	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+26	10004	14410101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+27	10004	10420111	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+28	10004	14410104	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+29	10004	14420201	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged+MechaSeparateShieldCost)	1,0	0	
+30	10004	10420221	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+31	10004	10420501	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+32	10004	10420505	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+33	10004	14480101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+34	10004	14480201	1		形态输出比,形态承伤比	MechaChangedDamage/Damage,MechaChangedHurt/Damaged	0,0	0	
+35	10004	14420102	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+36	10005	10510101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+37	10005	10580101	1	10580103	命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+38	10005	10520101	1		迷彩时长,无人机承伤	MechaChangedDuration,UavHurt	2,1	0	
+39	10005	10580307	1		悬挂时长,形态输出比	HookMoveDuration,HookMoveDamage/Damage	2,0	0	
+40	10005	10580201	1		脱离锁定,迷彩时长	MechaChangedUnLockCount,MechaChangedDuration	1,2	0	
+41	10005	10540101	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+42	10005	10580103	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+43	10005	10510201	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+44	10005	112	1	114	命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+45	10005	114	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+46	10002	10210101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+47	10002	10210107	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+48	10002	10210108	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+49	10002	10280201	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+50	10002	10280202	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+51	10002	10280101	1		脱离锁定,躲避导弹	MechaChangedUnLockCount,MechaChangedMissileMiss	1,1	0	
+52	10002	10220101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+53	10002	10280401	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+54	10002	10280103	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+55	10002	10240901	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+56	10002	68	1		脱离锁定,迷彩时长	MechaChangedUnLockCount,MechaChangedDuration	1,2	0	
+57	10003	10310101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+58	10003	10320101	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged+MechaSeparateShieldCost)	1,0	0	TempTypeID
+59	10003	10340101	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+60	10003	10380101	1		承伤值,承伤比	UavHurt,UavHurt/(Damaged+UavHurt)	1,0	0	
+61	10003	10350101	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	3	
+62	10003	10350102	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	3	
+63	10003	10350103	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	3	
+64	10003	10350104	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	3	
+65	10003	1014	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0		SingleSkillUseCount-TempTypeID
+66	10003	1015	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0		
+67	10003	1016	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0		
+68	10003	1017	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0		
+69	10003	978	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	1	
+70	10003	10380118	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+71	10012	11240901	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+72	10012	11210801	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+73	10005	72	1	610180233	命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+74	10002	10220105	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+75	10002	10220106			命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+76	10004	91	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+77	10004	96						0	
+78	10005	610180233						0	
+79	10009	644	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+80	10009	654	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+81	10009	10920201	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged + MechaSeparateShieldCost)	1,0	0	
+82	10009	10920101	1		总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+83	10009	10920112	1		总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+84	10009	10920301	1		总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+85	10001	348	1		触发率,伤害比	TempTypeID/(SingleSkillUseCount-TempTypeID),SingleSkillDamage/Damage	0,0	0	SingleSkillUseCount-TempTypeID
+86	10002	723	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+87	10002	15	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged+MechaSeparateShieldCost)	1,0	0	
+89	10001	559						5	
+90	10004	40	1		形态总时长	MechaChangedDuration	2	0	
+91	10004	254	1		覆盖率	SkillImpactTime/SkillEffectTime	0	0	
+92	10005	988	1		触发率,瘫痪数	TempTypeID/(SingleSkillUseCount-TempTypeID),TempTypeID2	0,1	0	SingleSkillUseCount-TempTypeID
+93	10009	562	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+94	10009	738	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+95	10009	571	1		时长,形态输出比	MechaChangedDuration,MechaChangedDamage/Damage	2,0	0	
+96	10012	198	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+97	10012	234	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged+MechaSeparateShieldCost)	1,0	0	
+98	10005	692	1		命中率	SingleSkillHitBulletCount/(SingleSkillUseCount-SingleSkillSpawnBulletCount)	0	0	SingleSkillUseCount-SingleSkillSpawnBulletCount
+99	10001	10180150	1		维修量,有效维修比	SkillHealthTotal,SkillHealthEffect/SkillHealthTotal	1,0	0	
+101	10002	1008	1		命中率,时长	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SkillEffectTime	0,1	0	
+102	10009	734	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+103	10009	741	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+104	10009	1065	1	1170	总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+105	10009	1327						0	
+106	10009	1328						0	
+107	10009	1170	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+108	10002	970	1		承伤值,承伤比	MechaSeparateShieldCost,MechaSeparateShieldCost/(Damaged+MechaSeparateShieldCost)	1,0	0	
+109	10003	904	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+110	10003	905	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+111	10003	894	1		形态总时长,形态输出比	MechaChangedDuration,MechaChangedDamage/Damage	2,0	0	
+112	10003	909	1		形态总时长,形态输出比	MechaChangedDuration,MechaChangedDamage/Damage	2,0	0	
+113	10005	1021						0	
+114	10009	927	1		承伤值,禁锢数	UavHurt,TempTypeID3	1,1	0	
+115	10009	975						0	
+116	10009	1073	1		总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+117	10009	1095	1		总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+118	10003	10310104	0				0,0	1	
+119	10003	10350105	0		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0		
+120	10003	10350106	0						
+121	10003	10350107							
+122	10003	10350108							
+123	10003	10310106	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	SingleSkillUseCount-TempTypeID2
+124	10003	966	0					3	
+125	10003	967						3	
+126	10003	968						3	
+127	10003	969						3	
+128	10005	992							
+129	10005	1211						4	
+130	10005	973						4	
+131	10009	1472						4	
+132	10009	1480						4	
+133	10007	728	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+134	10007	730	1		命中率,同步时长	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SkillEffectTime	0,1	0	
+135	10007	729	1		干扰次数	TempTypeID	1	0	
+136	10007	731	1		总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+137	10007	732	1		形态总时长,形态输出比	MechaChangedDuration,MechaChangedDamage/Damage	2,0	0	
+138	10007	1780	1		命中率,干扰时长	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SkillEffectTime	0,1	0	
+139	10007	1692	0					0	
+140	10007	1702	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+141	10001	10150901	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+142	10002	1022	1		形态总时长,形态输出比	MechaChangedDuration,MechaChangedDamage/Damage	2,0	0	
+143	10003	1494	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	TempTypeID/2
+144	10003	1374	1	1397	总伤害,伤害比	SingleSkillDamage,SingleSkillDamage/Damage	1,0	0	
+145	10003	1397						0	
+146	10004	1375	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+147	10003	1548						4	
+148	10009	1497	1		承伤值,承伤比	SKillCreateObjHurt,SKillCreateObjHurt/(SKillCreateObjHurt+Damaged)	1,0	0	
+149	10012	1458	1		命中率,伤害比	SingleSkillHitBulletCount/SingleSkillSpawnBulletCount,SingleSkillDamage/Damage	0,0	0	
+150	10003	1763	1		启用率	(TempTypeID2/2)/TempTypeID	0	0	TempTypeID2/2
+151	10003	10360102						5	
+152	10002	1492	1		目标伤害,伤害比	SkillMarkTargetDamage,SkillMarkTargetDamage/Damage	1,0	0	

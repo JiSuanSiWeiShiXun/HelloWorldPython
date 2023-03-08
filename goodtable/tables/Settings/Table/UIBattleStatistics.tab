@@ -1,0 +1,15 @@
+﻿int	bool	bool	bool	bool	UIBattleStatisticsInfo[].enum.UIBattleStatisticsType	UIBattleStatisticsInfo[].string	UIBattleStatisticsInfo[].int	UIBattleStatisticsInfo[].enum.UIBattleStatisticsType	UIBattleStatisticsInfo[].string	UIBattleStatisticsInfo[].int	UIBattleStatisticsInfo[].enum.UIBattleStatisticsType	UIBattleStatisticsInfo[].string	UIBattleStatisticsInfo[].int	bool	string
+PKEY1					|空-None-0,击坠-Kill-1,被击坠-Died-2,助攻-Assist-3,伤害-Damage-4,上传-Mineral-5,截断-Intercept-6,样本-Sample-7,对局时长-EnterSceneDuration-8,推进-Push-9,干扰-Disturb-10,占领-Occupy-11,拆除-Dismantle-12,打断-interrupt-13,伤害npc-damageNpc-14			|External			|External				
+ID	是否显示击坠	是否显示被击坠	是否显示助攻	是否显示伤害	数据类型	名字	图标Id	数据类型	名字	图标Id	数据类型	名字	图标Id	是否显示总自定义分数	总自定义分数名字
+ID	isDisplayKill	isDisplayDied	isDisplayAssist	isDisplayDamage	statisticsInfo.type	statisticsInfo.name	statisticsInfo.iconId	statisticsInfo.type	statisticsInfo.name	statisticsInfo.iconId	statisticsInfo.type	statisticsInfo.name	statisticsInfo.iconId	isDisplayCustomScore	customScoreName
+1	1	1	1	1											
+2	1	1	1	1	5	上传	15002	6	截断	15003				1	总上传
+3	1	1	1	1											
+4	1	1	1	1	7	样本	15004								
+5	1	1		1	8	对局时长	15005								
+6	1	1	1	1	5	上传	15002							1	总上传
+7	1	1	1	1	5	上传	15002								
+8	1	1	1	1	11	占领	15002	13	打断	15003					
+9	1	1	1	1	9	推进	15002	10	干扰	15003				0	
+10	1	1	1	1	14	破坏									
+11	1	1	1	1	12	拆除	15002							0	

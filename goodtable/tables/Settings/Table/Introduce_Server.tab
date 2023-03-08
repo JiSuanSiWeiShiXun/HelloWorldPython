@@ -1,0 +1,13 @@
+﻿int	LangText	string
+PKEY1		
+Id	地图介绍	房间背景资源路径
+ID	Introduce	ResourcePath
+1001	狂风沙漠，视野朦胧	Map_preview_Test
+2001	更大的沙漠更多的人	Map_preview_Test
+2002	你好你好	
+2003	你好你好	
+3001	你好你好	
+3002	你好你好	
+3003	你好你好	
+3004	你好你好	
+1101	main场景	Map_preview_Test

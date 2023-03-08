@@ -1,0 +1,12 @@
+﻿int	LangText	int	int	int	int	int	int	int	int	int	int
+PKEY1											
+Id	Tab类型	击坠	被击坠	伤害	运矿	助攻	阻拦	样本	对局时长	占领	打断
+Id	Name	Kill	Die	Damage	Mineral	Assist	Intercept	EicSample	EnterSceneDuration	Occupy	Interrupt
+1	常规Tab	1	1	1	0	1	0	0	0	0	
+2	运矿Tab	1	1	1	1	1	1	0	0	0	
+3	训练Tab	1	1	1	0	1	0	0	0	0	
+4	EIC样本Tab	1	1	1	0	1	0	1	0	0	
+5	战斗演算中枢（死斗）Tab	1	1	1	0	0	0	0	1	0	
+6	捡矿Tab	1	1	1	1	1	0	0	0	0	
+7	大世界Tab	1	1	1	1	1	0	0	0	0	
+8	咯拉欧布天坑Tab	1	1	1	0	1	0	0	0	1	1

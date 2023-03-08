@@ -1,0 +1,11 @@
+﻿int	string	string	string	bool	enum.TaskDifficulty	enum.TaskUnit	int[]
+PKEY1					普通-Normal-1,危险-Dangerous-2,困难-Difficult-3	个人-Player-1,阵营-Camp-2	
+任务id 11~19 - 杀戮任务,21~29 - 占点任务,100 - 主线任务,200 - 每日任务，300 - 每周任务	任务名字 需要兼顾多语言配置	任务描述 需要兼顾多语言配置	定位点 任务UI区域	完成后是否自动提交	任务难度 普通 危险 困难	任务执行单位 个人 阵营	串线任务
+ID	TaskName	Desc	Area	IsCommitWhenFinsh	Difficulty	Unit	NextTasks
+1101	剿灭	文本表内容101	Area1001	True	1	1	
+1102	剿灭	文本表内容101	Area1001	True	1	1	
+1103	剿灭	文本表内容101	Area1001	True	1	1	
+1104	剿灭	文本表内容101	Area1001	True	1	1	
+1105	剿灭	文本表内容101	Area1001	True	1	1	
+1106	剿灭	文本表内容101	Area1001	True	1	1	
+2001	争夺宝箱	文本表内容110	Area1010	True	1	2	

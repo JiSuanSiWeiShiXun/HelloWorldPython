@@ -1,0 +1,15 @@
+version: "3"
+services:
+  flask:
+    image: hello.world.python/flask:test
+    build: .
+    container_name: youling-flask
+    command: "tail -f /dev/null"
+    environment:
+      - env=dev
+      - FLASK_APP=flaskr
+    volumes:
+      - ../:/home/flask/:rw
+    ports:
+      - 6789:5000
+    network_mode: bridge

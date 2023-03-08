@@ -1,0 +1,4 @@
+﻿int	enum.QuestLoopType	int[]	string	int	uint[]
+PKEY1	Daily-0,Week-1,Month-2				
+随机池ID	重置类型(0:每天，1:每周，2:每月)	重置参数（设定时间用 | 分割	时间描述	随机任务个数	随机任务池
+ID	LoopType	TimeParams	TimeDesc	RamdomCount	QuestPools

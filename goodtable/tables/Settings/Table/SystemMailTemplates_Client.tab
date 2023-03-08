@@ -1,0 +1,13 @@
+﻿enum.ESystemMailTemplateId	string	string	string
+PKEY1|BP领奖-BPReward-1,BP补发-BPCompensate-2,任务领奖-QuestReward-3,结算领奖-SettleReward-4,背包满-BagFull-5,月卡1每日-MonthlyCardDailyReward1-6,月卡1直冲-MonthlyCardOnceReward1-7,货币上限-CurrencyLimit-8,GM-GM-9			
+类型	标题	内容	发送者名
+Id	Title	Content	SenderName
+1	路网合约奖励	这是BP奖励邮件正文	系统
+2	路网合约补发奖励	您的仓库已满，路网合约相关奖励已通过后勤系统补发，请查收	系统
+3	任务奖励	这是任务奖励邮件正文	系统
+4	结算奖励	这是结算奖励邮件正文	系统
+5	后勤通知	您的仓库已满，相关道具已通过后勤系统补发，请查收	系统
+6	月相协议	您的月相协议奖励未及时领取，已通过后勤系统补发，请查收	系统
+7	月相协议直冲奖励	您的月相协议直冲奖励，已通过后勤系统补发，请查收	系统
+8	后勤通知	您的货币达到上限，剩余货币已通过后勤系统补发，请查收	系统
+9	GM	这是GM邮件	系统

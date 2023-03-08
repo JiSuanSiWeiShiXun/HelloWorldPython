@@ -1,0 +1,5 @@
+﻿int	string	float	float	int	int
+PKEY1					
+提交类型Id	描述	读条时间	冷却时间	单次最大提交数量上限	单次最小提交数量下限
+CommitTypeId	Description	PressTime	CD	MaxPerSub	MinPerSub
+1001	提交狗牌类型道具	0	1	5	2

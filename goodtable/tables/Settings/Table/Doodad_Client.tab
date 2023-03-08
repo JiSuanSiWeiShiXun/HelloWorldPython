@@ -1,0 +1,4 @@
+﻿int	string	string	int[]	string	bool	bool	int	int	string[]	int[]	enum.DoodadKind	int	int	int	bool	int	int	int	float	float	bool	int	string	string
+PKEY1											None-0,Mineral-1,Airdrop-2,Gemstone-3,GatherMark-4,AttackMark-5,SupportMark-6,RetreatMark-7,GoforwardMark-8,DefenseMark-9,AttentionMark-10,MineralMark-11,AirdropMark-12,GemstoneMark-13													
+nID	描述	文件路径	光环配置ID	prefabServer	关闭物理模拟	关闭客户端加载	标记号	bufferSize	额外物理配置	组件	Doodad类型	阵营ID	最大血量	当前血量	是否干扰器	多长时间恢复一次(ms)	最大计数	初始计数	每次回复量	最小计数恢复颗粒度	是否独立计算时间	生命周期组件ID	viewTemplate	viewSettings
+nID	desc	assetPath	auraConfigID	prefabServer	closePhysicsSimulate	closeClientPhysicsLoad	customTag	bufferSize	externPhysicsConfig	componentConfigID	doodadKind	campID	maxHealth	curHealth	isDisturber	intervalTime	maxCounter	initCounter	LocalCounterRegen	MinCounterRegenGrain	isSeperatorCalc	lifeCycleCompID	viewTemplate	viewSettings

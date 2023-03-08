@@ -1,0 +1,6 @@
+﻿int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int	IDWeight[].int
+PKEY1																				
+产出ID	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重	ProduceID	随机权重
+ID	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight	Pool.ID	Pool.Weight
+2000011	1000101	45	1000102	30	1000103	20	1000104	5												
+2000012	1000111	10	1000112	30	1000113	45	1000114	15												

@@ -1,0 +1,6 @@
+﻿int	bool	enum.CurrencyType	int	int[]	int[]	int	int
+PKEY1		External					
+道具ID	是否可研发	研发消耗货币类型	研发消耗货币数量	研发消耗道具类型	研发消耗道具数量	研发消耗时间	机甲模板Id
+ID	canCraft	craftCostCurrencyType	craftCostCurrencyCount	craftCostItemTypes	craftCostItemCounts	craftCostTime	mechaTemplateId
+200039	1	101	1000	900001	1	60	61004
+900003	1	101	100			10	10009

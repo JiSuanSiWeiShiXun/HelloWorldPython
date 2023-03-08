@@ -1,0 +1,79 @@
+﻿string	int	string	string
+PKEY1			
+条件定义	参数1	参数2	参数3
+Key	Args1	Args2	Args3
+MatchBlockCount	3		
+MatchBlockClearWeek	1		
+FriendListRefuseInterval	0		
+FriendMaxCount	100		
+FriendBlackMaxCount	20		
+FriendApplyCountPerDay	20		
+FriendAuditTimeout	30		
+FriendAuditMaxCount	30		
+FriendDayCanReapplyAfterRefuse	7		
+FriendRecommendFightCount	3		
+FriendSearchMaxCount	50		
+BattleListMaxSizeForQuery	1000		
+CustomOBMaxCount	3		
+ChatShisperOfflineMsgCount	1000		
+ChatShisperOfflineMsgDay	30		
+ChooseMechaBeforeMatch	0		
+PlayerBagMaxGridSize	100		
+CustomInviteTimeout	15		
+MailBroadcastMaxPlayer	1		
+MailTitleMaxBytes	20		
+MailContentMaxBytes	150		
+MailAttachmentsMaxCount	6		
+MailValidDays	30		
+MailMaxSendCountPerDay	50		
+MailFromSystemMaxCount	100		
+MailFromPlayerMaxCount	100		
+MailBeRepliedMaxCount	9		
+MailCountPerPage	10		
+TriggerDelayTicks	5		
+PlayerDefaultGridSize	200		
+CustomRoomOpenTime	1		
+RecommendPlayerCountPerDay	3		
+CurrencyWeekLimitRefreshTime	1	5	0
+AiMechaDiyCountLimit	3		
+RecommendPlayerPerConditionCountPerDay	1		
+RecommendClearAtHourPointPerDay	4		
+RecommendCDDayDeleteFriend	180		
+RecommendCDDayDRerecommend	180		
+RecommendConditionCustomCount	3		
+RecommendConditionTeamMatchCount	2		
+RecommendConditionWhisperCount	10		
+RecommendConditionMutualFriendCount	3		
+BPWeekCount	4		
+BPRefreshCount	3		
+BPRandomNum	8		
+MaxAccessoryCraftTaskCount	4		
+MaxEquipCraftTaskCount	4		
+MaxCraftTaskCount	12		
+JoinedCustomNum	3		
+MaxMechaCraftTaskCount	4		
+CustomListSearchTimeInterval	15		
+CustomListMaxNum	100		
+ShopRecommendLayout		4,2,1,1,1,1,2,1,1,1,1	
+ChatWorldChannelColdDown	1		
+BagItemMail	5		
+RecuitmentListNumLimit	100		
+CurrencyGoldGift	3	31	
+AiMechaDiyRefreshTime	5		
+ChatShisperOfflineMsgCountPerPlayer	20		
+DefaultAchievementIds	110002	200006	300001
+PilotExpItemId	931001		
+JoinTeamRequestTimeout	15		
+InviteJoinTeamTimeout	15		
+AllowedToCompleteQuestGamePlay		27,28,29	18,23,24
+CustomListQueryInterval	1		
+NoviceAutoObtainMechas	1		
+BattleStatisCount	20	20	近20场次
+BattleStatisMaxCount	20		
+ChatTeamChannelColdDown	1		
+ChatForceChannelColdDown	1		
+ChatWhisperChannelColdDown	1		
+ChatRoomChannelColdDown	1		
+PlayerSurrenderTime	120		
+AiSurrenderTime	5		
+SurrenderDurationTime	30		

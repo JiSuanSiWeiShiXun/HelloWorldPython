@@ -1,0 +1,108 @@
+﻿int	string	string	int	enum.GMType	string
+PKEY1				None-0,Mecha-1,Gameplay-2,Scene-3,UI-4,Log-5	
+指令id	指令key	名字	buffid	分类(0:无类型，1：机甲，2：玩法，3：场景，4：UI)	帮助
+id	key	description	buffId	gmType	help
+1	kill	秒杀		1	
+2	addBuff	不死+清除CD+无限能量	1000008	1	数值1填时间（单位ms，默认1h）
+3	addBuff	不死	1000004	1	数值1填时间（单位ms，默认1h）
+4	npcRemoveBuff	清除NPC无敌	1000004	1	
+5	npcAddBuff	NPC无敌	1000004	1	
+6	addBuff	清除cd	1000002	1	数值1填时间（单位ms，默认1h）
+7	addBuff	无限能量	1000003	1	数值1填时间（单位ms，默认1h）
+8	addBuff	五倍移速	1000005	1	数值1填时间（单位ms，默认1h）
+9	addBuff	十倍伤害	1000001	1	数值1填时间（单位ms，默认1h）
+10	AdjustHealth	血量调整		1	数值1填血量，正数增加，负数减少
+11	move	瞬移		1	xyz填目标点
+12	addBuff	隐身	1000006	1	数值1填时间（单位ms，默认10000ms）,结束后恢复
+13	addBuff	嘲讽	1000007	1	数值1填时间（单位ms，默认10000ms）,结束后恢复
+15	endGame	快速结束		2	
+16	noEnd	对局不结束		2	
+17	point	加胜点		2	数值1填胜点，正数增加，负数减少
+18	skillDebugLogOpen	技能log打开		5	
+19	skillDebugLogClose	技能log关闭		5	
+20	moveDebugLogOpen	移动log打开		5	
+21	moveDebugLogClose	移动log关闭		5	
+22	resetShelter	重置掩体		3	
+23	boxCollider	Box碰撞体	100		
+24	complexBoxCollider	复杂碰撞体	100		
+25	meshCollider	Mesh碰撞体	100		
+26	randomCollider	随机类型碰撞体	100		
+27	produceNpcs	召NPC			数值1填NPC ID，数值2填势力（0敌、1友、-1删除NPC），xyz填生成点
+28	autoProduceNpcs	自动召NPC			
+34	SceneObjControl	场景物件显隐控制		3	
+35	VFXControl	是否开启特效		3	
+36	VFXControl_Dummy	是否使用占位特效		3	
+37	VFXControl_Cache	是否开启特效缓存		3	
+38	VFXControl_TrailSystem	是否开启特效拖尾		3	
+39	LogMechaAndCameraPos	输出机甲和相机的表现位置		1	
+40	CaptureObjectSnapshoot	捕获对象池状态			
+41	ForceSwitchLOD	强制切换机甲LOD		1	数值1填LOD级别，0表示不强制切换LOD，1，2，3，4则表示强制切换至这个LOD级别
+42	deleteShelter	删除掩体		3	
+43	CloseMinimap	关闭地图		2	
+44	openLockLog	打开锁定日志		5	
+45	closeLockLog	关闭锁定日志		5	
+46	MaxEnergy	调整最大能量		1	数值1填最大能量，正数增加，负数减少
+47	MoveSpeed	调整移速		1	数值1填移速倍率
+48	MaxHealth	调整最大血量		1	数值1填最大血量，正数增加，负数减少
+56	meleeBounceRigid	弹刀硬直		1	数值1填时间（单位ms，默认2000ms），xyz填受力方向(默认1,0,0)
+57	MechaViewCahce	是否开启机甲缓存		1	
+58	RecordLODChanged	记录LOD修改		1	每局落地后点（否则可能记录不到全部人）
+59	PrintStack	打印异常堆栈信息		5	在客户端和服务器分别打印一条异常堆栈信息
+60	PlayerChangeToAI	托管			
+61	AIChangeToPlayer	取消托管			
+62	CameraFollow	角色跟随镜头		3	
+63	CameraObserver	角色观察镜头		3	
+64	VFXControl_LightningSystem	是否开启闪电链		3	
+65	VFXControl_LaserSystem	是否开启激光		3	
+66	UseSkillBySlot	通过槽位使用技能		1	数值1填槽位
+67	FilmGrain	是否开启FilmGrain		3	
+68	ChromaticAberration	是否开启ChromaticAberration		3	
+69	openClientLogTrace	打开客户端LogTrace		5	
+70	openClientLogDebug	打开客户端LogDebug		5	
+71	openServerLogTrace	打开服务端LogTrace		5	
+72	openServerLogDebug	打开服务端LogDebug		5	
+73	skillFailLogOpen	技能失败Log打开		5	
+74	skillFailLogClose	技能失败Log关闭		5	
+75	skillStageLogOpen	技能流程变化Log开 慎用		5	
+76	skillStageLogClose	技能流程变化Log关 慎用		5	
+77	MechaBuffSkillState	当前技能和buff状态		5	
+78	unitRemoveBuff	清除全体对象无敌	1000004	1	
+79	unitAddBuff	全体对象无敌	1000004	1	默认无限时间
+80	SFXSetState	发送音效State		3	字符类型填状态名(列如，StateGroupA.StateNameB)
+81	OpenOperationTip	开关操作提示界面		4	
+82	addBuff	行为树EnableLog	20000006	5	
+83	AbnormalState	施加异常状态		1	参数1填subType序号，例如 1 表示subType1，xyz填方向
+84	RespawnUserImmediately	立刻复活		1	
+87	SkillLogSwitch	技能日志回溯开关		5	
+88	ClientSkillLog	客户端技能日志回溯		5	
+89	ClientFailedSkillLog	客户端技能失败日志回溯		5	
+90	ClientEquipSkillLog	客户端技能装备日志回溯		5	
+91	ClientActiveSkillLog	客户端激活技能日志回溯		5	
+92	ServerSkillLog	服务端技能日志回溯		5	
+93	ServerFailedSkillLog	服务端技能失败日志回溯		5	
+94	ServerEquipSkillLog	服务端技能装备日志回溯		5	
+95	ServerActiveSkillLog	服务端激活技能日志回溯		5	
+96	AddCurrency	增减局内货币		3	数值1填货币id，数值2填具体数值
+97	AddEntry	添加词条		1	数值1填词条模板id，数值2填技能id
+98	DeleteEntry	删除词条		1	数值1填词条实例id
+99	RecordAndShowCameraDebugInfo	展示并记录相机Debug信息		5	
+100	ShowCameraDebugInfo	展示相机Debug信息		5	
+101	RecordCameraDebugInfo	记录相机Debug信息		5	
+102	SetMaxAimDistance	设置相机最大瞄准距离		0	
+103	takeWarWorldSnapshot	客户端创建场景快照		5	参数1填写快照递归深度（默认为5，过大可能会长时间无响应），字符串填写快照保存路径（包括文件名，后缀为.mss）
+104	ForwardWorldTime	推进战斗时间(默认60秒)		2	
+105	UseSkillByConfigId	通过配置ID使用技能		1	AI用 数值1填配置ID 数值2填目标ID
+106	addTestBuff	添加测试buff	1000007	1	数值1填buffID（默认为Test/GM/TestBuff），数值2填持续时间（默认10S）
+107	normalMoveLogOpen	普通移动速度大小LOG打开		5	
+108	normalMoveLogClose	普通移动速度大小LOG关闭		5	
+109	DamageLogOpen	开启伤害日志		5	
+110	DoCloseDamageLog	关闭伤害日志		5	
+111	ShowPhysicsDebugInfo	展示物理Debug信息		5	
+112	skillAnimDebugLogOpen	打开技能动作Log		5	
+113	skillAnimDebugLogClose	关闭技能动作Log		5	
+114	moveAnimDebugLogOpen	打开移动动作Log		5	
+115	moveAnimDebugLogClose	关闭移动动作Log		5	
+116	OpenLockTargetInfo	打开锁定目标信息		5	
+117	CloseLockTargetInfo	关闭锁定目标信息		5	
+118	UnitNotDeath	全体对象不死	1944	1	
+120	RemoveUnitNotDeath	移除全体对象不死	1944	1	

@@ -1,0 +1,89 @@
+﻿string	string	int	enum.EEnableInMode	string	string	string	string	int	int	enum.ESceneAOIType	int
+PKEY1			None-0,Editor-1,DevBuild-2,RelBuild-3							None-0,Grid-1	
+关键字	名称	场景类型: 0 非战斗场景  1 战斗场景	运行生效方式	场景路径	灯光场景路径	逻辑场景路径	逻辑场景名	玩法主线	对象池容量基数倍率	AOI场景管理类型	AOI参数
+Key	Name	SceneType	EnableInMode	Path	LightScenePath	LogicSceneDir	LogicSceneName	gameMissionType	ObjectPoolRate	SceneAOIType	AOIParam
+main		1	2	Assets/Maps/WhiteBoxScenes/main.unity		Assets/Maps/LogicScenes	main_Logic	1	1		200
+GKCS	虚拟对战3V3	1	3	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_4.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic	5	4		0
+TrainingDemo	虚拟训练	1	3	Assets/Maps/WhiteBoxScenes/TrainingMap/TrainingMap_Demo.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	TrainingMap_Demo_Logic	1	1		0
+Artkailuo	密斯之眼争夺战(旧)	1	3	Assets/Maps/WhiteBoxScenes/Scene_Canyon_3.unity		Assets/Maps/LogicScenes	Area9_Logic	2	1		0
+canyon	艾特纳烟谷(破碎专用)	1	2	Assets/Maps/WhiteBoxScenes/Scene_Canyon_1.unity		Assets/Maps/LogicScenes	Scene_Canyon_1_Logic	1	1		0
+GarageTest	格纳库场景	0	3	Assets/Art/Maps/Map_Factory/Scene_Factory_1_Ex.unity	Assets/Art/Maps/Map_Factory/Scene_Factory_1_Lighting.unity			1	1		0
+Zone3_island	海岛-测试白盒	1	1	Assets/Maps/WhiteBoxScenes/Zone3_island.unity		Assets/Maps/LogicScenes	Zone3_island_Logic	1	1		0
+Test3V3	沙漠3V3-测试白盒1	1	1	Assets/Maps/WhiteBoxScenes/arena/Area3V3Demo.unity		Assets/Maps/LogicScenes	Area3V3Demo_Logic	1	1		0
+3v3_test	沙漠3V3-测试白盒2	1	1	Assets/ArtTemp/Maps/3v3_test/3v3_test.unity		Assets/ArtTemp/Maps/3v3_test/	3v3_test_logic	1	1		0
+IceBorne	冰原-测试白盒	1	1	Assets/ArtTemp/Maps/IceBorne/IceBorne.unity		Assets/ArtTemp/Maps/IceBorne/Logic_Scene	IceBorne_Logic	1	1		0
+GrandCanyonDemo	埃尔文塔试验场	1	2	Assets/Maps/WhiteBoxScenes/arena/GrandCanyonDemo.unity		Assets/Maps/LogicScenes	GrandCanyonDemo_Logic	1	1		0
+IceBorne_New	冰原_New-测试白盒	1	1	Assets/ArtTemp/Maps/IceBorne/IceBorne_New.unity		Assets/ArtTemp/Maps/IceBorne/Logic_Scene	IceBorne_New_Logic	1	1		0
+GKCS_DG	虚拟对战3V3_灯光测试	1	1	Assets/Art/Maps/Map_Pvpdemo/Scene_Pvpdemo_5.unity		Assets/Maps/LogicScenes	Scene_Pvpdemo_5_Logic	1	1		0
+XDXtest	虚拟对战1V1	1	1	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/XDXtest.unity		Assets/Maps/LogicScenes	XDXtest_Logic	1	1		0
+LYJ1V1	测试1V1	1	1	Assets/ArtTemp/Maps/Test_LYJ/1V1.unity		Assets/ArtTemp/Maps/Test_LYJ	1V1_Logic	1	1		0
+TestYu	战斗区测试	1	1	Assets/ArtTemp/Maps/TestYu/TestYu.unity		Assets/ArtTemp/Maps/TestYu	TestYu_Logic	1	1		0
+PVPTest_New	基础战斗-验证白盒	1	1	Assets/Maps/WhiteBoxScenes/PVPTest_New.unity		Assets/Maps/LogicScenes	PVPTest_New_Logic	1	1		0
+YGMtest	YGM白盒	1	1	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/YGMtest.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	YGMtest_Logic	1	1		0
+TajMahalTest	YGM白盒2	1	1	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/YGMtest2.unity		Assets/Maps/LogicScenes	YGMtest2_Logic	1	1		0
+IceField	冰原能量	1	1	Assets/ArtTemp/Maps/IceField/Map_IceField.unity		Assets/Maps/LogicScenes	Map_IceField_Logic	1	1		0
+Sortie	出击场景	0	3	Assets/Art/Maps/Map_Factory/Scene_Factory_3.unity	Assets/Art/Maps/Map_Factory/Scene_Factory_3_Lighting_1.unity			1	1		0
+Loading	加载场景	0	3	Assets/Art/Maps/Map_Factory/Scene_Factory_4.unity	Assets/Art/Maps/Map_Factory/Scene_Factory_4_Lighting_1.unity			1	1		0
+PS_Test	破碎性能测试地图	1	1	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_6.unity		Assets/Maps/LogicScenes	Scene_Pvpdemo_6_Logic	1	1		0
+Test_3V3	破坏测试3V3	1	1	Assets/Art/Maps/Map_Pvp3v3_Cyber/Map_Pvp3v3_Cyber_All_2_Ex.unity		Assets/ArtTemp/Maps/Test_3V3	Test_3V3_Logic	1	1		0
+Cyber3V3	3V3虚拟白盒实装地图	1	2	Assets/Art/Maps/Map_Pvp3v3_Cyber/Map_Pvp3v3_Cyber_All_2_Ex.unity		Assets/Maps/LogicScenes	Scene_Pvp3v3_Cyber_1_Logic	1	1		0
+GKCS_2	3V3地形设计	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_7.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_7_Logic	1	4		0
+GKCS_HotSpot	3V3占点测试	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_4_HotSpot.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_Hotspot	1	4		0
+GKCS_HotSpot_2	3V3空投宝石测试	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_AirdropItem.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_AirdropItem	1	4		0
+GKCS_Mine	3V3宝石测试	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_7.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_Mine	3	4		0
+GKCS_30er	30人虚拟对战3V3	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_4_30er.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_30er	1	4		0
+Artkailuo_30er	30人密斯之眼争夺战	1	2	Assets/Art/Maps/Map_Cairo/Scene_Cairo_1_Fix.unity		Assets/Maps/LogicScenes	Area9_Logic_30er	2	1		0
+TrainingDemo2	虚拟训练混战	1	1	Assets/Maps/WhiteBoxScenes/TrainingMap/TrainingMap_Demo2.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	TrainingMap_Demo_2_Logic	1	1		0
+canyon2	艾特纳烟谷（2+2）	1	2	Assets/Maps/WhiteBoxScenes/Scene_Canyon_2.unity		Assets/Maps/LogicScenes	Scene_Canyon_2_Logic	1	1		0
+GKCS_12er	战斗演算中枢	1	3	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_4_12er.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_12er	4	4		0
+Push3v3	未来之夺-白盒测试	1	2	Assets/ArtTemp/Maps/Map_Pvp3v3_Push/Scene_Pvpdemo_Push.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_Push_Logic	1	4		0
+Push3v3x2	勇夺空投-白盒测试	1	1	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_8.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_8_Logic	1	4		0
+TrainingSkillDemo	技能测试关	1	2	Assets/Maps/WhiteBoxScenes/TrainingMap/TrainingSkillMap_Demo.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	TrainingSkillMap_Demo_Logic	1	1		0
+3V3Bounty	赏金猎人-白盒测试	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_Bounty.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_Bounty_Logic	1	4		0
+3V3OpenBox	勇夺宝箱-白盒测试	1	1	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_OpenBox.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_OpenBox_Logic	1	4		0
+DoublePush3v3	双夺未来-白盒测试	1	2	Assets/ArtTemp/Maps/Map_Pvp3v3_Push/Scene_Pvpdemo_DoublePush.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_DoublePush_Logic	1	4		0
+TeachingTest1	教学关卡测试1	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_TeachingTest_1.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_TeachingTest_1_Logic	1	4		0
+GKCS_Mine_12player	6V6宝石测试	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_7_6v6.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_Mine_6v6	3	4		0
+DoublePush6v6	星屿自律岛	1	2	Assets/ArtTemp/Maps/Map_Pvp3v3_Push/Scene/Scene_Pvpdemo_DoublePush6V6_Terrain/Scene_Pvpdemo_DoublePush6V6_Terrain_Ex.unity		Assets/Maps/LogicScenes	Scene_Pvpdemo_DoublePush6V6_Logic	1	4		0
+Energy6v6	6V6能源危机-白盒测试	1	2	Assets/Maps/WhiteBoxScenes/Scene_Energy6v6.unity		Assets/Maps/LogicScenes	Scene_Energy6v6_Logic	1	4		0
+GKCS_3v3	竞技场_A 地图2	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Pvpdemo_7_3v3.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_4_Logic_Mine_3v3	5	4		0
+swamp6v6	6V6绿洲破解密钥模式	1	2	Assets/Maps/WhiteBoxScenes/Scene_Swamp_1.unity		Assets/Maps/LogicScenes	Scene_Swamp_1_Logic	1	1		0
+Marshmack	玛什⻢克	1	2	Assets/Art/Maps/Map_ART_16k/ART_Streaming.unity		Assets/Maps/LogicScenes/Marshmack_Art_Streaming	Marshmack_Logic_Art_Streaming	2	1	0	0
+TrainingMap_Demo_NPC	NPC训练关	1	2	Assets/Maps/WhiteBoxScenes/TrainingMap_NPC.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	TrainingMap_Demo_NPC_Logic	1	1		0
+DiePlayMode	克拉奥布天坑白盒	1	3	Assets/ArtTemp/Maps/Map_PvP_6v6_Defense/Scene_Pvpdemo_Defense_Terrain/Scene_Pvpdemo_DiePlayMode_Terrain_Ex.unity		Assets/Maps/LogicScenes	Scene_Pvpdemo_Arathi6V6_Logic	1	4		0
+3V3_City	萨夫列尼升降城	1	2	Assets/Art/Maps/Map_3v3City/3V3City.unity	Assets/Art/Maps/Map_Lighting/Light_3V3City.unity	Assets/Maps/LogicScenes	Scene_3v3City_logic	5	4		0
+3v3IceFight	3V3 虚拟对战_冰谷	1	2	Assets/ArtTemp/Maps/Map_Pvp3v3_Push/Scene_3V3_B.unity		Assets/Maps/LogicScenes	Scene_3V3_B_Logic	5	4		0
+PlayerSwitch	局内选机甲场景	0	3	Assets/Art/Maps/Map_Factory/Scene_Factory_PlayerSwitch.unity	Assets/Art/Maps/Map_Lighting/Light_PlayerSwitch.unity			1	1		0
+Energy_stealing	6V6 能量夺取 Energy_stealing6V6	1	2	Assets/Maps/WhiteBoxScenes/Scene_Energy_stealing.unity	Assets/Maps/WhiteBoxScenes/Light_Energy_Stealing.unity	Assets/Maps/LogicScenes	Energy_stealing_logic	5	4		0
+StrongHold	据点争夺战	1	2	Assets/Maps/WhiteBoxScenes/Scene_StrongHold.unity		Assets/Maps/LogicScenes	Scene_StrongHold_Logic	1	1		0
+CarHoldMode	据点矿车争夺战	1	2	Assets/ArtTemp/Maps/Map_PvP_6v6_Defense/Scene_Pvpdemo_Defense_Terrain/Scene_Pvpdemo_CarHoldMode_Terrain.unity		Assets/Maps/LogicScenes	Scene_Pvpdemo_CarHoldMode6V6_Logic	1	4		0
+CoreDefenceMode	核心保卫战	1	2	Assets/Maps/WhiteBoxScenes/Scene_CoreDefence.unity		Assets/Maps/LogicScenes	SceneCoreDefence_Logic	1	4		0
+ProSSMode	列车护卫模式	1	2	Assets/Maps/WhiteBoxScenes/Scene_ProSS_1.unity		Assets/Maps/LogicScenes	Scene_ProSS_1_Logic	1	4		0
+Art_Cairo	密斯之眼争夺战	1	3	Assets/Art/Maps/Map_Art_Cairo/Scene_Art_Cairo_Ex.unity	Assets/Art/Maps/Map_Lighting/Light_Art_Cairo.unity	Assets/Maps/LogicScenes	Scene_Art_Cairo_Logic	2	1		0
+LongDistanceTrain	提拉桑运输线-单车	1	3	Assets/Maps/WhiteBoxScenes/Scene_LongTrain_1/Scene_LongTrain_1_Ex.unity		Assets/Maps/LogicScenes	Scene_LongTrain_1_Logic	1	4		0
+DiePlayMode2	充能核心争夺战2	1	2	Assets/ArtTemp/Maps/Map_PvP_6v6_Defense/Scene_Pvpdemo_Defense_Terrain/Scene_Pvpdemo_DiePlayMode2_Terrain.unity		Assets/Maps/LogicScenes	Scene_Pvpdemo_Arathi6V6_2_Logic	1	4		0
+CoreSettle	核心运输安置模式	1	2	Assets/Maps/WhiteBoxScenes/arena/Scene_CoreSettle_1.unity		Assets/Maps/LogicScenes	CoreSettle1_Logic	1	1		0
+FallBattle	布朗角天文台-白盒	1	3	Assets/Maps/WhiteBoxScenes/arena/Scene_FallBattle_1/Scene_FallBattle_1_Ex.unity		Assets/Maps/LogicScenes	Scene_FallBattle_1_Logic	1	1		0
+Settlement	结算场景	0	3	Assets/Art/Maps/Map_Factory/Scene_Settle.unity				1	1		0
+DecypherTrain	列车破译战	1	2	Assets/Maps/WhiteBoxScenes/Scene_DecypherTrain/Scene_DecypherTrain.unity		Assets/Maps/LogicScenes	Scene_DecypherTrain_Logic	1	4		0
+ShipyardMap	水星造船厂	1	3	Assets/Art/Maps/Map_Shipyard/Scene_Shipyard_1_Ex.unity	Assets/Art/Maps/Map_Lighting/Light_Shipyard_1.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_ShipyardDoublePush_Logic	1	4		0
+LOD0MechaTest	LOD0机甲性能测试	1	2	Assets/Maps/WhiteBoxScenes/TrainingMap/LOD0TrainingSkillMap.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	LOD0TrainingSkillMap_Logic	1	1		0
+Scene_AI_Pressuretest_Old	竞技场AI压测旧	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_AI_Pressuretest_Old.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_AI_Pressuretest_Old_Logic	5	4		0
+Scene_AI_Pressuretest_New	竞技场AI压测新	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_AI_Pressuretest_New.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_AI_Pressuretest_New_Logic	5	4		0
+Art_FallBattle	布朗角天文台	1	2	Assets/Art/Maps/Map_Blanc/Blanc.unity	Assets/Art/Maps/Map_Lighting/Light_Blanc.unity	Assets/Maps/LogicScenes	Scene_FallBattle_2_Logic	1	1		0
+OneLineTowers	柯斯托克兵工厂	1	2	Assets/Maps/WhiteBoxScenes/Scene_OneLineTowers/OneLineTowers.unity		Assets/Maps/LogicScenes	OneLineTowers_Logic	5	4		0
+Fortress	要塞	1	2	Assets/Maps/WhiteBoxScenes/Scene_Fortress/Scene_Fortress.unity		Assets/Maps/LogicScenes	Scene_Fortress_Logic	1	1		0
+ArtWeather	美术天气原型	1	2	Assets/Art/Maps/Map_Lighting/WeatherSyetemPrototype.unity	Assets/Art/Maps/Map_Lighting/Light_WeatherSyetemPrototype.unity	Assets/Maps/LogicScenes	ArtWeather_Logic	1	1		200
+3v3Factory	奥坦提斯工业区	1	2	Assets/Art/Maps/Map_3v3Factory/3v3Factory.unity	Assets/Art/Maps/Map_Lighting/Light_3v3Factory.unity	Assets/Maps/LogicScenes	Scene_3V3_Factory_Logic	5	4		0
+LongDistanceTrain_4K	提拉桑运输线_4K测试	1	3	Assets/Maps/WhiteBoxScenes/Scene_LongTrain_1/Scene_LongTrain_4K_test.unity		Assets/Maps/LogicScenes	Scene_LongTrain_4K_test_Logic	1	4		0
+DoubleLongTrain	提拉桑运输线	1	3	Assets/Maps/WhiteBoxScenes/Scene_LongTrain_1/Scene_DoubleLongTrain.unity		Assets/Maps/LogicScenes	Scene_DoubleLongTrain_Logic	1	4		0
+M4Teaching	M4教学关卡	1	2	Assets/Art/Maps/Map_M4ArtTeach/M4ArtTeach.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_M4_Teaching_Logic	1	4		0
+M3Teaching	M3教学关卡	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_M3_Teaching.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_M3_Teaching_Logic	1	4		0
+M1Teaching	M1教学关卡	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_M1_Teaching.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/Scene_Virtual_Lighting.unity	Assets/Maps/LogicScenes	Scene_M1_Teaching_Logic	1	4		0
+Art_FallBattle_Test01	美术布朗角植被性能对比1	1	2	Assets/Art/Maps/Map_Blanc/Blanc_Vegetation_Test/Blanc_View_01/Blanc_01/Scene/Blanc_View_01.unity		Assets/Maps/LogicScenes	Scene_FallBattle_2_Logic_Test01	1	1		0
+Art_FallBattle_Test02	美术布朗角植被性能对比2	1	2	Assets/Art/Maps/Map_Blanc/Blanc_Vegetation_Test/Blanc_View_02/Blanc_02/Scene/Blanc_View_02.unity		Assets/Maps/LogicScenes	Scene_FallBattle_2_Logic_Test02	1	1		0
+Art_FallBattle_Test03	美术布朗角植被性能对比3	1	2	Assets/Art/Maps/Map_Blanc/Blanc_Vegetation_Test/Blanc_View_03/Blanc_03/Scene/Blanc_View_03.unity		Assets/Maps/LogicScenes	Scene_FallBattle_2_Logic_Test03	1	1		0
+DiePlayMode1	克拉奥布天坑	1	3	Assets/Art/Maps/Map_KaraobCrater/KaraobCrater_Ex.unity	Assets/Art/Maps/Map_Lighting/Light_KaraobCrater.unity	Assets/Maps/LogicScenes	Scene_Pvpdemo_Arathi6V6_1_Logic	1	4		0
+Art_Cairo_RVT	密斯之眼测RVT效率	1	3	Assets/ArtTemp/Maps/TestCarioRVT/Art_Cario_TestRVT.unity	Assets/Art/Maps/Map_Lighting/Light_Art_Cairo.unity	Assets/Maps/LogicScenes	Scene_Art_Cairo_RVT_Logic	2	1		0
+3v3Mountain	埃尔梅克边哨	1	2	Assets/Art/Maps/Map_3v3Mountain/3v3Mountain.unity		Assets/Maps/LogicScenes	Scene_3V3_Mountain_Logic	5	4		0
+3V3WLH	3V3 虚拟对战 Wlh_Practice	1	2	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/WLHtest.unity	Assets/Maps/WhiteBoxScenes/arena/PvPDemo/WLH_test_light.unity	Assets/Maps/LogicScenes	WLH_test_logic	5	4		0

@@ -1,0 +1,12 @@
+﻿int	int	int
+PKEY1	PKEY2	
+gameplayID	补全的驾驶员	驾驶员等级（默认1）
+gameplayID	pilotID	pilotLevel
+130	110000	1
+130	110001	1
+130	110002	1
+130	110003	1
+130	110004	1
+130	110005	1
+130	110009	1
+130	110012	1

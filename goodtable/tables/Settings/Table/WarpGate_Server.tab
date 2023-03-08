@@ -1,0 +1,6 @@
+﻿int	string	uint
+PKEY1		
+传送门ID	描述	配置文件ID
+warpGateID	description	warpGateConfigID
+101		10006
+102		10006

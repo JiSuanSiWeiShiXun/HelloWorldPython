@@ -1,0 +1,7 @@
+﻿uint	string	string	enum.EShopType	int	enum.EShopAutoRefreshType	int[]	int	uint	int[]	enum.EShopCustomRefreshResetType	int[]	int
+PKEY1			Personal-1,Common-2,Pay-3		不刷新-Default-0,每局-PerMatch-1,每天-PerDay-2,每周-PerWeek-3					不刷新-Default-0,每局-PerMatch-1,每天-PerDay-2,每周-PerWeek-3		
+商店ID	商店名称	商店图标	商店类型	槽位数量	商店刷新类型	商店刷新时间	商店手动刷新次数	手动刷新消耗货币ID	刷新消耗货币数量	手动刷新重置类型	手动刷新重置时间	商店版本号
+ShopID	ShopName	ShopIcon	ShopType	ShopCellCount	ShopRefreshType	ShopAutoRefreshTime	ShopCustomRefreshCount	RefreshCostCurrencyId	CurrnecyCost	ShopCustomRefreshResetType	CustomRefreshResetTime	ShopVerison
+2	物资采购		1	10	2	43200	30	101	0,50,100	2	43200	2
+3	路网甄选		3	11	0	43200	0	0	0	0	43200	5
+4	局内商店		1	8	1							4

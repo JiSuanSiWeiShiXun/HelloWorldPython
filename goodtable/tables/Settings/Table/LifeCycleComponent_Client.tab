@@ -1,0 +1,61 @@
+﻿int	string	float	int	float	float	float	float	float	float	string	bool	string	string	bool	float	int	bool	float
+PKEY1																		
+nID	描述	存活时间	复活次数	复活所需时间	空中死亡高度阈值	地面尸体存在时间	空中尸体存在时间	地面逃生舱持续时间	空中逃生舱持续时间	尸体物理预制	使用逃生舱	逃生舱物理预制	灵魂状态预制	宿主死亡，是否删除	宿主死亡，延迟删除时间	离宿主最大距离<= 0 是无限	宿主删除，是否删除	宿主删除，延迟删除时间
+nID	desc	leftTime	autoRespawnCount	autoRespawnTime	skyDeadHeightThreshold	corpseTime	corpseTimeOnSky	escapePodTime	escapePodTimeOnSky	corpseprefabServer	haveEscapePodStep	escapePodprefabServer	soulprefabServer	destoryWhenHostDead	delayDestoryWhenHostDead	maxDistanceToHost	destoryWhenHostDestory	delayDestoryWhenHostDestory
+1	test																	
+2	炮台死亡	-1	0	0	20	1.5	1.5	8	8		0							
+3	3v3争夺战车						3											
+4	3v3争夺战车密钥	0	0	0	0	3	0	0	0									
+5	双推车战车	0	0	0	0	3	0	0	0									
+6	训练场靶机	0	0	0	0	3	0	0	0									
+7	机甲：训练场靶机	0	0	0	0	3	0	0	0									
+8	机甲：训练场靶机	0	0	0	0	3	0	0	0									
+9	机甲：训练场飞行靶机	0	0	0	0	0	0	0	0									
+10	机甲：美术开罗专用	0	0	0	0	0	0	0	0									
+11	机甲：美术开罗专用2	0	0	0	0	0	0	0	0									
+12	机甲：美术开罗专用3	0	0	0	0	0	0	0	0									
+13	机甲：美术开罗专用运输车1	0	0	0	0	0	0	0	0									
+14	机甲：美术开罗专用人类1	0	0	0	0	0	0	0	0									
+15	新人类	-1	0	0	0	3	0	0	0									
+16	美术模型测试新模	0	0	0	0	2	0	0	0									
+17	美术模型测试旧模	0	0	0	0	2	0	0	0									
+18	NPC矛榫	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M1/M1_ServerDeath.prefab			Prefabs/Entity/Mecha/M1/M1_ServerGhost.prefab					
+19	NPC恩赫里亚	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M2/M2_ServerDeath.prefab			Prefabs/Entity/Mecha/M2/M2_ServerGhost.prefab					
+20	NPC龙渊	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M5/M5_ServerDeath.prefab			Prefabs/Entity/Mecha/M5/M5_ServerGhost.prefab					
+21	NPC三角龙	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M4/M4_ServerDeath.prefab			Prefabs/Entity/Mecha/M4/M4_ServerGhost.prefab					
+22	NPC鸣神	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M5/M5_ServerDeath.prefab			Prefabs/Entity/Mecha/M5/M5_ServerGhost.prefab					
+23	NPC德拉姆	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M12/M12_ServerDeath.prefab			Prefabs/Entity/Mecha/M12/M12_ServerGhost.prefab					
+24	NPC赤霄	-1	0	0	20	1	0	8	8	Prefabs/Entity/Mecha/M12/M12_ServerDeath.prefab			Prefabs/Entity/Mecha/M12/M12_ServerGhost.prefab					
+25	NPC恩赫里亚召唤无人机definition	20	0	0	0	0	0	0	0									
+26	6v6推车	0	0	0	0	3	0	0	0									
+27	红方基地	-1	999	60	0	0	0	0	0									
+28	蓝方基地	-1	999	60	0	0	0	0	0									
+29	铜斑蛇	-1	0	0	20	1.6	1.6	8	8									
+30	绿洲爆破：监测塔	-1	999	60	0	0	0	0	0									
+31	玛什马克：护卫舰	-1	0	0	20	0.2	0.2	8	8									
+32	场景通用：MTLS-1GI4	-1	0	0	20	1.34	1.34	8	8									
+33	核心运输安置模式：航天飞机	-1	0	0	20	1.5	1.5	8	8									
+34	激光炮台死亡	-1	0	0	20	1.5	1.5	8	8		0							
+35	矛隼特武1换装1_浮空机雷	-1	0	0	0	0	0	0	0					1			1	
+38	爆炸Npc	-1	0	0	20	0.5	0.5	8	8									
+39	玛什马克：轻剑	300	0	0	20	3.542	3.542	8	8									
+40	火枪手	-1	0	0	20	2.7	2.7	8	8									
+41	狗	-1	0	0	20	1.6	1.6	8	8									
+42	门&核心	-1	0	0	20	1.6	1.6	8	8									
+43	四足	-1	0	0	20	2	2	8	8									
+44	鸣神捕捉网装置生命组件	-1	0	0	0	0	0	0	0					1			1	
+45	乌尔班坦克	-1	0	0	20	1.33	1.33	8	8									
+46	科斯托克兵工厂：炮兵	-1	0	0	20	2	2	8	8									
+47	鸣神特武2换装2_电磁脉冲发射器	-1	0	0	0	0	0	0	0					1			1	
+48	柯斯托克兵工厂：防御塔核心	-1	0	0	20	1.5	1.5	8	8		0							
+49	白霄	-1	0	0	0	2	2	0	0									
+50	德拉姆默认2技能-光束自律兵器	15												1		600	1	
+51	玛什马克：Makalu	-1	0	0	0	2	2	0	0									
+52	玛什马克：技能B_肩部脱战装甲	-1	0	0	0	1	1	0	0									
+53	德拉姆特武2换装3_防御	30				0	0							1		600	1	
+54	龙渊特武2换装2_光束自律兵器	-1	0	0	0	0	0	0	0					1			1	
+55	玛什马克：技能C_攻防一体盾	-1	0	0	0	1	1	0	0									
+56	玛什马克：技能F_线控武器双手	-1	0	0	0	1	1	0	0									
+57	66场景：轻剑	-1	0	0	20	3.542	3.542	8	8									
+58	德拉姆1技能换装-阻断型护盾	5												1		250	1	
+59	武人	-1	0	0	0	2.3	2.3	0	0									

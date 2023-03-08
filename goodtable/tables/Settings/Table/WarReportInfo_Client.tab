@@ -1,0 +1,21 @@
+﻿int	int[]	enum.WarReportType	int	bool	bool	LangText
+PKEY1		None-0,Win-1,Lose-2,Damage-3,Hurt-4,Kill-5,Assist-6,Die-7,CustomScore-8,Intercept-9,Time-10,Push-11,Disturb-12,KD-13,Occupy-14,Interrupt-15,Dismantle-16,DamageNpc-17				
+序号	地图玩法的ID，用于配置不同玩法展示不同数据，配置为 0 代表所有玩法地图均展示该数据	与服务器数据对应，程序匹配数据用	UI界面上展示的顺序，数值越小顺序越高	是否显示总计	是否显示最佳	信息项的标题
+ID	MapID	DataType	OrderFlag	IsShowTotal	IsShowTop	Title
+1	0	1	-1	1	0	胜利场数
+2	0	2	-1	1	0	失败场数
+3	0	3	3	1	1	伤害
+4	0	4	4	1	1	承受伤害
+5	0	5	5	1	1	击坠
+6	0	6	6	1	1	助攻
+7	0	7	7	1	1	被击坠
+8	712,10	8	9	1	1	上传
+9	712,10	9	10	1	1	截断
+10	0	10	1	1		驾驶时长
+11	1116,15	11	11	1	1	推进
+12	1116,15	12	12	1	1	干扰
+13	0	13	8	1	1	击坠/被击坠
+14	3	14	9	1	1	占领
+15	3	15	10	1	1	打断
+16	13	16	9	1	1	拆除
+17	11	17	9	1	1	破坏

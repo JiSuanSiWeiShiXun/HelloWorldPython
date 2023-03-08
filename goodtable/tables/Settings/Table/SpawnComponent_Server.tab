@@ -1,0 +1,12 @@
+﻿int	string	int	int	int
+PKEY1				
+nID	描述	拥有uav上限	拥有Doodad上限	拥有Npc上限
+nID	desc	spawnUavCount	spawnDoodadCount	spawnNpcCount
+1	test			
+2	NPC恩赫里亚	2	2	0
+3	NPC龙渊	1	-1	-1
+4	NPC龙渊	2	-1	-1
+5	红方基地	-1	-1	-1
+6	蓝方基地	-1	-1	-1
+7	6v6推车	0	1	0
+8	M5 Sp2 Cg1 生产组件	0	50	0

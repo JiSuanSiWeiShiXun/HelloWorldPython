@@ -1,0 +1,14 @@
+﻿int	int	enum.CurrencyType	int	int[]	int[]
+PKEY1		External			
+等级	升级所需经验	升级消耗货币类型	升级消耗货币数量	升级消耗道具类型	升级消耗道具数量
+level	experience	costCurrencyType	costCurrencyCount	costItemType	costItemCount
+1	1000	101	100		
+2	1500	101	100		
+3	2000	101	100		
+4	2500	101	100		
+5	3000	101	100		
+6	3500	101	100		
+7	4000	101	100		
+8	4500	101	100		
+9	5000	101	100		
+10	0	101	100		

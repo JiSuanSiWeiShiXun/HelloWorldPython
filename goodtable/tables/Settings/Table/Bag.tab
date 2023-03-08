@@ -1,0 +1,12 @@
+﻿int	enum.BagType	int	int[]	enum.CurrencyType[]	int[]	enum.ItemType[]	int	string	int	bool	bool
+PKEY1	FightBag-0,TaskBag-1,CoreBag-2,TakeOutBag-3,TemporaryBag-4,GSSurfaceBag-5,GSHideBag-6,TacticsBag-7,Count-8			External		External					
+背包ID	背包类型	默认格子数量	升级增加格子数	每次升级对应消耗货币类型	每次升级消耗货币数量	分页标签类型	版本号	备注	(局内)容量上限	是否死亡后掉落背包道具	是否属于局内
+ID	BagPageType	DefaultCount	AddCounts	CurrencyTypes	CurrencyCounts	FlagTypes	Version	Desc	maxGridCount	isDropItems	isFightBag
+0	0	8						局内拾取道具时进入该背包	12	TRUE	TRUE
+1	1	200						局内拾取如密斯之眼矿物时进入该背包	200		TRUE
+2	2	3						局内拾取芯片时进入该背包	6	FALSE	TRUE
+3	3	1000						局内带出道具到局外时进入结算背包			TRUE
+4	4	200						局内道具进入不可操作状态时进入特殊背包			TRUE
+5	5	400					2	局外道具背包，包含武装，配件等，是局外的主要背包			
+6	6	10000						局外隐藏背包，包含已经装备的武装，零件等			
+7	7	3						局内战术道具背包	6	TRUE	TRUE

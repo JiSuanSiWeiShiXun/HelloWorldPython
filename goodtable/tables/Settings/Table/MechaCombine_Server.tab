@@ -1,0 +1,18 @@
+﻿int	bool	string[]	string[]	int	int
+PKEY1					
+序号	允许动态合并	不参与合并的部件列表	不参与合并的材质列表	阴影模型级别，动态合并后根据这个去拷贝模型，生成阴影模，自己默认是1，这里填别人的（1-4）	特效模型级别，动态合并后根据这个去拷贝模型，生成特效模（1-4）
+id	enableCombine	dontCombineParts	dontCombineMats	shadowModelLevel	specialEffectModelLevel
+10001	True			3	3
+10002	True	Slot_Rope		3	3
+10003	True	Slot_ArmShield_1,Slot_ShoulderShield,Slot_BackGun		3	3
+10004	True			3	3
+10005	True	Slot_RobotBase1,Slot_RobotBase2,Slot_RobotBase3,Slot_RobotBase4,Slot_RobotBase5,Slot_RobotBase6		3	3
+10012	True			3	3
+61004	True			3	3
+21	True			3	3
+22	True	Slot_Rope		3	3
+23	True			3	3
+24	True			3	3
+25	True	Slot_RobotBase1,Slot_RobotBase2,Slot_RobotBase3,Slot_RobotBase4,Slot_RobotBase5,Slot_RobotBase6		3	3
+26	True			3	3
+27	True			3	3

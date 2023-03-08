@@ -1,0 +1,9 @@
+# encoding: utf-8
+services:
+  python-dev-env:
+    image: python:3.10.9
+    container_name: python-dev-env
+    working_dir: /home/youling/
+    command: tail -f /dev/null
+    volumes:
+      - ../:/home/youling/:rw

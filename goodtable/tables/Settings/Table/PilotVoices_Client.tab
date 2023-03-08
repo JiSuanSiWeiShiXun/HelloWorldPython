@@ -1,0 +1,98 @@
+﻿int	string	float	float	float	int	float	float	bool	int	int	int	enum.PilotVoiceReplyTarget
+PKEY1												自己-Self-1,最近的人-NearestPerson-2,事件触发者-EventSource-3,事件接收者-EventTarget-4,1P玩家-LocalPlayer-5
+唯一标识	语音资源名	触发概率	重置概率时间	冷却时间	优先级	延迟	检测范围	视野范围内	广播范围	锁定判定	回复对话ID	回复对象
+id	voiceName	probability	probabilityInterval	cooldown	priority	delay	allowDistance	shouldInVision	broadcastTarget	lockTargetFlags	replyId	replyTarget
+1000	Play_Diag_ig_Wheel_Intercept_1P	1		1		0	0		1	1		
+1001	Play_Diag_ig_Wheel_Cover_1P	1		1		0	0		1	1		
+1002	Play_Diag_ig_Wheel_Mark_1P	1		1		0	0		1	1		
+1003	Play_Diag_ig_Wheel_SideA_1P	1		1		0	0		1	1		
+1004	Play_Diag_ig_Wheel_SideB_1P	1		1		0	0		1	1		
+1005	Play_Diag_ig_Wheel_SideC_1P	1		1		0	0		1	1		
+1006	Play_Diag_ig_Wheel_NeedHelp_1P	1		1		0	0		1	1		
+1007	Play_Diag_ig_Wheel_Received_1P	1		1		0	0		1	1		
+1100	Play_Diag_ig_Skill_ClickLeft_1P	0.1		3		0	0		1			
+1101	Play_Diag_ig_Skill_ClickRight_1P	0.1		3		0	0		1			
+1102	Play_Diag_ig_Skill_1_On_1P	0.2		3		0	0		1			
+1103	Play_Diag_ig_Skill_1_Off_1P	0.2		3		0	0		1			
+1104	Play_Diag_ig_Skill_2_On_1P	0.2		3		0	0		1			
+1105	Play_Diag_ig_Skill_2_Off_1P	0.2		3		0	0		1			
+1106	Play_Diag_ig_Skill_3_On_1P	0.2		3		0	0		1			
+1107	Play_Diag_ig_Skill_3_Off_1P	0.2		3		0	0		1			
+1108	Play_Diag_ig_Skill_AmmoOut_1P	0.1				0.5	0		1			
+1109	Play_Diag_ig_State_Cooling_1P	0.2				0.5	0		1			
+1110	Play_Diag_ig_Skill_Melee_1P	1					0		1			
+1200	Play_Diag_ig_Scene_GetTheGoal_1P	1		5			0		1			
+1201	Play_Diag_ig_Scene_SubmitTheGoal_1P	1		5			0		1			
+1202	Play_Diag_ig_Scene_CompleteSubmission_1P	1		5			0		1			
+1203	Play_Diag_ig_Scene_EnemyGetTheGoal_1P	1		5			0		1			
+1204	Play_Diag_ig_Scene_EnemySubmitTheGoal_1P	1		5			0		1			
+1205	Play_Diag_ig_Scene_EnemyCompleteSubmission_1P	1		5			0		1			
+1206	Play_Diag_ig_Scene_InterceptKill_1P	1		5			0		1			
+1207	Play_Diag_ig_Scene_ComingToAnEnd_1P	1		5			0		1			
+1300	Play_Diag_ig_Skill_Melee_1P	0.2		3			0		1			
+1301	Play_Diag_ig_State_Dash_1P	0.1		3			0		1			
+1302	Play_Diag_ig_State_FallHeavy_1P	0.5		3			0		1			
+1303	Play_Diag_ig_State_IntoBattle_1P	1		3			0		1			
+1304	Play_Diag_ig_Lines_Resurrection_1P	1		5			0		1			
+1305	Play_Diag_ig_Lines_DeathLine_1P	1					0		1			
+1306	Play_Diag_ig_Behit_Heavy_1P	1					0		1			
+1307	Play_Diag_ig_State_DyingRecovery_1P	0.5					0		1			
+1308	Play_Diag_ig_Lines_InteractiveDie_1P	1					0		1			
+1309	Play_Diag_ig_State_ShieldBreak_1P	0.5					0		1			
+1310	Play_Diag_ig_State_CoverBreak_1P	0.5					0		1			
+1311	Play_Diag_ig_Behit_Heavy_1P	1					0		1			
+1312	Play_Diag_ig_State_MeleeImpact_1P	1					0		1			
+1313	Play_Diag_ig_State_LowEnergy_1P	0.5		10			0		1			
+1314	Play_Diag_ig_Lines_Kill_1P	1				2	0		1			
+1315	Play_Diag_ig_Behit_Light_1P	0.1					0		1			
+1316	Play_Diag_ig_Behit_Heavy_1P	0.2					0		1			
+2000	Play_Diag_ig_Wheel_Intercept_Ally	1		1		0	0		2	1		
+2001	Play_Diag_ig_Wheel_Cover_Ally	1		1		0	0		2	1		
+2002	Play_Diag_ig_Wheel_Mark_Ally	1		1		0	0		2	1		
+2003	Play_Diag_ig_Wheel_SideA_Ally	1		1		0	0		2	1		
+2004	Play_Diag_ig_Wheel_SideB_Ally	1		1		0	0		2	1		
+2005	Play_Diag_ig_Wheel_SideC_Ally	1		1		0	0		2	1		
+2006	Play_Diag_ig_Wheel_NeedHelp_Ally	1		1		0	0		2	1		
+2007	Play_Diag_ig_Wheel_Received_Ally	1		1		0	0		2	1		
+2100	Play_Diag_ig_Skill_ClickLeft_Ally	0.5		3			600		2			
+2101	Play_Diag_ig_Skill_ClickRight_Ally	0.5		3			600		2			
+2102	Play_Diag_ig_Skill_1_On_Ally	0.5		3			600		2			
+2103	Play_Diag_ig_Skill_1_Off_Ally	0.5		3			600		2			
+2104	Play_Diag_ig_Skill_2_On_Ally	0.5		3			600		2			
+2105	Play_Diag_ig_Skill_2_Off_Ally	0.5		3			600		2			
+2106	Play_Diag_ig_Skill_3_On_Ally	0.5		3			600		2			
+2107	Play_Diag_ig_Skill_3_Off_Ally	0.5		3			600		2			
+2110	Play_Diag_ig_Skill_Melee_Ally	0.5					600		2			
+2115	Play_Diag_ig_Behit_Light_Ally	0.1					400		2			
+2200	Play_Diag_ig_Scene_GetTheGoal_Ally	1		5			0		2			
+2201	Play_Diag_ig_Scene_SubmitTheGoal_Ally	1		5			0		2			
+2202	Play_Diag_ig_Scene_CompleteSubmission_Ally	1		5			0		2			
+2301	Play_Diag_ig_Skill_Melee_Ally	0.3					600		2			
+2302												
+2306	Play_Diag_ig_Behit_Heavy_Ally	1					500		2			
+2308	Play_Diag_ig_Lines_InteractiveDie_Ally	1					400					
+2309	Play_Diag_ig_State_ShieldBreak_Ally	0.01						1	2			
+2310	Play_Diag_ig_State_CoverBreak_Ally	0.01					500		2			
+2311	Play_Diag_ig_Behit_Heavy_Ally	0.5					400		2			
+2314	Play_Diag_ig_Lines_Kill_Ally	0.5					500		2			
+2315	Play_Diag_ig_Behit_Light_Ally	0.3					500	0	2			
+3100	Play_Diag_ig_Skill_ClickLeft_Enemy	0.3					600		4	1		
+3101	Play_Diag_ig_Skill_ClickRight_Enemy	0.3					600		4	1		
+3102	Play_Diag_ig_Skill_1_On_Enemy	0.3					600		4	1		2
+3103	Play_Diag_ig_Skill_1_Off_Enemy	0.3					600		4	1		
+3104	Play_Diag_ig_Skill_2_On_Enemy	0.3					600		4	1		
+3105	Play_Diag_ig_Skill_2_Off_Enemy	0.3					600		4	1		
+3106	Play_Diag_ig_Skill_3_On_Enemy	0.3					600		4	1		
+3107	Play_Diag_ig_Skill_3_Off_Enemy	0.3					600		4	1		
+3110	Play_Diag_ig_Skill_Melee_Enemy	0.6					600		4			
+3200	Play_Diag_ig_Scene_GetTheGoal_Enemy	1		5			0		4		1203	5
+3201	Play_Diag_ig_Scene_SubmitTheGoal_Enemy	1		5			0		4		1204	5
+3202	Play_Diag_ig_Scene_CompleteSubmission_Enemy	1		5			0		4		1205	5
+3301	Play_Diag_ig_Skill_Melee_Enemy	0.3		5			500		4			
+3306	Play_Diag_ig_Behit_Heavy_Enemy	1					600		4			
+3308	Play_Diag_ig_Lines_Die_Enemy	1					0		4			
+3309	Play_Diag_ig_State_ShieldBreak_Enemy	0.2					500	1	4	1		
+3310	Play_Diag_ig_State_CoverBreak_Enemy	0.2					500	1	4	1		
+3311	Play_Diag_ig_Behit_Heavy_Enemy	1					400	0	4			
+3314		0					400		4			
+3315	Play_Diag_ig_Behit_Light_Enemy	0.1					600	0	4			

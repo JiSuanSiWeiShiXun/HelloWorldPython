@@ -1,0 +1,10 @@
+﻿int	enum.QuickMarkType	int	string	int	int	string	int	int	float	Vector3	Vector3	int
+PKEY1	无-None-0,空地-Ground-1,敌方玩家-EnemyPlayer-2,敌方NPC-EnemyNPC-3,友方NPC-AlliesNPC-4,Doodad-Doodad-5,UAV-UAV-6											
+标记ID	标记类型	标记子类型	标记描述	Icon路径	SceneIcon路径	聊天内容	1P语音ID	同时在场景数量	存在时长	图标缩放	图标偏移	友方玩家语音ID
+MarkID	MarkType	MarkChildType	MarkDescription	IconPath	SceneIconPath	ChatContent	LocalPlayerId	MaxCount	LifeTime	Scale	OffSet	AllyId
+1	1	-1	空地标记	16001	16001	请前往标记点位！	1002	1	30	1_1_1	0_18_0	2002
+2	2	-1	敌方玩家标记	16001	16001	{0}标记了一个敌方机甲		1	30	1_1_1	0_15_0	
+3	3		敌方NPC标记	16001	16001	{0}标记了一个敌对武装		1	30	1_1_1	0_15_0	
+5	5	11	密斯之眼_EIC矿	16001	16001	{0}标记了矿物		1	30	1_1_1	0_13_0	
+6	5	13	布朗角_尘屑散布器	16001	16001	{0} 标记了尘屑散布器		1	30	1_1_1	0_15_0	
+7	6	-1	UAV	16001	16001	{0}标记了一个敌方机甲		1	30	1_1_1	0_0_0	

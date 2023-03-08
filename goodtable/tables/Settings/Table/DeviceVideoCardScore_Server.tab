@@ -1,0 +1,3102 @@
+﻿int	string	uint	uint	string
+FUnique()				PKEY1
+排行，按性能高到低排序	显卡名字	天梯分	天梯分	清洗后的显卡名
+Index	gpu_name	g3d_mark	g2d_mark	gpu_detail_collected
+1	GeForce RTX 4090	39205	1325	geforce rtx 4090
+2	GeForce RTX 4080	35018	1283	geforce rtx 4080
+3	Radeon RX 7900 XTX	30565	1217	radeon rx 7900 xtx
+4	GeForce RTX 3090 Ti	29839	1215	geforce rtx 3090 ti
+5	Radeon RX 6950 XT	28965	1000	radeon rx 6950 xt
+6	Radeon RX 7900 XT	27507	1179	radeon rx 7900 xt
+7	GeForce RTX 3080 Ti	27339	1087	geforce rtx 3080 ti
+8	GeForce RTX 3080 Ti	27339	1087	geforce gtx 3080ti
+9	GeForce RTX 3080 Ti	27339	1087	geforce rtx 3080ti
+10	GeForce RTX 3080 Ti	27339	1087	geforec rtx 3080ti
+11	GeForce RTX 3090	26817	1036	geforce rtx 3090
+12	GeForce RTX 3090	26817	1036	geforce gtx 3090
+13	GeForce RTX 3090	26817	1036	geforce rtx 3090 ventus 3x 24g oc
+14	GeForce RTX 3090	26817	1036	nvdia geforce rtx 3090
+15	GeForce RTX 3080 12GB	26752	1088	geforce rtx 3080 12gb
+16	Radeon RX 6900 XT	26551	1068	radeon rx 6900 xt
+17	GeForce RTX 3080	25319	1035	geforce rtx 3080
+18	GeForce RTX 3080	25319	1035	igame geforce rtx 3080 vulcan 10g
+19	GeForce RTX 3080	25319	1035	nvdia gefrce rtx 3080 16g
+20	Radeon RX 6800 XT	24431	1051	radeon rx 6800 xt
+21	Radeon RX 6800 XT	24431	1051	rx 6800 xt
+22	GeForce RTX 3070 Ti	23736	1045	geforce rtx 3070 ti
+23	GeForce RTX 3070 Ti	23736	1045	geforce rtx 3070ti 8g
+24	RTX A5000	23489	1044	rtx a5000
+25	RTX A5500	22734	751	rtx a5500
+26	GeForce RTX 3070	22402	994	geforce rtx 3070
+27	GeForce RTX 3070	22402	994	geforce gtx 3070
+28	GeForce RTX 3070	22402	994	geforec rtx 3070
+29	RTX A6000	22079	854	rtx a6000
+30	GeForce RTX 2080 Ti	21891	942	geforce rtx 2080 ti
+31	GeForce RTX 2080 Ti	21891	942	asus-strix-geforce rtx2080ti
+32	GeForce RTX 2080 Ti	21891	942	geforce gtx 2080 ti
+33	GeForce RTX 2080 Ti	21891	942	geforce gtx 2080ti
+34	GeForce RTX 2080 Ti	21891	942	geforce rtx 2080ti
+35	GeForce RTX 2080 Ti	21891	942	geforce rtx 2080ti 11gb
+36	GeForce RTX 2080 Ti	21891	942	geforcertx2080ti
+37	GeForce RTX 2080 Ti	21891	942	rog-strix-rtx 2080ti
+38	Radeon RX 6850M XT	21792	860	radeon rx 6850m xt
+39	Radeon RX 6800	21617	987	radeon rx 6800
+40	RTX A4500	20854	990	rtx a4500
+41	NVIDIA A10	20591	1111	a10
+42	Radeon RX 6750 XT	20571	948	radeon rx 6750 xt
+43	GeForce RTX 3060 Ti	20518	993	geforce rtx 3060 ti
+44	GeForce RTX 3060 Ti	20518	993	geforce gtx 3060ti
+45	GeForce RTX 3060 Ti	20518	993	geforce rtx 3060 ti 8g
+46	GeForce RTX 3060 Ti	20518	993	geforce rtx 3060ti
+47	GeForce RTX 3060 Ti	20518	993	geforec rtx 3060ti
+48	GeForce RTX 3080 Ti Laptop GPU	20484	858	geforce rtx 3080 ti laptop
+49	TITAN RTX	19853	831	titan rtx
+50	TITAN RTX	19853	831	geforce titan v rtx
+51	TITAN RTX	19853	831	titan rtx 24g
+52	Quadro GV100	19616	923	quadro gv100
+53	Quadro RTX 8000	19572	845	quadro rtx 8000
+54	GeForce RTX 2080 SUPER	19551	932	geforce rtx 2080 super
+55	GeForce RTX 2080 SUPER	19551	932	geforce gtx 2080s
+56	GeForce RTX 2080 SUPER	19551	932	geforce gtx 2080super
+57	GeForce RTX 2080 SUPER	19551	932	geforce rtx 2080 super 8g
+58	GeForce RTX 2080 SUPER	19551	932	geforce rtx 2080s
+59	GeForce RTX 2080 SUPER	19551	932	geforce rtx 2080super
+60	GeForce RTX 2080 SUPER	19551	932	geforcertx2080super
+61	Radeon RX 6700 XT	19488	979	radeon rx 6700 xt
+62	TITAN V	19435	836	titan v
+63	NVIDIA TITAN Xp	19218	943	titan xp
+64	Quadro RTX 6000	19177	813	quadro rtx 6000
+65	RTX A4000	19138	963	rtx a4000
+66	Radeon PRO W6800	19097	909	radeon pro w6800
+67	Radeon RX 6700	18975	902	radeon rx 6700
+68	TITAN Xp COLLECTORS EDITION	18898	923	titan xp collectors edition
+69	GeForce RTX 2080	18784	916	geforce rtx 2080
+70	GeForce RTX 2080	18784	916	geforce gtx 2080
+71	GeForce RTX 2080	18784	916	geforce rtx 2080 11g
+72	GeForce RTX 2080	18784	916	geforce rtx 2080 11gb
+73	GeForce RTX 2080	18784	916	geforcertx2080
+74	NVIDIA A10G	18724	530	a10g
+75	GeForce GTX 1080 Ti	18447	939	geforce gtx 1080 ti
+76	GeForce GTX 1080 Ti	18447	939	geforce 1080ti gtx 12gb
+77	GeForce GTX 1080 Ti	18447	939	geforce gtx 1080 ti 6gb
+78	GeForce GTX 1080 Ti	18447	939	geforce gtx 1080ti
+79	GeForce GTX 1080 Ti	18447	939	geforce rtx 1080 ti
+80	GeForce GTX 1080 Ti	18447	939	geforcegtx1080ti
+81	GeForce GTX 1080 Ti	18447	939	gtx1080ti
+82	RTX A5500 Laptop GPU	18377	803	rtx a5500 laptop
+83	GeForce RTX 3070 Ti Laptop GPU	18370	786	geforce rtx 3070 ti laptop
+84	GeForce RTX 2070 SUPER	18213	894	geforce rtx 2070 super
+85	GeForce RTX 2070 SUPER	18213	894	geforce gtx 2070 super
+86	GeForce RTX 2070 SUPER	18213	894	geforce gtx 2070s
+87	GeForce RTX 2070 SUPER	18213	894	geforce rtx 2070s
+88	GeForce RTX 2070 SUPER	18213	894	geforce rtx 2070super
+89	GeForce RTX 2070 SUPER	18213	894	geforcegtx2070super
+90	GeForce RTX 2070 SUPER	18213	894	geforcertx2070super
+91	RTX A4500 Laptop GPU	17802	698	rtx a4500 laptop
+92	Radeon RX 6650 XT	17685	936	radeon rx 6650 xt
+93	Radeon Pro W5700X	17591	1060	radeon pro w5700x
+94	GeForce RTX 3060	17138	970	geforce rtx 3060
+95	GeForce RTX 3060	17138	970	geforce gtx 3060
+96	GeForce RTX 3060	17138	970	geforce gtx 3060 12gb
+97	GeForce RTX 3060	17138	970	geforce gtx 3060 8gb
+98	GeForce RTX 3060	17138	970	geforce rtx 3060 11g
+99	GeForce RTX 3060	17138	970	geforce rtx 3060 12g
+100	GeForce RTX 3060	17138	970	geforce rtx 3060 12gb
+101	TITAN V CEO Edition	16988	1086	titan v ceo edition
+102	Radeon RX 5700 XT	16938	948	radeon rx 5700 xt
+103	Radeon RX 5700 XT	16938	948	asus radeon rx 5700 xt
+104	Radeon RX 5700 XT	16938	948	radeon rx 5700xt
+105	Radeon RX 5700 XT	16938	948	radeonrx5700xt
+106	Tesla P40	16864	681	tesla p40
+107	Radeon Pro VII	16853	720	radeon pro vii
+108	Radeon VII	16832	790	radeon vii
+109	Radeon VII	16832	790	radeonvii
+110	Radeon RX 5700 XT 50th Anniversary	16696	960	radeon rx 5700 xt 50th anniversary
+111	Radeon RX 5700 XT 50th Anniversary	16696	960	radeonrx5700xt50thanniversary
+112	GeForce RTX 3080 Laptop GPU	16676	658	geforce rtx 3080 laptop
+113	GeForce RTX 2060 SUPER	16580	876	geforce rtx 2060 super
+114	GeForce RTX 2060 SUPER	16580	876	geforce gtx 2060 super
+115	GeForce RTX 2060 SUPER	16580	876	geforce gtx 2060 super 6gb
+116	GeForce RTX 2060 SUPER	16580	876	geforce gtx 2060s 6gb
+117	GeForce RTX 2060 SUPER	16580	876	geforce gtx 2060super
+118	GeForce RTX 2060 SUPER	16580	876	geforce rtx 2060 super 8gb
+119	GeForce RTX 2060 SUPER	16580	876	geforce rtx 2060s
+120	GeForce RTX 2060 SUPER	16580	876	geforce rtx 2060super
+121	GeForce RTX 2060 SUPER	16580	876	geforce rtx2060 8gd6 super
+122	GeForce RTX 2060 SUPER	16580	876	geforcertx2060super
+123	Radeon RX 6600 XT	16247	959	radeon rx 6600 xt
+124	Tesla V100-SXM2-16GB	16235	406	tesla v100-sxm2-16gb
+125	Quadro RTX 5000	16172	769	quadro rtx 5000
+126	RTX A5000 Laptop GPU	16138	622	rtx a5000 laptop
+127	GeForce RTX 2070	16134	833	geforce rtx 2070
+128	GeForce RTX 2070	16134	833	geforce gtx 2070
+129	GeForce RTX 2070	16134	833	geforce gtx 2070 8g
+130	GeForce RTX 2070	16134	833	geforce gtx 2070 8gb
+131	GeForce RTX 2070	16134	833	geforce rtx 2070 8g
+132	GeForce RTX 2070	16134	833	geforce rtx 2070 8gb
+133	GeForce RTX 2070	16134	833	geforce rtx 2o7o
+134	GeForce RTX 2070	16134	833	geforce rxt 2070
+135	GeForce RTX 2070	16134	833	geforcertx 2070
+136	GeForce RTX 2070	16134	833	geforcertx2070
+137	GeForce RTX 2070	16134	833	geforec rtx 2070
+138	Miracast display port driver V3	15910	604	miracast display port driver v3
+139	GeForce RTX 2060 12GB	15800	838	geforce rtx 2060 12gb
+140	Quadro P6000	15717	747	quadro p6000
+141	RTX A4000 Laptop GPU	15652	537	rtx a4000 laptop
+142	Quadro GP100	15608	821	quadro gp100
+143	Radeon Pro Vega II	15592	816	radeon pro vega ii
+144	Quadro RTX 4000	15469	901	quadro rtx 4000
+145	GeForce RTX 3070 Laptop GPU	15459	652	geforce rtx 3070 laptop
+146	Radeon Pro W5700	15408	911	radeon pro w5700
+147	GeForce GTX 1080	15388	894	geforce gtx 1080
+148	GeForce GTX 1080	15388	894	geforce gtx 1080 11gb
+149	GeForce GTX 1080	15388	894	geforce gtx 1080 6gb
+150	GeForce GTX 1080	15388	894	geforce gtx 1080 8g
+151	GeForce GTX 1080	15388	894	geforce gtx 1080 8gb
+152	GeForce GTX 1080	15388	894	geforce gtx1080
+153	GeForce GTX 1080	15388	894	geforce gtx1080 11g
+154	GeForce GTX 1080	15388	894	geforce rtx 1080
+155	GeForce GTX 1080	15388	894	geforcegtx1080
+156	GeForce GTX 1080	15388	894	gtx 1080
+157	GeForce GTX 1080	15388	894	nvida geforce gtx 1080 8gb
+158	GeForce RTX 2080 (Mobile)	15107	812	geforce rtx 2080 mobile
+159	Radeon RX 6800S	14895	736	radeon rx 6800s
+160	Radeon PRO W6600	14868	997	radeon pro w6600
+161	Quadro RTX 5000 (Mobile)	14832	705	quadro rtx 5000 mobile
+162	RTX A3000 12GB Laptop GPU	14817	612	rtx a3000 12gb laptop
+163	Radeon RX 6600	14805	905	radeon rx 6600
+164	GeForce GTX 1070 Ti	14661	884	geforce gtx 1070 ti
+165	GeForce GTX 1070 Ti	14661	884	geforce gtx 1070 ti 8gb
+166	GeForce GTX 1070 Ti	14661	884	geforce gtx 1070ti
+167	GeForce GTX 1070 Ti	14661	884	geforce gtx 1070ti 8gb
+168	GeForce GTX 1070 Ti	14661	884	geforce rtx 1070 ti
+169	GeForce GTX 1070 Ti	14661	884	geforcegtx1070ti
+170	Radeon RX 5700	14660	915	radeon rx 5700
+171	Radeon RX 5700	14660	915	asus radeon rx 5700
+172	Radeon RX 5700	14660	915	radeonrx5700
+173	Radeon RX Vega 64	14638	811	radeon rx vega 64
+174	Radeon Pro Vega 64X	14631	948	radeon pro vega 64x
+175	GeForce RTX 2070 Super with Max-Q Design	14133	659	geforce rtx 2070 super with max-q design
+176	RTX A2000 12GB	14109	1058	rtx a2000 12gb
+177	GeForce RTX 2060	14037	753	geforce rtx 2060
+178	GeForce RTX 2060	14037	753	geforce gtx 2060
+179	GeForce RTX 2060	14037	753	geforce gtx 2060 6g
+180	GeForce RTX 2060	14037	753	geforce gtx 2060 6gb
+181	GeForce RTX 2060	14037	753	geforce gtx 2060 8gb
+182	GeForce RTX 2060	14037	753	geforce rtx 2060 6g
+183	GeForce RTX 2060	14037	753	geforce rtx 2060 6gb
+184	GeForce RTX 2060	14037	753	geforce rtx 2060 8g
+185	GeForce RTX 2060	14037	753	geforce rtx2060 6g
+186	GeForce RTX 2060	14037	753	geforce rxt 2060
+187	GeForce RTX 2060	14037	753	geforcertx2060
+188	GeForce RTX 2060	14037	753	geforec rtx 2060
+189	Quadro RTX 5000 with Max-Q Design	13950	605	quadro rtx 5000 with max-q design
+190	Radeon Pro WX 8200	13926	819	radeon pro wx 8200
+191	GeForce GTX 980 Ti	13875	857	geforce gtx 980 ti
+192	GeForce GTX 980 Ti	13875	857	geforce gtx 980ti
+193	GeForce GTX 980 Ti	13875	857	geforcegtx980ti
+194	Radeon RX 5600 XT	13830	908	radeon rx 5600 xt
+195	Radeon RX 5600 XT	13830	908	asus radeon rx 5600 xt
+196	Radeon RX 5600 XT	13830	908	radeon rx 5600 xt~5700 xt
+197	GeForce RTX 2080 Super with Max-Q Design	13671	600	geforce rtx 2080 super with max-q design
+198	NVIDIA TITAN X	13660	912	titan x
+199	Radeon RX Vega 56	13629	787	radeon rx vega 56
+200	RTX A2000	13619	1009	rtx a2000
+201	Radeon Vega Frontier Edition	13598	767	radeon vega frontier edition
+202	GeForce GTX 1070	13527	859	geforce gtx 1070
+203	GeForce GTX 1070	13527	859	geforce gtx 1070 8gb
+204	GeForce GTX 1070	13527	859	geforce rtx 1070
+205	GeForce GTX 1070	13527	859	geforcegtx1070
+206	Radeon RX 6700S	13495	749	radeon rx 6700s
+207	Radeon RX 6650M	13472	746	radeon rx 6650m
+208	Radeon Pro WX 9100	13430	805	radeon pro wx 9100
+209	GeForce RTX 2080 with Max-Q Design	13271	550	geforce rtx 2080 with max-q design
+210	GeForce RTX 2080 with Max-Q Design	13271	550	geforcertx2080withmax-qdesign
+211	GeForce GTX TITAN X	13211	855	geforce gtx titan x
+212	Radeon RX 6700M	13174	607	radeon rx 6700m
+213	GeForce RTX 3060 Laptop GPU	13134	576	geforce rtx 3060 laptop
+214	Radeon PRO W6600X	13113	856	radeon pro w6600x
+215	Quadro RTX 4000 with Max-Q Design	13029	580	quadro rtx 4000 with max-q design
+216	GeForce GTX 1660 SUPER	12788	820	geforce gtx 1660 super
+217	GeForce GTX 1660 SUPER	12788	820	geforce rtx 1660 super
+218	GeForce GTX 1660 SUPER	12788	820	geforce rtx 1660s
+219	GeForce GTX 1660 SUPER	12788	820	geforcegtx1660super
+220	Radeon Pro Vega 64	12779	796	radeon pro vega 64
+221	Radeon RX 5600 OEM	12738	1015	radeon rx 5600 oem
+222	RTX A3000 Laptop GPU	12738	476	rtx a3000 laptop
+223	Quadro P5200	12737	693	quadro p5200
+224	Radeon 6700	12734	806	radeon 6700
+225	GeForce RTX 3050	12697	929	geforce rtx 3050
+226	Radeon Pro 5700 XT	12687	829	radeon pro 5700 xt
+227	Quadro P5200 with Max-Q Design	12659	507	quadro p5200 with max-q design
+228	Tesla T10	12650	595	tesla t10
+229	Quadro RTX 4000 (Mobile)	12586	568	quadro rtx 4000 mobile
+230	Radeon Pro Vega 56	12564	814	radeon pro vega 56
+231	GeForce RTX 2070 (Mobile)	12354	601	geforce rtx 2070 mobile
+232	Radeon RX 6600M	12277	639	radeon rx 6600m
+233	Radeon RX 6850M	12274	714	radeon rx 6850m
+234	Radeon Pro V520 MxGPU	12258	525	radeon pro v520 mx
+235	Radeon Ryzen 7 7700X 8-Core	12172	994	radeon ryzen 7 7700x 8-core
+236	Quadro P5000	12063	687	quadro p5000
+237	Radeon RX 6800M	12049	574	radeon rx 6800m
+238	Quadro M6000	11958	764	quadro m6000
+239	GeForce RTX 2070 with Max-Q Design	11923	496	geforce rtx 2070 with max-q design
+240	GeForce RTX 2070 with Max-Q Design	11923	496	geforcertx2070withmax-qdesign
+241	GeForce GTX 1660 Ti	11900	705	geforce gtx 1660 ti
+242	GeForce GTX 1660 Ti	11900	705	geforce gtx 1660ti
+243	GeForce GTX 1660 Ti	11900	705	geforce gtx 1660ti 6gb
+244	GeForce GTX 1660 Ti	11900	705	geforce rtx 1660 ti
+245	GeForce GTX 1660 Ti	11900	705	geforce rtx 1660 ti 6
+246	GeForce GTX 1660 Ti	11900	705	geforce rtx 1660ti
+247	GeForce GTX 1660 Ti	11900	705	geforcegtx1660ti
+248	GeForce GTX 1660 Ti	11900	705	nvdia gefore gtx 1660 ti
+249	Quadro M6000 24GB	11879	733	quadro m6000 24gb
+250	Quadro P4200 with Max-Q Design	11869	583	quadro p4200 with max-q design
+251	Radeon Pro 5700	11844	829	radeon pro 5700
+252	GeForce GTX 1660	11742	796	geforce gtx 1660
+253	GeForce GTX 1660	11742	796	geforce gtx 1660 6g
+254	GeForce GTX 1660	11742	796	geforce gtx 1660 6gb
+255	GeForce GTX 1660	11742	796	geforce rtx 1660
+256	GeForce GTX 1660	11742	796	geforcegtx1660
+257	GeForce GTX 1660	11742	796	nvdia gefore gtx 1660
+258	GeForce RTX 3050 OEM	11557	887	geforce rtx 3050 oem
+259	GeForce GTX 1080 with Max-Q Design	11483	743	geforce gtx 1080 with max-q design
+260	Radeon Ryzen 9 7950X 16-Core	11434	827	radeon ryzen 9 7950x 16-core
+261	Quadro P4000	11425	823	quadro p4000
+262	GeForce RTX 2060 (Mobile)	11355	540	geforce rtx 2060 mobile
+263	Radeon Pro Vega 48	11353	795	radeon pro vega 48
+264	Radeon RX 5600	11288	934	radeon rx 5600
+265	Radeon RX 5600	11288	934	radeon rx5600
+266	GeForce GTX 980	11203	813	geforce gtx 980
+267	GeForce GTX 980	11203	813	geforce gfx 980
+268	GeForce GTX 980	11203	813	geforcegtx980
+269	Quadro RTX 3000	11097	531	quadro rtx 3000
+270	RTX A1000 Embedded GPU	11047	1310	rtx a1000 embedded
+271	GRID P40-12Q	11028	500	grid p40-12q
+272	RTX A2000 8GB Laptop GPU	10945	563	rtx a2000 8gb laptop
+273	Tesla T4	10810	570	tesla t4
+274	Radeon Pro SSG	10498	601	radeon pro ssg
+275	Tesla M40 24GB	10475	333	tesla m40 24gb
+276	GeForce GTX 1070 (Mobile)	10465	603	geforce gtx 1070 mobile
+277	Quadro P4200	10351	529	quadro p4200
+278	Tesla M40	10194	504	tesla m40
+279	GeForce GTX 1660 Ti (Mobile)	10176	507	geforce gtx 1660 ti mobile
+280	RTX A2000 Laptop GPU	10173	469	rtx a2000 laptop
+281	GeForce GTX 1650 SUPER	10085	758	geforce gtx 1650 super
+282	GeForce GTX 1650 SUPER	10085	758	geforcegtx1650super
+283	GeForce GTX 1060	10069	761	geforce gtx 1060
+284	GeForce GTX 1060	10069	761	geforce 1060
+285	GeForce GTX 1060	10069	761	geforce gtx 1060 6gb
+286	GeForce GTX 1060	10069	761	geforce gtx1060
+287	GeForce GTX 1060	10069	761	geforce rtx 1060
+288	GeForce GTX 1060	10069	761	geforce rtx 1060 5g
+289	GeForce GTX 1060	10069	761	geforce rtx 1060 5gb
+290	GeForce GTX 1060	10069	761	geforce rtx 1060 6g
+291	GeForce GTX 1060	10069	761	geforcegtx1060
+292	Intel Arc A770	10046	655	intel arc a770
+293	Radeon R9 Fury X	10039	841	radeon r9 fury x
+294	GeForce GTX 1070 with Max-Q Design	10033	444	geforce gtx 1070 with max-q design
+295	GeForce GTX 1070 with Max-Q Design	10033	444	geforce gtx 1070 with maxq design
+296	GeForce GTX 1070 with Max-Q Design	10033	444	geforcegtx1070withmax-qdesign
+297	GeForce RTX 3050 Ti Laptop GPU	9969	480	geforce rtx 3050 ti laptop
+298	Radeon R9 Fury + Fury X	9741	811	radeon r9 fury + fury x
+299	GeForce RTX 2060 with Max-Q Design	9734	428	geforce rtx 2060 with max-q design
+300	GeForce GTX 1060 3GB	9729	781	geforce gtx 1060 3gb
+301	GeForce GTX 1060 3GB	9729	781	geforce gtx 1060 3g
+302	GeForce GTX 1060 3GB	9729	781	geforce gtx 1060se 3gb
+303	GeForce GTX 1060 3GB	9729	781	geforce gtx1060 3g
+304	GeForce GTX 1060 3GB	9729	781	geforcegtx10603gb
+305	Radeon RX 590	9648	811	radeon rx 590
+306	Radeon RX 590	9648	811	asus radeon rx 590
+307	Radeon RX 590	9648	811	radeonrx590
+308	GeForce GTX 970	9641	778	geforce gtx 970
+309	GeForce GTX 970	9641	778	geforcegtx970
+310	Radeon R9 Fury	9566	796	radeon r9 fury
+311	Intel Arc A750	9534	691	intel arc a750
+312	Radeon R9 390X	9465	833	radeon r9 390x
+313	Radeon Ryzen 9 4900HSS	9461	417	radeon ryzen 9 4900hss
+314	Quadro P2200	9439	956	quadro p2200
+315	GeForce GTX 780 Ti	9389	615	geforce gtx 780 ti
+316	Radeon RX 6500 XT	9375	849	radeon rx 6500 xt
+317	RTX A1000 Laptop GPU	9287	515	rtx a1000 laptop
+318	Quadro M5000	9254	667	quadro m5000
+319	GeForce RTX 3050 Laptop GPU	9228	448	geforce rtx 3050 laptop
+320	Radeon RX 5500 XT	9201	813	radeon rx 5500 xt
+321	Radeon RX 5500 XT	9201	813	asus radeon rx 5500 xt
+322	GeForce GTX TITAN Z	9189	648	geforce gtx titan z
+323	Radeon Pro W5500	9180	856	radeon pro w5500
+324	NVIDIA A40	9170	502	a40
+325	Quadro P3200 with Max-Q Design	9158	603	quadro p3200 with max-q design
+326	Radeon Pro 5600M	9153	688	radeon pro 5600m
+327	Quadro P4000 with Max-Q Design	9083	700	quadro p4000 with max-q design
+328	Radeon R9 390	9061	816	radeon r9 390
+329	GeForce GTX TITAN Black	9041	591	geforce gtx titan black
+330	Radeon RX 580	8928	774	radeon rx 580
+331	Radeon RX 580	8928	774	asus radeon rx 580
+332	Radeon RX 580	8928	774	radeon rx580
+333	Radeon RX 580	8928	774	radeonpro580x
+334	Radeon RX 580	8928	774	radeonrx580
+335	Radeon Ryzen 9 7900X 12-Core	8885	535	radeon ryzen 9 7900x 12-core
+336	Radeon RX 5500	8842	814	radeon rx 5500
+337	Radeon Ryzen 7 4800HS	8842	426	radeon ryzen 7 4800hs
+338	Radeon R9 290X	8800	802	radeon r9 290x
+339	GeForce GTX 1060 5GB	8785	606	geforce gtx 1060 5gb
+340	GeForce GTX 1060 5GB	8785	606	geforce gtx 1060 5g
+341	GeForce GTX 1060 5GB	8785	606	geforce gtx 1060 6g
+342	GeForce GTX 1060 5GB	8785	606	geforcegtx10605gb
+343	GeForce GTX 1060 5GB	8785	606	geforcegtx10606gb
+344	Radeon RX590 GME	8705	635	radeon rx590 gme
+345	Radeon RX 480	8697	781	radeon rx 480
+346	Radeon RX 480	8697	781	asus radeon rx 480
+347	Radeon RX 480	8697	781	radeon rx480
+348	Radeon RX 480	8697	781	radeon rx480~radeon rx 580
+349	Radeon RX 480	8697	781	radeon rx480~rx 590
+350	Radeon RX 480	8697	781	radeonrx480
+351	GeForce GTX 1660 Ti with Max-Q Design	8668	377	geforce gtx 1660 ti with max-q design
+352	GeForce GTX 1660 Ti with Max-Q Design	8668	377	geforcegtx1660tiwithmax-qdesign
+353	Quadro RTX 3000 with Max-Q Design	8631	347	quadro rtx 3000 with max-q design
+354	Radeon R9 295X2	8599	797	radeon r9 295x2
+355	Radeon R9 295X2	8599	797	asus r9 295x2
+356	Radeon Ryzen 9 4900HS	8572	378	radeon ryzen 9 4900hs
+357	Radeon R9 290	8414	791	radeon r9 290
+358	Quadro P3200	8391	507	quadro p3200
+359	Radeon R9 290X / 390X	8389	699	radeon r9 290x / 390x
+360	Radeon R9 290X / 390X	8389	699	radeon r9 290x~radeon r9 390
+361	Radeon Pro 5500 XT	8355	627	radeon pro 5500 xt
+362	Radeon Pro Duo	8324	715	radeon pro duo
+363	Tesla P4	8230	368	tesla p4
+364	GeForce GTX 1060 (Mobile)	8161	444	geforce gtx 1060 mobile
+365	GeForce GTX 1060 (Mobile)	8161	444	geforce gtx 1060m
+366	GeForce GTX Titan	8150	630	geforce gtx titan
+367	Radeon R9 290 / 390	8150	695	radeon r9 290 / 390
+368	Radeon R9 290 / 390	8150	695	asus r9 290
+369	Quadro K6000	8113	547	quadro k6000
+370	Radeon RX 470/570	8099	730	radeon rx 470/570
+371	Radeon RX 470/570	8099	730	asus radeon rx 470
+372	Radeon RX 470/570	8099	730	asus radeon rx 570
+373	Radeon RX 470/570	8099	730	radeon rx 470
+374	Radeon RX 470/570	8099	730	radeon rx 470 ~rx 580
+375	Radeon RX 470/570	8099	730	radeon rx 570
+376	GeForce GTX 780	8051	598	geforce gtx 780
+377	Radeon Pro WX 7100	7988	810	radeon pro wx 7100
+378	GeForce GTX 1060 with Max-Q Design	7950	422	geforce gtx 1060 with max-q design
+379	GeForce GTX 1060 with Max-Q Design	7950	422	geforcegtx1060withmax-qdesign
+380	Ryzen 5 4600HS with Radeon Graphics	7942	447	ryzen 5 4600hs
+381	FirePro W9100	7928	776	firepro w9100
+382	Radeon RX 580 2048SP	7921	650	radeon rx 580 2048sp
+383	Radeon RX 580 2048SP	7921	650	asus radeon rx 580 2048sp
+384	Radeon RX 580 2048SP	7921	650	radeon rx580 2048sp
+385	Radeon RX 580 2048SP	7921	650	radeonrx5802048sp
+386	Quadro M5500	7915	698	quadro m5500
+387	GeForce GTX 1650	7839	588	geforce gtx 1650
+388	GeForce GTX 1650	7839	588	geforcegtx1650
+389	Radeon RX 580X	7798	885	radeon rx 580x
+390	Tesla M60	7771	563	tesla m60
+391	Radeon Pro 580	7753	943	radeon pro 580
+392	Radeon Pro 580	7753	943	radeonpro580
+393	T1200 Laptop GPU	7710	427	t1200 laptop
+394	T1000	7702	867	t1000
+395	Radeon RX 5600M	7653	515	radeon rx 5600m
+396	T1000 8GB	7546	852	t1000 8gb
+397	Radeon Pro 580X	7540	698	radeon pro 580x
+398	GeForce GTX 1650 Ti	7513	397	geforce gtx 1650 ti
+399	Tesla M6	7509	441	tesla m6
+400	Radeon Pro 5300	7493	651	radeon pro 5300
+401	GeForce GTX 980M	7373	508	geforce gtx 980m
+402	GeForce GTX 980M	7373	508	geforce gtx980m
+403	GeForce GTX 980M	7373	508	geforcegtx980m
+404	FirePro W8100	7313	737	firepro w8100
+405	FirePro W8100	7313	737	firepro w8100 graphic
+406	Radeon RX 6400	7302	735	radeon rx 6400
+407	Radeon RX 5300	7298	790	radeon rx 5300
+408	Tesla P100-PCIE-16GB	7225	572	tesla p100-pcie-16gb
+409	Quadro T2000	7204	476	quadro t2000
+410	Quadro P2000	7061	677	quadro p2000
+411	Quadro P2000	7061	677	quadrop2000
+412	Intel Arc A770M	7057	526	intel arc a770m
+413	Tesla K80	7025	714	tesla k80
+414	Quadro M5000M	7013	480	quadro m5000m
+415	Ryzen 7 4800HS with Radeon Graphics	6999	355	ryzen 7 4800hs
+416	T600 Laptop GPU	6979	412	t600 laptop
+417	GeForce GTX 1650 (Mobile)	6969	384	geforce gtx 1650 mobile
+418	Ryzen 7 6800HS with Radeon Graphics	6867	704	ryzen 7 6800hs
+419	Quadro T2000 with Max-Q Design	6851	455	quadro t2000 with max-q design
+420	Radeon Pro 5500M	6807	682	radeon pro 5500m
+421	Radeon PRO W6400	6799	877	radeon pro w6400
+422	Radeon RX 6500M	6799	321	radeon rx 6500m
+423	GeForce GTX 970XM FORCE	6707	725	geforce gtx 970xm force
+424	Radeon R9 285	6680	597	radeon r9 285
+425	GeForce RTX 2050	6673	422	geforce rtx 2050
+426	Quadro T1000 with Max-Q Design	6663	437	quadro t1000 with max-q design
+427	Radeon RX Vega M GH	6645	821	radeon rx vega m gh
+428	Quadro M4000	6613	698	quadro m4000
+429	Quadro P3000	6564	452	quadro p3000
+430	Quadro T1000	6555	453	quadro t1000
+431	T600	6504	746	t600
+432	Ryzen 9 5900HS with Radeon Graphics	6366	564	ryzen 9 5900hs
+433	GeForce GTX 1650 Ti with Max-Q Design	6364	333	geforce gtx 1650 ti with max-q design
+434	Radeon Pro 570	6337	697	radeon pro 570
+435	Radeon Pro 570	6337	697	radeonpro570
+436	Quadro M4000M	6329	447	quadro m4000m
+437	GeForce GTX 1050 Ti	6299	651	geforce gtx 1050 ti
+438	GeForce GTX 1050 Ti	6299	651	geforce gtx 1050ti
+439	GeForce GTX 1050 Ti	6299	651	geforcegtx1050ti
+440	Radeon R9 280X	6264	691	radeon r9 280x
+441	Radeon R9 280X	6264	691	asus r9 280x
+442	Radeon R9 380	6245	671	radeon r9 380
+443	Radeon R9 380	6245	671	asus r9 380
+444	Radeon R9 380	6245	671	radeon r9 200 ~ r9 380
+445	Radeon R9 380	6245	671	radeonr9380
+446	Radeon R9 380X	6214	668	radeon r9 380x
+447	Radeon R9 380X	6214	668	asus r9 380x
+448	FirePro W9000	6138	720	firepro w9000
+449	GeForce MX570	6052	443	geforce mx570
+450	Radeon Pro WX Vega M GL	6049	777	radeon pro wx vega m gl
+451	GeForce GTX 960	6026	675	geforce gtx 960
+452	GeForce GTX 960	6026	675	geforcegtx960
+453	GeForce MX570 A	6009	419	geforce mx570 a
+454	GeForce GTX 1650 with Max-Q Design	5976	317	geforce gtx 1650 with max-q design
+455	Radeon Pro 5300M	5954	627	radeon pro 5300m
+456	Quadro K5200	5947	517	quadro k5200
+457	GRID P100-16Q	5945	757	grid p100-16q
+458	GeForce GTX 1050 Ti (Mobile)	5919	323	geforce gtx 1050 ti mobile
+459	GeForce GTX 770	5868	553	geforce gtx 770
+460	GeForce GTX 770	5868	553	geforcegtx770
+461	Radeon PRO Ryzen 7 PRO 6850U	5848	872	radeon pro ryzen 7 pro 6850u
+462	Ryzen 9 6900HS with Radeon Graphics	5827	745	ryzen 9 6900hs
+463	A16	5797	56	a16
+464	GeForce GTX 970M	5749	397	geforce gtx 970m
+465	GeForce GTX 970M	5749	397	geforce gtx 970m clevo edition
+466	GeForce GTX 970M	5749	397	geforcegtx970m
+467	Radeon Pro WX 7130	5722	695	radeon pro wx 7130
+468	Ryzen 9 PRO 6950H	5661	992	ryzen 9 pro 6950h
+469	Radeon Ryzen 7 6800H	5653	881	radeon ryzen 7 6800h
+470	Radeon R9 280	5621	672	radeon r9 280
+471	Radeon R9 280	5621	672	asus r9 280
+472	Radeon Ryzen 9 6900HX	5588	840	radeon ryzen 9 6900hx
+473	GeForce GTX 690	5577	461	geforce gtx 690
+474	NVIDIA A40-12Q	5573	198	a40-12q
+475	Radeon HD 7990	5566	766	radeon hd 7990
+476	Radeon HD 7990	5566	766	radeon hd 7900
+477	Radeon Pro WX 5100	5564	804	radeon pro wx 5100
+478	Radeon R9 285 / 380	5550	655	radeon r9 285 / 380
+479	GeForce GTX 680	5543	524	geforce gtx 680
+480	GeForce GTX 680	5543	524	geforcegtx680
+481	Quadro M3000M	5530	397	quadro m3000m
+482	GRID M60-8A	5523	380	grid m60-8a
+483	P106-100	5473	296	p106-100
+484	GeForce GTX 760 Ti OEM	5427	694	geforce gtx 760 ti oem
+485	GeForce GTX 1050 Ti with Max-Q Design	5374	362	geforce gtx 1050 ti with max-q design
+486	GeForce GTX 950	5352	650	geforce gtx 950
+487	GeForce GTX 950	5352	650	geforcegtx950
+488	Ryzen 7 6800HS Creator Edition	5345	840	ryzen 7 6800hs creator edition
+489	FirePro S10000	5315	493	firepro s10000
+490	GeForce GTX 670	5293	521	geforce gtx 670
+491	GeForce GTX 670	5293	521	geforcegtx670
+492	Radeon HD 7970 / R9 280X	5248	730	radeon hd 7970 / r9 280x
+493	Radeon HD 7970 / R9 280X	5248	730	asus hd7970
+494	Radeon HD 8990	5214	658	radeon hd 8990
+495	FirePro W7100	5210	663	firepro w7100
+496	GeForce GTX 1050 3GB	5174	691	geforce gtx 1050 3gb
+497	Q12U-1	5164	600	q12u-1
+498	Radeon R9 M295X	5150	832	radeon r9 m295x
+499	Radeon R9 M295X	5150	832	radeonr9m295x
+500	GeForce GTX 760 Ti	5145	547	geforce gtx 760 ti
+501	Radeon R9 M395	5141	769	radeon r9 m395
+502	Radeon Pro Vega 20	5117	544	radeon pro vega 20
+503	Radeon Ryzen 7 PRO 6850HS	5068	881	radeon ryzen 7 pro 6850hs
+504	Ryzen 9 PRO 6950HS with Radeon Graphics	5068	868	ryzen 9 pro 6950hs
+505	FirePro S9000	5059	561	firepro s9000
+506	GeForce GTX 1050	5058	470	geforce gtx 1050
+507	GeForce GTX 1050	5058	470	geforcegtx1050
+508	GeForce GTX 1050	5058	470	geforce gtx 1050 8g
+509	EIZO Quadro MED-XN51LP	5048	952	eizo quadro med-xn51lp
+510	RTX A500 Laptop GPU	5033	505	rtx a500 laptop
+511	Ryzen 7 PRO 6850U with Radeon Graphics	4966	805	ryzen 7 pro 6850u
+512	GeForce GTX 1630	4962	729	geforce gtx 1630
+513	Quadro P2000 with Max-Q Design	4949	493	quadro p2000 with max-q design
+514	Barco MXRT 7600	4944	442	barco mxrt 7600
+515	Radeon R9 270X	4930	616	radeon r9 270x
+516	Radeon R9 270X	4930	616	asus r9 270x
+517	Radeon RX 5500M	4907	413	radeon rx 5500m
+518	Radeon RX 5500M	4907	413	radeon rx 5500m~ radeon rx 5500
+519	FirePro S9050	4901	369	firepro s9050
+520	Ryzen 7 5800HS with Radeon Graphics	4839	479	ryzen 7 5800hs
+521	Radeon Ryzen 7 7735HS	4836	913	radeon ryzen 7 7735hs
+522	T550 Laptop GPU	4824	409	t550 laptop
+523	Radeon Instinct MI25 MxGPU	4799	364	radeon instinct mi25 mx
+524	Ryzen 7 6800H with Radeon Graphics	4796	782	ryzen 7 6800h
+525	GRID RTX6000P-6Q	4777	192	grid rtx6000p-6q
+526	Radeon R9 M395X	4775	762	radeon r9 m395x
+527	GeForce GTX 760	4774	524	geforce gtx 760
+528	GeForce GTX 760	4774	524	geforcegtx760
+529	Radeon HD 7950 / R9 280	4765	691	radeon hd 7950 / r9 280
+530	Radeon HD 7950 / R9 280	4765	691	asus hd7950
+531	Radeon HD 7950 / R9 280	4765	691	radeon hd 7950
+532	Radeon Sky 500	4736	551	radeon sky 500
+533	Ryzen 7 PRO 6860Z with Radeon Graphics	4730	801	ryzen 7 pro 6860z
+534	GRID P40-24Q	4728	653	grid p40-24q
+535	Radeon R9 370	4722	781	radeon r9 370
+536	Radeon R9 370	4722	781	radeon r9 370x
+537	Radeon R9 370	4722	781	radeon r9 200 ~370
+538	Radeon R9 370	4722	781	radeon r9 370 1024sp
+539	Radeon R9 370	4722	781	radeon r9 370 ~radeon hd 8870
+540	Radeon R9 370	4722	781	radeon r9 370x~370
+541	Radeon R9 370	4722	781	radeonr9370
+542	Radeon R9 370	4722	781	asus r9 370
+543	Ryzen 7 6800U with Radeon Graphics	4709	776	ryzen 7 6800u
+544	Radeon Pro Vega 16	4683	672	radeon pro vega 16
+545	GeForce MX550	4674	421	geforce mx550
+546	Radeon HD 7870	4656	594	radeon hd 7870
+547	Radeon HD 7870	4656	594	asus hd7870
+548	Radeon Ryzen 7 PRO 6850U	4611	769	radeon ryzen 7 pro 6850u
+549	B8DKMDAP	4557	534	b8dkmdap
+550	Radeon Pro 465	4538	562	radeon pro 465
+551	GeForce GTX 580	4532	470	geforce gtx 580
+552	GRID T4-8Q	4519	186	grid t4-8q
+553	Radeon R7 370	4500	599	radeon r7 370
+554	Radeon R7 370	4500	599	asus r7 370
+555	Radeon R7 370	4500	599	radeonr7370
+556	Radeon HD 7870 XT	4470	661	radeon hd 7870 xt
+557	GeForce GTX 1050 (Mobile)	4462	292	geforce gtx 1050 mobile
+558	GRID M60-1B	4457	483	grid m60-1b
+559	P104-100	4450	114	p104-100
+560	Citrix Indirect Display Adapter	4447	700	citrix indirect display
+561	GRID P6-4Q	4429	586	grid p6-4q
+562	Radeon Ryzen 7 4800H	4429	518	radeon ryzen 7 4800h
+563	GRID P6-4Q	4429	586	grid p4-4q
+564	Quadro P1000	4428	641	quadro p1000
+565	Radeon Ryzen 7 6800U	4395	715	radeon ryzen 7 6800u
+566	GeForce GTX 660 Ti	4374	454	geforce gtx 660 ti
+567	GeForce GTX 660 Ti	4374	454	geforcegtx660ti
+568	Quadro M2200	4367	397	quadro m2200
+569	GRID GTX P40-6	4340	277	grid gtx p40-6
+570	Tesla K20m	4331	205	tesla k20m
+571	Quadro K4200	4325	510	quadro k4200
+572	GRID M60-2Q	4316	339	grid m60-2q
+573	GRID M60-2Q	4316	339	gridm60-2q
+574	GRID M60-2Q	4316	339	gridp4-2q
+575	Radeon R9 270	4306	567	radeon r9 270
+576	Radeon R9 270	4306	567	radeon?r9 270
+577	Radeon R9 270	4306	567	radeon r9 270 1024sp
+578	Radeon R9 270	4306	567	radeonr9270
+579	Radeon R9 270	4306	567	asus r9 270
+580	GRID RTX6000P-4Q	4283	76	grid rtx6000p-4q
+581	GeForce GTX 680MX	4271	730	geforce gtx 680mx
+582	GeForce GTX 775M	4269	620	geforce gtx 775m
+583	Radeon R9 270 / R7 370	4260	645	radeon r9 270 / r7 370
+584	GRID M60-1Q	4251	211	grid m60-1q
+585	GRID M60-1Q	4251	211	gridm60-1q
+586	NVIDIA A40-4Q	4230	78	a40-4q
+587	FirePro W7000	4222	558	firepro w7000
+588	Ryzen 9 6900HX with Radeon Graphics	4209	801	ryzen 9 6900hx
+589	Radeon RX 5300M	4198	371	radeon rx 5300m
+590	FirePro S7000	4166	615	firepro s7000
+591	GRID V100D-8Q	4156	518	grid v100d-8q
+592	Radeon RX 460	4123	575	radeon rx 460
+593	Radeon RX 460	4123	575	asus radeon rx 460
+594	Radeon RX 460	4123	575	radeon rx 460 ~ radeon rx 560
+595	Radeon RX 460	4123	575	radeon rx460
+596	Radeon RX 460	4123	575	radeon rx460~radeon rx 560
+597	Radeon RX 460	4123	575	radeonrx460
+598	Radeon RX 460	4123	575	radeont rx 460
+599	FirePro W8000	4096	464	firepro w8000
+600	GeForce GTX 480	4076	434	geforce gtx 480
+601	Radeon PRO Ryzen 5 PRO 6650U	4064	846	radeon pro ryzen 5 pro 6650u
+602	Radeon HD 7800-serie	4029	708	radeon hd 7800-serie
+603	GRID P40-2Q	4023	262	grid p40-2q
+604	GRID P40-2Q	4023	262	grid p4-2q
+605	GeForce GTX 660	3991	476	geforce gtx 660
+606	GeForce GTX 660	3991	476	geforcegtx660
+607	GRID RTX8000-4Q	3961	81	grid rtx8000-4q
+608	Quadro K5000	3950	447	quadro k5000
+609	Quadro M2000	3930	562	quadro m2000
+610	GRID P6-2Q	3926	337	grid p6-2q
+611	GRID P6-2Q	3926	337	grid p4-1q
+612	Radeon Ryzen 5 6600HS Creator Edition	3925	842	radeon ryzen 5 6600hs creator edition
+613	GeForce GTX 750 Ti	3905	503	geforce gtx 750 ti
+614	GeForce GTX 750 Ti	3905	503	geforce gtx 750ti
+615	GeForce GTX 750 Ti	3905	503	geforcegtx750ti
+616	GeForce GTX 570	3899	471	geforce gtx 570
+617	GRID M60-8Q	3884	618	grid m60-8q
+618	Intel Arc A380	3883	460	intel arc a380
+619	Radeon HD 8970M	3876	807	radeon hd 8970m
+620	GRID RTX8000P-2Q	3843	84	grid rtx8000p-2q
+621	GeForce GTX 1050 with Max-Q Design	3842	293	geforce gtx 1050 with max-q design
+622	GeForce GTX 1050 with Max-Q Design	3842	293	geforcegtx1050tiwithmax-qdesign
+623	GeForce GTX 1050 with Max-Q Design	3842	293	geforcegtx1050withmax-qdesign
+624	GRID P100-8Q	3841	481	grid p100-8q
+625	Radeon HD 7850	3833	555	radeon hd 7850
+626	Radeon HD 7850	3833	555	asus hd7850
+627	Radeon HD 7850	3833	555	radeon hd 7800
+628	Radeon HD 7850	3833	555	radeonhd7800
+629	GRID M60-4Q	3831	278	grid m60-4q
+630	GRID V100-2Q	3811	78	grid v100-2q
+631	Radeon HD 7970M	3774	541	radeon hd 7970m
+632	Radeon HD 7970M	3774	541	radeon hd 7970
+633	GeForce GTX 780M	3759	395	geforce gtx 780m
+634	GeForce GTX 780M	3759	395	geforce gtx780m
+635	GeForce GTX 780M	3759	395	geforcegtx780m
+636	Tesla K40c	3756	342	tesla k40c
+637	GeForce GTX 965M	3755	330	geforce gtx 965m
+638	GeForce GTX 965M	3755	330	geforcegtx965m
+639	Barco MXRT 7500	3753	731	barco mxrt 7500
+640	GeForce GTX 880M	3739	321	geforce gtx 880m
+641	GeForce GTX 880M	3739	321	geforce gtx880m
+642	GeForce GTX 880M	3739	321	geforcegtx880m
+643	Ryzen 7 PRO 6850HS with Radeon Graphics	3736	758	ryzen 7 pro 6850hs
+644	Radeon Pro WX 4100	3733	663	radeon pro wx 4100
+645	Radeon Pro WX 4100	3733	663	radeon pro wx4100
+646	Ryzen 5 PRO 6650H with Radeon Graphics	3727	845	ryzen 5 pro 6650h
+647	GeForce MX450	3721	296	geforce mx450
+648	Radeon Ryzen 5 PRO 6650U	3698	678	radeon ryzen 5 pro 6650u
+649	Eng Sample: 100-000000545-40_Y	3692	831	eng sample: 100-000000545-40_y
+650	Ryzen 5 6600HS Creator Edition	3686	767	ryzen 5 6600hs creator edition
+651	Radeon Pro 560X	3678	711	radeon pro 560x
+652	Ryzen 5 6600H with Radeon Graphics	3674	668	ryzen 5 6600h
+653	T400	3652	585	t400
+654	Ryzen 5 PRO 6650U with Radeon Graphics	3630	717	ryzen 5 pro 6650u
+655	T500	3625	293	t500
+656	Radeon RX 560	3621	505	radeon rx 560
+657	Radeon RX 560	3621	505	asus radeon rx 560
+658	Radeon RX 560	3621	505	radeon rx 560 xt
+659	Radeon RX 560	3621	505	radeon rx560
+660	Radeon RX 560	3621	505	radeonrx560
+661	Quadro P620	3607	566	quadro p620
+662	Quadro P620	3607	566	quadrop620
+663	NVIDIA A40-8Q	3596	75	a40-8q
+664	GRID RTX8000-2Q	3574	86	grid rtx8000-2q
+665	GeForce GTX 680M KY_Bullet Edition	3569	581	geforce gtx 680m ky_bullet edition
+666	GRID M6-8Q	3568	556	grid m6-8q
+667	T400 4GB	3531	625	t400 4gb
+668	Quadro K2200	3530	536	quadro k2200
+669	Quadro K2200	3530	536	quadrok2200
+670	Radeon RX Vega M GL	3519	505	radeon rx vega m gl
+671	Tesla C2050	3515	493	tesla c2050
+672	Quadro M2000M	3514	342	quadro m2000m
+673	Quadro 7000	3505	397	quadro 7000
+674	Tesla M10	3490	522	tesla m10
+675	Radeon Ryzen 5 6600U	3480	723	radeon ryzen 5 6600u
+676	Radeon Pro 560	3475	724	radeon pro 560
+677	Radeon Pro 560	3475	724	radeonpro560
+678	Radeon Pro 460	3453	679	radeon pro 460
+679	GRID T4-2Q	3451	73	grid t4-2q
+680	Quadro K2200M	3441	375	quadro k2200m
+681	Tesla C2050 / C2070	3428	568	tesla c2050 / c2070
+682	GeForce GTX 870M	3416	284	geforce gtx 870m
+683	GeForce GTX 870M	3416	284	geforcegtx870m
+684	GeForce GTX 960M	3400	246	geforce gtx 960m
+685	Radeon R9 M470X	3400	552	radeon r9 m470x
+686	GeForce GTX 960M	3400	246	geforcegtx960m
+687	GRID K520	3399	174	grid k520
+688	Radeon HD8970M	3369	663	radeon hd8970m
+689	Radeon E8870PCIe	3368	708	radeon e8870pcie
+690	GeForce GTX 750	3364	486	geforce gtx 750
+691	GeForce GTX 750	3364	486	geforcegtx750
+692	GRID P40-2B	3354	633	grid p40-2b
+693	GRID M10-1Q	3351	556	grid m10-1q
+694	GeForce GTX 590	3341	394	geforce gtx 590
+695	GeForce GTX 650 Ti BOOST	3333	451	geforce gtx 650 ti boost
+696	GeForce GTX 650 Ti BOOST	3333	451	geforcegtx650tiboost
+697	Quadro M1200	3278	313	quadro m1200
+698	Radeon R9 M290X	3267	429	radeon r9 m290x
+699	Radeon R9 M290X	3267	429	radeon r9 m290
+700	Radeon R9 M290X	3267	429	radeonr9m290
+701	GRID T4-4Q	3260	83	grid t4-4q
+702	GeForce 770M	3246	500	geforce 770m
+703	Quadro P600	3246	476	quadro p600
+704	Eng Sample: 100-000000534-40_Y	3237	732	eng sample: 100-000000534-40_y
+705	Ryzen 5 6600U with Radeon Graphics	3233	754	ryzen 5 6600u
+706	GRID M10-4Q	3224	486	grid m10-4q
+707	Radeon R9 M485X	3204	492	radeon r9 m485x
+708	Radeon R9 260	3182	586	radeon r9 260
+709	Radeon RX 560X	3181	487	radeon rx 560x
+710	Radeon RX 560X	3181	487	rx 560x
+711	Radeon RX 560X	3181	487	radeon rx 560x~radeon rx 560
+712	Radeon RX 560X	3181	487	radeonpro560x
+713	GeForce GTX 680M	3167	339	geforce gtx 680m
+714	FirePro V7000	3162	668	firepro v7000
+715	FirePro W7170M	3162	418	firepro w7170m
+716	Radeon Pro 555	3141	659	radeon pro 555
+717	Radeon Pro 555	3141	659	radeon pro 555x
+718	Radeon Pro 555	3141	659	radeonpro555
+719	Radeon Pro 555	3141	659	radeonpro555x
+720	Radeon R7 260X	3131	508	radeon r7 260x
+721	Radeon R7 260X	3131	508	asus r7 260x
+722	Tesla C2075	3118	589	tesla c2075
+723	Radeon Pro 455	3113	705	radeon pro 455
+724	Tesla C2070	3101	494	tesla c2070
+725	Intel G35 Express	3090	384	intel g35 express
+726	Radeon HD 7790	3090	459	radeon hd 7790
+727	Radeon HD 7790	3090	459	asus hd7790
+728	Quadro K5100M	3080	388	quadro k5100m
+729	GeForce GTX 470	3056	379	geforce gtx 470
+730	Radeon R7 360	3047	503	radeon r7 360
+731	Radeon R7 360	3047	503	asus r7 360
+732	Radeon R7 360	3047	503	radeonr7360
+733	EIZO MED-X5000	3038	405	eizo med-x5000
+734	Radeon R9 360	3032	460	radeon r9 360
+735	Radeon R9 360	3032	460	radeon r9 360~rx 455
+736	Radeon R9 360	3032	460	radeonr9360
+737	GeForce GTX 560 Ti	3028	424	geforce gtx 560 ti
+738	GeForce GTX 860M	3028	227	geforce gtx 860m
+739	GeForce GTX 860M	3028	227	geforcegtx860m
+740	Radeon R9 M390X	3021	507	radeon r9 m390x
+741	Radeon R9 M390X	3021	507	radeon r9 m390
+742	Radeon R9 M390X	3021	507	radeonr9m390
+743	Radeon HD 6990	3013	630	radeon hd 6990
+744	Radeon HD 6990	3013	630	asus eah6990
+745	FirePro W5100	2956	541	firepro w5100
+746	NVS 310	2955	177	nvs 310
+747	GRID K260Q	2949	361	grid k260q
+748	FirePro W5000	2947	571	firepro w5000
+749	Quadro M1000M	2947	329	quadro m1000m
+750	Tesla K20Xm	2918	172	tesla k20xm
+751	Ryzen 9 5900HX with Radeon Graphics	2907	765	ryzen 9 5900hx
+752	Radeon R7 260	2892	559	radeon r7 260
+753	Radeon R9 M380	2891	601	radeon r9 m380
+754	Radeon R9 M380	2891	601	radeonr9m380
+755	Ryzen 7 PRO 4700G with Radeon Graphics	2880	712	ryzen 7 pro 4700g
+756	Eng Sample: 100-000000261-50_Y	2860	865	eng sample: 100-000000261-50_y
+757	Radeon Pro V340 MxGPU	2853	118	radeon pro v340 mx
+758	Quadro K1200	2850	559	quadro k1200
+759	Quadro K1200	2850	559	quadrok1200
+760	GeForce MX350	2841	244	geforce mx350
+761	GRID K280Q	2840	371	grid k280q
+762	Radeon HD 6970	2827	425	radeon hd 6970
+763	Radeon HD 6970	2827	425	asus eah6970
+764	FirePro 3D V9800	2812	556	firepro 3d v9800
+765	GeForce GTX 770M	2800	343	geforce gtx 770m
+766	Quadro M620	2788	413	quadro m620
+767	Ryzen 7 5800H with Radeon Graphics	2782	773	ryzen 7 5800h
+768	FirePro W4300	2777	646	firepro w4300
+769	Ryzen 7 5700G with Radeon Graphics	2767	836	ryzen 7 5700g
+770	Radeon Eng Sample: 100-000000300-40_Y	2762	780	radeon eng sample: 100-000000300-40_y
+771	Radeon Ryzen 9 5900H	2755	837	radeon ryzen 9 5900h
+772	Radeon Ryzen 9 5980HS	2749	751	radeon ryzen 9 5980hs
+773	Quadro K5000M	2739	352	quadro k5000m
+774	GRID K2	2737	319	grid k2
+775	FirePro S7150	2727	465	firepro s7150
+776	FirePro V9800	2727	655	firepro v9800
+777	Radeon Pro 450	2723	619	radeon pro 450
+778	Radeon Ryzen 5 6600H	2716	768	radeon ryzen 5 6600h
+779	Ryzen 7 5700GE with Radeon Graphics	2716	879	ryzen 7 5700ge
+780	Intel Iris Xe	2715	339	intel iris xe
+781	Ryzen 9 4900H with Radeon Graphics	2714	691	ryzen 9 4900h
+782	GeForce GTX 560	2708	420	geforce gtx 560
+783	Radeon RX 550	2707	481	radeon rx 550
+784	Radeon RX 550	2707	481	asus radeon rx 550
+785	Radeon RX 550	2707	481	radeon rx550
+786	Radeon RX 550	2707	481	radeon rx550/550
+787	Radeon RX 550	2707	481	radeon550
+788	Radeon RX 550	2707	481	radeonrx550
+789	Quadro K4100M	2706	330	quadro k4100m
+790	GRID T4-1Q	2703	84	grid t4-1q
+791	Barco MXRT 5500	2702	510	barco mxrt 5500
+792	Quadro 6000	2697	447	quadro 6000
+793	Quadro K4000	2689	415	quadro k4000
+794	GeForce GTX 465	2684	466	geforce gtx 465
+795	Ryzen 7 Pro 4750G with Radeon Graphics	2682	702	ryzen 7 pro 4750g
+796	Radeon Ryzen 7 5800HS	2676	796	radeon ryzen 7 5800hs
+797	FirePro M6100 FireGL V	2656	519	firepro m6100 firegl v
+798	GRID M10-2Q	2654	75	grid m10-2q
+799	FirePro R5000	2647	625	firepro r5000
+800	GRID P6-4A	2639	42	grid p6-4a
+801	MONSTER GeForce GTX 675M	2637	686	monster geforce gtx 675m
+802	Radeon HD 6950	2637	430	radeon hd 6950
+803	Radeon HD 6950	2637	430	asus eah6950
+804	Radeon Ryzen 7 5800H	2618	720	radeon ryzen 7 5800h
+805	Radeon Ryzen 7 PRO 4750G	2612	705	radeon ryzen 7 pro 4750g
+806	Ryzen 7 PRO 5750GE with Radeon Graphics	2608	828	ryzen 7 pro 5750ge
+807	GRID M10-8Q	2606	557	grid m10-8q
+808	Ryzen 5 5600GE with Radeon Graphics	2602	886	ryzen 5 5600ge
+809	GRID T4-2B	2601	62	grid t4-2b
+810	GeForce GTX 950M	2598	217	geforce gtx 950m
+811	GeForce GTX 950M	2598	217	geforcegtx950m
+812	Radeon Ryzen 7 5825U	2584	620	radeon ryzen 7 5825u
+813	Radeon Ryzen 7 4700GE	2579	729	radeon ryzen 7 4700ge
+814	Ryzen 5 5600G with Radeon Graphics	2577	801	ryzen 5 5600g
+815	Radeon Ryzen 9 4900H	2572	672	radeon ryzen 9 4900h
+816	Custom GPU 0405	2567	409	custom 0405
+817	Radeon Ryzen 7 4700G	2564	725	radeon ryzen 7 4700g
+818	GeForce GTX 850M	2561	224	geforce gtx 850m
+819	GeForce GTX 850M	2561	224	geforce gtx850m
+820	GeForce GTX 850M	2561	224	geforcegtx850m
+821	Ryzen 7 PRO 4750GE with Radeon Graphics	2550	683	ryzen 7 pro 4750ge
+822	GRID K240Q	2541	212	grid k240q
+823	P106-090	2538	111	p106-090
+824	GeForce GTX 650 Ti	2536	399	geforce gtx 650 ti
+825	GeForce GTX 650 Ti	2536	399	geforcegtx650ti
+826	Radeon HD 6850 X2	2534	373	radeon hd 6850 x2
+827	Ryzen 9 5980HS with Radeon Graphics	2534	830	ryzen 9 5980hs
+828	Radeon HD 6850 X2	2534	373	radeon hd 6800 ~6850 x2
+829	FireStream 9370	2528	763	firestream 9370
+830	N18E-Q1	2525	547	n18e-q1
+831	Radeon Pro WX 3100	2524	443	radeon pro wx 3100
+832	GeForce GT 1030	2510	448	geforce gt 1030
+833	GeForce GT 1030	2510	448	geforcegt1030
+834	GeForce MX330	2505	231	geforce mx330
+835	Ryzen 5 PRO 5650G with Radeon Graphics	2505	865	ryzen 5 pro 5650g
+836	GeForce GTX 950A	2499	272	geforce gtx 950a
+837	Ryzen 7 4700GE with Radeon Graphics	2496	761	ryzen 7 4700ge
+838	GeForce MX250	2484	246	geforce mx250
+839	GeForce MX250	2484	246	geforcemx250
+840	Radeon Pro WX 3200	2473	472	radeon pro wx 3200
+841	Radeon Pro WX 3200	2473	472	radeon pro wx3200
+842	Ryzen 5 PRO 5650GE with Radeon Graphics	2471	858	ryzen 5 pro 5650ge
+843	Barco MXRT 5600	2466	644	barco mxrt 5600
+844	Radeon Eng Sample: 100-000000146-40_42/35_Y	2464	730	radeon eng sample: 100-000000146-40_42/35_y
+845	Radeon Ryzen 5 5600H	2453	673	radeon ryzen 5 5600h
+846	Ryzen 7 PRO 5750G with Radeon Graphics	2453	853	ryzen 7 pro 5750g
+847	FirePro 3D V8800	2438	632	firepro 3d v8800
+848	Intel UHD Graphics P630	2435	330	intel uhd p630
+849	Radeon Eng Sample: 100-000000262-30_Y	2416	785	radeon eng sample: 100-000000262-30_y
+850	GeForce GTX 960A	2411	631	geforce gtx 960a
+851	Radeon RX Vega 11 PRD	2402	601	radeon rx vega 11 prd
+852	Ryzen 7 5800U with Radeon Graphics	2388	706	ryzen 7 5800u
+853	Radeon RX 550X	2371	472	radeon rx 550x
+854	Ryzen 5 Pro 4650G with Radeon Graphics	2371	681	ryzen 5 pro 4650g
+855	Radeon RX 550X	2371	472	radeon rx550x
+856	Radeon RX Vega 11 Ryzen 5 3400G	2365	546	radeon rx vega 11 ryzen 5 3400g
+857	GeForce GTX 485M	2360	479	geforce gtx 485m
+858	Radeon Ryzen 7 5800U	2353	681	radeon ryzen 7 5800u
+859	Ryzen 3 PRO 5350GE with Radeon Graphics	2351	816	ryzen 3 pro 5350ge
+860	Ryzen 5 4600G with Radeon Graphics	2346	652	ryzen 5 4600g
+861	Ryzen 7 4800U with Radeon Graphics	2344	570	ryzen 7 4800u
+862	Radeon Ryzen 5 PRO 5650GE	2343	787	radeon ryzen 5 pro 5650ge
+863	GeForce GTX 675MX	2338	377	geforce gtx 675mx
+864	GeForce GTX 675MX	2338	377	geforcegtx675mx
+865	GRID M10-2B	2333	201	grid m10-2b
+866	Ryzen 5 5600H with Radeon Graphics	2333	713	ryzen 5 5600h
+867	Radeon R9 M470	2331	307	radeon r9 m470
+868	Intel UHD Graphics 770	2326	462	intel uhd 770
+869	Ryzen 3 4300GE with Radeon Graphics	2316	685	ryzen 3 4300ge
+870	Ryzen 5 4600H with Radeon Graphics	2314	575	ryzen 5 4600h
+871	GRID M10-1B	2310	417	grid m10-1b
+872	Ryzen 5 PRO 4400G with Radeon Graphics	2306	599	ryzen 5 pro 4400g
+873	FirePro V7900	2305	336	firepro v7900
+874	Radeon Ryzen 7 5700U	2304	508	radeon ryzen 7 5700u
+875	Ryzen 3 PRO 5350G with Radeon Graphics	2301	797	ryzen 3 pro 5350g
+876	Ryzen 7 PRO 5850U with Radeon Graphics	2301	677	ryzen 7 pro 5850u
+877	Radeon Ryzen 7 Microsoft Surface Edition	2298	530	radeon ryzen 7 microsoft surface edition
+878	GeForce MX150	2292	216	geforce mx150
+879	Quadro K3100M	2292	332	quadro k3100m
+880	GeForce MX150	2292	216	geforcemx150
+881	Radeon Ryzen 7 4800U	2277	582	radeon ryzen 7 4800u
+882	Radeon HD 5970	2271	395	radeon hd 5970
+883	Radeon HD 6970M	2270	656	radeon hd 6970m
+884	Radeon Pro WX 4150	2270	437	radeon pro wx 4150
+885	Radeon HD 6970M	2270	656	radeon? hd 6970m extreme-pro
+886	Radeon HD 6970M	2270	656	radeonhd6970m
+887	Radeon R7 250X	2269	637	radeon r7 250x
+888	Radeon R7 250X	2269	637	asus r7 250x
+889	Radeon HD 5870	2264	402	radeon hd 5870
+890	Radeon HD 5870	2264	402	asus eah5870
+891	GeForce GTX 460	2257	381	geforce gtx 460
+892	GeForce GTX 460	2257	381	geforcegtx460
+893	Radeon HD 8950	2249	373	radeon hd 8950
+894	Ryzen 3 5300GE with Radeon Graphics	2248	814	ryzen 3 5300ge
+895	Ryzen 7 5700U with Radeon Graphics	2248	569	ryzen 7 5700u
+896	Quadro K620	2245	470	quadro k620
+897	Quadro K620	2245	470	quadrok620
+898	FirePro V8800	2223	471	firepro v8800
+899	GRID P100-1B	2223	544	grid p100-1b
+900	Radeon HD 6870	2215	394	radeon hd 6870
+901	Radeon HD 6870	2215	394	asus eah6870
+902	Ryzen 7 Extreme Edition	2189	552	ryzen 7 extreme edition
+903	Ryzen 5 5600U with Radeon Graphics	2188	656	ryzen 5 5600u
+904	Radeon Ryzen 7 PRO 4750GE	2187	646	radeon ryzen 7 pro 4750ge
+905	Ryzen 7 4700G with Radeon Graphics	2187	671	ryzen 7 4700g
+906	Radeon HD 7770	2178	468	radeon hd 7770
+907	Radeon Ryzen 5 PRO 5650G	2178	748	radeon ryzen 5 pro 5650g
+908	Radeon HD 7770	2178	468	asus hd7770
+909	Radeon HD 7770	2178	468	radeon hd 7770 ghz edition
+910	Intel Iris Pro P580	2169	573	intel iris pro p580
+911	GeForce GTX 745	2164	471	geforce gtx 745
+912	GeForce GTX 745	2164	471	geforcegtx745
+913	Ryzen 3 Pro 4350G with Radeon Graphics	2160	639	ryzen 3 pro 4350g
+914	Quadro M600M	2146	371	quadro m600m
+915	Radeon Ryzen 7 4850U Mobile	2138	519	radeon ryzen 7 4850u mobile
+916	FirePro M6100	2132	358	firepro m6100
+917	FirePro M6100	2132	358	fireprom6100
+918	Radeon RX Vega 11	2123	532	radeon rx vega 11
+919	Radeon RX Vega 11	2123	532	radeont rx vega 11
+920	Ryzen 5 5560U with Radeon Graphics	2120	618	ryzen 5 5560u
+921	Radeon Eng Sample: 100-000000285-40_Y	2116	641	radeon eng sample: 100-000000285-40_y
+922	Ryzen 7 4800H with Radeon Graphics	2113	585	ryzen 7 4800h
+923	Radeon TM R9 A360	2105	718	radeon tm r9 a360
+924	FirePro M5100	2103	800	firepro m5100
+925	Radeon Ryzen 5 5625U	2102	538	radeon ryzen 5 5625u
+926	Radeon Ryzen 5 Microsoft Surface Edition	2097	516	radeon ryzen 5 microsoft surface edition
+927	FirePro W6150M	2090	307	firepro w6150m
+928	Quadro P520	2082	248	quadro p520
+929	GeForce GTX 580M	2074	349	geforce gtx 580m
+930	GRID M6-1Q	2069	423	grid m6-1q
+931	Quadro 5000M	2060	426	quadro 5000m
+932	Ryzen 5 PRO 5650U with Radeon Graphics	2048	669	ryzen 5 pro 5650u
+933	Radeon Ryzen 7 4700U	2039	551	radeon ryzen 7 4700u
+934	FirePro V7800	2034	290	firepro v7800
+935	Ryzen 7 4700U with Radeon Graphics	2034	553	ryzen 7 4700u
+936	Radeon Ryzen 7 PRO 4750U	2031	555	radeon ryzen 7 pro 4750u
+937	Ryzen 7 PRO 4750U with Radeon Graphics	2030	548	ryzen 7 pro 4750u
+938	Radeon R9 350	2027	546	radeon r9 350
+939	Radeon R9 M385	2018	230	radeon r9 m385
+940	Intel Iris Xe MAX	2010	314	intel iris xe max
+941	Radeon Pro	2010	634	radeon pro
+942	Radeon Pro W5500M	2010	533	radeon pro w5500m
+943	Radeon Ryzen 5 5600U	2010	627	radeon ryzen 5 5600u
+944	Ryzen 5 5500U with Radeon Graphics	2010	548	ryzen 5 5500u
+945	GeForce 945M	2008	257	geforce 945m
+946	Ryzen 5 PRO 4500U with Radeon Graphics	2008	564	ryzen 5 pro 4500u
+947	Radeon Ryzen 5 5560U	2007	620	radeon ryzen 5 5560u
+948	GeForce GT 645	2006	443	geforce gt 645
+949	GeForce GTX 560 SE	2006	421	geforce gtx 560 se
+950	Ryzen 3 5300G with Radeon Graphics	1999	744	ryzen 3 5300g
+951	GeForce GTX 460 SE	1995	364	geforce gtx 460 se
+952	Ryzen 5 PRO 4650GE with Radeon Graphics	1995	632	ryzen 5 pro 4650ge
+953	Radeon R9 M385X	1994	267	radeon r9 m385x
+954	Intel Iris Pro 580	1991	370	intel iris pro 580
+955	Ryzen 3 4300G with Radeon Graphics	1988	632	ryzen 3 4300g
+956	Radeon R7 + R7 350 Dual	1982	552	radeon r7 + r7 350 dual
+957	Radeon Ryzen Embedded V2718	1982	552	radeon ryzen embedded v2718
+958	Radeon R7 + R7 350 Dual	1982	552	radeon r7 350
+959	Radeon R7 + R7 350 Dual	1982	552	radeon r7 350x
+960	Radeon R7 + R7 350 Dual	1982	552	radeonr7350
+961	Radeon HD 6850	1978	425	radeon hd 6850
+962	Radeon HD 6850	1978	425	asus eah6850
+963	GeForce GTX 765M	1975	284	geforce gtx 765m
+964	GeForce GTX 765M	1975	284	geforcegtx765m
+965	Quadro 5000	1970	377	quadro 5000
+966	Radeon HD 5850	1963	397	radeon hd 5850
+967	Radeon HD 5850	1963	397	asus eah5850
+968	Radeon R7 + HD 7700 Dual	1962	498	radeon r7 + hd 7700 dual
+969	Radeon R7 + HD 7700 Dual	1962	498	radeon r7 200 ~hd 7700
+970	Radeon 550	1959	501	radeon 550
+971	Radeon HD 7660D + HD 7700 Dual	1958	495	radeon hd 7660d + hd 7700 dual
+972	GeForce GTX 470M	1953	413	geforce gtx 470m
+973	Radeon R7 450	1950	560	radeon r7 450
+974	Quadro K4000M	1949	320	quadro k4000m
+975	Radeon R9 M275X	1940	387	radeon r9 m275x
+976	Radeon RX 570X	1923	750	radeon rx 570x
+977	Radeon RX 570X	1923	750	radeonpro570x
+978	Radeon RX 570X	1923	750	radeon pro 570x
+979	GeForce GTX 675M	1919	315	geforce gtx 675m
+980	Radeon HD 7560D + 7700 Dual	1919	518	radeon hd 7560d + 7700 dual
+981	GeForce GTX 460 v2	1916	463	geforce gtx 460 v2
+982	GeForce GTX 570M	1911	355	geforce gtx 570m
+983	Matrox C680 PCIe x16	1904	700	matrox c680 pcie x16
+984	Radeon HD 7700-serie	1899	533	radeon hd 7700-serie
+985	Radeon HD 7700-serie	1899	533	radeonhd7700
+986	Radeon HD 7700-serie	1899	533	radeon hd 7700
+987	GeForce GTX 670MX	1895	325	geforce gtx 670mx
+988	Radeon HD 8670D + HD 7700 Dual	1892	446	radeon hd 8670d + hd 7700 dual
+989	Radeon RX Vega 11 Processor	1888	465	radeon rx vega 11 processor
+990	Ryzen 3 PRO 4350GE with Radeon Graphics	1881	622	ryzen 3 pro 4350ge
+991	GeForce MX130	1880	197	geforce mx130
+992	Radeon Pro WX 4130	1878	351	radeon pro wx 4130
+993	Radeon RX 540	1868	382	radeon rx 540
+994	Radeon RX 540	1868	382	radeon rx540
+995	Radeon RX 540	1868	382	radeon rx540~radeon rx 550
+996	FirePro 3D V7800	1867	562	firepro 3d v7800
+997	Ryzen 5 4600U with Radeon Graphics	1866	556	ryzen 5 4600u
+998	Quadro M520	1862	225	quadro m520
+999	GeForce GTX 645	1853	427	geforce gtx 645
+1000	GeForce GTX 645	1853	427	geforcegtx645
+1001	GeForce 945A	1852	716	geforce 945a
+1002	Qualcomm Adreno 8cx Gen 3	1849	185	qualcomm adreno 8cx gen 3
+1003	GeForce MX230	1840	217	geforce mx230
+1004	GeForce MX230	1840	217	geforcemx230
+1005	FirePro M5100 FireGL V	1839	867	firepro m5100 firegl v
+1006	GRID M60-0B	1838	596	grid m60-0b
+1007	Radeon HD 8570D + HD 7700 Dual	1835	466	radeon hd 8570d + hd 7700 dual
+1008	Intel Iris Plus	1834	315	intel iris plus
+1009	Radeon Ryzen 5 5500U	1834	500	radeon ryzen 5 5500u
+1010	MxGPU	1826	479	mx
+1011	GeForce GTX 555	1824	501	geforce gtx 555
+1012	FirePro M6000	1820	776	firepro m6000
+1013	Matrox C900 PCIe x16	1812	761	matrox c900 pcie x16
+1014	Radeon Vega 11	1812	499	radeon vega 11
+1015	Ryzen 5 4500U with Radeon Graphics	1804	539	ryzen 5 4500u
+1016	Radeon R9 M360	1801	466	radeon r9 m360
+1017	Radeon HD 8870M / R9 M270X / M370X	1800	679	radeon hd 8870m / r9 m270x / m370x
+1018	Ryzen 3 PRO 4200G with Radeon Graphics	1799	705	ryzen 3 pro 4200g
+1019	Embedded Radeon E9173	1798	368	embedded radeon e9173
+1020	Intel Iris 650	1795	764	intel iris 650
+1021	Radeon Ryzen 5 4600GE with Radeon Graphics	1793	612	radeon ryzen 5 4600ge
+1022	Radeon HD 8670D + 7700 Dual	1789	572	radeon hd 8670d + 7700 dual
+1023	Radeon Pro WX 2100	1782	391	radeon pro wx 2100
+1024	Quadro 5010M	1772	315	quadro 5010m
+1025	Intel Iris Plus 655	1767	366	intel iris plus 655
+1026	Intel Iris Plus 655	1767	366	intelirisplus655
+1027	Intel UHD Graphics P750	1761	459	intel uhd p750
+1028	Intel UHD Graphics 750	1755	343	intel uhd 750
+1029	GeForce GTX 650	1754	352	geforce gtx 650
+1030	GeForce GTX 650	1754	352	geforcegtx650
+1031	FirePro M6000 Mobility Pro	1750	327	firepro m6000 mobility pro
+1032	Ryzen 3 PRO 4200GE with Radeon Graphics	1748	593	ryzen 3 pro 4200ge
+1033	GeForce GTX 670M	1738	299	geforce gtx 670m
+1034	Radeon RX 640	1726	295	radeon rx 640
+1035	Intel Iris Plus 645	1721	406	intel iris plus 645
+1036	Radeon R9 M375X	1721	354	radeon r9 m375x
+1037	Intel Iris Plus 645	1721	406	intelirisplus645
+1038	Radeon HD 5830	1718	378	radeon hd 5830
+1039	Radeon HD 5830	1718	378	asus eah5830
+1040	Radeon HD 5830	1718	378	radeon hd 5800
+1041	Radeon HD 6900M	1717	349	radeon hd 6900m
+1042	Radeon HD 6900M	1717	349	radeon hd 6900
+1043	Radeon Ryzen 3 5300U	1710	555	radeon ryzen 3 5300u
+1044	Radeon HD 7750	1707	415	radeon hd 7750
+1045	Radeon HD 7750	1707	415	asus hd7750
+1046	Ryzen 5 PRO 4650U with Radeon Graphics	1687	525	ryzen 5 pro 4650u
+1047	Radeon E8860	1686	436	radeon e8860
+1048	Radeon Eng Sample: 100-000000263-30_Y	1684	708	radeon eng sample: 100-000000263-30_y
+1049	Firepro W5170M	1681	395	firepro w5170m
+1050	GeForce GTX 760M	1678	237	geforce gtx 760m
+1051	GeForce GTX 760M	1678	237	geforcegtx760m
+1052	Radeon R7 M380	1669	534	radeon r7 m380
+1053	Radeon HD HD7850M	1652	686	radeon hd hd7850m
+1054	Radeon RX Vega 10	1652	381	radeon rx vega 10
+1055	Intel UHD Graphics 730	1650	358	intel uhd 730
+1056	GeForce GT 755M	1644	306	geforce gt 755m
+1057	GeForce GT 755M	1644	306	geforcegt755m
+1058	Radeon HD 8870M	1638	629	radeon hd 8870m
+1059	Radeon Ryzen 7 3700U	1634	360	radeon ryzen 7 3700u
+1060	FirePro M4000 Mobility Pro	1630	467	firepro m4000 mobility pro
+1061	Intel Iris Pro P6300	1626	572	intel iris pro p6300
+1062	Radeon HD 6790	1625	387	radeon hd 6790
+1063	Radeon HD 6790	1625	387	asus eah 6790
+1064	Radeon HD 6790	1625	387	asus eah6790
+1065	Radeon R7 M465X	1624	440	radeon r7 m465x
+1066	FirePro W600	1619	586	firepro w600
+1067	GeForce GTX 480M	1617	458	geforce gtx 480m
+1068	Ryzen 7 2700U with Radeon Vega	1617	442	ryzen 7 2700u with radeon vega
+1069	Quadro K3000M	1616	326	quadro k3000m
+1070	FirePro M4000	1609	402	firepro m4000
+1071	Radeon RX Vega11	1605	405	radeon rx vega11
+1072	Seria Radeon HD 7700	1604	201	seria radeon hd 7700
+1073	Ryzen 3 PRO 5450U with Radeon Graphics	1601	538	ryzen 3 pro 5450u
+1074	Ryzen 3 5300U with Radeon Graphics	1592	531	ryzen 3 5300u
+1075	Quadro P400	1589	413	quadro p400
+1076	Radeon Vega 9	1589	415	radeon vega 9
+1077	Quadro P400	1589	413	quadrop400
+1078	Radeon Vega 8	1586	417	radeon vega 8
+1079	Radeon Vega 8	1586	417	radeont vega 8
+1080	Radeon Vega 8	1586	417	radeonvega8
+1081	Quadro K2000D	1581	407	quadro k2000d
+1082	Radeon R9 M275X / M375	1575	467	radeon r9 m275x / m375
+1083	Intel Iris Plus 650	1574	381	intel iris plus 650
+1084	Intel Iris Plus 650	1574	381	intelirisplus650
+1085	Quadro K2000	1559	376	quadro k2000
+1086	Quadro K2000	1559	376	quadrok2000
+1087	Radeon HD 7560D + HD 6670 Dual	1555	652	radeon hd 7560d + hd 6670 dual
+1088	Radeon Vega 10	1555	377	radeon vega 10
+1089	Radeon Vega 10	1555	377	radeonrxvega10
+1090	Radeon RX Vega 8	1552	385	radeon rx vega 8
+1091	Radeon HD 8470D + HD 7500 Dual	1545	465	radeon hd 8470d + hd 7500 dual
+1092	GeForce GT 740	1545	344	geforce gt 740
+1093	GeForce GT 740	1545	344	geforcegt740
+1094	Ryzen 3 PRO 4300U with Radeon Graphics	1543	539	ryzen 3 pro 4300u
+1095	FirePro V8700	1539	527	firepro v8700
+1096	FirePro W4100	1530	524	firepro w4100
+1097	Radeon 540X	1529	327	radeon 540x
+1098	Radeon 540X	1529	327	radeon540x
+1099	GeForce GTX 550 Ti	1526	367	geforce gtx 550 ti
+1100	Ryzen 3 PRO 4450U with Radeon Graphics	1526	545	ryzen 3 pro 4450u
+1101	GeForce GTX 550 Ti	1526	367	geforcegtx550ti
+1102	Radeon Ryzen 3 PRO 5450U	1523	626	radeon ryzen 3 pro 5450u
+1103	Radeon HD 4890	1514	95	radeon hd 4890
+1104	GeForce GTX 285	1512	107	geforce gtx 285
+1105	Radeon HD 7870M	1507	556	radeon hd 7870m
+1106	GeForce 940MX	1504	171	geforce 940mx
+1107	GeForce 940MX	1504	171	geforce940mx
+1108	Ryzen 5 2500U with Radeon Vega	1503	388	ryzen 5 2500u with radeon vega
+1109	Intel UHD Graphics	1501	262	intel uhd
+1110	Intel UHD Graphics	1501	262	inteluhd
+1111	Radeon HD 6670 + 7660D Dual	1492	483	radeon hd 6670 + 7660d dual
+1112	Quadro 4000	1487	373	quadro 4000
+1113	GeForce 845M	1485	219	geforce 845m
+1114	Radeon R9 255	1485	395	radeon r9 255
+1115	Radeon HD 7660D + HD 6670 Dual	1485	515	radeon hd 7660d + hd 6670 dual
+1116	Radeon R9 255	1485	395	radeon r9 200
+1117	Radeon R9 255	1485	395	radeonr9200
+1118	Radeon R9 M365X	1482	446	radeon r9 m365x
+1119	Quadro P500	1479	234	quadro p500
+1120	Quadro P500	1479	234	radeon500
+1121	Radeon Vega 10 Mobile	1465	338	radeon vega 10 mobile
+1122	GeForce MX110	1464	192	geforce mx110
+1123	GeForce MX110	1464	192	geforcemx110
+1124	Ryzen 5 PRO 4400GE with Radeon Graphics	1442	563	ryzen 5 pro 4400ge
+1125	Intel Iris Pro Graphics 6200	1441	563	intel iris pro 6200
+1126	Radeon Eng Sample: 100-000000085-40_35/24_Y	1441	554	radeon eng sample: 100-000000085-40_35/24_y
+1127	Radeon R7 FX-9830P RADEON	1440	230	radeon r7 fx-9830p radeon
+1128	Radeon RX Vega 10 Ryzen 7 3700U	1438	390	radeon rx vega 10 ryzen 7 3700u
+1129	GeForce GTX 660M	1436	267	geforce gtx 660m
+1130	Radeon HD 8470D + HD 6670 Dual	1436	512	radeon hd 8470d + hd 6670 dual
+1131	GeForce GTX 660M	1436	267	geforcegtx660m
+1132	Radeon Vega 6 Ryzen 3 3350U	1433	417	radeon vega 6 ryzen 3 3350u
+1133	Radeon R9 M370X	1432	346	radeon r9 m370x
+1134	Radeon R9 M370X	1432	346	radeonr9m370x
+1135	Radeon Vega 8 Mobile	1430	349	radeon vega 8 mobile
+1136	Radeon Vega 8 Mobile	1430	349	radeonvega8mobile
+1137	Radeon HD 7560D + 7670 Dual	1426	445	radeon hd 7560d + 7670 dual
+1138	Radeon 550X	1419	257	radeon 550x
+1139	Radeon R7 M370	1418	676	radeon r7 m370
+1140	Radeon Pro WX 4170	1409	427	radeon pro wx 4170
+1141	GeForce GTX 275	1401	106	geforce gtx 275
+1142	Radeon Vega 8 Ryzen 3 3200G	1399	429	radeon vega 8 ryzen 3 3200g
+1143	Radeon HD 4870	1395	57	radeon hd 4870
+1144	Radeon HD 7560D + HD 7670 Dual	1380	463	radeon hd 7560d + hd 7670 dual
+1145	FirePro W5130M	1379	301	firepro w5130m
+1146	Intel Iris 550	1376	313	intel iris 550
+1147	Intel Iris 550	1376	313	inteliris550
+1148	Radeon HD 7850M	1373	566	radeon hd 7850m
+1149	Ryzen 3 5400U with Radeon Graphics	1371	537	ryzen 3 5400u
+1150	FirePro M40003	1364	652	firepro m40003
+1151	Radeon HD 8670D + 6670 Dual	1361	568	radeon hd 8670d + 6670 dual
+1152	Quadro K2100M	1353	281	quadro k2100m
+1153	Radeon 540	1348	262	radeon 540
+1154	Radeon HD 7560D + HD 7700 Dual	1347	497	radeon hd 7560d + hd 7700 dual
+1155	Radeon HD 5770	1345	328	radeon hd 5770
+1156	Radeon HD 5770	1345	328	asus eah5770
+1157	Intel Iris Plus 640	1342	344	intel iris plus 640
+1158	Intel Iris Plus 640	1342	344	intelirisplus640
+1159	FireStream 9270	1341	473	firestream 9270
+1160	GeForce GTS 450	1339	299	geforce gts 450
+1161	GeForce GTS 450	1339	299	geforcegts450
+1162	Ryzen 3 4300U with Radeon Graphics	1330	484	ryzen 3 4300u
+1163	Radeon Vega 8 Ryzen 5 3500U	1328	380	radeon vega 8 ryzen 5 3500u
+1164	Radeon HD 8670D + HD 7600 Dual	1318	472	radeon hd 8670d + hd 7600 dual
+1165	FirePro M5950	1314	574	firepro m5950
+1166	GeForce GT 750M	1314	236	geforce gt 750m
+1167	GeForce GT 750M	1314	236	geforcegt750m
+1168	FirePro M5950	1314	574	firepro m5950 mobility pro
+1169	Radeon R7 PRO A8-8670E	1310	442	radeon r7 pro a8-8670e
+1170	Radeon HD 4870 X2	1309	565	radeon hd 4870 x2
+1171	Radeon HD 8790M	1306	751	radeon hd 8790m
+1172	Tesla M2070-Q	1306	444	tesla m2070-q
+1173	GeForce 930MX	1305	194	geforce 930mx
+1174	GeForce 930MX	1305	194	geforce930mx
+1175	Radeon Vega 6	1301	349	radeon vega 6
+1176	Quadro 4000M	1301	266	quadro 4000m
+1177	TENSOR 1.0 Driver Intel HD 630	1300	873	tensor 1.0 driver intel hd 630
+1178	Radeon Ryzen Embedded V2748	1296	503	radeon ryzen embedded v2748
+1179	Radeon R7 A370	1281	742	radeon r7 a370
+1180	Intel UHD Graphics 630	1276	303	intel uhd 630
+1181	Intel UHD Graphics 630	1276	303	intel uhd 630 @120ghz
+1182	Intel UHD Graphics 630	1276	303	inteluhd630
+1183	FirePro 3D V8750	1272	542	firepro 3d v8750
+1184	Radeon HD 8570D + HD 6670 Dual	1261	537	radeon hd 8570d + hd 6670 dual
+1185	FirePro V5900	1259	339	firepro v5900
+1186	Radeon HD 7560D + HD 7600 Dual	1258	457	radeon hd 7560d + hd 7600 dual
+1187	Intel Iris 540	1247	323	intel iris 540
+1188	Intel Iris 540	1247	323	intel intel iris 550 540
+1189	Intel Iris 540	1247	323	inteliris540
+1190	Radeon 630	1245	223	radeon 630
+1191	Radeon HD 6770	1241	314	radeon hd 6770
+1192	Radeon HD 6770	1241	314	asus eah6770
+1193	Radeon HD 6770	1241	314	radeon hd 6770 green edition
+1194	Quadro 2000 D	1239	594	quadro 2000 d
+1195	Radeon HD 8570D + 6570 Dual	1239	459	radeon hd 8570d + 6570 dual
+1196	Radeon HD 7660D + 6670 Dual	1238	524	radeon hd 7660d + 6670 dual
+1197	Radeon HD 7560D + HD 6570 Dual	1237	528	radeon hd 7560d + hd 6570 dual
+1198	Radeon R7 + R5 340 Dual	1235	471	radeon r7 + r5 340 dual
+1199	GeForce GTX 560M	1234	248	geforce gtx 560m
+1200	FirePro 3D V5800	1232	339	firepro 3d v5800
+1201	Radeon R7 + R7 250 Dual	1232	576	radeon r7 + r7 250 dual
+1202	GeForce GTX 260	1223	74	geforce gtx 260
+1203	Intel Iris Pro 5200	1223	416	intel iris pro 5200
+1204	Intel Iris Pro 5200	1223	416	intelirispro5200
+1205	Radeon HD 8670D + HD 6670 Dual	1222	541	radeon hd 8670d + hd 6670 dual
+1206	Quadro FX 5800	1220	113	quadro fx 5800
+1207	GeForce GTX 280	1218	109	geforce gtx 280
+1208	GeForce GTX 460M	1216	247	geforce gtx 460m
+1209	Radeon HD 8790M / R9 M290X	1211	694	radeon hd 8790m / r9 m290x
+1210	Radeon R7 A10-7870K	1210	275	radeon r7 a10-7870k
+1211	GeForce GPU	1208	166	geforce
+1212	FirePro 3D V8700	1206	515	firepro 3d v8700
+1213	N16P-GX	1205	803	n16p-gx
+1214	GeForce GT 650M	1204	230	geforce gt 650m
+1215	Radeon R9 M270X	1204	306	radeon r9 m270x
+1216	Radeon HD 7660D + 7540D Dual	1204	547	radeon hd 7660d + 7540d dual
+1217	GeForce GT 650M	1204	230	geforcegt650m
+1218	Radeon HD 7730	1191	408	radeon hd 7730
+1219	Radeon HD 7750M	1191	693	radeon hd 7750m
+1220	Radeon R7 +8G	1191	460	radeon r7 +8g
+1221	Radeon HD 7750M	1191	693	radeon hd 7700m
+1222	GeForce GTX 295	1188	132	geforce gtx 295
+1223	FirePro V5800	1184	280	firepro v5800
+1224	GeForce GT 640	1184	286	geforce gt 640
+1225	GeForce GT 640	1184	286	geforcegt640
+1226	GeForce 840A	1180	266	geforce 840a
+1227	Intel HD P530	1173	281	intel hd p530
+1228	Radeon R7 Opteron X3421	1169	328	radeon r7 opteron x3421
+1229	FireStream 9250	1165	465	firestream 9250
+1230	Radeon Ryzen Embedded V2516	1164	506	radeon ryzen embedded v2516
+1231	Intel HD P630	1162	338	intel hd p630
+1232	Barco MXRT 5400	1161	457	barco mxrt 5400
+1233	NVS 810	1161	298	nvs 810
+1234	Radeon HD 5750	1161	338	radeon hd 5750
+1235	Radeon HD 5750	1161	338	asus eah5750
+1236	Radeon HD 5750	1161	338	radeon hd 5700
+1237	Radeon HD 5750	1161	338	radeon pro 575
+1238	Radeon HD 5750	1161	338	radeon pro 575x
+1239	Radeon HD 5750	1161	338	radeonpro575x
+1240	Quadro K620M	1159	157	quadro k620m
+1241	Intel Coffee Lake UHD	1158	918	intel coffee lake uhd
+1242	Radeon Ryzen 5 7600X 6-Core	1149	544	radeon ryzen 5 7600x 6-core
+1243	Radeon 625	1148	226	radeon 625
+1244	GeForce 940A	1145	348	geforce 940a
+1245	GeForce GT 745A	1144	748	geforce gt 745a
+1246	Firepro W4190M	1143	189	firepro w4190m
+1247	GeForce 930A	1140	318	geforce 930a
+1248	Radeon HD 8850M / R9 M265X	1140	741	radeon hd 8850m / r9 m265x
+1249	GeForce 830A	1138	487	geforce 830a
+1250	Radeon R7 A10-9700E RADEON	1138	346	radeon r7 a10-9700e radeon
+1251	Quadro M500M	1136	182	quadro m500m
+1252	Radeon HD 4850 X2	1132	542	radeon hd 4850 x2
+1253	Radeon HD 7560D + 6670 Dual	1131	501	radeon hd 7560d + 6670 dual
+1254	Radeon R7 + R7 200 Dual	1129	310	radeon r7 + r7 200 dual
+1255	Radeon HD 8650G + 7700M Dual	1126	399	radeon hd 8650g + 7700m dual
+1256	Radeon HD 7660D + 7500 Dual	1121	500	radeon hd 7660d + 7500 dual
+1257	Radeon HD 7660D + 7500 Dual	1121	500	radeon hd 7660g + 7500/7600 dual
+1258	GeForce 940M	1115	153	geforce 940m
+1259	Radeon R9 M275	1115	569	radeon r9 m275
+1260	GeForce 940M	1115	153	geforce940m
+1261	Intel HD 630	1114	268	intel hd 630
+1262	Intel HD 630	1114	268	intelhd630
+1263	Radeon R7 250	1107	291	radeon r7 250
+1264	Radeon R7 250	1107	291	asus r7 250
+1265	Radeon Athlon Gold PRO 4150GE	1106	563	radeon athlon gold pro 4150ge
+1266	Intel UHD Graphics 710	1104	300	intel uhd 710
+1267	Quadro 2100M	1100	765	quadro 2100m
+1268	Radeon HD 7660D + 6570 Dual	1100	551	radeon hd 7660d + 6570 dual
+1269	Radeon R7 A12-9800 RADEON	1100	295	radeon r7 a12-9800 radeon
+1270	Radeon HD 7660D + 6570 Dual	1100	551	radeon hd 7660d + hd 6570 dual
+1271	Radeon R5 PRO A6-9500 2C+6G	1096	353	radeon r5 pro a6-9500 2c+6g
+1272	Radeon R7 M460	1096	212	radeon r7 m460
+1273	Radeon R7 430	1094	402	radeon r7 430
+1274	Radeon R7 430	1094	402	radeonr7430
+1275	GeForce GTX 850M - MODDED	1092	819	geforce gtx 850m - modded
+1276	GeForce GT 545	1085	331	geforce gt 545
+1277	MIRRORV3	1081	421	mirrorv3
+1278	GeForce 920MX	1080	149	geforce 920mx
+1279	GeForce 920MX	1080	149	geforce920mx
+1280	Barco MXRT 5450	1079	478	barco mxrt 5450
+1281	Mobility Radeon HD 5870	1079	215	mobility radeon hd 5870
+1282	Mobility Radeon HD 5870	1079	215	mobility radeon hd 6370
+1283	Quadro K1100M	1076	252	quadro k1100m
+1284	Quadro K1100M	1076	252	quadrok1100m
+1285	GeForce GT 745M	1075	176	geforce gt 745m
+1286	GeForce GT 745M	1075	176	geforcegt745m
+1287	Radeon HD 8450G + 8600/8700M Dual	1070	381	radeon hd 8450g + 8600/8700m dual
+1288	GeForce 840M	1068	147	geforce 840m
+1289	GeForce 840M	1068	147	geforce840m
+1290	FirePro M4170	1067	290	firepro m4170
+1291	Radeon 535	1062	201	radeon 535
+1292	Radeon HD 7660D + 7670 Dual	1062	494	radeon hd 7660d + 7670 dual
+1293	Radeon 535	1062	201	radeon535
+1294	Radeon HD 7520G + 7700M Dual	1061	331	radeon hd 7520g + 7700m dual
+1295	GeForce GTX 760A	1060	476	geforce gtx 760a
+1296	Firepro M4100	1059	623	firepro m4100
+1297	OPAL XT/GL	1053	640	opal xt/gl
+1298	GeForce GTX 850A	1050	551	geforce gtx 850a
+1299	Radeon HD 7670A	1050	702	radeon hd 7670a
+1300	Radeon R7 A12-9730P RADEON	1047	283	radeon r7 a12-9730p radeon
+1301	Radeon R7 340	1046	412	radeon r7 340
+1302	Radeon R7 340	1046	412	radeon r7 300
+1303	Radeon R7 + R7 240 Dual	1045	374	radeon r7 + r7 240 dual
+1304	Radeon HD 8570D + 6670 Dual	1040	505	radeon hd 8570d + 6670 dual
+1305	Intel UHD Graphics 620	1034	245	intel uhd 620
+1306	Intel UHD Graphics 620	1034	245	inteluhd620
+1307	Radeon HD 8570D + HD 8570 Dual	1033	520	radeon hd 8570d + hd 8570 dual
+1308	Radeon HD 8570D + HD 8570 Dual	1033	520	radeon hd 8570d + 8570 dual
+1309	Radeon HD 8600/8700M	1030	554	radeon hd 8600/8700m
+1310	Radeon HD 8600/8700M	1030	554	radeon hd 8600
+1311	Radeon HD 8600/8700M	1030	554	radeon hd 8600m
+1312	Radeon HD 8600/8700M	1030	554	radeonhd8600/8700m
+1313	Radeon R7 + R5 330 Dual	1028	531	radeon r7 + r5 330 dual
+1314	Radeon R7 M350	1027	230	radeon r7 m350
+1315	Quadro K2000M	1025	254	quadro k2000m
+1316	Radeon R9 M265X	1025	207	radeon r9 m265x
+1317	Radeon R9 M265X	1025	207	radeon r9 m200x
+1318	Radeon R9 A375	1024	232	radeon r9 a375
+1319	Radeon HD 8670D + R7 240 Dual	1020	525	radeon hd 8670d + r7 240 dual
+1320	Radeon Vega 3 Athlon 300GE	1020	335	radeon vega 3 athlon 300ge
+1321	Radeon R5 PRO A6-8570 R5, 8 COMPUTE CORES 2C+6G	1019	241	radeon r5 pro a6-8570 r5, 8 compute cores 2c+6g
+1322	Radeon HD 6700M	1017	523	radeon hd 6700m
+1323	Radeon HD 6700M	1017	523	radeon hd 6700
+1324	Radeon HD 6700M	1017	523	radeon hd 6700 green edition
+1325	Radeon HD 6700M	1017	523	radeon hd 6730m
+1326	Radeon HD 6700M	1017	523	radeon r9 200 / hd 7900
+1327	Radeon HD 6700M	1017	523	radeonhd6700
+1328	Radeon R5 A6-9500E 2C+4G	1015	438	radeon r5 a6-9500e 2c+4g
+1329	Radeon RX Vega 6	1015	320	radeon rx vega 6
+1330	GeForce 930M	1012	151	geforce 930m
+1331	GeForce 930M	1012	151	geforce930m
+1332	Radeon HD 7690M XT	1009	552	radeon hd 7690m xt
+1333	Radeon Vega 3 Mobile	1009	311	radeon vega 3 mobile
+1334	Quadro 3000M	1005	314	quadro 3000m
+1335	Radeon Ryzen 5 3450U	1004	296	radeon ryzen 5 3450u
+1336	Radeon HD 7690M	1003	576	radeon hd 7690m
+1337	Radeon HD 7660G + HD 7500/7600 7500/7600 Dual	1002	347	radeon hd 7660g + hd 7500/7600 7500/7600 dual
+1338	Radeon HD 7660G + HD 7500M/7600M Dual	999	323	radeon hd 7660g + hd 7500m/7600m dual
+1339	Radeon HD 8570D + R7 200 Dual	999	401	radeon hd 8570d + r7 200 dual
+1340	Radeon R7 PRO A12-8870	999	320	radeon r7 pro a12-8870
+1341	Radeon HD 7640G + HD 8750M Dual	997	293	radeon hd 7640g + hd 8750m dual
+1342	Radeon HD 6750	996	277	radeon hd 6750
+1343	Radeon R7 M465	996	299	radeon r7 m465
+1344	Radeon HD 6750	996	277	asus eah6750
+1345	Radeon HD 6750	996	277	radeon hd 5700 ~ radeon hd 6750
+1346	Radeon HD 6750	996	277	radeon. hd 6730m
+1347	Radeon R7 A265	994	468	radeon r7 a265
+1348	GeForce 830M	989	137	geforce 830m
+1349	Intel HD 530	989	249	intel hd 530
+1350	Quadro FX 4800	989	86	quadro fx 4800
+1351	Intel HD 530	989	249	intelhd530
+1352	Quadro 2000D	988	311	quadro 2000d
+1353	Radeon R5 PRO A6-9500 R5, 8 COMPUTE CORES 2C+6G	986	176	radeon r5 pro a6-9500 r5, 8 compute cores 2c+6g
+1354	Radeon HD 7560D + 7570 Dual	985	434	radeon hd 7560d + 7570 dual
+1355	Radeon HD 8570	984	297	radeon hd 8570
+1356	Radeon HD 8690M	984	768	radeon hd 8690m
+1357	Radeon R5 340	984	360	radeon r5 340
+1358	Radeon R5 340	984	360	radeon r5 340x
+1359	Radeon R5 340	984	360	radeonr5340
+1360	Radeon R5 340	984	360	radeont r5 340
+1361	Radeon HD 8570	984	297	radeon hd 8570a
+1362	Radeon HD 7560D + 7560D Dual	983	420	radeon hd 7560d + 7560d dual
+1363	FirePro W4170M	981	219	firepro w4170m
+1364	Radeon 530	980	179	radeon 530
+1365	Radeon 530	980	179	radeon530
+1366	Radeon 530	980	179	radeon 530x
+1367	FirePro V4900	977	307	firepro v4900
+1368	Radeon R5 A10-9630P 4C+6G	977	270	radeon r5 a10-9630p 4c+6g
+1369	Radeon HD 8670D + 8570 Dual	974	419	radeon hd 8670d + 8570 dual
+1370	Radeon HD 8670D + 8570 Dual	974	419	radeon hd 8670d + hd 8570 dual
+1371	Radeon HD 8850M	973	502	radeon hd 8850m
+1372	Radeon HD 8850M	973	502	radeon hd 8800m
+1373	Radeon R6 A10-9600P 4C+6G	970	336	radeon r6 a10-9600p 4c+6g
+1374	Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D	967	351	radeon hd 7660g n hd 7660g + hd 7700m n hd 7700m d
+1375	Radeon R7 PRO A12-8870E	967	247	radeon r7 pro a12-8870e
+1376	Qualcomm Adreno 690 GPU	965	93	qualcomm adreno 690
+1377	Radeon HD 6770M	964	572	radeon hd 6770m
+1378	Radeon HD 8570D + R7 240 Dual	964	489	radeon hd 8570d + r7 240 dual
+1379	Radeon R7 A10-7850K	964	281	radeon r7 a10-7850k
+1380	Radeon HD 8570D + R7 240 Dual	964	489	radeon hd 8570d + r5 240 dual
+1381	Radeon R7 M270DX	962	233	radeon r7 m270dx
+1382	Radeon R6 Opteron X3418	955	399	radeon r6 opteron x3418
+1383	Radeon R7 M260X	955	173	radeon r7 m260x
+1384	Radeon R7 M445	952	179	radeon r7 m445
+1385	Radeon R7 M445	952	179	radeonr7m445
+1386	Radeon HD 8670D + R7 200 Dual	950	506	radeon hd 8670d + r7 200 dual
+1387	FirePro M4150	949	187	firepro m4150
+1388	Radeon HD 8570 + HD 7660D Dual	949	467	radeon hd 8570 + hd 7660d dual
+1389	Radeon R5 430	948	313	radeon r5 430
+1390	Quadro CX	947	454	quadro cx
+1391	Radeon HD 7640G + 7690M Dual	946	325	radeon hd 7640g + 7690m dual
+1392	Radeon HD 6670/7670	946	320	radeon hd 6670/7670
+1393	Radeon R7 PRO A10-8850B	945	552	radeon r7 pro a10-8850b
+1394	zxcvIntel HD 620	944	208	zxcvintel hd 620
+1395	Radeon HD 4850	944	99	radeon hd 4850
+1396	Radeon HD 4850	944	99	asus eah4850
+1397	Radeon HD 7660D + R7 240 Dual	942	453	radeon hd 7660d + r7 240 dual
+1398	Radeon R7 A12-9800E RADEON	941	257	radeon r7 a12-9800e radeon
+1399	Radeon HD 6750M	937	487	radeon hd 6750m
+1400	Radeon HD 7560D + HD 8570 Dual	936	425	radeon hd 7560d + hd 8570 dual
+1401	Radeon HD 7560D + HD 8570 Dual	936	425	radeon hd 7560d + hd8490 dual
+1402	Quadro 2000	935	298	quadro 2000
+1403	Radeon R7 PRO A12-9800	933	270	radeon r7 pro a12-9800
+1404	Radeon HD 7660G + 7730M Dual	931	392	radeon hd 7660g + 7730m dual
+1405	Radeon R7 PRO A10-8770	931	241	radeon r7 pro a10-8770
+1406	Radeon R7 240 + HD 8670D Dual	930	471	radeon r7 240 + hd 8670d dual
+1407	Radeon R7 A10-9700 RADEON	930	231	radeon r7 a10-9700 radeon
+1408	Radeon R7 PRO A12-9800E	928	243	radeon r7 pro a12-9800e
+1409	Radeon R7 A10-7860K	927	222	radeon r7 a10-7860k
+1410	Intel HD Graphics 620	926	220	intel hd 620
+1411	Intel HD Graphics 620	926	220	intelhd620
+1412	Intel Iris Pro 6100	925	548	intel iris pro 6100
+1413	Radeon HD 8750M	922	211	radeon hd 8750m
+1414	GeForce GT 645M	918	162	geforce gt 645m
+1415	Radeon R7 240 + HD 8570D Dual	918	352	radeon r7 240 + hd 8570d dual
+1416	GeForce GT 645M	918	162	geforcegt645m
+1417	Radeon R7 A10 PRO-7850B	915	362	radeon r7 a10 pro-7850b
+1418	GRID M10-0Q	914	613	grid m10-0q
+1419	Radeon R7 A8-8650	913	499	radeon r7 a8-8650
+1420	GRID K220Q	912	539	grid k220q
+1421	GRID M6-0B	912	764	grid m6-0b
+1422	Intel Iris 6100	911	325	intel iris 6100
+1423	Radeon 6750M	911	570	radeon 6750m
+1424	Intel Iris 6100	911	325	inteliris6100
+1425	Radeon R9 M375	910	166	radeon r9 m375
+1426	Radeon R9 M375	910	166	radeonr9m375
+1427	Radeon R7 A8-7500	908	316	radeon r7 a8-7500
+1428	GeForce GT 640M	904	184	geforce gt 640m
+1429	GeForce GT 640M	904	184	geforcegt640m
+1430	Radeon Vega 3 Ryzen 3 3200U	903	366	radeon vega 3 ryzen 3 3200u
+1431	Barco MXRT 7400	901	682	barco mxrt 7400
+1432	Radeon HD 8550G + 7600M Dual	901	395	radeon hd 8550g + 7600m dual
+1433	Radeon R5 A6-9500 RADEON R5, 8 COMPUTE CORES 2C+6G	901	206	radeon r5 a6-9500 radeon r5, 8 compute cores 2c+6g
+1434	Barco MXRT 2600	900	649	barco mxrt 2600
+1435	Radeon R7 + R5 Dual	898	496	radeon r7 + r5 dual
+1436	Radeon 620	897	205	radeon 620
+1437	Radeon 620	897	205	radeon 610
+1438	7900 MOD - Radeon HD 6550D	893	536	7900 mod - radeon hd 6550d
+1439	FirePro W2100	893	322	firepro w2100
+1440	GeForce 920A	888	214	geforce 920a
+1441	Radeon HD 4770	888	141	radeon hd 4770
+1442	Radeon HD 4770	888	141	radeon hd 4700
+1443	Intel UHD Graphics 617	887	249	intel uhd 617
+1444	Intel UHD Graphics 617	887	249	inteluhd617
+1445	Radeon R7 + R5 435 Dual A10-9700 RADEON	886	480	radeon r7 + r5 435 dual a10-9700 radeon
+1446	Radeon R7 PRO A10-9700E	886	221	radeon r7 pro a10-9700e
+1447	Radeon Vega 3	886	308	radeon vega 3
+1448	Radeon Vega 3	886	308	radeonvega3
+1449	Radeon HD 8650G + 7670M Dual	884	379	radeon hd 8650g + 7670m dual
+1450	Radeon HD 7660G + HD 7730M Dual	882	329	radeon hd 7660g + hd 7730m dual
+1451	Radeon R7 240	878	263	radeon r7 240
+1452	Radeon R7 240	878	263	asus r7 240
+1453	Radeon R7 240	878	263	radeon r7 200
+1454	Radeon R7 240	878	263	radeonr7200
+1455	Radeon E6760	877	485	radeon e6760
+1456	Radeon R7 A10-8750	876	234	radeon r7 a10-8750
+1457	Radeon R7 M440	874	176	radeon r7 m440
+1458	Radeon R7 M440	874	176	radeonr7m440
+1459	Radeon R7 G	870	532	radeon r7 g
+1460	Radeon HD 8570D + HD 6570 Dual	868	506	radeon hd 8570d + hd 6570 dual
+1461	Intel HD 520	867	211	intel hd 520
+1462	Intel HD 6000	867	279	intel hd 6000
+1463	Intel HD 520	867	211	intelhd520
+1464	Intel HD 6000	867	279	intelhd6000
+1465	Mobility Radeon HD 4850	866	472	mobility radeon hd 4850
+1466	Radeon HD 4830	864	74	radeon hd 4830
+1467	Radeon HD 8470D + HD 6450 Dual	863	590	radeon hd 8470d + hd 6450 dual
+1468	Radeon R5 PRO A6-8570E R5, 6 COMPUTE CORES 2C+4G	863	215	radeon r5 pro a6-8570e r5, 6 compute cores 2c+4g
+1469	Radeon 520	857	215	radeon 520
+1470	Radeon R7 PRO A8-9600	857	287	radeon r7 pro a8-9600
+1471	Radeon 520	857	215	radeon520
+1472	Radeon 520	857	215	radeon 500
+1473	Radeon HD 8550G + HD 7600M Dual	855	350	radeon hd 8550g + hd 7600m dual
+1474	FirePro 3D V4800	854	324	firepro 3d v4800
+1475	Qualcomm Adreno 685 GPU	854	275	qualcomm adreno 685
+1476	FirePro 3D V4800	854	324	firepro v4800
+1477	Radeon HD 8500M/8700M	853	503	radeon hd 8500m/8700m
+1478	Radeon R5 A6-9500 2C+6G	853	249	radeon r5 a6-9500 2c+6g
+1479	Radeon R7 A8-7500 4C+6G	853	390	radeon r7 a8-7500 4c+6g
+1480	Radeon R7 A8-7670K	849	297	radeon r7 a8-7670k
+1481	Radeon R5 PRO A6-8570 2C+6G	847	292	radeon r5 pro a6-8570 2c+6g
+1482	GeForce GT 445M	843	202	geforce gt 445m
+1483	Radeon R5 435	841	235	radeon r5 435
+1484	FireGL V8600	839	406	firegl v8600
+1485	Radeon HD 8470D + 6570 Dual	838	454	radeon hd 8470d + 6570 dual
+1486	Radeon HD 8670D + R5 235 Dual	837	518	radeon hd 8670d + r5 235 dual
+1487	Radeon HD 6650A	836	418	radeon hd 6650a
+1488	GeForce GT 635	834	237	geforce gt 635
+1489	Radeon HD 7560D + 6570 Dual	833	476	radeon hd 7560d + 6570 dual
+1490	Radeon HD 7520G + HD 7500/7600 Dual	832	355	radeon hd 7520g + hd 7500/7600 dual
+1491	Radeon HD 7660G + 7600M Dual	832	341	radeon hd 7660g + 7600m dual
+1492	Radeon HD 8650G + 8600/8700M Dual	832	374	radeon hd 8650g + 8600/8700m dual
+1493	Radeon R7 PRO A10-9700	831	205	radeon r7 pro a10-9700
+1494	Intel HD 5200	830	653	intel hd 5200
+1495	GRID M60-0Q	827	516	grid m60-0q
+1496	Radeon R5 A10-9630P RADEON R5, 10 COMPUTE CORES 4C	825	189	radeon r5 a10-9630p radeon r5, 10 compute cores 4c
+1497	Radeon HD 7640G N HD 7640G + HD 7600M N HD 7600M D	824	262	radeon hd 7640g n hd 7640g + hd 7600m n hd 7600m d
+1498	Radeon HD 7670	824	316	radeon hd 7670
+1499	Radeon HD 7670	824	316	asus hd7670
+1500	GeForce GT 730M	822	175	geforce gt 730m
+1501	Radeon HD 3850 X2	822	422	radeon hd 3850 x2
+1502	Radeon HD 7540D + 7500 Dual	822	471	radeon hd 7540d + 7500 dual
+1503	GeForce GT 730M	822	175	geforcegt730m
+1504	GeForce GT 730	821	242	geforce gt 730
+1505	GeForce GT 730	821	242	geforcegt730
+1506	Radeon HD 8650G + HD 7600M Dual	820	346	radeon hd 8650g + hd 7600m dual
+1507	Radeon HD 8550G + HD 8750M Dual	819	336	radeon hd 8550g + hd 8750m dual
+1508	Radeon R7 PRO A10-8770E	819	211	radeon r7 pro a10-8770e
+1509	Radeon R7 M260DX	817	195	radeon r7 m260dx
+1510	Radeon R7 A10 Extreme Edition	816	286	radeon r7 a10 extreme edition
+1511	Radeon R9 M280X	814	247	radeon r9 m280x
+1512	Radeon HD 8670D + 7000 Dual	812	488	radeon hd 8670d + 7000 dual
+1513	Radeon HD 8670D + 7000 Dual	812	488	radeon hd 7000 + hd 8670d dual
+1514	Radeon R8 M445DX	811	182	radeon r8 m445dx
+1515	Radeon R8 M445DX	811	182	radeonr8m445dx
+1516	Radeon R8 M445DX	811	182	radeon r8 m445 dx
+1517	Radeon HD 6800M	808	230	radeon hd 6800m
+1518	Radeon R7 A8-9600 RADEON	808	194	radeon r7 a8-9600 radeon
+1519	Radeon HD 6800M	808	230	radeon hd 6800
+1520	Radeon HD 6800M	808	230	radeonhd6800
+1521	Radeon HD 8550G + 8600/8700M Dual	803	336	radeon hd 8550g + 8600/8700m dual
+1522	Radeon HD 8650G + HD 8790M Dual	800	404	radeon hd 8650g + hd 8790m dual
+1523	Radeon HD 8650G + HD 8790M Dual	800	404	radeon hd 8650g + 8790m dual
+1524	GeForce 9800 GX2	798	518	geforce 9800 gx2
+1525	Radeon R7 FX-8800P	798	186	radeon r7 fx-8800p
+1526	Radeon HD 8550G + 8750M Dual	796	321	radeon hd 8550g + 8750m dual
+1527	Radeon HD 8650G N HD 8650G + HD 8600/8700M Dual	796	322	radeon hd 8650g n hd 8650g + hd 8600/8700m dual
+1528	Radeon R7 A10-7700K	793	234	radeon r7 a10-7700k
+1529	Radeon 535DX	787	187	radeon 535dx
+1530	Radeon HD 8650G + 8750M Dual	787	381	radeon hd 8650g + 8750m dual
+1531	GeForce GT 740M	786	144	geforce gt 740m
+1532	GeForce GT 740M	786	144	geforcegt740m
+1533	Radeon R5 A6-9500E RADEON R5, 6 COMPUTE CORES 2C+4	785	209	radeon r5 a6-9500e radeon r5, 6 compute cores 2c+4
+1534	GeForce 825M	784	261	geforce 825m
+1535	Quadro FX 3800	783	81	quadro fx 3800
+1536	Quadro K1000M	782	246	quadro k1000m
+1537	Radeon HD 5670	781	282	radeon hd 5670
+1538	Radeon R5 M435	781	177	radeon r5 m435
+1539	Radeon R7 A365	781	763	radeon r7 a365
+1540	Radeon R7 PRO A6-9500 2C+6G	781	439	radeon r7 pro a6-9500 2c+6g
+1541	Radeon HD 5670	781	282	asus eah5670
+1542	Radeon R5 M435	781	177	radeon r6 m435dx
+1543	Radeon R5 M435	781	177	radeon r8 m435dx
+1544	Radeon R5 M435	781	177	radeonr6m435dx
+1545	Radeon HD 8650G + HD 8750M Dual	779	345	radeon hd 8650g + hd 8750m dual
+1546	GRID P40-4Q	778	621	grid p40-4q
+1547	Radeon HD 7660G + HD 7700M Dual	777	168	radeon hd 7660g + hd 7700m dual
+1548	Radeon R7 A10-7890K	777	216	radeon r7 a10-7890k
+1549	Radeon R7 A8-7600	777	209	radeon r7 a8-7600
+1550	Radeon HD 7640G + 7500M/7600M Dual	776	317	radeon hd 7640g + 7500m/7600m dual
+1551	GeForce GT 340	774	469	geforce gt 340
+1552	GeForce GT 440	774	234	geforce gt 440
+1553	GeForce GT 440	774	234	geforcegt440
+1554	Mobility Radeon HD 5000	773	429	mobility radeon hd 5000
+1555	Radeon HD 7600M + 7600M Dual	773	317	radeon hd 7600m + 7600m dual
+1556	Radeon HD 8650G N HD 8650G + HD 8570M Dual	773	368	radeon hd 8650g n hd 8650g + hd 8570m dual
+1557	Radeon R7 A10-8850	773	277	radeon r7 a10-8850
+1558	Quadro K420	773	285	quadro k420
+1559	Mobility Radeon HD 5000	773	429	mobilityradeonhd5000
+1560	Radeon HD 7600M + 7600M Dual	773	317	radeon hd 7600m
+1561	Radeon HD 7600M + 7600M Dual	773	317	radeonhd7600m
+1562	Intel Iris 5100	771	281	intel iris 5100
+1563	Radeon R5 PRO A6-9500E 2C+4G	771	288	radeon r5 pro a6-9500e 2c+4g
+1564	Intel Iris 5100	771	281	inteliris5100
+1565	GeForce 730A	769	205	geforce 730a
+1566	GeForce 9800 GTX	769	366	geforce 9800 gtx
+1567	Quadro 2000M	769	244	quadro 2000m
+1568	Radeon HD 4810	769	425	radeon hd 4810
+1569	Radeon R5 A6-7480	769	205	radeon r5 a6-7480
+1570	Radeon HD 4810	769	425	radeon hd 4800
+1571	Radeon R7 M365X	768	177	radeon r7 m365x
+1572	Radeon R7 A8-7680	766	184	radeon r7 a8-7680
+1573	Radeon HD 8650G + HD 8600/8700M Dual	764	356	radeon hd 8650g + hd 8600/8700m dual
+1574	Intel UHD Graphics 615	763	193	intel uhd 615
+1575	Mobility Radeon HD 5850	763	403	mobility radeon hd 5850
+1576	Radeon HD 6450 + 8470D Dual	763	486	radeon hd 6450 + 8470d dual
+1577	Intel UHD Graphics 615	763	193	inteluhd615
+1578	Mobility Radeon HD 5850	763	403	mobility radeon hd 5800
+1579	Radeon HD 6650M	762	226	radeon hd 6650m
+1580	Radeon HD 7660G + HD 7500/7600 Dual	760	369	radeon hd 7660g + hd 7500/7600 dual
+1581	Radeon HD 7660G + HD 8500M Dual	758	355	radeon hd 7660g + hd 8500m dual
+1582	Radeon HD 8650G + HD 8600M N HD 8600M Dual	758	413	radeon hd 8650g + hd 8600m n hd 8600m dual
+1583	Radeon R7 PRO A10-8750B	758	224	radeon r7 pro a10-8750b
+1584	Radeon R7 PRO A10-9700B	758	259	radeon r7 pro a10-9700b
+1585	Radeon HD 8650G + HD 8600M N HD 8600M Dual	758	413	radeon hd 8650g n hd 8650g + hd 8600m n hd 8600m dual
+1586	Quadro K600	757	265	quadro k600
+1587	Radeon HD 7660G + 7700M Dual	757	311	radeon hd 7660g + 7700m dual
+1588	Quadro K600	757	265	quadrok600
+1589	Quadro 1100M	755	734	quadro 1100m
+1590	Radeon R7 PRO A8-8650B	755	201	radeon r7 pro a8-8650b
+1591	Radeon HD 7640G + 7450M Dual	754	353	radeon hd 7640g + 7450m dual
+1592	Radeon R7 A12-9720P RADEON	754	182	radeon r7 a12-9720p radeon
+1593	Radeon HD 7640G + 7450M Dual	754	353	radeon hd 7640g + hd 7450m dual
+1594	Radeon HD 8570D + HD 7000 Dual	753	465	radeon hd 8570d + hd 7000 dual
+1595	Radeon HD 8570D + HD 7000 Dual	753	465	radeon hd 8570d + 7000 dual
+1596	IncrediblE HD 4600	750	735	incredible hd 4600
+1597	Radeon M535DX	750	288	radeon m535dx
+1598	Radeon R7 M270	750	152	radeon r7 m270
+1599	Radeon R7 M270	750	152	radeonr7m270
+1600	Radeon HD 7640G + 7650M Dual	747	188	radeon hd 7640g + 7650m dual
+1601	Radeon HD 7660G + HD 8600/8700M Dual	747	365	radeon hd 7660g + hd 8600/8700m dual
+1602	Radeon HD 7660G + 7610M Dual	746	323	radeon hd 7660g + 7610m dual
+1603	Radeon HD 8670D + R5 330 Dual	746	494	radeon hd 8670d + r5 330 dual
+1604	Radeon Vega 3 Ryzen Embedded R1505G	746	316	radeon vega 3 ryzen embedded r1505g
+1605	Radeon R5 235 + HD 7560D Dual	744	441	radeon r5 235 + hd 7560d dual
+1606	GeForce GT 730A	743	714	geforce gt 730a
+1607	Radeon HD 7660G + 7670M Dual	743	347	radeon hd 7660g + 7670m dual
+1608	Radeon HD 8650G + 7600M Dual	742	404	radeon hd 8650g + 7600m dual
+1609	Radeon HD 6670	740	237	radeon hd 6670
+1610	Radeon R7 FX-9800P RADEON	740	193	radeon r7 fx-9800p radeon
+1611	Radeon HD 6670	740	237	asus eah6670
+1612	Radeon HD 6670	740	237	radeonhd6670
+1613	Intel Poison Ivy	739	783	intel poison ivy
+1614	Radeon HD 7670M + 7670M Dual	738	294	radeon hd 7670m + 7670m dual
+1615	Radeon R5 235 + HD 8570D Dual	738	486	radeon r5 235 + hd 8570d dual
+1616	Radeon R5 A10-9620P 4C+6G	732	196	radeon r5 a10-9620p 4c+6g
+1617	Radeon HD 7550M/7650M	729	524	radeon hd 7550m/7650m
+1618	GeForce 920M	728	118	geforce 920m
+1619	GRID K140Q	728	457	grid k140q
+1620	Intel HD 615	728	188	intel hd 615
+1621	GeForce 920M	728	118	geforce920m
+1622	Intel HD 615	728	188	intelhd615
+1623	NVS 510	726	280	nvs 510
+1624	Intel UHD Graphics 610	725	178	intel uhd 610
+1625	Intel UHD Graphics 610	725	178	inteluhd610
+1626	Radeon HD 7660G N HD 7660G + HD 7600M N HD 7600M D	723	292	radeon hd 7660g n hd 7660g + hd 7600m n hd 7600m d
+1627	Radeon HD 8650G + R5 M200 Dual	723	323	radeon hd 8650g + r5 m200 dual
+1628	Asus GTX 650 FML II EC-EGPU	721	534	asus gtx 650 fml ii ec-e
+1629	Mobility Radeon HD 4870	720	416	mobility radeon hd 4870
+1630	Radeon HD 7540D + 6570 Dual	720	469	radeon hd 7540d + 6570 dual
+1631	Radeon R5 A10-9600P RADEON R5, 10 COMPUTE CORES 4C	720	144	radeon r5 a10-9600p radeon r5, 10 compute cores 4c
+1632	Radeon HD 8670D + HD 7000 Dual	719	403	radeon hd 8670d + hd 7000 dual
+1633	Radeon HD 8470D + 6450 Dual	717	558	radeon hd 8470d + 6450 dual
+1634	Radeon HD 8650G + HD 8570M Dual	716	317	radeon hd 8650g + hd 8570m dual
+1635	Radeon R7 A8-7650K	716	215	radeon r7 a8-7650k
+1636	Quadro K610M	715	231	quadro k610m
+1637	Radeon R7 A12-9700P RADEON	714	169	radeon r7 a12-9700p radeon
+1638	Radeon HD 7660G + HD 8670M Dual	711	325	radeon hd 7660g + hd 8670m dual
+1639	Radeon HD 3870 X2	709	224	radeon hd 3870 x2
+1640	Radeon HD 6550A	708	609	radeon hd 6550a
+1641	Radeon R7 PRO A12-9800B	708	193	radeon r7 pro a12-9800b
+1642	Radeon HD 6550A	708	609	radeon hd 6550m
+1643	Radeon HD 7660G + HD 7670M Dual	707	317	radeon hd 7660g + hd 7670m dual
+1644	Radeon HD 7640G + 7600M Dual	706	294	radeon hd 7640g + 7600m dual
+1645	Radeon HD 7640G + 7600M Dual	706	294	radeon hd 7640g hd 7500m/7600m dual
+1646	Radeon HD 7660G N HD 7660G + HD 7670M Dual	705	318	radeon hd 7660g n hd 7660g + hd 7670m dual
+1647	Tesla K40m	705	21	tesla k40m
+1648	Radeon HD 7640G + HD 7600M Dual	704	277	radeon hd 7640g + hd 7600m dual
+1649	Radeon HD 7730M	703	212	radeon hd 7730m
+1650	Intel HD 610	702	157	intel hd 610
+1651	Intel HD 610	702	157	intelhd610
+1652	Radeon HD 7570M/HD 7670M	699	555	radeon hd 7570m/hd 7670m
+1653	TRINITY DEVASTATOR MOBILE	699	335	trinity devastator mobile
+1654	Radeon HD 7570M/HD 7670M	699	555	radeonhd7570m/hd7670m
+1655	Radeon R5 PRO A10-8730B 4C+6G	695	201	radeon r5 pro a10-8730b 4c+6g
+1656	Radeon R7 A10-7800	695	195	radeon r7 a10-7800
+1657	Radeon Ryzen 3 3250U	694	179	radeon ryzen 3 3250u
+1658	Radeon R5 PRO A6-9500B 2C+4G	693	323	radeon r5 pro a6-9500b 2c+4g
+1659	Radeon HD 7640G + 7700M Dual	691	324	radeon hd 7640g + 7700m dual
+1660	GeForce GT 630	690	210	geforce gt 630
+1661	GRID K1	690	377	grid k1
+1662	Radeon R5 PRO A6-8530B 2C+4G	690	354	radeon r5 pro a6-8530b 2c+4g
+1663	GeForce GT 630	690	210	geforce gt630
+1664	GeForce GT 630	690	210	geforcegt630
+1665	Radeon HD 7640G + 8600/8700M Dual	689	308	radeon hd 7640g + 8600/8700m dual
+1666	Radeon HD 8730M	687	185	radeon hd 8730m
+1667	Radeon HD 8650G + R5 M230 Dual	686	374	radeon hd 8650g + r5 m230 dual
+1668	Radeon HD 8650G + R5 M230 Dual	686	374	radeon hd 8650g + r5 m230 on r5 m230 dual
+1669	Radeon HD 6630M	685	390	radeon hd 6630m
+1670	Radeon HD 8550D	685	357	radeon hd 8550d
+1671	Radeon HD 6630M	685	390	radeonhd6630m
+1672	GRID P40-3Q	681	603	grid p40-3q
+1673	Radeon HD 7640G N HD 7640G + HD 7670M Dual	680	305	radeon hd 7640g n hd 7640g + hd 7670m dual
+1674	Radeon HD 8650G N HD 8650G + HD 8600M N HD 8600M D	680	347	radeon hd 8650g n hd 8650g + hd 8600m n hd 8600m d
+1675	GeForce GT 530	679	216	geforce gt 530
+1676	GeForce GTS 160M	679	308	geforce gts 160m
+1677	GeForce GT 640M LE	678	168	geforce gt 640m le
+1678	Radeon HD 7640G + HD 8670M Dual	677	249	radeon hd 7640g + hd 8670m dual
+1679	GeForce GTX 285M	676	246	geforce gtx 285m
+1680	Quadro FX 4700 X2	676	509	quadro fx 4700 x2
+1681	Radeon HD 8610G + R5 M200 Dual	676	291	radeon hd 8610g + r5 m200 dual
+1682	Radeon R7 A360	676	346	radeon r7 a360
+1683	Radeon R8 M535DX	670	182	radeon r8 m535dx
+1684	GeForce GT 740A	668	300	geforce gt 740a
+1685	GeForce GTS 360M	666	67	geforce gts 360m
+1686	Radeon HD 7640G + HD 8500M N HD 8500M Dual	666	311	radeon hd 7640g + hd 8500m n hd 8500m dual
+1687	FirePro M7740	665	415	firepro m7740
+1688	Radeon HD 8550G + 8690M Dual	664	260	radeon hd 8550g + 8690m dual
+1689	GeForce 720A	662	424	geforce 720a
+1690	FirePro V3900	661	245	firepro v3900
+1691	GeForce GT 555M	661	108	geforce gt 555m
+1692	Radeon HD 5600/5700	661	273	radeon hd 5600/5700
+1693	GeForce GT 555M	661	108	geforcegt555m
+1694	Radeon HD 5600/5700	661	273	mobility radeon hd 5700
+1695	Radeon HD 5600/5700	661	273	radeon hd 5600
+1696	FireGL V7700	660	422	firegl v7700
+1697	Radeon HD 2900 XT	660	397	radeon hd 2900 xt
+1698	Radeon R5 PRO A8-9600B 4C+6G	659	224	radeon r5 pro a8-9600b 4c+6g
+1699	GeForce GT 140	658	225	geforce gt 140
+1700	Radeon R7 M340	657	153	radeon r7 m340
+1701	Radeon R7 M340	657	153	radeonr7m340
+1702	Radeon HD 7640G + 8750M Dual	655	305	radeon hd 7640g + 8750m dual
+1703	Radeon HD 8550G + HD 8600/8700M Dual	655	170	radeon hd 8550g + hd 8600/8700m dual
+1704	Radeon HD 8550G + HD 8600/8700M Dual	655	170	radeonhd8650g+hd8600mdual
+1705	Radeon HD 8650G + 8570M Dual	654	282	radeon hd 8650g + 8570m dual
+1706	Radeon HD 7520G + HD 8750M Dual	651	289	radeon hd 7520g + hd 8750m dual
+1707	SUMO 9640	650	398	sumo 9640
+1708	Radeon R5 M430	649	516	radeon r5 m430
+1709	Radeon R5 M430	649	516	radeonr5m430
+1710	FireStream 9170	647	493	firestream 9170
+1711	Radeon HD 6670 + 6670 Dual	647	552	radeon hd 6670 + 6670 dual
+1712	Radeon HD 8610G + HD 8500M Dual	646	274	radeon hd 8610g + hd 8500m dual
+1713	Radeon HD 7640G + 7670M Dual	645	294	radeon hd 7640g + 7670m dual
+1714	Radeon R7 A8 PRO-7600B	645	169	radeon r7 a8 pro-7600b
+1715	GeForce 8800 Ultra	643	252	geforce 8800 ultra
+1716	Intel HD P4600/P4700	643	368	intel hd p4600/p4700
+1717	Radeon HD 7540D + HD 6450 Dual	643	444	radeon hd 7540d + hd 6450 dual
+1718	Intel HD 5600	639	491	intel hd 5600
+1719	Radeon R5 PRO A6-8570E 2C+4G	638	268	radeon r5 pro a6-8570e 2c+4g
+1720	Radeon HD 7640G + 7400M Dual	637	286	radeon hd 7640g + 7400m dual
+1721	Radeon HD 8450G + 8750M Dual	637	299	radeon hd 8450g + 8750m dual
+1722	GeForce 9800 S	636	427	geforce 9800 s
+1723	Radeon HD 8650G + 8670M Dual	635	355	radeon hd 8650g + 8670m dual
+1724	GeForce GT 710	634	212	geforce gt 710
+1725	Intel HD 4600	634	315	intel hd 4600
+1726	Radeon HD 7660D + HD 7000 Dual	634	465	radeon hd 7660d + hd 7000 dual
+1727	Radeon HD 8650G + HD 7670M Dual	634	305	radeon hd 8650g + hd 7670m dual
+1728	Intel HD 4600	634	315	intelhd4600
+1729	GeForce GT 710	634	212	geforcegt710
+1730	NVS 5400M	633	185	nvs 5400m
+1731	NVS 5400M	633	185	nvs5400m
+1732	Radeon HD 7610M	632	479	radeon hd 7610m
+1733	Radeon HD 7660G + 7470M Dual	631	351	radeon hd 7660g + 7470m dual
+1734	Radeon HD 7640G + HD 7700M N HD 7700M Dual	631	272	radeon hd 7640g + hd 7700m n hd 7700m dual
+1735	Radeon HD 8510G + HD 8500M Dual	630	191	radeon hd 8510g + hd 8500m dual
+1736	GRID K160Q	628	262	grid k160q
+1737	Radeon HD 2900 PRO	628	397	radeon hd 2900 pro
+1738	Radeon HD 7640G + 7500/7600 Dual	627	293	radeon hd 7640g + 7500/7600 dual
+1739	Radeon HD 8650G + 8500M Dual	627	351	radeon hd 8650g + 8500m dual
+1740	Radeon R5 A6-8500P	627	202	radeon r5 a6-8500p
+1741	Radeon HD 7640G + 7500/7600 Dual	627	293	radeon hd 7640g + hd 7500m/7600m dual
+1742	Radeon HD 8650G + 8500M Dual	627	351	radeon hd 8650g + hd 8500m dual
+1743	Intel HD 515	626	191	intel hd 515
+1744	Intel HD 515	626	191	intelhd515
+1745	Radeon HD 7520G + HD 8600/8700M Dual	624	291	radeon hd 7520g + hd 8600/8700m dual
+1746	Radeon R5 A10-9620P RADEON R5, 10 COMPUTE CORES 4C	623	165	radeon r5 a10-9620p radeon r5, 10 compute cores 4c
+1747	GeForce 810A	622	319	geforce 810a
+1748	GeForce 810A	622	319	geforce 805a
+1749	Intel HD 510	621	161	intel hd 510
+1750	Radeon HD 7640G + HD 7400M Dual	621	297	radeon hd 7640g + hd 7400m dual
+1751	Radeon R6	621	141	radeon r6
+1752	Intel HD 510	621	161	intelhd510
+1753	Radeon R6	621	141	radeonr6
+1754	Quadro FX 3800M	620	57	quadro fx 3800m
+1755	Radeon HD 8570 + 8670D Dual	620	496	radeon hd 8570 + 8670d dual
+1756	Radeon HD 8570 + 8670D Dual	620	496	radeon hd 8570 + hd 8670d dual
+1757	GeForce GTS 250	619	77	geforce gts 250
+1758	Radeon HD 8550G + R5 M200 Dual	619	276	radeon hd 8550g + r5 m200 dual
+1759	Radeon R5 A10-9600P 4C+6G	619	146	radeon r5 a10-9600p 4c+6g
+1760	GeForce GTS 250	619	77	geforcegts250
+1761	Radeon HD 8550G + R5 M200 Dual	619	276	radeon hd 8550g r5 m200 dual
+1762	Radeon HD 8550G + R5 M200 Dual	619	276	radeonhd8550g+r5m200dual
+1763	Radeon HD 8550G + R5 M200 Dual	619	276	radeonr5m200/hd8500m
+1764	Radeon HD 8550G + 8600M Dual	618	321	radeon hd 8550g + 8600m dual
+1765	Radeon HD 8550G + 8600M Dual	618	321	radeon hd 8550g + hd 8600m n hd 8600m dual
+1766	Radeon HD 7500G + 7500M/7600M Dual	617	308	radeon hd 7500g + 7500m/7600m dual
+1767	Radeon HD 7500G + 7500M/7600M Dual	617	308	radeon hd 7500/7600
+1768	FireGL V7600	616	488	firegl v7600
+1769	Radeon HD 7660G + HD 7600M Dual	616	116	radeon hd 7660g + hd 7600m dual
+1770	GeForce GT 720	614	200	geforce gt 720
+1771	GeForce GT 720	614	200	geforcegt720
+1772	Radeon HD 8650G + 8600M Dual	613	370	radeon hd 8650g + 8600m dual
+1773	Radeon HD 8650G + 8600M Dual	613	370	radeonhd8600m
+1774	Radeon HD 8550G N HD 8550G + HD 8600M N HD 8600M D	612	116	radeon hd 8550g n hd 8550g + hd 8600m n hd 8600m d
+1775	7900 MOD - Radeon HD 6520G	610	323	7900 mod - radeon hd 6520g
+1776	Quadro K510M	610	550	quadro k510m
+1777	Radeon HD 8610G + 8500M Dual	610	298	radeon hd 8610g + 8500m dual
+1778	GeForce 9800 GTX/9800 GTX+	608	112	geforce 9800 gtx/9800 gtx+
+1779	Radeon HD 7570	608	256	radeon hd 7570
+1780	Radeon HD 7570	608	256	radeon hd7570
+1781	Radeon HD 7640G + HD 8500M Dual	607	305	radeon hd 7640g + hd 8500m dual
+1782	Radeon HD 8650G + HD 8600M Dual	606	378	radeon hd 8650g + hd 8600m dual
+1783	Intel HD P4600	605	963	intel hd p4600
+1784	Radeon R5 A6-9400 RADEON R5, 6 COMPUTE CORES 2C+4G	605	271	radeon r5 a6-9400 radeon r5, 6 compute cores 2c+4g
+1785	Radeon R6 M255DX	605	116	radeon r6 m255dx
+1786	Radeon R5 PRO A10-8730B R5, 10 COMPUTE CORES 4C+6G	604	156	radeon r5 pro a10-8730b r5, 10 compute cores 4c+6g
+1787	Matrox C420 LP PCIe x16	603	383	matrox c420 lp pcie x16
+1788	Radeon HD 8550G + 8500M Dual	603	304	radeon hd 8550g + 8500m dual
+1789	Radeon R7 PRO A12-8830B	603	202	radeon r7 pro a12-8830b
+1790	GeForce GT 720A	601	221	geforce gt 720a
+1791	GeForce GT 720A	601	221	geforce gt720a
+1792	GeForce GT 720A	601	221	geforcegt720a
+1793	Radeon HD 8610G + 8670M Dual	600	356	radeon hd 8610g + 8670m dual
+1794	Radeon R8 M365DX	600	237	radeon r8 m365dx
+1795	GeForce 8800 GTS 512	597	101	geforce 8800 gts 512
+1796	GeForce 8800 GTX	597	105	geforce 8800 gtx
+1797	Radeon R7 PRO A12-8800B	597	187	radeon r7 pro a12-8800b
+1798	Radeon HD 8510G + 8500M Dual	596	260	radeon hd 8510g + 8500m dual
+1799	Radeon R5 M330	596	519	radeon r5 m330
+1800	Radeon HD 8510G + 8500M Dual	596	260	radeon hd 8510g + 8500m/8700m dual
+1801	Radeon HD 8510G + 8500M Dual	596	260	radeon hd 8510g + 8670m dual
+1802	Radeon HD 8510G + 8500M Dual	596	260	radeon hd 8510g + hd 8670m dual
+1803	Radeon R5 M330	596	519	radeon r5 a330
+1804	Radeon R5 M330	596	519	radeonr5a330
+1805	Radeon R5 M330	596	519	radeonr5m330
+1806	Quadro 500M	595	419	quadro 500m
+1807	Radeon HD 7640G + 7470M Dual	595	301	radeon hd 7640g + 7470m dual
+1808	Radeon HD 8550G + HD 8600M Dual	594	322	radeon hd 8550g + hd 8600m dual
+1809	GeForce GTS 240	593	163	geforce gts 240
+1810	GeForce GT 430	592	185	geforce gt 430
+1811	GeForce GT 430	592	185	geforcegt430
+1812	GeForce 910M	591	137	geforce 910m
+1813	Radeon HD 7520G + 7600M Dual	591	362	radeon hd 7520g + 7600m dual
+1814	Radeon R5 PRO A8-9600B R5, 10 COMPUTE CORES 4C+6G	591	171	radeon r5 pro a8-9600b r5, 10 compute cores 4c+6g
+1815	Radeon R6 PRO A8-8600B R6, 10 Compute Cores 4C+6G	590	152	radeon r6 pro a8-8600b r6, 10 compute cores 4c+6g
+1816	GeForce GT 820M	589	144	geforce gt 820m
+1817	Radeon HD 7640G + HD 7700M Dual	589	277	radeon hd 7640g + hd 7700m dual
+1818	Radeon HD 8610G + 8600M Dual	589	320	radeon hd 8610g + 8600m dual
+1819	GeForce GT 820M	589	144	geforcegt820m
+1820	Radeon HD 7520G + 7610M Dual	588	317	radeon hd 7520g + 7610m dual
+1821	Radeon HD 7660G + 7400M Dual	588	326	radeon hd 7660g + 7400m dual
+1822	Radeon HD 7660G + 8670M Dual	588	333	radeon hd 7660g + 8670m dual
+1823	Radeon HD 7660G + 7400M Dual	588	326	radeon hd 7660g + hd 7400m dual
+1824	GeForce GTX 280M	587	225	geforce gtx 280m
+1825	Radeon HD 7640G + HD 8600/8700M Dual	587	298	radeon hd 7640g + hd 8600/8700m dual
+1826	Radeon HD 7640G + HD 8600/8700M Dual	587	298	radeon hd 7640g + hd 8600m dual
+1827	GeForce GT 550M	586	121	geforce gt 550m
+1828	Radeon HD 7640G + 8500M Dual	586	308	radeon hd 7640g + 8500m dual
+1829	GeForce GT 550M	586	121	geforcegt550m
+1830	Radeon HD 8650G + HD 8670M Dual	585	320	radeon hd 8650g + hd 8670m dual
+1831	GeForce GT 735M	584	130	geforce gt 735m
+1832	Intel HD 5500	583	235	intel hd 5500
+1833	Intel HD 5500	583	235	intelhd5500
+1834	Radeon Athlon Gold 3150U	582	174	radeon athlon gold 3150u
+1835	Radeon HD 7520G + 7500/7600 Dual	582	379	radeon hd 7520g + 7500/7600 dual
+1836	Radeon HD 7520G + 7500/7600 Dual	582	379	radeon hd 7520g + hd 7500m/7600m dual
+1837	Quadro 1000M	581	197	quadro 1000m
+1838	Radeon HD 8550G + 8670M Dual	579	334	radeon hd 8550g + 8670m dual
+1839	Radeon Vega 3 3020e	579	173	radeon vega 3 3020e
+1840	Radeon HD 8450G + R5 M230 Dual	578	298	radeon hd 8450g + r5 m230 dual
+1841	Radeon HD 8610G + HD 8670M Dual	578	282	radeon hd 8610g + hd 8670m dual
+1842	Intel Skylake HD DT GT2	577	402	intel skylake hd dt gt2
+1843	Radeon HD 7620G + 8670M Dual	577	322	radeon hd 7620g + 8670m dual
+1844	Radeon R5 A240	576	802	radeon r5 a240
+1845	Radeon HD 7520G + HD 7700M Dual	575	389	radeon hd 7520g + hd 7700m dual
+1846	Radeon HD 7520G N HD 7520G + HD 7500/7600 7500/760	575	386	radeon hd 7520g n hd 7520g + hd 7500/7600 7500/760
+1847	Radeon HD 8450G + HD 8670M Dual	575	377	radeon hd 8450g + hd 8670m dual
+1848	Radeon R5 420	575	230	radeon r5 420
+1849	Intel i gfx-driver-ci-master-9938 DCH-I	573	194	intel i gfx-driver-ci-master-9938 dch-i
+1850	Radeon HD 7650A	573	293	radeon hd 7650a
+1851	Radeon R6 + R7 M265DX Dual	571	328	radeon r6 + r7 m265dx dual
+1852	Radeon R6 + R7 M265DX Dual	571	328	radeon r6 + r6 m255dx dual
+1853	GeForce GT 635M	570	170	geforce gt 635m
+1854	Radeon HD 3870	570	67	radeon hd 3870
+1855	GeForce GT 635M	570	170	geforcegt635m
+1856	GeForce GTS 250M	569	69	geforce gts 250m
+1857	Radeon HD 7560D + 6450 Dual	569	490	radeon hd 7560d + 6450 dual
+1858	GeForce 820A	568	162	geforce 820a
+1859	GeForce 820A	568	162	geforce820a
+1860	Intel HD 5000	567	225	intel hd 5000
+1861	Qualcomm Adreno 680 GPU	567	86	qualcomm adreno 680
+1862	Intel HD 5000	567	225	intelhd5000
+1863	Radeon HD 6610M	565	527	radeon hd 6610m
+1864	Radeon R7E	565	159	radeon r7e
+1865	Radeon HD 7560D + R5 235 Dual	563	397	radeon hd 7560d + r5 235 dual
+1866	Quadro FX 5600	562	168	quadro fx 5600
+1867	Radeon HD 7640G + R5 M200 Dual	559	249	radeon hd 7640g + r5 m200 dual
+1868	Radeon HD 8550G + HD 8500M Dual	559	301	radeon hd 8550g + hd 8500m dual
+1869	Radeon R7 M360	559	148	radeon r7 m360
+1870	Radeon R7 M360	559	148	radeonr7m360
+1871	Radeon HD 7640G + 8570M Dual	558	274	radeon hd 7640g + 8570m dual
+1872	Radeon HD 7640G + 8670M Dual	558	316	radeon hd 7640g + 8670m dual
+1873	Radeon HD 7600G + HD 7500M/7600M Dual	555	244	radeon hd 7600g + hd 7500m/7600m dual
+1874	GF117	554	446	gf117
+1875	GeForce 615	552	412	geforce 615
+1876	Radeon R7 7850A10-7850K	551	506	radeon r7 7850a10-7850k
+1877	FireGL V8650	550	637	firegl v8650
+1878	GeForce GT 630M	549	151	geforce gt 630m
+1879	Radeon R5 M335	549	577	radeon r5 m335
+1880	Radeon R5 M335	549	577	radeon r6 m335dx
+1881	Radeon R5 M335	549	577	radeon r6 m340dx
+1882	Radeon R5 M335	549	577	radeonr5m335
+1883	GeForce GT 630M	549	151	geforcegt630m
+1884	Mobility Radeon HD 3870	548	288	mobility radeon hd 3870
+1885	FirePro 3D V5700	547	517	firepro 3d v5700
+1886	Quadro 600	546	227	quadro 600
+1887	Radeon HD 8550G + HD 8670M Dual	546	315	radeon hd 8550g + hd 8670m dual
+1888	FirePro 3D V7750	545	468	firepro 3d v7750
+1889	Radeon HD 7520G + HD 7400M Dual	545	315	radeon hd 7520g + hd 7400m dual
+1890	Radeon HD 8450G + 8600M Dual	545	356	radeon hd 8450g + 8600m dual
+1891	Radeon HD 8450G + 8600M Dual	545	356	radeon hd 8450g + hd 8600m n hd 8600m dual
+1892	Mobility Radeon HD 5570	544	246	mobility radeon hd 5570
+1893	Radeon HD 7600G + HD 8670M Dual	544	241	radeon hd 7600g + hd 8670m dual
+1894	Quadro FX 2700	543	465	quadro fx 2700
+1895	Radeon HD 7520G + 7470M Dual	543	345	radeon hd 7520g + 7470m dual
+1896	Qualcomm Adreno 675 GPU	540	81	qualcomm adreno 675
+1897	Radeon HD 8670D	539	189	radeon hd 8670d
+1898	Radeon R7 M265	539	146	radeon r7 m265
+1899	Radeon R7 M265	539	146	radeonr7m265
+1900	Radeon R6 PRO A10-8700B 4C+6G	538	146	radeon r6 pro a10-8700b 4c+6g
+1901	Radeon R6 A10-8700P	536	140	radeon r6 a10-8700p
+1902	Radeon R7 A10 PRO-7800B	536	251	radeon r7 a10 pro-7800b
+1903	Surface Duo Adreno 640 GPU	535	70	surface duo adreno 640
+1904	GeForce GT 240	534	65	geforce gt 240
+1905	GRID K180Q	534	113	grid k180q
+1906	Radeon HD 7560D + HD 7000 Dual	534	423	radeon hd 7560d + hd 7000 dual
+1907	Radeon HD 7560D + HD 7000 Dual	534	423	radeon hd 7560d + 7000 dual
+1908	Radeon HD 8550G + 8570M Dual	533	307	radeon hd 8550g + 8570m dual
+1909	RADEON HD6530D	532	327	radeon hd6530d
+1910	Radeon R6 PRO A8-8600B 4C+6G	532	158	radeon r6 pro a8-8600b 4c+6g
+1911	Radeon HD 8550G + HD 8570M Dual	529	260	radeon hd 8550g + hd 8570m dual
+1912	Radeon HD 7640G + 6400M Dual	527	279	radeon hd 7640g + 6400m dual
+1913	Radeon HD 7640G + 6400M Dual	527	279	radeon hd 7640g + hd 6400m dual
+1914	Radeon HD 7600G N HD 7600G + HD ON HD Dual	526	244	radeon hd 7600g n hd 7600g + hd on hd dual
+1915	Radeon HD 8650D	526	398	radeon hd 8650d
+1916	GeForce GT 425M	524	177	geforce gt 425m
+1917	Radeon HD 7660D + R5 235 Dual	524	386	radeon hd 7660d + r5 235 dual
+1918	GeForce GT 425M	524	177	geforcegt425m
+1919	NVS 5200M	523	190	nvs 5200m
+1920	Radeon HD 7520G + 7670M Dual	523	323	radeon hd 7520g + 7670m dual
+1921	Radeon R5 240	523	189	radeon r5 240
+1922	Radeon R5 240	523	189	radeonr5240
+1923	Intel HD 4400	521	279	intel hd 4400
+1924	Intel HD 4400	521	279	intelhd4400
+1925	GeForce GT 435M	520	173	geforce gt 435m
+1926	MCT USB3.0 External Device	520	129	mct usb3.0 external device
+1927	Radeon HD 8670M	520	488	radeon hd 8670m
+1928	Radeon R5 M255	520	141	radeon r5 m255
+1929	Radeon HD 7640G + HD 7670M Dual	519	97	radeon hd 7640g + hd 7670m dual
+1930	IncrediblE HD 4000	517	520	incredible hd 4000
+1931	Intel HD P4000	516	636	intel hd p4000
+1932	Radeon R5 330	513	200	radeon r5 330
+1933	Radeon R6 PRO A10-8700B R6, 10 Compute Cores 4C+6G	513	138	radeon r6 pro a10-8700b r6, 10 compute cores 4c+6g
+1934	Mobility Radeon HD 4830	512	285	mobility radeon hd 4830
+1935	GeForce 9800 GTX+	510	115	geforce 9800 gtx+
+1936	Radeon HD 7640G + 7610M Dual	510	309	radeon hd 7640g + 7610m dual
+1937	GeForce 820M	509	113	geforce 820m
+1938	Radeon HD 7600G + HD 7550M Dual	509	202	radeon hd 7600g + hd 7550m dual
+1939	Radeon HD 7620G + 8600M Dual	509	294	radeon hd 7620g + 8600m dual
+1940	GeForce 820M	509	113	geforce820m
+1941	GeForce 8800 GT	508	79	geforce 8800 gt
+1942	Radeon R5 PRO A6-8500B 2C+4G	508	416	radeon r5 pro a6-8500b 2c+4g
+1943	Radeon HD 7620G + HD 8670M Dual	507	267	radeon hd 7620g + hd 8670m dual
+1944	GeForce GTS 150M	504	407	geforce gts 150m
+1945	Radeon 6600M	504	143	radeon 6600m
+1946	Radeon HD 8450G + HD 8750M Dual	504	323	radeon hd 8450g + hd 8750m dual
+1947	Radeon 6600M	504	143	radeon 6600m and 6700m
+1948	Radeon 6600M	504	143	radeon6600mand6700m
+1949	Radeon HD 6570	502	196	radeon hd 6570
+1950	Radeon HD 6570	502	196	asus eah6570
+1951	Radeon HD 6570	502	196	radeon hd 6500m/5600/5700
+1952	Radeon HD 6570	502	196	radeon hd 6570m/5700
+1953	Radeon HD 6570	502	196	radeonhd6500m/5600/5700
+1954	Radeon HD 7660D	501	181	radeon hd 7660d
+1955	Radeon HD 7660D	501	181	radeonhd7660d
+1956	Radeon R7 M265DX	499	138	radeon r7 m265dx
+1957	SUMO 964A	498	403	sumo 964a
+1958	TRINITY SCRAPPER MOBILE	498	280	trinity scrapper mobile
+1959	Radeon HD 7500G + 7550M Dual	497	263	radeon hd 7500g + 7550m dual
+1960	ASUS EAH4870x2	496	539	asus eah4870x2
+1961	GeForce 9600 GT	496	53	geforce 9600 gt
+1962	GeForce 9600 GT	496	53	geforce9600gt
+1963	Mobility Radeon HD 5730	495	143	mobility radeon hd 5730
+1964	Radeon HD 7520G + HD 7670M Dual	495	295	radeon hd 7520g + hd 7670m dual
+1965	GeForce GT625M	493	170	geforce gt625m
+1966	GeForce GT625M	493	170	geforcegt625m
+1967	GeForce GT 540M	491	86	geforce gt 540m
+1968	Radeon 3020e	491	135	radeon 3020e
+1969	GeForce GT 540M	491	86	geforcegt540m
+1970	Radeon HD8530M	490	438	radeon hd8530m
+1971	Radeon HD8530M	490	438	radeonhd8530m
+1972	Radeon HD 8670D N HD 8670D + HD 8670D Dual	489	526	radeon hd 8670d n hd 8670d + hd 8670d dual
+1973	Radeon HD 8550G + R5 M230 Dual	488	211	radeon hd 8550g + r5 m230 dual
+1974	Radeon HD 7520G + 7400M Dual	487	280	radeon hd 7520g + 7400m dual
+1975	Radeon R4E	487	366	radeon r4e
+1976	GeForce 710A	486	235	geforce 710a
+1977	Radeon HD 8610G + HD 8600M Dual	481	156	radeon hd 8610g + hd 8600m dual
+1978	Radeon HD 8650G	481	134	radeon hd 8650g
+1979	Radeon HD 8650G	481	134	radeonhd8650g
+1980	Quadro K500M	480	184	quadro k500m
+1981	Mobility Radeon HD 5000 Serisi	479	305	mobility radeon hd 5000 serisi
+1982	GeForce 9800 GT	478	78	geforce 9800 gt
+1983	Mobility Radeon HD 3870 X2	478	187	mobility radeon hd 3870 x2
+1984	GeForce 9800 GT	478	78	geforce9800gt
+1985	Quadro FX 3700M	477	95	quadro fx 3700m
+1986	Radeon HD 7670M	477	108	radeon hd 7670m
+1987	Radeon HD 7670M	477	108	radeon. hd 7670m
+1988	Radeon HD 7670M	477	108	radeonhd7670m
+1989	Radeon HD 5570	475	184	radeon hd 5570
+1990	Radeon HD 7640G + HD 8570M Dual	475	196	radeon hd 7640g + hd 8570m dual
+1991	Radeon HD 8450G + 8670M Dual	475	414	radeon hd 8450g + 8670m dual
+1992	Radeon R6 A8-8600P	475	151	radeon r6 a8-8600p
+1993	Radeon HD 5570	475	184	asus eah5570
+1994	Radeon HD 7660G	473	125	radeon hd 7660g
+1995	Radeon HD 7660G	473	125	radeonhd7660g
+1996	FirePro 3D V3800	472	507	firepro 3d v3800
+1997	Radeon HD 8570D + R5 235 Dual	471	470	radeon hd 8570d + r5 235 dual
+1998	Radeon HD 8690A	471	127	radeon hd 8690a
+1999	Radeon HD 7600G + 8500M/8700M Dual	470	257	radeon hd 7600g + 8500m/8700m dual
+2000	Radeon R5 M420	470	164	radeon r5 m420
+2001	Radeon Vega 2	470	241	radeon vega 2
+2002	Radeon R5 M420	470	164	radeonr5m420
+2003	Quadro FX 1800M	469	73	quadro fx 1800m
+2004	GeForce 800M	468	388	geforce 800m
+2005	GeForce 800M	468	388	geforce800m
+2006	Quadro FX 3600M	467	365	quadro fx 3600m
+2007	Radeon R7 M260	467	119	radeon r7 m260
+2008	Radeon R7 M260	467	119	radeonr7m260
+2009	GeForce GT 525M	466	95	geforce gt 525m
+2010	Radeon HD 7660D + 7470 Dual	466	491	radeon hd 7660d + 7470 dual
+2011	SUMO 9644	466	386	sumo 9644
+2012	FirePro V5700	465	469	firepro v5700
+2013	Radeon HD 7550M	465	403	radeon hd 7550m
+2014	GeForce GT 720M	464	118	geforce gt 720m
+2015	GeForce GT 720M	464	118	geforcegt720m
+2016	Mobility Radeon HD 4670	463	375	mobility radeon hd 4670
+2017	GeForce 8800M GTX	462	175	geforce 8800m gtx
+2018	GeForce 9800M GTX	462	117	geforce 9800m gtx
+2019	Radeon HD 7560D	461	166	radeon hd 7560d
+2020	Radeon HD 7560D	461	166	radeonhd7560d
+2021	GeForce 9800M GS	460	109	geforce 9800m gs
+2022	Radeon HD 7660G + HD 7600M N HD 7600M Dual	460	297	radeon hd 7660g + hd 7600m n hd 7600m dual
+2023	Radeon R5 M315	459	178	radeon r5 m315
+2024	Radeon R5 M315	459	178	radeonr5a315
+2025	Radeon R5 M315	459	178	radeonr5m315
+2026	GeForce 705M	456	455	geforce 705m
+2027	GeForce GT 625M	455	187	geforce gt 625m
+2028	GeForce GT 320	454	71	geforce gt 320
+2029	Intel HD Family	454	191	intel hd family
+2030	Intel HD Family	454	191	aspeed family
+2031	Intel HD Family	454	191	intelhdfamily
+2032	GeForce 710M	453	120	geforce 710m
+2033	Radeon HD 7520G + 7650M Dual	453	345	radeon hd 7520g + 7650m dual
+2034	Radeon HD 7620G N HD 7620G + HD 8600M N HD 8600M D	452	238	radeon hd 7620g n hd 7620g + hd 8600m n hd 8600m d
+2035	Radeon HD 8450G + HD 8600M Dual	452	326	radeon hd 8450g + hd 8600m dual
+2036	Radeon HD 7640G	451	121	radeon hd 7640g
+2037	Radeon HD 7650M	451	65	radeon hd 7650m
+2038	Radeon HD 7640G	451	121	radeonhd7640g
+2039	GeForce 8800 GTS	450	43	geforce 8800 gts
+2040	GeForce GT 710M	450	117	geforce gt 710m
+2041	Radeon R5 PRO A6-8500B R5, 6 Compute Cores 2C+4G	449	129	radeon r5 pro a6-8500b r5, 6 compute cores 2c+4g
+2042	Radeon HD 7520G + HD 7600M Dual	447	150	radeon hd 7520g + hd 7600m dual
+2043	Radeon HD 7520G + HD 7600M Dual	447	150	radeon hd 7520g + 7500m/7600m dual
+2044	Radeon HD 7660G + 8600M Dual	446	360	radeon hd 7660g + 8600m dual
+2045	Mobility Radeon HD 5650	445	143	mobility radeon hd 5650
+2046	PHDGD Ivy 5	445	497	phdgd ivy 5
+2047	Quadro 410	445	221	quadro 410
+2048	Radeon HD 8570D	445	155	radeon hd 8570d
+2049	Radeon HD 7620G + HD 8600M Dual	443	267	radeon hd 7620g + hd 8600m dual
+2050	GeForce GT 620M	441	132	geforce gt 620m
+2051	GeForce GT 620M	441	132	geforcegt620m
+2052	Radeon HD 7570M	439	194	radeon hd 7570m
+2053	Radeon HD 7600G + HD Dual	435	158	radeon hd 7600g + hd dual
+2054	Radeon HD 8410G	435	263	radeon hd 8410g
+2055	Radeon HD 3850 AGP	432	92	radeon hd 3850 agp
+2056	Radeon R5 M240	432	247	radeon r5 m240
+2057	Radeon R5 M240	432	247	radeonr5m240
+2058	Quadro FX 4600	431	168	quadro fx 4600
+2059	GeForce 800A	428	224	geforce 800a
+2060	Quadro FX 2800M	428	67	quadro fx 2800m
+2061	Radeon HD 8610G	426	118	radeon hd 8610g
+2062	Radeon HD 7640G + HD 7500/7600 Dual	424	301	radeon hd 7640g + hd 7500/7600 dual
+2063	Radeon HD 7600G + 7550M Dual	423	247	radeon hd 7600g + 7550m dual
+2064	Radeon HD 7640G N HD 7640G + HD 8570M Dual	423	287	radeon hd 7640g n hd 7640g + hd 8570m dual
+2065	RADEON HD6410D	423	296	radeon hd6410d
+2066	Radeon HD 8570M	422	164	radeon hd 8570m
+2067	Radeon R7 Eng Sample: ZM2111C1Y4382_34/21/13/06_98	422	126	radeon r7 eng sample: zm2111c1y4382_34/21/13/06_98
+2068	Radeon HD 8570M	422	164	radeonhd8570m
+2069	Intel 4th Generation Haswell HD	420	734	intel 4th generon haswell hd
+2070	GeForce GT 420M	419	83	geforce gt 420m
+2071	GeForce GT 420M	419	83	geforcegt420m
+2072	Radeon R5 M320	418	135	radeon r5 m320
+2073	Radeon R5 M320	418	135	radeon. r5 m320
+2074	Radeon R5 M320	418	135	radeonr5m320
+2075	FirePro M2000	415	205	firepro m2000
+2076	GeForce GT 420	413	191	geforce gt 420
+2077	GeForce GT 420	413	191	geforcegt420
+2078	Radeon HD 8550G	410	119	radeon hd 8550g
+2079	GeForce GT 330	409	109	geforce gt 330
+2080	GeForce GTS 350M	408	113	geforce gts 350m
+2081	Radeon HD 7470M	408	393	radeon hd 7470m
+2082	Radeon R5 PRO A6-9500B R5, 6 COMPUTE CORES 2C+4G	408	120	radeon r5 pro a6-9500b r5, 6 compute cores 2c+4g
+2083	Radeon HD 7470M	408	393	radeon hd 7470m + 7470m dual
+2084	Radeon HD 7640G + HD 7600M N HD 7600M Dual	407	198	radeon hd 7640g + hd 7600m n hd 7600m dual
+2085	Radeon HD 7600G + 7500M/7600M Dual	406	210	radeon hd 7600g + 7500m/7600m dual
+2086	RADEON E4690	405	347	radeon e4690
+2087	Radeon HD 8500M	404	115	radeon hd 8500m
+2088	Radeon HD 8500M	404	115	radeon hd 8500
+2089	Radeon HD 8500M	404	115	radeon r5 m200 / hd 8500m
+2090	Radeon HD 8500M	404	115	radeonhd8500m
+2091	Radeon R5 M230	403	132	radeon r5 m230
+2092	Radeon R5 M230	403	132	radeonr5m230
+2093	Radeon R5 M230	403	132	radeon r5 m200
+2094	GeForce 810M	402	70	geforce 810m
+2095	Quadro FX 1800	402	79	quadro fx 1800
+2096	Radeon HD 6550D	402	133	radeon hd 6550d
+2097	Radeon HD 6550D	402	133	radeonhd6550d
+2098	Mobility Radeon HD 4650	401	320	mobility radeon hd 4650
+2099	Radeon HD 3850	401	42	radeon hd 3850
+2100	Radeon HD 3850	401	42	radeon hd 3800
+2101	GeForce GT 335M	399	47	geforce gt 335m
+2102	GeForce 9800M GTS	398	114	geforce 9800m gts
+2103	GeForce 9800M GTS	398	114	geforce9800mgts
+2104	Radeon R5 Opteron X3216	394	182	radeon r5 opteron x3216
+2105	Radeon HD 7600G + 7450M Dual	390	221	radeon hd 7600g + 7450m dual
+2106	Radeon HD 7600G + 7450M Dual	390	221	radeon hd 7600g + hd 7450m dual
+2107	IncrediblE HD	389	427	incredible hd
+2108	GeForce 7900 GTX	388	165	geforce 7900 gtx
+2109	Intel HD 5300	388	184	intel hd 5300
+2110	Intel HD 5300	388	184	intelhd5300
+2111	GeForce GTX 260M	385	52	geforce gtx 260m
+2112	Radeon HD 4670	382	42	radeon hd 4670
+2113	GeForce 8800M GTS	382	159	geforce 8800m gts
+2114	GeForce 9800M GT	381	81	geforce 9800m gt
+2115	GeForce GT 130	381	109	geforce gt 130
+2116	Radeon HD 6490M	378	514	radeon hd 6490m
+2117	Radeon HD 7520G + 8750M Dual	377	388	radeon hd 7520g + 8750m dual
+2118	Radeon HD 7600G + 6400M Dual	377	257	radeon hd 7600g + 6400m dual
+2119	Radeon HD 7600G + 6400M Dual	377	257	radeon hd 7600g + hd 6400m dual
+2120	Radeon HD 5550	376	181	radeon hd 5550
+2121	Radeon HD 5550	376	181	asus eah5550
+2122	Radeon HD 5550	376	181	radeon hd 5500
+2123	PHDGD Ivy 4	375	331	phdgd ivy 4
+2124	Radeon HD 8570D + HD8490 Dual	374	380	radeon hd 8570d + hd8490 dual
+2125	Radeon HD 8570D + HD8490 Dual	374	380	radeon hd 8570d + 8490 dual
+2126	Radeon HD 8570D + HD8490 Dual	374	380	radeon hd 8570d + hd 8490 dual
+2127	Radeon HD 8510G	372	104	radeon hd 8510g
+2128	Radeon HD 8510G	372	104	radeon hd 8510g + hd 8600m dual
+2129	Quadro FX 3700	371	104	quadro fx 3700
+2130	GeForce GT 610M / GT 620M / GT 710M / GT 720M / GT	369	824	geforce gt 610m / gt 620m / gt 710m / gt 720m / gt
+2131	Intel UHD Graphics 605	368	111	intel uhd 605
+2132	Intel UHD Graphics 605	368	111	inteluhd605
+2133	Matrox Millennium P690 PCIe x16	367	295	matrox millennium p690 pcie x16
+2134	Mobility Radeon HD 3850	366	248	mobility radeon hd 3850
+2135	Radeon HD4670	366	585	radeon hd4670
+2136	Radeon HD 7520G N HD 7520G + HD 7600M N HD 7600M D	365	263	radeon hd 7520g n hd 7520g + hd 7600m n hd 7600m d
+2137	Radeon HD 7660G + HD 8600M Dual	364	337	radeon hd 7660g + hd 8600m dual
+2138	GeForce GT 620	362	157	geforce gt 620
+2139	GeForce GT 620	362	157	geforce gt620m
+2140	GeForce GT 620	362	157	geforcegt620
+2141	Radeon HD 8450G	361	148	radeon hd 8450g
+2142	Radeon HD 7500G + HD 7500M/7600M Dual	356	265	radeon hd 7500g + hd 7500m/7600m dual
+2143	Radeon HD 7620G	355	106	radeon hd 7620g
+2144	Radeon HD 6620G	354	107	radeon hd 6620g
+2145	Mobility Radeon HD 565v	353	318	mobility radeon hd 565v
+2146	Radeon HD 6480M	353	282	radeon hd 6480m
+2147	GeForce GT 705	352	180	geforce gt 705
+2148	GeForce GT 705	352	180	geforcegt705
+2149	Radeon HD 7580D	351	430	radeon hd 7580d
+2150	Radeon HD 8470D	351	136	radeon hd 8470d
+2151	Radeon HD 8470D	351	136	radeonhd8470d
+2152	Quadro FX 2700M	349	52	quadro fx 2700m
+2153	Intel HD 505	348	95	intel hd 505
+2154	GeForce 7950 GT	344	189	geforce 7950 gt
+2155	GeForce GT 625	342	189	geforce gt 625
+2156	FireGL V5600	341	445	firegl v5600
+2157	FirePro 3D V3750	341	467	firepro 3d v3750
+2158	GeForce 9600 GSO	341	121	geforce 9600 gso
+2159	Radeon HD 8310E	341	187	radeon hd 8310e
+2160	Radeon HD 8310E	341	187	radeon hd 8310g
+2161	Radeon HD 7660D + HD 7400 Dual	340	448	radeon hd 7660d + hd 7400 dual
+2162	Intel HD 4000	339	187	intel hd 4000
+2163	Intel HD 4000	339	187	intelhd4000
+2164	Radeon HD 8570D + HD 8470 Dual	338	416	radeon hd 8570d + hd 8470 dual
+2165	Radeon HD 8570D + HD 8470 Dual	338	416	radeon hd 8570d + 8470 dual
+2166	FirePro RG220	335	552	firepro rg220
+2167	Radeon HD 6530D	333	138	radeon hd 6530d
+2168	Radeon R5 235	333	172	radeon r5 235
+2169	Radeon HD 6530D	333	138	radeonhd6530d
+2170	GeForce 8800 GS	332	154	geforce 8800 gs
+2171	Radeon R5 310	332	545	radeon r5 310
+2172	Radeon R5 310	332	545	radeonr5310
+2173	Radeon HD 7540D	331	125	radeon hd 7540d
+2174	Radeon R4	331	100	radeon r4
+2175	Radeon R4	331	100	radeonr4
+2176	GeForce 9600 GSO 512	330	79	geforce 9600 gso 512
+2177	Radeon HD 7450M	330	441	radeon hd 7450m
+2178	Radeon HD 7450M	330	441	radeonhd7450m
+2179	FirePro V3800	329	181	firepro v3800
+2180	Radeon HD 7600G + HD 7400M Dual	329	147	radeon hd 7600g + hd 7400m dual
+2181	Intel UHD Graphics 600	327	97	intel uhd 600
+2182	Intel UHD Graphics 600	327	97	inteluhd600
+2183	GeForce GT 120 / 9500 GT	325	327	geforce gt 120 / 9500 gt
+2184	Radeon E6460	324	225	radeon e6460
+2185	GeForce 240M GT	320	434	geforce 240m gt
+2186	Radeon HD 7600G	320	99	radeon hd 7600g
+2187	RADEON HD6370D	320	312	radeon hd6370d
+2188	Radeon HD 7600G	320	99	radeon hd 7600
+2189	Radeon HD 7600G	320	99	radeon hd 7600a
+2190	GeForce GT 230	319	75	geforce gt 230
+2191	Radeon HD 7520G	319	105	radeon hd 7520g
+2192	Radeon HD 8280	319	141	radeon hd 8280
+2193	Mobility Radeon HD 560v	318	366	mobility radeon hd 560v
+2194	Radeon HD 8370D	318	152	radeon hd 8370d
+2195	Mobility Radeon HD 560v	318	366	mobility radeon hd 5600/5700
+2196	Mobility Radeon HD 560v	318	366	mobilityradeonhd5600/5700
+2197	Radeon HD 7520G + 8600/8700M Dual	311	329	radeon hd 7520g + 8600/8700m dual
+2198	Radeon HD 7500G	307	100	radeon hd 7500g
+2199	Radeon HD 7500G	307	100	radeon hd 7500
+2200	Radeon HD 7500G	307	100	radeon hd 7500m/7600m
+2201	Radeon HD 7500G	307	100	radeonhd7500m/7600m
+2202	Quadro FX 3500M	306	309	quadro fx 3500m
+2203	Radeon HD 8350G	304	169	radeon hd 8350g
+2204	GeForce 605	303	179	geforce 605
+2205	Intel HD P3000	303	87	intel hd p3000
+2206	GeForce 605	303	179	geforce605
+2207	GeForce GT 520	301	131	geforce gt 520
+2208	GeForce GT 610	301	128	geforce gt 610
+2209	Radeon R1E	301	179	radeon r1e
+2210	GeForce GT 610	301	128	geforcegt610
+2211	GeForce GT 520	301	131	geforcegt520
+2212	Intel HD 500	299	82	intel hd 500
+2213	Radeon HD 6520G	299	82	radeon hd 6520g
+2214	Radeon HD 6520G	299	82	radeon hd 6500
+2215	Radeon HD 6520G	299	82	radeonhd6520g
+2216	Intel HD 500	299	82	intelhd500
+2217	GeForce 9700M GTS	298	68	geforce 9700m gts
+2218	Radeon HD 7420G	297	114	radeon hd 7420g
+2219	Radeon HD 7470	297	162	radeon hd 7470
+2220	Radeon R3	297	94	radeon r3
+2221	Radeon R3	297	94	radeon hd 8200 / r3
+2222	Radeon R3	297	94	radeonr3
+2223	Radeon R3	297	94	radmin mirror driver v3
+2224	Radeon HD 7470	297	162	asus hd7470
+2225	Radeon R5E	296	103	radeon r5e
+2226	Radeon R5E	296	103	radeon r5
+2227	Radeon R5E	296	103	radeonr5
+2228	GeForce 9600M GT / GeForce GT 220M	293	291	geforce 9600m gt / geforce gt 220m
+2229	GRID K120Q	293	278	grid k120q
+2230	GeForce 610M	292	105	geforce 610m
+2231	Quadro FX 3500	292	106	quadro fx 3500
+2232	Radeon HD 2900 GT	292	344	radeon hd 2900 gt
+2233	GeForce 610M	292	105	geforce610m
+2234	GeForce 7800 GTX	291	196	geforce 7800 gtx
+2235	IncrediblE HD 3000	291	18	incredible hd 3000
+2236	NVS 315	290	186	nvs 315
+2237	GeForce 7950 Xtreme	288	288	geforce 7950 xtreme
+2238	Intel G965 Express	288	58	intel g965 express
+2239	Radeon HD 7450A	288	385	radeon hd 7450a
+2240	GeForce GT 415M	286	221	geforce gt 415m
+2241	GeForce GT 520M	285	74	geforce gt 520m
+2242	Mobile Intel HD	285	164	mobile intel hd
+2243	GeForce GT 520M	285	74	geforcegt520m
+2244	Mobility Radeon HD 5165	284	362	mobility radeon hd 5165
+2245	Mobility Radeon HD 5165	284	362	mobility radeon hd 5145
+2246	GeForce GT 520MX	283	53	geforce gt 520mx
+2247	Radeon HD 2600 XT	283	371	radeon hd 2600 xt
+2248	Radeon HD 7480D	282	121	radeon hd 7480d
+2249	GeForce 9600 GS	282	41	geforce 9600 gs
+2250	Radeon HD 7480D	282	121	radeonhd7480d
+2251	Radeon R5 235X	277	202	radeon r5 235x
+2252	Radeon HD 6370M	276	401	radeon hd 6370m
+2253	Qualcomm Adreno 630 GPU	274	103	qualcomm adreno 630
+2254	GeForce 9650M GS	270	328	geforce 9650m gs
+2255	GeForce Go 7900 GTX	270	264	geforce go 7900 gtx
+2256	Radeon HD 8280G	270	130	radeon hd 8280g
+2257	Radeon HD 8400E	269	119	radeon hd 8400e
+2258	Radeon HD 5470	268	298	radeon hd 5470
+2259	Radeon HD 7400G	267	109	radeon hd 7400g
+2260	Radeon HD 7400G	267	109	radeon hd 7400
+2261	Radeon HD 7400G	267	109	radeon hd 7400m
+2262	Radeon HD 7400G	267	109	radeonhd7400m
+2263	Mobility Radeon HD 550v	266	398	mobility radeon hd 550v
+2264	GeForce Go 7950 GTX	264	283	geforce go 7950 gtx
+2265	Radeon HD 8490	262	174	radeon hd 8490
+2266	Radeon HD 8490	262	174	radeon hd8490
+2267	Radeon HD 8490	262	174	radeonhd8490
+2268	GeForce 510	260	192	geforce 510
+2269	NVS 4200M	260	80	nvs 4200m
+2270	Radeon HD 6450A	260	208	radeon hd 6450a
+2271	NVS 4200M	260	80	nvs4200m
+2272	Radeon HD 6480G	259	79	radeon hd 6480g
+2273	Radeon HD 8400	259	78	radeon hd 8400
+2274	Radeon HD 8400	259	78	radeon hd 8400 / r3
+2275	GeForce 7900 GT	258	160	geforce 7900 gt
+2276	Intel HD 3000	256	41	intel hd 3000
+2277	Intel HD 3000	256	41	intel hd
+2278	Intel HD 3000	256	41	intelhd3000
+2279	Intel Q965/Q963 Express	255	50	intel q965/q963 express
+2280	Intel Q965/Q963 Express	255	50	intel q965/q963 express chipset family
+2281	GeForce 7900 GS	254	68	geforce 7900 gs
+2282	Quadro NVS 510M	254	317	quadro nvs 510m
+2283	Radeon HD 6370D	254	147	radeon hd 6370d
+2284	Radeon HD 8470	252	168	radeon hd 8470
+2285	Radeon HD 7640G + 8600M Dual	250	217	radeon hd 7640g + 8600m dual
+2286	Radeon HD 8330	250	67	radeon hd 8330
+2287	Radeon HD 8330E	250	84	radeon hd 8330e
+2288	GeForce GT 415	248	363	geforce gt 415
+2289	CARRIZO 9874	247	69	carrizo 9874
+2290	GeForce 7900 GT/GTO	247	469	geforce 7900 gt/gto
+2291	GeForce 410M	246	124	geforce 410m
+2292	GeForce 410M	246	124	geforce410m
+2293	GeForce 7800 GT	244	273	geforce 7800 gt
+2294	Quadro FX 5500	242	394	quadro fx 5500
+2295	Radeon HD 8280E	241	82	radeon hd 8280e
+2296	Radeon R2	241	69	radeon r2
+2297	Radeon R2	241	69	radeonr2
+2298	Radeon HD4650	240	99	radeon hd4650
+2299	Radeon HD 6410D	239	118	radeon hd 6410d
+2300	Radeon HD 7640G + R5 M230 Dual	239	75	radeon hd 7640g + r5 m230 dual
+2301	Radeon HD 8240	239	62	radeon hd 8240
+2302	Radeon HD 6410D	239	118	radeon hd 6400m
+2303	Radeon HD 6410D	239	118	radeon hd 6400
+2304	Radeon HD 6410D	239	118	radeonhd6400m
+2305	Mobility Radeon HD 5470	236	362	mobility radeon hd 5470
+2306	Quadro FX 4500 X2	236	653	quadro fx 4500 x2
+2307	Radeon HD 4550	236	429	radeon hd 4550
+2308	Mobility Radeon HD 3670	232	331	mobility radeon hd 3670
+2309	Radeon E6465	231	354	radeon e6465
+2310	Quadro FX 570	228	93	quadro fx 570
+2311	Radeon HD 6470M	228	107	radeon hd 6470m
+2312	Radeon HD 6470M	228	107	radeon. hd 6470m
+2313	Radeon HD 6470M	228	107	radeonhd6470m
+2314	Quadro FX 4500	226	143	quadro fx 4500
+2315	Radeon HD 7450	225	146	radeon hd 7450
+2316	GT 430	223	325	gt 430
+2317	Radeon R5 230	222	255	radeon r5 230
+2318	Radeon R5 230	222	255	asus r5 230
+2319	Radeon R5 230	222	255	radeon hd r5 230
+2320	Radeon HD 7340M	221	160	radeon hd 7340m
+2321	Radeon HD 7340M	221	160	radeon hd 7370m
+2322	Radeon HD 7340M	221	160	radeonhd7370m
+2323	A6 Micro-6500T Quad-Core APU with RadeonR4	220	127	a6 micro-6500t quad-core apu with radeonr4
+2324	Quadro FX 880M	220	64	quadro fx 880m
+2325	GeForce 320M	219	69	geforce 320m
+2326	Mobility FireGL V5725	219	405	mobility firegl v5725
+2327	Quadro FX 2500M	218	272	quadro fx 2500m
+2328	Radeon HD 4650	216	33	radeon hd 4650
+2329	Radeon HD 6320 Graphic	216	159	radeon hd 6320 graphic
+2330	Radeon HD 4650	216	33	asus eah4650
+2331	Radeon HD 4650	216	33	radeon hd 4600
+2332	Radeon HD 4650	216	33	radeonhd4650
+2333	Mobility Radeon. HD 5470	215	398	mobility radeon. hd 5470
+2334	Mobility Radeon HD 5450	214	320	mobility radeon hd 5450
+2335	GeForce GT 220	213	50	geforce gt 220
+2336	Intel HD 2000	213	456	intel hd 2000
+2337	GeForce GT 220	213	50	geforcegt220
+2338	Radeon R2E	212	90	radeon r2e
+2339	Radeon HD 2600 PRO	211	337	radeon hd 2600 pro
+2340	GeForce Go 7600 GT	210	125	geforce go 7600 gt
+2341	GeForce Go 7800 GTX	210	239	geforce go 7800 gtx
+2342	GeForce 9700M GT	209	120	geforce 9700m gt
+2343	Radeon HD 8250	209	63	radeon hd 8250
+2344	Radeon HD 8250	209	63	radeonhd8250
+2345	GeForce GT 330M	208	53	geforce gt 330m
+2346	Radeon HD 4650 AGP	208	156	radeon hd 4650 agp
+2347	Quadro NVS 290	207	55	quadro nvs 290
+2348	Radeon HD 6380G	207	97	radeon hd 6380g
+2349	Barco MXRT 1450	206	520	barco mxrt 1450
+2350	Radeon R3E	206	90	radeon r3e
+2351	Intel i gfx-driver-ci-master-9938	206	47	intel i gfx-driver-ci-master-9938
+2352	Intel 2nd Generation SandyBridge HD 3000	205	555	intel 2nd generon sandybridge hd 3000
+2353	GeForce GT 240M	204	54	geforce gt 240m
+2354	GeForce GT 240M	204	54	geforcegt240m
+2355	GeForce 7600 GT	202	76	geforce 7600 gt
+2356	GeForce 7950 GX2	202	413	geforce 7950 gx2
+2357	GeForce 7600 GT	202	76	geforce7600gt
+2358	GeForce GT 230M	200	45	geforce gt 230m
+2359	Mobility Radeon HD 545v	200	270	mobility radeon hd 545v
+2360	Radeon HD 6450	200	120	radeon hd 6450
+2361	GeForce GT 230M	200	45	geforcegt230m
+2362	Radeon HD 6450	200	120	asus eah6450
+2363	Radeon HD 6450	200	120	radeonhd6450
+2364	RADEON HD7450	199	215	radeon hd7450
+2365	Radeon HD 6320M	198	151	radeon hd 6320m
+2366	GeForce GT 120M	196	139	geforce gt 120m
+2367	Radeon HD 7340G	196	146	radeon hd 7340g
+2368	GeForce 6800 GS	195	121	geforce 6800 gs
+2369	Intel Infoshock HD	194	393	intel infoshock hd
+2370	Radeon HD 8210E	194	202	radeon hd 8210e
+2371	Radeon HD 6430M	193	106	radeon hd 6430m
+2372	Mobility Radeon HD 2600 XT	192	329	mobility radeon hd 2600 xt
+2373	NVS 5100M	191	79	nvs 5100m
+2374	Mobility Radeon HD 4550	191	290	mobility radeon hd 4550
+2375	Mobility Radeon HD 4550	191	290	mobility radeon hd 4500
+2376	Mobility Radeon HD 4550	191	290	mobility radeon hd 4500/5100
+2377	Mobility Radeon HD 4550	191	290	mobilityradeonhd4500
+2378	Mobility Radeon HD 4550	191	290	mobilityradeonhd4500/5100
+2379	Quadro FX 1500	190	105	quadro fx 1500
+2380	Mobility Radeon HD 540v	188	382	mobility radeon hd 540v
+2381	Mobility Radeon HD 540v	188	382	mobility radeon hd 5400
+2382	Mobility Radeon HD 540v	188	382	mobilityradeonhd5400
+2383	Mobility Radeon HD 540v	188	382	radeon hd 5400
+2384	Radeon HD 8210	187	48	radeon hd 8210
+2385	Radeon HD 8210	187	48	radeonhd8210
+2386	Intel 2nd Generation SandyBridge HD	186	178	intel 2nd generon sandybridge hd
+2387	Quadro FX 3450/4000 SDI	186	130	quadro fx 3450/4000 sdi
+2388	Mobility Radeon HD 5430	181	330	mobility radeon hd 5430
+2389	Radeon HD 7310G	181	119	radeon hd 7310g
+2390	Barco MXRT 7100	180	659	barco mxrt 7100
+2391	FireGL V3600	180	399	firegl v3600
+2392	FirePro 3D V3700	179	466	firepro 3d v3700
+2393	Radeon HD 6230	179	254	radeon hd 6230
+2394	GeForce 7800 GS	177	199	geforce 7800 gs
+2395	GeForce Go 7900 GS	176	254	geforce go 7900 gs
+2396	Mobility Radeon HD 530v	175	353	mobility radeon hd 530v
+2397	Quadro FX 770M	174	65	quadro fx 770m
+2398	Radeon HD 7310 - Carte graphique	174	120	radeon hd 7310 - carte graphique
+2399	GeForce 9200	173	30	geforce 9200
+2400	Quadro FX 1700M	173	135	quadro fx 1700m
+2401	Quadro FX 1500M	171	275	quadro fx 1500m
+2402	FirePro 2460	170	352	firepro 2460
+2403	GeForce GT 325M	170	49	geforce gt 325m
+2404	Radeon HDG 4670	170	197	radeon hdg 4670
+2405	GeForce GT 120	169	80	geforce gt 120
+2406	Mobility Radeon HD 2600	168	267	mobility radeon hd 2600
+2407	Radeon HD 7350	168	193	radeon hd 7350
+2408	Radeon HD 7350	168	193	asus hd 7350
+2409	Radeon HD 7350	168	193	radeonhd7350
+2410	Radeon HD 7310M	166	127	radeon hd 7310m
+2411	Intel HD manual-gen9_2015-133271	165	119	intel hd manual-gen9_2015-133271
+2412	Radeon HD 8350	165	233	radeon hd 8350
+2413	Radeon HD 8350	165	233	asus hd8350
+2414	GeForce 315	159	56	geforce 315
+2415	GeForce 7600 GS	158	55	geforce 7600 gs
+2416	GeForce 9500 GS	157	55	geforce 9500 gs
+2417	GeForce G200	157	107	geforce g200
+2418	Radeon HD 7340	157	56	radeon hd 7340
+2419	GeForce 8600 GTS	156	32	geforce 8600 gts
+2420	Radeon HD 4300/4500 Serisi	156	347	radeon hd 4300/4500 serisi
+2421	Radeon HD 4300/4500 Serisi	156	347	radeon hd 4300/4500
+2422	Quadro FX 580	153	52	quadro fx 580
+2423	Radeon HD 3670	152	57	radeon hd 3670
+2424	Radeon HD 3670	152	57	radeon hd 3600
+2425	GeForce 305M	151	149	geforce 305m
+2426	Radeon X1950 CrossFire Edition	151	466	radeon x1950 crossfire edition
+2427	Radeon HD 3650 AGP	150	155	radeon hd 3650 agp
+2428	Quadro FX 3450	149	235	quadro fx 3450
+2429	Radeon HD 6320	149	46	radeon hd 6320
+2430	S3 5400EW	149	9	s3 5400ew
+2431	GeForce Go 7700	148	232	geforce go 7700
+2432	Mobility Radeon HD 4350	148	369	mobility radeon hd 4350
+2433	FirePro 2270	147	195	firepro 2270
+2434	Quadro 400	147	64	quadro 400
+2435	ZX Chrome 645/640 GPU	147	220	zx chrome 645/640
+2436	GeForce GT 130M	146	35	geforce gt 130m
+2437	Intel Q45/Q43 Express Chipset	146	26	intel q45/q43 express chipset
+2438	Radeon X1900 GT	146	409	radeon x1900 gt
+2439	GeForce 9200M GE	144	61	geforce 9200m ge
+2440	Radeon HD 6300M	142	108	radeon hd 6300m
+2441	GeForce 6800 GT	142	212	geforce 6800 gt
+2442	Radeon HD 6300M	142	108	radeon hd 6300
+2443	EG PARK	141	7	eg park
+2444	Quadro FX 380	141	96	quadro fx 380
+2445	Radeon HD 4290	141	442	radeon hd 4290
+2446	RADEON HD 6350	141	171	radeon hd 6350
+2447	Radeon X1800 GTO	141	415	radeon x1800 gto
+2448	RADEON HD 6350	141	171	radeon hd 6350a
+2449	GeForce 8200	140	86	geforce 8200
+2450	nForce 760i SLI	140	379	nforce 760i sli
+2451	Radeon HD 6290M	140	92	radeon hd 6290m
+2452	GeForce 6800 Ultra	139	153	geforce 6800 ultra
+2453	Intel Haswell HD - GT2	139	630	intel haswell hd - gt2
+2454	NVS 2100M	139	221	nvs 2100m
+2455	GeForce Go 6800 Ultra	138	198	geforce go 6800 ultra
+2456	Radeon HD 5450	138	149	radeon hd 5450
+2457	Radeon HD 8180	138	43	radeon hd 8180
+2458	Radeon HD 5450	138	149	radeonhd5450
+2459	GeForce 6600 GT	137	67	geforce 6600 gt
+2460	GeForce 9650M GT	137	62	geforce 9650m gt
+2461	Radeon HD 3450	137	30	radeon hd 3450
+2462	Radeon X1900 CrossFire Edition	137	507	radeon x1900 crossfire edition
+2463	Radeon HD 3450	137	30	radeon hd 3400
+2464	Radeon HD 3450	137	30	radeon hd 3450 - dell optiplex
+2465	GeForce 7300 GT	136	36	geforce 7300 gt
+2466	GeForce 7300 GT	136	36	geforce7300gt
+2467	GeForce 9500 GT	135	36	geforce 9500 gt
+2468	Mobility Radeon HD 4330	135	377	mobility radeon hd 4330
+2469	Mobility Radeon HD 4570	135	23	mobility radeon hd 4570
+2470	Mobility Radeon X1900	135	287	mobility radeon x1900
+2471	GeForce 9500 GT	135	36	geforce9500gt
+2472	EAH5450	134	216	eah5450
+2473	GeForce 7650 GS	134	335	geforce 7650 gs
+2474	GeForce 9800 GT 1024MB	134	315	geforce 9800 gt 1024mb
+2475	GeForce G102M	134	137	geforce g102m
+2476	Radeon R5 220	134	111	radeon r5 220
+2477	Radeon R5 220	134	111	radeon r5 200
+2478	EAH5450	134	216	asus eah5450
+2479	Quadro FX 380 LP	133	114	quadro fx 380 lp
+2480	GeForce 9600M GT	132	35	geforce 9600m gt
+2481	VIA/S3G C-645/640 GPU	132	83	via/s3g c-645/640
+2482	GeForce 505	131	165	geforce 505
+2483	GeForce 8700M GT	131	82	geforce 8700m gt
+2484	Quadro FX 1600M	131	109	quadro fx 1600m
+2485	MOBILITY RADEON X1800	130	247	mobility radeon x1800
+2486	RADEON X800 SE	130	384	radeon x800 se
+2487	GeForce 9300 / nForce 730i	129	367	geforce 9300 / nforce 730i
+2488	Mobility Radeon HD 3650	129	40	mobility radeon hd 3650
+2489	Radeon HD 7310	129	45	radeon hd 7310
+2490	Mobility Radeon HD 3650	129	40	mobilityradeonhd3650
+2491	Radeon HD 7310	129	45	radeon hd 7300
+2492	FireGL V7300	128	322	firegl v7300
+2493	GeForce 6800 XT	128	150	geforce 6800 xt
+2494	GeForce 8400 GS	128	28	geforce 8400 gs
+2495	GeForce Go 7600	128	220	geforce go 7600
+2496	Quadro NVS 320M	128	109	quadro nvs 320m
+2497	Radeon HD 3470	128	75	radeon hd 3470
+2498	GeForce 8400 GS	128	28	geforce 8400gs
+2499	All-in-Wonder X1900	127	445	all-in-wonder x1900
+2500	GeForce 9300	127	385	geforce 9300
+2501	Radeon HD 3300	127	373	radeon hd 3300
+2502	GeForce 205	126	309	geforce 205
+2503	Seria Mobility Radeon HD 3400	125	148	seria mobility radeon hd 3400
+2504	GeForce G100	124	47	geforce g100
+2505	Quadro FX 1400	124	152	quadro fx 1400
+2506	Quadro FX 380M	124	124	quadro fx 380m
+2507	Intel Q35 Express	123	26	intel q35 express
+2508	Radeon HD 4250	123	408	radeon hd 4250
+2509	Radeon HD 6310	123	36	radeon hd 6310
+2510	Radeon HD 7290M	123	90	radeon hd 7290m
+2511	Intel Haswell HD - GT1	123	492	intel haswell hd - gt1
+2512	Intel Q35 Express	123	26	intel q35 express chipset family
+2513	GeForce 9500M G	122	172	geforce 9500m g
+2514	GeForce GT 220M	122	82	geforce gt 220m
+2515	GeForce GT 220M	122	82	geforcegt220m
+2516	GeForce 405	121	52	geforce 405
+2517	GeForce G210M	121	31	geforce g210m
+2518	Radeon HD 2400	121	298	radeon hd 2400
+2519	GeForce G210M	121	31	geforceg210m
+2520	GeForce 405	121	52	geforce 405m
+2521	GeForce 405	121	52	geforce405
+2522	GeForce 405	121	52	geforce405m
+2523	Radeon HD 2400	121	298	radeonhd2400
+2524	Extreme AX850 PRO	120	218	extreme ax850 pro
+2525	GeForce 310	120	49	geforce 310
+2526	Qualcomm Adreno 540 GPU	120	52	qualcomm adreno 540
+2527	Qualcomm Adreno 618 GPU	120	64	qualcomm adreno 618
+2528	GeForce 310	120	49	geforce310
+2529	GeForce 9600M GS	119	67	geforce 9600m gs
+2530	Radeon HD 2400 XT	119	357	radeon hd 2400 xt
+2531	RV530 PRO	119	386	rv530 pro
+2532	FireMV 2260	117	488	firemv 2260
+2533	Mobile Intel 45 Express-Chipsatzfamilie	117	270	mobile intel 45 express-chipsatzfamilie
+2534	PHDGD Quantic C3	117	351	phdgd quantic c3
+2535	Radeon X1700 Targa Edition	117	255	radeon x1700 targa edition
+2536	FireGL V7200	116	348	firegl v7200
+2537	Quadro FX 1700	116	40	quadro fx 1700
+2538	Radeon X1600 XT	116	356	radeon x1600 xt
+2539	GeForce 8600 GT	116	55	geforce 8600 gt
+2540	FireGL V5200	115	348	firegl v5200
+2541	GeForce 315M	115	44	geforce 315m
+2542	GeForce Go 7800	115	209	geforce go 7800
+2543	NVS 3100M	115	39	nvs 3100m
+2544	RADEON X800 GTO	115	162	radeon x800 gto
+2545	Radeon HD 7290	115	49	radeon hd 7290
+2546	Radeon HD 7290	115	49	radeon hd 7000
+2547	Radeon HD 7290	115	49	radeonhd7000
+2548	NVS 300	114	47	nvs 300
+2549	Quadro FX 560	114	360	quadro fx 560
+2550	Radeon HD 2400 Pro	114	346	radeon hd 2400 pro
+2551	FirePro 2260	113	431	firepro 2260
+2552	GeForce 6800	113	258	geforce 6800
+2553	Radeon X1950 Pro	113	318	radeon x1950 pro
+2554	Sapphire RADEON X800 GT	113	274	sapphire radeon x800 gt
+2555	Radeon X1950 Pro	113	318	radeon x1950 pro secondary
+2556	Intel HD Modded	112	303	intel hd modded
+2557	Radeon HD 4200	112	372	radeon hd 4200
+2558	FireGL V7350	111	344	firegl v7350
+2559	GeForce 310M	111	25	geforce 310m
+2560	GeForce 9200M GS	111	55	geforce 9200m gs
+2561	GeForce 9300 GS	111	95	geforce 9300 gs
+2562	Mobility Radeon HD 3400 Serisi	111	239	mobility radeon hd 3400 serisi
+2563	Quadro FX 570M	111	49	quadro fx 570m
+2564	GeForce 310M	111	25	geforce310m
+2565	GeForce 6800 LE	110	166	geforce 6800 le
+2566	Radeon HD 2600 Pro AGP	110	137	radeon hd 2600 pro agp
+2567	Radeon HD 4270	110	303	radeon hd 4270
+2568	Radeon HD 4330	110	35	radeon hd 4330
+2569	VIA/S3G Chrome 645/640 GPU	110	161	via/s3g chrome 645/640
+2570	GeForce 8500 GT	108	36	geforce 8500 gt
+2571	Quadro FX 370 LP	108	481	quadro fx 370 lp
+2572	Radeon HD 6290	107	34	radeon hd 6290
+2573	Radeon Infoshock 3000	107	475	radeon infoshock 3000
+2574	GeForce G105M	106	40	geforce g105m
+2575	GeForce Go 6800	106	205	geforce go 6800
+2576	GeForce GT 320M	106	36	geforce gt 320m
+2577	GeForce9400M	106	161	geforce9400m
+2578	Matrox G200e WDDM 2.0	106	425	matrox g200e wddm 2.0
+2579	Radeon X1950 GT	106	279	radeon x1950 gt
+2580	GeForce 9450	105	342	geforce 9450
+2581	Mobility Radeon X1700	105	228	mobility radeon x1700
+2582	GeForce 9500M	104	320	geforce 9500m
+2583	GeForce 9500M GS	104	74	geforce 9500m gs
+2584	M880G with Mobility Radeon HD 4250	104	270	m880g with mobility radeon hd 4250
+2585	Quadro FX 3400/4400	104	239	quadro fx 3400/4400
+2586	FireGL V3400	103	353	firegl v3400
+2587	GeForce 6800 GS/XT	103	196	geforce 6800 gs/xt
+2588	Quadro FX 370 Low Profile	103	492	quadro fx 370 low profile
+2589	Radeon HD 4350	103	32	radeon hd 4350
+2590	GeForce 8300	102	168	geforce 8300
+2591	GeForce 9400	102	79	geforce 9400
+2592	GeForce 9400 GT	102	48	geforce 9400 gt
+2593	Mobility Radeon HD 2400 XT	102	246	mobility radeon hd 2400 xt
+2594	Quadro FX Go1400	102	223	quadro fx go1400
+2595	GeForce 9400	102	79	geforce 9400 mod drvsky.com
+2596	GeForce 8300 GS	101	161	geforce 8300 gs
+2597	Quadro FX 4000	101	78	quadro fx 4000
+2598	Quadro NVS 160M	100	36	quadro nvs 160m
+2599	Radeon X1600 Pro	99	273	radeon x1600 pro
+2600	GeForce 210	98	35	geforce 210
+2601	GeForce 8400M GS	98	47	geforce 8400m gs
+2602	GeForce 9300GE	98	367	geforce 9300ge
+2603	Intel Media Accelerator HD	98	39	intel media accelerator hd
+2604	ION LE	98	96	ion le
+2605	Mobility Radeon HD 3430	98	260	mobility radeon hd 3430
+2606	Mobility Radeon HD 4250	98	280	mobility radeon hd 4250
+2607	Radeon 3000	98	414	radeon 3000
+2608	RADEON X800 XT	98	271	radeon x800 xt
+2609	Radeon 3000	98	414	radeon3000
+2610	GeForce 210	98	35	geforce210
+2611	GeForce G210	97	38	geforce g210
+2612	Mobility Radeon HD serie 4200	97	227	mobility radeon hd serie 4200
+2613	Quadro NVS 130M	97	190	quadro nvs 130m
+2614	GeForce G210	97	38	geforceg210
+2615	Radeon HD 3000	96	264	radeon hd 3000
+2616	GeForce 6700 XL	95	243	geforce 6700 xl
+2617	MEDION RADEON X740XL	95	228	medion radeon x740xl
+2618	Matrox G200eW3 WDDM 2.0	94	316	matrox g200ew3 wddm 2.0
+2619	Mobility Radeon HD 3470 Hybrid X2	94	206	mobility radeon hd 3470 hybrid x2
+2620	Radeon HD 6250	94	30	radeon hd 6250
+2621	FireGL V5100	93	250	firegl v5100
+2622	M880G with Mobility Radeon HD 4200	93	260	m880g with mobility radeon hd 4200
+2623	Mobility Radeon HD 3470	93	250	mobility radeon hd 3470
+2624	Mobility Radeon HD 4270	93	282	mobility radeon hd 4270
+2625	Quadro FX 370M	93	334	quadro fx 370m
+2626	GeForce 8600 GS	92	100	geforce 8600 gs
+2627	GeForce G205M	92	294	geforce g205m
+2628	Mobility Radeon X1600	92	236	mobility radeon x1600
+2629	nForce 780a SLI	92	425	nforce 780a sli
+2630	RADEON X600XT	92	258	radeon x600xt
+2631	Mobility Radeon HD 3450	91	247	mobility radeon hd 3450
+2632	Mobility Radeon HD 4200	91	260	mobility radeon hd 4200
+2633	GeForce 7500 LE	90	69	geforce 7500 le
+2634	GeForce 9300M GS	90	31	geforce 9300m gs
+2635	Mobility Radeon HD 2400	90	212	mobility radeon hd 2400
+2636	GeForce 6610 XL	89	288	geforce 6610 xl
+2637	GeForce 8600M GT	89	35	geforce 8600m gt
+2638	Quadro FX 360M	87	308	quadro fx 360m
+2639	GeForce 6600	86	62	geforce 6600
+2640	Quadro FX 350	86	378	quadro fx 350
+2641	FireGL V3200	85	236	firegl v3200
+2642	GeForce 9300M G	85	242	geforce 9300m g
+2643	Radeon X1650 Pro	85	241	radeon x1650 pro
+2644	ION	85	19	ion
+2645	ALL-IN-WONDER X800 GT	84	186	all-in-wonder x800 gt
+2646	GeForce 999 GTX	84	138	geforce 999 gtx
+2647	Quadro FX 370	84	385	quadro fx 370
+2648	Radeon X1300 PRO	84	313	radeon x1300 pro
+2649	RADEON X800 GT	84	423	radeon x800 gt
+2650	RADEON X800 GT	84	423	radeon x800 - secondary
+2651	RADEON X800 GT	84	423	radeon x800 -secondary
+2652	GeForce 9300 GE	83	52	geforce 9300 ge
+2653	nForce 750a SLI	83	351	nforce 750a sli
+2654	GeForce 7300 GS	82	57	geforce 7300 gs
+2655	GeForce 9100	82	345	geforce 9100
+2656	GeForce 9300 SE	82	344	geforce 9300 se
+2657	Intel G41 Express Chipset	82	21	intel g41 express chipset
+2658	Intel G45/G43 Express Chipset	82	26	intel g45/g43 express chipset
+2659	MOBILITY FireGL V5000	82	223	mobility firegl v5000
+2660	Mobility Radeon X2500	82	235	mobility radeon x2500
+2661	nForce 980a/780a SLI	82	367	nforce 980a/780a sli
+2662	Radeon HD 3200	82	227	radeon hd 3200
+2663	RADEON X850 XT Platinum Edition	82	261	radeon x850 xt plnum edition
+2664	Intel G41 Express Chipset	82	21	intelg41expresschipset
+2665	Radeon HD 3200	82	227	radeonhd3200
+2666	GeForce 8400	81	160	geforce 8400
+2667	Mobility Radeon 4100	81	265	mobility radeon 4100
+2668	Quadro FX 540	81	294	quadro fx 540
+2669	RADEON X800 XT Platinum Edition	81	170	radeon x800 xt plnum edition
+2670	RADEON X850 XT	81	326	radeon x850 xt
+2671	GeForce 7300 LE	80	48	geforce 7300 le
+2672	RADEON X800GT	80	264	radeon x800gt
+2673	GeForce 8100 / nForce 720a	79	308	geforce 8100 / nforce 720a
+2674	Radeon HD 2350	77	262	radeon hd 2350
+2675	M860G with Mobility Radeon 4100	76	203	m860g with mobility radeon 4100
+2676	RADEON X700 PRO	76	302	radeon x700 pro
+2677	GeForce 9400M	75	102	geforce 9400m
+2678	Radeon X1650 GTO	75	384	radeon x1650 gto
+2679	FireMV 2450	74	610	firemv 2450
+2680	GeForce 7350 LE	74	281	geforce 7350 le
+2681	GeForce 9100M G	74	64	geforce 9100m g
+2682	Radeon 3100	74	228	radeon 3100
+2683	Mobility Radeon HD 4300 Serisi	73	216	mobility radeon hd 4300 serisi
+2684	Quadro NVS 295	73	56	quadro nvs 295
+2685	RADEON X700	73	248	radeon x700
+2686	RADEON X800 PRO/GTO	73	181	radeon x800 pro/gto
+2687	RADEON X850 PRO	73	157	radeon x850 pro
+2688	RADEON X700	73	248	radeon x700 secondary
+2689	Mobility Radeon HD 4300 Serisi	73	216	mobility radeon hd 4300
+2690	Mobility Radeon HD 4300 Serisi	73	216	mobility radeon hd 4300/4500
+2691	Mobility Radeon HD 4300 Serisi	73	216	mobilityradeonhd4300
+2692	FireGL V7100	72	223	firegl v7100
+2693	M880G with Mobility Radeon HD 4225	72	183	m880g with mobility radeon hd 4225
+2694	MEDION RADEON 9800 XXL	72	187	medion radeon 9800 xxl
+2695	FireGL V3300	71	326	firegl v3300
+2696	Radeon X1650 SE	71	358	radeon x1650 se
+2697	Radeon X550XTX	71	240	radeon x550xtx
+2698	RADEON X700 SE	71	348	radeon x700 se
+2699	GeForce 8600M GS	71	47	geforce 8600m gs
+2700	RADEON X700 SE	71	348	radeon x700 se secondary
+2701	Diamond X1300-PCIE 256MB	70	286	diamond x1300-pcie 256mb
+2702	Quadro NVS 150M	70	168	quadro nvs 150m
+2703	Quadro NVS 420	70	186	quadro nvs 420
+2704	BASICDISPLAY	70	691	basicdisplay
+2705	FireGL V3350	69	336	firegl v3350
+2706	GeForce Go 6600	69	209	geforce go 6600
+2707	Quadro FX 3000	69	178	quadro fx 3000
+2708	Radeon X1600 Pro / X1300XT	69	285	radeon x1600 pro / x1300xt
+2709	RADEON X800 XL	69	271	radeon x800 xl
+2710	RADEON X800 XL	69	271	radeon x800
+2711	GeForce 8400 SE	68	290	geforce 8400 se
+2712	GeForce 9400M G	68	61	geforce 9400m g
+2713	Intel G45/G43/G41 Express Chipset	68	318	intel g45/g43/g41 express chipset
+2714	Matrox G200eR WDDM 2.0	68	457	matrox g200er wddm 2.0
+2715	GeForce 8400M GT	67	56	geforce 8400m gt
+2716	MOBILITY RADEON X700	67	200	mobility radeon x700
+2717	Quadro NVS 135M	67	74	quadro nvs 135m
+2718	Radeon X1550	67	253	radeon x1550
+2719	RADEON X600 PRO	67	252	radeon x600 pro
+2720	GeForce Go 7400	66	112	geforce go 7400
+2721	Intel B43 Express Chipset	66	128	intel b43 express chipset
+2722	Mobility Radeon HD 4225	66	174	mobility radeon hd 4225
+2723	GeForce 8200M G	65	55	geforce 8200m g
+2724	GeForce G 105M	65	29	geforce g 105m
+2725	Intel G33/G31 Express	65	20	intel g33/g31 express
+2726	RADEON X800 PRO	65	190	radeon x800 pro
+2727	Intel G33/G31 Express	65	20	intel g33/g31 express chipset family
+2728	Intel G33/G31 Express	65	20	intelg33/g31expresschipsetfamily
+2729	Quadro FX 550	64	325	quadro fx 550
+2730	GeForce G 103M	63	35	geforce g 103m
+2731	Intel HD manual-15.28-1861	63	72	intel hd manual-15.28-1861
+2732	Mobility Radeon HD 3410	63	130	mobility radeon hd 3410
+2733	Mobility Radeon HD 3410	63	130	mobility radeon hd 3400
+2734	MOBILITY FireGL V3200	62	238	mobility firegl v3200
+2735	Quadro NVS 450	62	116	quadro nvs 450
+2736	SAPPHIRE Radeon X1550	61	285	sapphire radeon x1550
+2737	MOBILITY RADEON X700 XL	60	189	mobility radeon x700 xl
+2738	Radeon 2100	60	286	radeon 2100
+2739	FireGL X1	59	167	firegl x1
+2740	GeForce 6800 XE	59	166	geforce 6800 xe
+2741	GeForce 8400M G	59	241	geforce 8400m g
+2742	GeForce FX 5950 Ultra	59	274	geforce fx 5950 ultra
+2743	RADEON 9800 PRO	59	153	radeon 9800 pro
+2744	Matrox G200e WDDM 1.2	59	505	matrox g200e wddm 1.2
+2745	Matrox G200e WDDM 1.2	59	505	matrox g200e - english
+2746	Matrox G200e WDDM 1.2	59	505	parallelsdisplay
+2747	Matrox G200e WDDM 1.2	59	505	matrox g200e
+2748	Intel - Express Chipset Q45/Q43	58	336	intel - express chipset q45/q43
+2749	RADEON 9800	58	191	radeon 9800
+2750	Radeon X1300	58	237	radeon x1300
+2751	Intel - Express Chipset G41	57	325	intel - express chipset g41
+2752	Intel G41 Express-Chipsatz	57	267	intel g41 express-chipsatz
+2753	Intel Q45/Q43 Express-Chipsatz	57	352	intel q45/q43 express-chipsatz
+2754	RADEON 9800 XT	57	160	radeon 9800 xt
+2755	RADEON X600 256MB HyperMemory	57	210	radeon x600 256mb hypermemory
+2756	RADEON X550XT	56	224	radeon x550xt
+2757	Mobile Intel 965 Express	54	15	mobile intel 965 express
+2758	RADEON 9700 PRO	54	149	radeon 9700 pro
+2759	Mobile Intel 965 Express	54	15	mobile intel 965 express chipset family
+2760	FireGL V3100	53	275	firegl v3100
+2761	GeForce 6200 TurboCache	53	55	geforce 6200 turbocache
+2762	GeForce 7100 GS	52	133	geforce 7100 gs
+2763	GeForce Go 7300	52	114	geforce go 7300
+2764	Matrox G200eh WDDM 1.2	52	448	matrox g200eh wddm 1.2
+2765	RADEON E2400	52	287	radeon e2400
+2766	Radeon Xpress 1300	52	266	radeon xpress 1300
+2767	FirePro 2450	51	482	firepro 2450
+2768	GeForce 6600 LE	51	234	geforce 6600 le
+2769	GeForce FX Go5700	51	171	geforce fx go5700
+2770	Mobility Radeon HD 2300	51	211	mobility radeon hd 2300
+2771	RADEON X550	51	266	radeon x550
+2772	MOBILITY RADEON X600	50	209	mobility radeon x600
+2773	Matrox G200eW WDDM 1.2	50	397	matrox g200ew wddm 1.2
+2774	Mobility Radeon X2300 HD	49	244	mobility radeon x2300 hd
+2775	MOBILITY RADEON X600 SE	49	233	mobility radeon x600 se
+2776	Radeon X1050	49	245	radeon x1050
+2777	Radeon X1600	49	209	radeon x1600
+2778	RADEON X600 SE	49	229	radeon x600 se
+2779	Quadro NVS 140M	49	99	quadro nvs 140m
+2780	Quadro NVS 110M	48	236	quadro nvs 110m
+2781	Radeon X1550 64-bit	48	257	radeon x1550 64-bit
+2782	Mobility Radeon X2300	48	263	mobility radeon x2300
+2783	GeForce 7300 SE/7200 GS	47	36	geforce 7300 se/7200 gs
+2784	Quadro NVS 120M	47	274	quadro nvs 120m
+2785	SAPPHIRE RADEON 9600 ATLANTIS	47	149	sapphire radeon 9600 atlantis
+2786	FireMV 2250	46	290	firemv 2250
+2787	Matrox G200eh WDDM 2.0	46	106	matrox g200eh wddm 2.0
+2788	MOBILITY RADEON 9800	46	110	mobility radeon 9800
+2789	GeForce Go 6600 TE/6200 TE	45	223	geforce go 6600 te/6200 te
+2790	GeForce Go 7200	45	199	geforce go 7200
+2791	Matrox G200eR WDDM 1.2	45	210	matrox g200er wddm 1.2
+2792	Mobile Intel 4 Express-Chipsatzfamilie	45	251	mobile intel 4 express-chipsatzfamilie
+2793	Mobile Intel serie 4 Express	45	232	mobile intel serie 4 express
+2794	MOBILITY FireGL V5200	45	248	mobility firegl v5200
+2795	Quadro FX 350M	45	132	quadro fx 350m
+2796	Mobile Intel 4 Express-Chipsatzfamilie	45	251	mobile intel 4 express chipset family
+2797	Mobile Intel 4 Express-Chipsatzfamilie	45	251	mobileintel4expresschipsetfamily
+2798	Radeon 9700 TX w/TV-Out	44	152	radeon 9700 tx w/tv-out
+2799	Mobile Intel 45 Express	43	27	mobile intel 45 express
+2800	Mobility Radeon X1400	43	226	mobility radeon x1400
+2801	RADEON 9600 PRO	43	163	radeon 9600 pro
+2802	Radeon Xpress 1250	43	197	radeon xpress 1250
+2803	Matrox M9138 LP PCIe x16	42	160	matrox m9138 lp pcie x16
+2804	RADEON 9500 PRO / 9700	42	157	radeon 9500 pro / 9700
+2805	GeForce FX 5700	41	173	geforce fx 5700
+2806	GeForce FX 5900 Ultra	41	170	geforce fx 5900 ultra
+2807	Matrox G200eh	41	449	matrox g200eh
+2808	MOBILITY FIREGL T2	41	171	mobility firegl t2
+2809	GeForce FX 5900XT	40	134	geforce fx 5900xt
+2810	Matrox G200eW	40	107	matrox g200ew
+2811	Mobility Radeon X1300	40	222	mobility radeon x1300
+2812	Mobility Radeon X1350	40	274	mobility radeon x1350
+2813	Radeon Xpress 1300M	40	195	radeon xpress 1300m
+2814	S3 Chrome 430 ULP	40	310	s3 chrome 430 ulp
+2815	Matrox G200eW	40	107	matrox g200ew - english
+2816	GeForce 7050 / nForce 620i	39	129	geforce 7050 / nforce 620i
+2817	GeForce 7300 SE	39	251	geforce 7300 se
+2818	Mobile Intel - famiglia Express Chipset 45	39	264	mobile intel - famiglia express chipset 45
+2819	MOBILITY RADEON 9600/9700	39	165	mobility radeon 9600/9700
+2820	Quadro NVS 285	39	185	quadro nvs 285
+2821	256MB DDR Radeon 9800 XT	38	192	256mb ddr radeon 9800 xt
+2822	GeForce 6500	38	300	geforce 6500
+2823	GeForce 7050 / nForce 630i	38	145	geforce 7050 / nforce 630i
+2824	Quadro NVS 285 128MB	38	313	quadro nvs 285 128mb
+2825	Quadro NVS 440	38	358	quadro nvs 440
+2826	RADEON X300SE	38	242	radeon x300se
+2827	RADEON X300SE	38	242	radeon x300
+2828	GeForce 6200SE TurboCache	37	146	geforce 6200se turbocache
+2829	Matrox G200eR	37	400	matrox g200er
+2830	Radeon X1250	37	199	radeon x1250
+2831	CONNECT 3D RADEON X300	36	191	connect 3d radeon x300
+2832	FireMV 2200 PCIe	36	259	firemv 2200 pcie
+2833	Quadro FX 1100	36	178	quadro fx 1100
+2834	RADEON 9500	36	173	radeon 9500
+2835	Radeon Xpress 1200	36	192	radeon xpress 1200
+2836	MOBILITY RADEON 9600	36	172	mobility radeon 9600
+2837	GeForce 6200	35	58	geforce 6200
+2838	GeForce 7100 / nForce 630i	35	67	geforce 7100 / nforce 630i
+2839	GeForce FX 5900	35	188	geforce fx 5900
+2840	GeForce PCX 5750	35	310	geforce pcx 5750
+2841	RADEON 9550	35	145	radeon 9550
+2842	RADEON 9600 XT	35	147	radeon 9600 xt
+2843	GeForce 7025 / nForce 630a	34	15	geforce 7025 / nforce 630a
+2844	GeForce FX 5700 Ultra	34	126	geforce fx 5700 ultra
+2845	GeForce PCX 5900	34	258	geforce pcx 5900
+2846	MOBILITY FIREGL T2/T2e	34	171	mobility firegl t2/t2e
+2847	MOBILITY RADEON X300	34	204	mobility radeon x300
+2848	Quadro FX 1000	34	266	quadro fx 1000
+2849	Quadro FX 1300	34	276	quadro fx 1300
+2850	Radeon Xpress 1100	34	187	radeon xpress 1100
+2851	GeForce 6150 LE	33	30	geforce 6150 le
+2852	GeForce 7150 / nForce 630i	33	254	geforce 7150 / nforce 630i
+2853	GeForce FX 5700VE	33	161	geforce fx 5700ve
+2854	GeForce FX 5900ZT	33	129	geforce fx 5900zt
+2855	Intel Media Accelerator	33	78	intel media accelerator
+2856	Mobility Radeon X1450	33	205	mobility radeon x1450
+2857	Radeon X1200	33	169	radeon x1200
+2858	S3 Chrome S27 DDR3	33	7	s3 chrome s27 ddr3
+2859	GeForce 6200 A-LE	32	192	geforce 6200 a-le
+2860	Matrox M9128 LP PCIe x16	32	38	matrox m9128 lp pcie x16
+2861	Matrox M9148 LP PCIe x16	32	135	matrox m9148 lp pcie x16
+2862	Red Hat QXL controller	32	270	red hat qxl controller
+2863	FireGL T2-128	31	178	firegl t2-128
+2864	GeForce 6150SE nForce 430	31	17	geforce 6150se nforce 430
+2865	GeForce 7050 PV / nForce 630a	31	109	geforce 7050 pv / nforce 630a
+2866	Radeon X1270	31	169	radeon x1270
+2867	GeForce 6150SE nForce 430	31	17	geforce6150senforce430
+2868	All-in-Wonder X1800XL	30	283	all-in-wonder x1800xl
+2869	MOBILITY RADEON 9550	30	166	mobility radeon 9550
+2870	Radeon Xpress 1150	30	192	radeon xpress 1150
+2871	RADEON XPRESS 200	30	188	radeon xpress 200
+2872	Radeon 9550 / X1050	29	150	radeon 9550 / x1050
+2873	GeForce 6200 LE	28	77	geforce 6200 le
+2874	GeForce 6100	27	44	geforce 6100
+2875	MOBILITY FireGL V5250	27	252	mobility firegl v5250
+2876	MOBILITY RADEON 9700	27	158	mobility radeon 9700
+2877	MOBILITY RADEON XPRESS 200	27	176	mobility radeon xpress 200
+2878	RADEON 9600 PRO Family	27	148	radeon 9600 pro family
+2879	RADEON 9600SE	27	143	radeon 9600se
+2880	Radeon Xpress 1270	27	191	radeon xpress 1270
+2881	Matrox M9120 Plus LP PCIe x16	26	27	matrox m9120 plus lp pcie x16
+2882	Matrox M9125 PCIe x16	26	138	matrox m9125 pcie x16
+2883	PHDGD Sapphire GR for Mobile Intel 965	26	243	phdgd sapphire gr for mobile intel 965
+2884	GeForce 7100 / nForce 620i	26	229	geforce 7100 / nforce 620i
+2885	GeForce 6100 nForce 400	25	242	geforce 6100 nforce 400
+2886	GeForce 6100 nForce 405	25	108	geforce 6100 nforce 405
+2887	GeForce 6100 nForce 420	25	234	geforce 6100 nforce 420
+2888	GeForce 6150SE	25	266	geforce 6150se
+2889	GeForce FX 5700LE	25	147	geforce fx 5700le
+2890	MOBILITY RADEON 9600 PRO TURBO	25	137	mobility radeon 9600 pro turbo
+2891	RADEON 9600 Family	25	150	radeon 9600 family
+2892	GeForce 7050 / nForce 610i	24	148	geforce 7050 / nforce 610i
+2893	GeForce Go 6400	24	212	geforce go 6400
+2894	Mobile Intel 965 Express-Chipsatzfamilie	24	203	mobile intel 965 express-chipsatzfamilie
+2895	Quadro NVS 210S	24	265	quadro nvs 210s
+2896	RADEON 9800 SE	24	131	radeon 9800 se
+2897	ALL-IN-WONDER 9800	23	139	all-in-wonder 9800
+2898	GeForce 6100 nForce 430	23	249	geforce 6100 nforce 430
+2899	GeForce 7200 GS	23	98	geforce 7200 gs
+2900	Matrox M9140 LP PCIe x16	23	390	matrox m9140 lp pcie x16
+2901	RADEON A9800XT	23	145	radeon a9800xt
+2902	RADEON XPRESS 200M	23	176	radeon xpress 200m
+2903	S3 Chrome S25	23	9	s3 chrome s25
+2904	GeForce 6150	22	250	geforce 6150
+2905	Quadro NVS 210S / GeForce 6150LE	21	272	quadro nvs 210s / geforce 6150le
+2906	Matrox M9120 PCIe x16	20	870	matrox m9120 pcie x16
+2907	PHDGD Solo 2 x64	20	183	phdgd solo 2 x64
+2908	GeForce Go 6150	19	92	geforce go 6150
+2909	QXL KMDOD	19	203	qxl kmdod
+2910	GeForce 7150M / nForce 630M	18	194	geforce 7150m / nforce 630m
+2911	GeForce FX Go 5600	18	186	geforce fx go 5600
+2912	GeForce Go 6100	18	181	geforce go 6100
+2913	Mobile Intel965 Express	18	264	mobile intel965 express
+2914	Quadro FX 2000	18	146	quadro fx 2000
+2915	RADEON 9600 TX Family	18	138	radeon 9600 tx family
+2916	RADEON XPRESS 200 CROSSFIRE	18	164	radeon xpress 200 crossfire
+2917	S3 Chrome S25 DDR2	18	252	s3 chrome s25 ddr2
+2918	GeForce FX 5600 Ultra	17	122	geforce fx 5600 ultra
+2919	GeForce FX Go5650	17	211	geforce fx go5650
+2920	GRID V100-8Q	16	149	grid v100-8q
+2921	GeForce Go 6200	15	204	geforce go 6200
+2922	NV44	15	251	nv44
+2923	Quadro FX 500/600 PCI	14	203	quadro fx 500/600 pci
+2924	Radeon HD 2400 PCI	14	86	radeon hd 2400 pci
+2925	GeForce 7000M	13	239	geforce 7000m
+2926	GeForce 7000M / nForce 610M	13	188	geforce 7000m / nforce 610m
+2927	GeForce FX 5600	13	168	geforce fx 5600
+2928	GeForce FX Go5300	13	159	geforce fx go5300
+2929	Intel 82945G Express	13	12	intel 82945g express
+2930	Intel 82945G Express	13	12	intel 82945g express chipset family
+2931	GeForce FX 5200 Ultra	12	138	geforce fx 5200 ultra
+2932	GeForce FX 5200SE	12	194	geforce fx 5200se
+2933	FireMV 2400 PCIe	11	283	firemv 2400 pcie
+2934	RGH Drivers v3	11	312	rgh drivers v3
+2935	PHDGD Solo 1.2.0 x86	11	169	phdgd solo 1.2.0 x86
+2936	Master X3100 Driver	10	79	master x3100 driver
+2937	MOBILITY IGP 9000/9100	10	125	mobility igp 9000/9100
+2938	ASUS A7000	9	164	asus a7000
+2939	GeCube RADEON 7000	9	144	gecube radeon 7000
+2940	GeForce FX 5600XT	9	166	geforce fx 5600xt
+2941	Matrox Parhelia 256MB	9	140	matrox parhelia 256mb
+2942	VIA Chrome9 HD IGP	9	59	via chrome9 hd igp
+2943	ASUS V9520-X V62.11	8	208	asus v9520-x v62.11
+2944	GeForce FX 5100	8	247	geforce fx 5100
+2945	GeForce FX 5200	8	154	geforce fx 5200
+2946	GeForce FX 5500	8	152	geforce fx 5500
+2947	GeForce FX Go 5200	8	190	geforce fx go 5200
+2948	Intel 82945G Express-Chipsatzfamilie	8	240	intel 82945g express-chipsatzfamilie
+2949	Intel Q35 Embedded	8	303	intel q35 embedded
+2950	Mobile Intel 965 Express - BR-0907-0461 v1839	8	124	mobile intel 965 express - br-0907-0461 v1839
+2951	MOBILITY RADEON 9000 IGP	8	143	mobility radeon 9000 igp
+2952	Quadro FX 500/FX 600	8	151	quadro fx 500/fx 600
+2953	Quadro NVS 280 PCI	8	261	quadro nvs 280 pci
+2954	GeForce FX 5200LE	7	170	geforce fx 5200le
+2955	GeForce4 MX Integrated GPU	7	198	geforce4 mx integrated
+2956	GeForce4 Ti 4800 SE	7	187	geforce4 ti 4800 se
+2957	Intel Media Accelerator 600	7	58	intel media accelerator 600
+2958	Intel US15 Embedded Media and Controller	7	67	intel us15 embedded media and controller
+2959	Matrox Millennium P690 Plus LP PCIe x16	7	251	matrox millennium p690 plus lp pcie x16
+2960	Quadro4 380 XGL	7	225	quadro4 380 xgl
+2961	RADEON 8500 Family	7	146	radeon 8500 family
+2962	GeForce4 Ti 4400	7	170	geforce4 ti 4400
+2963	ALL-IN-WONDER RADEON 8500DV	6	128	all-in-wonder radeon 8500dv
+2964	GeForce PCX 5300	6	197	geforce pcx 5300
+2965	GeForce2 Ultra	6	147	geforce2 ultra
+2966	GeForce4 440 Go 64M	6	156	geforce4 440 go 64m
+2967	GeForce4 448 Go	6	199	geforce4 448 go
+2968	GeForce4 Ti 4200	6	154	geforce4 ti 4200
+2969	GeForce4 Ti 4600	6	173	geforce4 ti 4600
+2970	GeForce4 Ti 4800	6	190	geforce4 ti 4800
+2971	Intel 82915G Express	6	206	intel 82915g express
+2972	Intel Q33 Express	6	22	intel q33 express
+2973	Matrox Parhelia APVe	6	275	matrox parhelia apve
+2974	Mobile Intel 945GM Express	6	223	mobile intel 945gm express
+2975	MOBILITY RADEON 7000 IGP	6	151	mobility radeon 7000 igp
+2976	MOBILITY RADEON 9000/9100 IGP	6	118	mobility radeon 9000/9100 igp
+2977	NVIDIA GeForce3 Ti200	6	218	geforce3 ti200
+2978	Quadro 280 NVS PCIe	6	185	quadro 280 nvs pcie
+2979	Quadro NVS 55/280 PCI	6	116	quadro nvs 55/280 pci
+2980	RADEON 9100 Family	6	163	radeon 9100 family
+2981	RADEON IGP 350M	6	136	radeon igp 350m
+2982	V9560XT	6	86	v9560xt
+2983	VIA/S3G UniChromeII	6	225	via/s3g unichromeii
+2984	Intel Q33 Express	6	22	intel q33 express chipset family
+2985	ALL-IN-WONDER 9000	5	103	all-in-wonder 9000
+2986	ASUS AGP-V3800PRO v31.40H	5	149	asus agp-v3800pro v31.40h
+2987	GeForce 256	5	201	geforce 256
+2988	GeForce2 MX with DVI-D and TV-out	5	187	geforce2 mx with dvi-d and tv-out
+2989	GeForce2 Ti	5	149	geforce2 ti
+2990	GeForce3	5	120	geforce3
+2991	GeForce4 440	5	193	geforce4 440
+2992	GeForce4 MX 4000	5	131	geforce4 mx 4000
+2993	GeForce4 MX 420	5	168	geforce4 mx 420
+2994	GeForce4 MX 440	5	140	geforce4 mx 440
+2995	GeForce4 MX 440 with AGP8X	5	157	geforce4 mx 440 with agp8x
+2996	GeForce4 MX 440SE	5	159	geforce4 mx 440se
+2997	Intel 82865G Controller	5	194	intel 82865g controller
+2998	Intel 915G/915GV/910GL Embedded Controller Functio	5	41	intel 915g/915gv/910gl embedded controller functio
+2999	Intel 945G Embedded Chipset Function 0	5	251	intel 945g embedded chipset function 0
+3000	Matrox Millennium P650 PCIe 128	5	287	matrox millennium p650 pcie 128
+3001	Mobile Intel 945GM/GU Express	5	223	mobile intel 945gm/gu express
+3002	MOBILITY FIREGL 7800	5	86	mobility firegl 7800
+3003	Quadro2 MXR/EX	5	142	quadro2 mxr/ex
+3004	Quadro4 900 XGL	5	194	quadro4 900 xgl
+3005	Quadro4 980 XGL	5	181	quadro4 980 xgl
+3006	RADEON 7500 Family	5	125	radeon 7500 family
+3007	RADEON 9000	5	126	radeon 9000
+3008	RADEON 9100 IGP	5	128	radeon 9100 igp
+3009	SAPPHIRE RADEON 9000 ATLANTIS PRO	5	158	sapphire radeon 9000 atlantis pro
+3010	VIA/S3G UniChrome Pro IGP	5	164	via/s3g unichrome pro igp
+3011	WinFast A250 LE	5	197	winfast a250 le
+3012	Xabre	5	28	xabre
+3013	XGI Volari Family v1.13.23.D_V	5	34	xgi volari family v1.13.23.d_v
+3014	GeForce4 420 Go 32M	5	168	geforce4 420 go 32m
+3015	ABIT Siluro T400	4	151	abit siluro t400
+3016	Dell 8200	4	205	dell 8200
+3017	GeForce 6200A	4	117	geforce 6200a
+3018	GeForce2 Go	4	95	geforce2 go
+3019	GeForce2 GTS/GeForce2 Pro	4	136	geforce2 gts/geforce2 pro
+3020	GeForce2 Integrated GPU	4	171	geforce2 integrated
+3021	GeForce2 MX/MX 400	4	129	geforce2 mx/mx 400
+3022	GeForce3 Ti 200	4	140	geforce3 ti 200
+3023	GeForce4 4200 Go	4	173	geforce4 4200 go
+3024	GeForce4 440 Go	4	140	geforce4 440 go
+3025	GeForce4 MX 460	4	176	geforce4 mx 460
+3026	Intel 82915G/915GV/910GL	4	95	intel 82915g/915gv/910gl
+3027	Intel 865 Embedded Controller	4	20	intel 865 embedded controller
+3028	Intel 915G,910G Express	4	166	intel 915g,910g express
+3029	MOBILITY RADEON 7500	4	103	mobility radeon 7500
+3030	MOBILITY/RADEON 9000	4	153	mobility/radeon 9000
+3031	RADEON 7000 / RADEON VE Family	4	107	radeon 7000 / radeon ve family
+3032	RADEON 9000 Family	4	123	radeon 9000 family
+3033	RADEON 9200	4	135	radeon 9200
+3034	Radeon IGP 320M	4	101	radeon igp 320m
+3035	RIVA TNT2 Model 64/Model 64 Pro	4	107	riva tnt2 model 64/model 64 pro
+3036	VIA Chrome9 HC IGP Family	4	178	via chrome9 hc igp family
+3037	VIA Chrome9 HC IGP Family WDDM	4	165	via chrome9 hc igp family wddm
+3038	VIA/S3G KM400/KN400	4	124	via/s3g km400/kn400
+3039	VIA/S3G UniChrome IGP	4	164	via/s3g unichrome igp
+3040	VIA Chrome9 HC IGP	4	167	via chrome9 hc igp
+3041	RADEON IGP 320	4	44	radeon igp 320
+3042	AMIGAMERLIN 3.1-R1 For Voodoo 4 4500 PCI	3	110	amigamerlin 3.1-r1 for voodoo 4 4500 pci
+3043	GeForce2 MX	3	143	geforce2 mx
+3044	GeForce2 MX 100/200	3	119	geforce2 mx 100/200
+3045	GeForce2 MX with TV Out	3	98	geforce2 mx with tv out
+3046	GeForce3 Ti 500	3	116	geforce3 ti 500
+3047	GeForce4 420 Go	3	147	geforce4 420 go
+3048	Intel 82845G/GL Controller	3	176	intel 82845g/gl controller
+3049	Intel 82845G/GL/GE/PE/GV Controller	3	159	intel 82845g/gl/ge/pe/gv controller
+3050	Intel 82915G/GV/910GL Advanced v3.5	3	94	intel 82915g/gv/910gl advanced v3.5
+3051	Intel 82915G/GV/910GL Express	3	142	intel 82915g/gv/910gl express
+3052	Intel 946GZ Embedded Chipset	3	66	intel 946gz embedded chipset
+3053	Intel 946GZ Express	3	38	intel 946gz express
+3054	Intel Media Accelerator 3150	3	86	intel media accelerator 3150
+3055	Intel Media Accelerator 500	3	71	intel media accelerator 500
+3056	Matrox Parhelia 128MB	3	107	matrox parhelia 128mb
+3057	MOBILITY RADEON 9000	3	111	mobility radeon 9000
+3058	MOBILITY RADEON 9100 IGP	3	128	mobility radeon 9100 igp
+3059	MOBILITY RADEON 9200	3	145	mobility radeon 9200
+3060	Radeon 7000 / Radeon VE	3	99	radeon 7000 / radeon ve
+3061	RADEON 7200	3	94	radeon 7200
+3062	RADEON 7500	3	35	radeon 7500
+3063	RADEON 9200 LE Family	3	128	radeon 9200 le family
+3064	RADEON 9200 PRO Family	3	135	radeon 9200 pro family
+3065	RADEON 9200 SE	3	129	radeon 9200 se
+3066	RADEON 9250	3	127	radeon 9250
+3067	Radeon IGP 340M	3	102	radeon igp 340m
+3068	RADEON IGP 345M	3	82	radeon igp 345m
+3069	Rage Fury Pro/Xpert 2000 Pro	3	53	rage fury pro/xpert 2000 pro
+3070	RIVA TNT2/TNT2 Pro	3	71	riva tnt2/tnt2 pro
+3071	S3 Inc. Savage4	3	21	s3 inc. savage4
+3072	Vanta/Vanta LT	3	91	vanta/vanta lt
+3073	VIA Chrome9 HC IGP WDDM	3	144	via chrome9 hc igp wddm
+3074	VIA Chrome9 HC IGP WDDM 1.1	3	75	via chrome9 hc igp wddm 1.1
+3075	VIA Chrome9 HC3 IGP	3	157	via chrome9 hc3 igp
+3076	VIA/S3G DeltaChrome IGP	3	125	via/s3g deltachrome igp
+3077	Intel GMA 3150 Express	3	66	intel gma 3150 express
+3078	Intel 946GZ Express	3	38	intel 946gz express chipset family
+3079	Dell 8100	2	58	dell 8100
+3080	Intel 82845G Controller	2	132	intel 82845g controller
+3081	Intel Extreme Controller	2	136	intel extreme controller
+3082	Mobile Intel 945 Express	2	9	mobile intel 945 express
+3083	Quadro NVS 280 SD	2	119	quadro nvs 280 sd
+3084	RADEON IGP 34xM	2	89	radeon igp 34xm
+3085	Radeon VE	2	36	radeon ve
+3086	S3 SuperSavage/IXC 1014	2	147	s3 supersavage/ixc 1014
+3087	VIA Chrome9 HC IGP Prerelease WDDM 1.1	2	100	via chrome9 hc igp prerelease wddm 1.1
+3088	VIA Chrome9 HCM IGP	2	94	via chrome9 hcm igp
+3089	VisionTek Radeon 7000	2	117	visiontek radeon 7000
+3090	Mobile Intel 915GM/GMS/910GML Express	2	43	mobile intel 915gm/gms/910gml express
+3091	Mobile Intel 945 Express	2	9	mobile intel 945 express chipset family
+3092	FireMV 2200 PCI	1	153	firemv 2200 pci
+3093	Intel 82852/82855 GM/GME Controller	1	107	intel 82852/82855 gm/gme controller
+3094	Quadro2 Pro	1	143	quadro2 pro
+3095	Rage 128 Pro	1	40	rage 128 pro
+3096	RAGE 128 PRO AGP 4X TMDS	1	142	rage 128 pro agp 4x tmds
+3097	S3 ProSavageDDR	1	41	s3 prosavageddr
+3098	VIA Chrome9 HC3 IGP WDDM 1.1	1	2	via chrome9 hc3 igp wddm 1.1

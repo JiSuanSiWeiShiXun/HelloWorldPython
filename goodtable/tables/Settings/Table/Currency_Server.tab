@@ -1,0 +1,9 @@
+﻿uint	string	long	long	bool	int	int	enum.OverLimitType	int	int	int
+PKEY1							无-None-0,发邮件-Mail-1			
+货币编号	货币名称	周上限	总上限	局内货币（每局重置）	道具ID	周上限可累计周数	超总持有上限处理类型	系统可获取上限	系统可获取上限恢复时间（秒）	系统可获取上限回复量
+ID	Name	upperLimitOfWeek	upperLimit	isGameplayCurrency	itemId	accumulativeWeek	overLimitType	systemLimit	systemLimitRecoverTime	systemLimitRecoverCount
+101	路网信用币	50000	300000		100001		1	-1		
+102	芯石	-1	200000		100002		1	-1		
+103	舰长经验	3000	100000		100003			-1		
+104	BP经验	50000	-1		100004	1	0	-1	0	0
+105	芯石原矿	-1	-1	1	100005			-1		

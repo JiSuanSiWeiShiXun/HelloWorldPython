@@ -1,0 +1,5 @@
+﻿int	LangText	int	int	int[]	int	int	int	int	int[][]	int	int[][]	int	int[][]
+PKEY1													
+Id	模式名字	初始胜负值	初战值(判定是否进入新手池）	胜负值区间	获胜获得胜负值	失败获得胜负值	败者池胜负值条件(小于)	胜者池AI数	胜者池增加AI等待时长	败者池AI数	败者池增加AI等待时长	新手池AI数	新手池增加AI等待时长
+ID	Name	InitialOutcome	FirstBattle	OutcomeSection	WinOutcome	LoseOutcome	LoserPoolOutcomeLimit	WinnerPoolAI	WinnerPoolAIIncrese	LoserPoolAI	LoserPoolAIIncrese	NoobPoolAI	NoobPoolAIIncrese
+18	玛什马克	0	20	-2,2	1	-1	-1	15	60,10|120,10|180,10	21	60,20|120,10|180,10	71	60,30|120,5|180,8

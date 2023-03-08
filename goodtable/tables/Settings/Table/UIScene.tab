@@ -1,0 +1,92 @@
+﻿string	int	bool	int	int	int	int	int
+PKEY1							
+场景Key	场景类型	开启预加载	计分条界面	敌方方位箭头预加载数量	瞄准框道具ID	预加载锁定框数量	Npc锁定框预加载数量
+sceneKey	sceneType	needPreload	scoreViewId	lockedArrowCount	itemId	lockPreloadCount	npcLockPreloadCount
+main	12	1	10024	6	119	6	6
+GKCS	3	1	11002	6		6	6
+TrainingDemo	6	1		6		20	6
+Artkailuo	4	1	10024	6		10	6
+canyon	8	1	10024	6		6	6
+GarageTest	5	1		6		6	6
+Zone3_island		1	10024	6		6	6
+Test3V3		1	10024	6		6	6
+3v3_test		1	10024	6		6	6
+IceBorne		1	10024	6		6	6
+GrandCanyonDemo	14	1	10024	12	200023	12	6
+IceBorne_New		1	10024	6		6	6
+GKCS_DG		1	10024	6		6	6
+XDXtest		1	10024	6		6	6
+LYJ1V1		1	10024	6		6	6
+TestYu		1	10024	6		6	6
+PVPTest_New		1	10024	6		6	6
+YGMtest		1	10024	6		6	6
+TajMahalTest		1	10024	6		6	6
+IceField		1	10024	6		6	6
+Sortie		1	10024	6		6	6
+Loading		1	10024	6		6	6
+PS_Test		1	10024	6		6	6
+Test_3V3		1	10024	6		6	6
+Cyber3V3		1	10024	6		6	6
+GKCS_2		1	10024	6		6	6
+GKCS_HotSpot		1	10024	6		6	6
+GKCS_HotSpot_2		1	10023	6		6	6
+GKCS_Mine		1	10023	6		6	6
+GKCS_30er		1	10024	6		6	6
+Artkailuo_30er		1	10024	6		6	6
+TrainingDemo2		1	10024	6		6	6
+canyon2		1	10024	6		6	6
+GKCS_12er	17	1	10024	6		6	6
+Push3v3		1	10024	6		6	6
+Push3v3x2		1	10024	6		6	6
+TrainingSkillDemo		1	10024	6		6	6
+3V3Bounty		1	10024	6		6	6
+3V3OpenBox		1	10024	6		6	6
+DoublePush3v3		1	10024	6		6	6
+TeachingTest1	1	1	10024	6		6	6
+GKCS_Mine_12player		1	10023	6		6	6
+DoublePush6v6	2	1	11205	6		6	6
+Energy6v6		1	10024	6		6	6
+GKCS_3v3		1	10024	6		6	6
+swamp6v6	9	1	11204	6		6	6
+Marshmack	11	1	10064	6	119	6	6
+TrainingMap_Demo_NPC	0	1	10024	6		20	6
+DiePlayMode	10	1	10024	6		6	6
+3V3_City	3	1	11002	6		6	6
+3v3IceFight	3	1	10024	6		6	6
+GKCS1	3	1	10024	6		6	6
+PlayerSwitch	5	1	10024	6		6	6
+Energy_stealing	3	1	10024	6		6	6
+StrongHold	13	1	11204	6		6	6
+CarHoldMode	10	1	10024	6		6	6
+CoreDefenceMode	13	1	11204	6		6	6
+ProSSMode	13	1	10049	6		6	6
+Art_Cairo	4	1	10024	6		10	6
+LongDistanceTrain	13	1	11206	9		9	20
+DiePlayMode2	10	1	10024	6		6	6
+CoreSettle	14	1	10024	6		6	6
+FallBattle	15	1	11002	6		6	6
+Settlement	5	1	10024	6		6	6
+DecypherTrain	13	1	10050	9		6	6
+ShipyardMap	2	1	11207	6		6	6
+LOD0MechaTest		1	10024	6		6	6
+Scene_AI_Pressuretest_Old	3	1	11002	6		6	6
+Scene_AI_Pressuretest_New	3	1	11002	6		6	6
+TrickWarSpace	10	1	10024	6		6	6
+Art_FallBattle	15	1	11002	6		6	6
+OneLineTowers	3	1	11002	6		12	12
+Fortress	18	1	10024	6		6	6
+ArtWeather	12	1	10024	6	119	6	6
+3v3Factory	3	1	11002	6		6	6
+LongDistanceTrain_4K	13	1	11206	9		9	20
+DoubleLongTrain	13	1	11206	9		9	20
+M4Teaching	1	1	10024	6		6	6
+M3Teaching	1	1	10024	6		6	6
+M1Teaching	1	1	10024	6		6	6
+Art_FallBattle_Test01	15	1	11002	6		6	6
+Art_FallBattle_Test02	15	1	11002	6		6	6
+Art_FallBattle_Test03	15	1	11002	6		6	6
+DiePlayMode1	10	1	10024	6		6	6
+Art_Cairo_RVT	4	1	10024	6		10	6
+3v3Mountain	3	1	11002	6		6	6
+Artkailuo_Test4			10024	6		6	6
+3V3WLH	3		11002	6		6	6

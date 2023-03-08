@@ -1,0 +1,19 @@
+﻿string	int
+PKEY1	
+奖励关键字	积分ID
+RewardKey	ScoreID
+KRI_PlayerKillPlayer	1001
+KRI_PlayerKillFriendPlayer	0
+KRI_PlayerKillSelf	0
+KRI_PlayerKillNPC	0
+KRI_PlayerKillFriendNPC	0
+KRI_ContinueKT_I	1008
+KRI_ContinueKT_II	1009
+KRI_ContinueKT_III	1010
+KRI_DoubleKill	1005
+KRI_TripleKill	1006
+KRI_FrenzyKill	1007
+KRI_BreakContinueKT_I	1011
+KRI_BreakContinueKT_II	1012
+KRI_BreakContinueKT_III	1013
+KRI_AssistKill	1002

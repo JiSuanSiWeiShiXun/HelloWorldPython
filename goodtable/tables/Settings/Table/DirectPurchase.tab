@@ -1,0 +1,14 @@
+﻿uint	int	float	uint[]	int[]	uint[]	int[]	uint[]	int[]	string	string	string	string[]
+PKEY1												
+键	直购商品ID	商品价格	购买获得货币类型	购买获得基本货币数量	购买额外赠送货币类型	购买额外赠送货币数量	购买获得道具ID	购买获得道具数量	商品描述	图标路径	商品描述	额外获取标签
+id	waresId	price	baseCurrencyId	baseCurrencyCount	extraCurrencyId	extraCurrencyCount	itemId	itemCount	introduce	iconPath	productDescription	extraGetTags
+1	100030	30	102	300	102,102	300,30				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送
+2	100098	98	102	980	102,102	980,98				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送
+3	100198	198	102	1980	102,102	1980,198				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送
+4	100328	328	102	3280	102,102	3280,328				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送
+5	100648	648	102	6480	102,102,102	6480,3240,648				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送,额外赠送
+6	200000	0.01	102	1	102,102,102	1,1,1				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	额外赠送,额外赠送,额外赠送
+7	200001	1	102	10	102,102,102	10,5,5				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送,额外赠送
+8	200050	50	102	500	102,102,102	500,250,100				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送,额外赠送
+9	200099	99	102	990	102,102,102	990,450,450				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送,额外赠送
+10	200100	100	102	1000	102,102,102	1000,500,500				Assets/Art/UI/Module/Shop/Textures/UIRechangeBg_01.png	芯石	首充双倍,额外赠送,额外赠送

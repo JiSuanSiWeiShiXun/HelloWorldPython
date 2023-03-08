@@ -1,0 +1,236 @@
+﻿int	string	int	int[]	int	bool	int	int	int	uint	int[]	int[]	int	int	int
+PKEY1														
+ID	预制路径	父级索引	隐藏界面列表	生命周期标记	显示鼠标	资源回收类型	排序索引	Esc退出方式	重置RectTransform属性	机甲类型	场景类型	分组	可穿透操作	预加载回收类型
+ID	prefabPath	parentIndex	hideViewIDs	liveFlag	showCursor	despawnType	sortOrder	escType	rectResetFlag	mechaTypes	sceneTypes	group	allowOperationId	preloadDespawnType
+1	Assets/Art/UI/Common/Prefabs/UISystemTipView.prefab	103		0	0	3	500	0	15			1		
+2	Assets/Art/UI/Common/Prefabs/UIEscView.prefab	202	10048	0	1	3	99	1	15			1		
+22	Assets/Art/UI/Common/Prefabs/UIPlayerTipView.prefab	202		0	0	0	103	0	15			1		
+23	Assets/Art/UI/Module/Teach/Prefabs/UIStoryTipsView.prefab	202		0	0	3	0	0	15			1		
+24	Assets/Art/UI/Common/Prefabs/UIDialogView.prefab	103		0	0	0	1000	1	15			1		
+25	Assets/Art/UI/Common/Prefabs/UIReconnectingView.prefab	103		0	0	0	100	0	15			1		
+26	Assets/Art/UI/Common/Prefabs/UISettingView.prefab	202	2,10048	0	1	0	99	2	15			1		
+27	Assets/Art/UI/Common/Prefabs/UICopyrightView.prefab	103		0	0	0	999	0	15			1		
+28	Assets/Art/UI/Common/Prefabs/UIQuestionnaireView.prefab	103		0	0	0	100	1	15			1		
+32	Assets/Art/UI/Common/Prefabs/UIHoverTipView.prefab	103		0	0	4	100	0	15			1		
+33	Assets/Art/UI/Module/Teach/Prefabs/UITeachTipView.prefab	202			0	3			15			1		
+34	Assets/Art/UI/Common/Prefabs/UICommonDialogInputView.prefab	103				0	100	1	15			1		
+35	Assets/Art/UI/Common/Prefabs/UICommonAwardView.prefab	203	15063		1	0	998	1	15			1		
+36	Assets/Art/UI/Common/Prefabs/UICommonDialogView.prefab	103	15307	1		0	1000	1	15		5	1		
+38	Assets/Art/UI/Common/Prefabs/UICommonWaitingView.prefab	103		0	0	0	99	0	15			1		
+39	Assets/Art/UI/Common/Prefabs/UISliderBoardView.prefab	103		0	0	0	999	0	15			1		
+40	Assets/Art/UI/Common/Prefabs/UIBlackScreenView.prefab	103		0	0	0	99	0	15			1		
+41	Assets/Art/UI/Module/Video/Prefabs/UIVideoView.prefab	202				0			15			1		
+42	Assets/Art/UI/Common/Prefabs/UICommonUserOperateMenuView.prefab	103	15307			4	100	1	15			1		
+43	Assets/Art/UI/Common/Prefabs/UICommonBottomBarView.prefab	203		0	0	3	540	0	15			1		
+44	Assets/Art/UI/Module/GM/Prefabs/UIGMView.prefab	103		0	0	0	9999	0	15			1		
+1001	Assets/Art/UI/Module/Login/Prefabs/UILoginView.prefab	202		0	0	0	0	0	15			2		
+1002	Assets/Art/UI/Module/Login/Prefabs/UIXGLoginView.prefab	202		0	0	0	0	2	15			2		
+1003	Assets/Art/UI/Module/Login/Prefabs/UICreateCharacterView.prefab	202		0	0	0	0	0	15			2		
+1004	Assets/Art/UI/Module/Login/Prefabs/UIUpdateLogView.prefab	103		0	0	0	102	0	15			2		
+1005	Assets/Art/UI/Module/Login/Prefabs/UILoginQueueView.prefab	103		0	0	0	100	0	15			2		
+1006	Assets/Art/UI/Module/Login/Prefabs/UILoginSelectServerView.prefab	103		0	0	0	100	1	31			2		
+1007	Assets/Art/UI/Module/Login/Prefabs/UILoginSelectGenderView.prefab	202				0	0		15			2		
+1008	Assets/Art/UI/Module/Login/Prefabs/UILoginEditCharacterView.prefab	202				0	0		15			2		
+1009	Assets/Art/UI/Module/Login/Prefabs/UINoviceGuideLobbyView.prefab	202				0	1	2	15			2		
+1051	Assets/Art/UI/Module/Loading/Prefabs/UILoadingView.prefab	103		0	0	0	99	0	15			3		
+1101	Assets/Art/UI/Module/Garage/Prefabs/UIGarageView.prefab	202		1	0	4	0	2	15		5	4		
+1102	Assets/Art/UI/Module/Lobby/Prefabs/UILobbyNavView.prefab	203		1	0	0	90	0	15		5	4		
+1104	Assets/Art/UI/Module/Match/Prefabs/UIMatchSuccessView.prefab	103		1	0	0	10	0	15		5	4		
+1109	Assets/Art/UI/Module/Replay/Prefabs/UIReplayView.prefab	102		0	0	0	0	0	15			4		
+1110	Assets/Art/UI/Common/Prefabs/UIFreePerspectiveView.prefab	203	1101,1102,14204,14205,10059,3004,3005,3007,14209,14210	0	1	0	90	2	15			4	2	
+1112	Assets/Art/UI/Module/Replay/Prefabs/UIReplayListView.prefab	102		0	0	0	1	0	15			4		
+1301	Assets/Art/UI/Module/Aim/Prefabs/M1/UIAimM1View.prefab	202		2	0	3	0	0	15	10001	7	5		
+1302	Assets/Art/UI/Module/Aim/Prefabs/M2/UIAimM2View.prefab	202		2	0	3	0	0	15	10002	7	5		
+1303	Assets/Art/UI/Module/Aim/Prefabs/M3/UIAimM3View.prefab	202		2	0	3	0	0	15	10003	7	5		
+1304	Assets/Art/UI/Module/Aim/Prefabs/M4/UIAimM4View.prefab	202		2	0	3	0	0	31	10004	7	5		
+1305	Assets/Art/UI/Module/Aim/Prefabs/M5/UIAimM5View.prefab	202		2	0	3	0	0	31	10005	7	5		
+1307	Assets/Art/UI/Module/Aim/Prefabs/M7/UIAimM7View.prefab	202		2		3	0	0	15	10007	7	5		
+1309	Assets/Art/UI/Module/Aim/Prefabs/M9/UIAimM9View.prefab	202		2		3	0	0	15	10009	7	5		
+1312	Assets/Art/UI/Module/Aim/Prefabs/M12/UIAimM12View.prefab	202		2		3	0	0	15	10012	7	5		
+1399	Assets/Art/UI/Module/Skill/Prefabs/UIHudSkillView.prefab	202		2		4	0	0	15		7	5		4
+1402	Assets/Art/UI/Module/WarReport/Prefabs/UIWarReportMechaSelectView.prefab	202	1401,1102,1405	1		4	1	2	15		5	6		
+1404	Assets/Art/UI/Module/WarReport/Prefabs/UIWarReportSeasonSelectView.prefab	202	1401,1102,1405	1		4	1	1	15		5	6		
+1405	Assets/Art/UI/Module/WarReport/Prefabs/UIWarReportView.prefab	202	1101,3004	1		4	50	2	15		5	6		
+1406	Assets/Art/UI/Module/WarReport/Prefabs/UIWarReportSessionDialogView.prefab	202		1		4	1000	1	15		5	6		
+1407	Assets/Art/UI/Module/WarReport/Prefabs/UIWarReportSelectMapView.prefab	202	1405,1102	1		4	1	1	15		5	6		
+1408	Assets/Art/UI/Module/WarReport/Prefabs/UIWarReportTipView.prefab	103				4	100	0	15			6		
+1502	Assets/Art/UI/Module/Friend/Prefabs/UIFriendOperateMenuView.prefab	103		1		0	100	1	15		5	7		
+1802	Assets/Art/UI/Module/Respawn/Prefabs/UISpectatorView.prefab	203		2	0	3	200	2	15		7	9		
+1803	Assets/Art/UI/Module/Respawn/Prefabs/UIRespawnBuyView.prefab	103			1	4	2	0	15			9		
+1905	Assets/Art/UI/Module/Social/Prefabs/UISocialView.prefab	203	1904			1	500	2	15			10		
+1906	Assets/Art/UI/Module/Social/Prefabs/Chat/UILobbyChatView.prefab	203				4	550	2	15			10		
+2008	Assets/Art/UI/Module/Bag/Prefabs/UISupplyView.prefab	202		1		4		2	15		5	11		
+2009	Assets/Art/UI/Module/Bag/Prefabs/UIBagSplitView.prefab	103				0	99	1	15			11		
+2010	Assets/Art/UI/Module/Bag/Prefabs/UIBagMoreView.prefab	102				0	100	1	15			11		
+2011	Assets/Art/UI/Module/Bag/Prefabs/UIBagSellView.prefab	103				0	101	1	15			11		
+2012	Assets/Art/UI/Module/Bag/Prefabs/UIBagDiscardView.prefab	102				0	2	1	15			11		
+2013	Assets/Art/UI/Module/Bag/Prefabs/UIBagBuyView.prefab	102				0	2	1	15			11		
+2016	Assets/Art/UI/Module/Bag/Prefabs/UIBagItemPreviewView.prefab	202	2008			0	91	1	15			11		
+2017	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattleItemTipsView.prefab	202				0	100		15			11		
+2018	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattleBagView.prefab	202		2	1	0	2	1	15		11	11		
+2019	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattlePickView.prefab	202			1	0	2	1	15			11		
+2020	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattleBagQuickUseRouletteView.prefab	202	1301,1302,1303,1304,1305,1309,1312,1399			0		0	15			11		
+2021	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattleBagQuickUseSlotView.prefab	202				0		0	15			11		
+2022	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattleCommitHUDView.prefab	202				0		0	15			11		
+2023	Assets/Art/UI/Module/BattleBag/Prefabs/UIBattleCommitView.prefab	202	2022		1	0	2	1	15			11		
+2106	Assets/Art/UI/Module/Mecha/Prefabs/UIMechaLineView.prefab	3		0	0	0	0	0	15			12		
+2107	Assets/Art/UI/Module/Mecha/Prefabs/UIMassingWindowView.prefab	103		0	0	0	0	0	15			12		
+2108	Assets/Art/UI/Module/Mecha/Prefabs/UIMechaSelectView.prefab	202	1101,1102	3		4	52	2	15		5	12		
+2305	Assets/Art/UI/Module/BP/Prefabs/UIBPView.prefab	202		1		4	0	2	15		5	13		
+2306	Assets/Art/UI/Module/BP/Prefabs/UIBPQuestRefreshView.prefab	203		1		0	11000	2	15		5	13		
+2307	Assets/Art/UI/Module/BP/Prefabs/UIBPPreviewView.prefab	202	1102,2305	1		0	20	1	15		5	13		
+2406	Assets/Art/UI/Module/Captain/Prefabs/UICaptainRoomTeachingView.prefab	202	1102	1	0	0	0	2	15		0	14		
+2410	Assets/Art/UI/Module/Captain/Prefabs/UICaptainRoomView.prefab	202		1		4	0	2	15		5	14		
+2411	Assets/Art/UI/Module/Captain/Prefabs/UICaptainRoomMatchingView.prefab	202		1		4	0	2	15		5	14		
+2412	Assets/Art/UI/Module/Captain/Prefabs/UICaptainGamePlayIntroductionView.prefab	202	1102	1		4	0	2	15		5	14		
+2413	Assets/Art/UI/Module/Captain/Prefabs/UIModeSelectionTotalView.prefab	3		1		0			15		5	14		
+2507	Assets/Art/UI/Module/Pilot/Prefabs/UIPilotChangeView.prefab	202				0	53	1	15			15		
+2509	Assets/Art/UI/Module/Pilot/Prefabs/UIPilotListView.prefab	202	2512	1		4		2	15		5	15		
+2510	Assets/Art/UI/Module/Pilot/Prefabs/UIPilotView.prefab	202	2509,1102,2512,10059	1		4		1	15		5	15		
+2512	Assets/Art/UI/Module/Pilot/Prefabs/UIPilotReplaceView.prefab	202	1101,1102,2108,2510,10059	1		4	1	1	15		5	15		
+2513	Assets/Art/UI/Module/Pilot/Prefabs/UIPinchPresetView.prefab	202	2512,2510	1		4	0	2	15		5	15		
+2514	Assets/Art/UI/Module/Pilot/Prefabs/PinchFirstView/UIPinchFirstEditView.prefab	202	2513	1		0	1	2	15		5	15		
+2515	Assets/Art/UI/Module/Pilot/Prefabs/PinchFirstView/UIPinchSecondView.prefab	202	2514	1		0	2	2	15		5	15		
+2516	Assets/Art/UI/Module/Pilot/Prefabs/PinchFirstView/UIPinchDiyColorView.prefab	202	2514	1		0	2	2	15		5	15		
+2614	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomSearchView.prefab	202	1102,2410	1		4	10	1	15		5	16		
+2615	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomView.prefab	202	1102,2410	1		0	7	2	15		5	16		
+2616	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomSettingView.prefab	202	2615	1		0	8	1	15		5	16		
+2617	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomAIView.prefab	202	2615	1		0	8	1	15		5	16		
+2618	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomChangeMapView.prefab	202	1102,2410,2616	1		0	9	1	15		5	16		
+2619	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomChangeTeamView.prefab	202		1		4	10	1	15		5	16		
+2620	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomInputView.prefab	202				0	100	1	15			16		
+2621	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomInviteView.prefab	202	1102,2410,2615	1		4	10	1	15		5	16		
+2622	Assets/Art/UI/Module/CustomRoom/Prefabs/UICustomRoomOperateMenuView.prefab	103		1		0	100	1	15		5	16		
+2703	Assets/Art/UI/Module/Mail/Prefabs/UIMailEditView.prefab	202		1	0	1	505	2	15		5	17		
+2707	Assets/Art/UI/Module/Mail/Prefabs/UIMailAddConsigneeView.prefab	202		1	1	1	506	2	15		5	17		
+2708	Assets/Art/UI/Module/Mail/Prefabs/UIMailAddAttachmentView.prefab	202		1	1	4	506	2	15		5	17		
+2709	Assets/Art/UI/Module/Mail/Prefabs/UIMailOperateMenuView.prefab	202		1	1	1	999	1	15		5	17		
+2805	Assets/Art/UI/Module/Tab/Prefabs/UITabView.prefab	103		2		4		0	15		7	18		
+2806	Assets/Art/UI/Module/Tab/Prefabs/UIScuffleTabView.prefab	103		2		4		0	15		7	18		
+3003	Assets/Art/UI/Module/Diy/Prefabs/UIDiyPresetView.prefab	202	1102,10002,10053	1	1	4	10	2	15		5	19		
+3004	Assets/Art/UI/Module/Diy/Prefabs/EditView/UIDiyEditView.prefab	202	1102,10002,3005	1		4	11	2	15		5	19		
+3005	Assets/Art/UI/Module/Diy/Prefabs/UIDiySelectView.prefab	202	1102,10002,1101,3003,10059	1		4	12	2	15		5	19		
+3006	Assets/Art/UI/Common/Prefabs/UIDiyUserOperateMenuView.prefab	203		1		0	10002	2	15		5	19		
+3007	Assets/Art/UI/Module/Diy/Prefabs/EditView/UIDiyAdvanceColorView.prefab	202		1		0	99	2	15		5	19		
+10001	Assets/Art/UI/Module/Map/Prefabs/UIMiniMapTacticsView.prefab	202		2	0	4	1	0	15		7	20		
+10004	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementTrainView.prefab	103		4	0	0	0	0	15		7	20		
+10005	Assets/Art/UI/Module/Battle/Prefabs/UIInteractionRingView.prefab	5		2	0	3	0	0	15		7	20		
+10007	Assets/Art/UI/Module/Map/Prefabs/UIMinimapControllerView.prefab	102		2	0	3	0	0	15		7	20		
+10009	Assets/Art/UI/Module/Battle/Prefabs/UIWarningView.prefab	202		2	0	3	0	0	15		7	20		
+10012	Assets/Art/UI/Module/TeamMateLock/Prefabs/UITeamMateLockView.prefab	201		2	0	3	-10	0	15		7	20		4
+10013	Assets/Art/UI/Module/Battle/Prefabs/UIMultilineTipsAreaView.prefab	102		0	0	3	0	0	15			20		
+10014	Assets/Art/UI/Module/KillReport/Prefabs/UIKillReportView.prefab	201		2	0	3	0	0	15		7	20		
+10015	Assets/Art/UI/Module/BeKilled/Prefabs/UIBeKilledView.prefab	203		2	0	3	3	0	15		7	20		
+10016	Assets/Art/UI/Module/Battle/Prefabs/UITipInfoView.prefab	203		0	0	3	0	0	15			20		
+10024	Assets/Art/UI/Module/Battle/Prefabs/UITDMScoreView.prefab	202		2	0	3	0	0	15		4	20		
+10025	Assets/Art/UI/Module/Help/Prefabs/UIHelpSkillView.prefab	102	10048	0	1	0	1	2	15			20		
+10026	Assets/Art/UI/Module/EnemyLock/Prefabs/UIEnemyLockView.prefab	201		2	0	3	-1	0	15		7	20		4
+10027	Assets/Art/UI/Module/Skill/Prefabs/UISkillDetailView.prefab	102	10048	0	1	0	8	2	15			20		
+10028	Assets/Art/UI/Module/Battle/Prefabs/UIOperationTipsView.prefab	102		2	0	3	0	0	15		7	20		
+10029	Assets/Art/UI/Module/AimmingPointer/Prefabs/UIAimmingPointerView.prefab	202		2		3	-1		15		7	20		
+10030	Assets/Art/UI/Module/BattleTips/Prefabs/UIBattleTipsView.prefab	203		2		3			15		7	20		4
+10031	Assets/Art/UI/Module/Hit/Prefabs/UIHitView.prefab	201		2		3			15		7	20		
+10032	Assets/Art/UI/Module/BeKilled/Prefabs/UIBeKilledEffectView.prefab	202		2		4	5	0	15		7	20		
+10033	Assets/Art/UI/Module/QuickMarker/Prefabs/UIQuickMarkerPlaceChoiceView.prefab	102		2	0	4		0	15		7	20		
+10034	Assets/Art/UI/Module/QuickMarker/Prefabs/UIQuickMarkerView.prefab	202	1301,1302,1303,1304,1305,1309,1312,1399	2	0	4	-2	0	15		7	20		
+10035	Assets/Art/UI/Module/Effect/Prefabs/UIM2SkillAfterimageView.prefab	202				0			15			20		
+10036	Assets/Art/UI/Module/Effect/Prefabs/UIM2SkillD1SniperEffectView.prefab	203				0			15			20		
+10038	Assets/Art/UI/Module/Landing/Prefabs/UILandingView.prefab	202		2		3			15		7	20		
+10042	Assets/Art/UI/Module/Interaction/Prefabs/UIInteractionView.prefab	202		2		4			15		7	20		
+10044	Assets/Art/UI/Module/Map/Prefabs/UIFullScreenMapView.prefab	103			1	1		1	15			20	1	
+10045	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementResultView.prefab	102		4		0	1	0	15		7	20		
+10046	Assets/Art/UI/Module/Map/Prefabs/UIMapControllerView.prefab	102		2		3		0	15			20		
+10047	Assets/Art/UI/Module/Map/Prefabs/UIMinimapRadarView.prefab	202				0			15			20		
+10048	Assets/Art/UI/Module/Battle/Prefabs/UIBattleBottomView.prefab	203				4	201		15			20		
+10049	Assets/Art/UI/Module/Battle/Prefabs/UICoreDefenceScoreView.prefab	202				0			15			20		
+10050	Assets/Art/UI/Module/Battle/Prefabs/UILongTrainDefenceScoreView.prefab	202				0			15			20		
+10051	Assets/Art/UI/Module/EnemyArrow/Prefabs/UIEnemyArrowView.prefab	202		2		4	1	0	15		7	20		4
+10052	Assets/Art/UI/Module/Quest/Prefabs/UIBattleQuestView.prefab	202		2		4			15			20		
+10056	Assets/Art/UI/Module/Map/Prefabs/UIMiniMapView.prefab	202		2		4	1	0	15		7	20		
+10058	Assets/Art/UI/Module/Quest/Prefabs/UIBattleQuestTestView.prefab	103			1	0	10		15			20		
+10059	Assets/Art/UI/Module/WarPrepare/Prefabs/UIWarPrepareView.prefab	202	10017	3	1	0	51	2	15			20	2	
+10060	Assets/Art/UI/Module/EnemyArrow/Prefabs/UITorpedoArrowView.prefab	202		2		4	2		15		7	20		
+10061	Assets/Art/UI/Module/EnemyLock/Prefabs/UIEnemyLockWorldAnimView.prefab	5				0			15			20		
+10062	Assets/Art/UI/Module/EnemyArrow/Prefabs/UIDroneArrowView.prefab	202				4	2		15			20		
+10063	Assets/Art/UI/Module/Surrender/Prefabs/UISurrenderView.prefab	202		2		4			15		7	20		
+10064	Assets/Art/UI/Module/Battle/Prefabs/UIBigWorldScoreView.prefab	202		2	0	0	0	0	15		4	20		
+10065	Assets/Art/UI/Module/Battle/Prefabs/UIBattleMarshmackKdaView.prefab	201		2		0		0	15		11	20		
+11002	Assets/Art/UI/Module/Battle/Prefabs/UIBattle3v3VirtualScoreView.prefab	202		2	0	0	0	0	15		7	21		
+11203	Assets/Art/UI/Module/Gameplay/Prefabs/UIGameplayIconView.prefab	203		2		3			15		7	22		
+11204	Assets/Art/UI/Module/Battle/Prefabs/UISwampScoreView.prefab	202				3			15			22		
+11205	Assets/Art/UI/Module/BattleScore/Prefabs/DoublePush/UIDoublePushScoreView.prefab	202				0			15			22		
+11206	Assets/Art/UI/Module/BattleScore/Prefabs/ProSs/UIProSsScoreView.prefab	202				3			15			22		
+11207	Assets/Art/UI/Module/BattleScore/Prefabs/DoublePush/UIShipyardScoreView.prefab	202				0			15			22		
+14002	Assets/Art/UI/Module/Sortie/Prefabs/UISortiePerformanceView.prefab	201				0	1	0	15			23		
+14102	Assets/Art/UI/Module/Teach/Prefabs/UITeachHUDView.prefab	201				0	0		15			24		
+14204	Assets/Art/UI/Module/Equip/Prefabs/UIEquipEditView.prefab	202	1902,14203,10002,1102,14208,10059	1		4	11	2	15		5	25		
+14205	Assets/Art/UI/Module/Equip/Prefabs/UIEquipAccessoryEditView.prefab	202	1902,14203,10002,1102,14204,14208,1101,10059	1		4	12	2	15		5	25		
+14206	Assets/Art/UI/Module/Equip/Prefabs/UIEquipAddPresetView.prefab	202	1902,14203,10002,1102,14208,10059,14209	1		4	12	2	15		5	25		
+14207	Assets/Art/UI/Module/Equip/Prefabs/UIEquipModifyPresetView.prefab	202	1902,14203,10002,1102,14208,10059	1		4	12	2	15		5	25		
+14208	Assets/Art/UI/Module/Equip/Prefabs/UIEquipView.prefab	202	1902,14203,10002,1102,10053	1	1	4	12	2	15		5	25		
+14209	Assets/Art/UI/Module/Equip/Prefabs/UINewEquipPresetView.prefab	202	1902,14203,10002,1102,14208,10059,1101	1		4	11	2	15		5	25		
+14210	Assets/Art/UI/Module/Equip/Prefabs/UINewEquipEditView.prefab	202	1101,10059,1102	1		4	11	2	15		5	25		
+14302	Assets/Art/UI/Module/Effect/Prefabs/UIDeathEffectView.prefab	203		2		3			15			26		
+14303	Assets/Art/UI/Module/Effect/Prefabs/UIDistortEffectView.prefab	4		2		3			15			26		
+14304	Assets/Art/UI/Module/Effect/Prefabs/UIInterferenceEffectView.prefab	4		2		3			15			26		
+14305	Assets/Art/UI/Module/Effect/Prefabs/UILockAreaNoiseEffectView.prefab	4		2		3			15			26		
+14306	Assets/Art/UI/Module/Effect/Prefabs/UILowHpEffectView.prefab	602		2		3			15			26		
+14307	Assets/Art/UI/Module/Effect/Prefabs/UIM5SkillD1SniperEffectView.prefab	203		2		3			15			26		
+14308	Assets/Art/UI/Module/Effect/Prefabs/UIShieldBrokenView.prefab	603		2		3			15			26		
+14309	Assets/Art/UI/Module/Effect/Prefabs/UIShieldBrokenZView.prefab	203		2		3			15			26		
+14310	Assets/Art/UI/Module/Effect/Prefabs/UIM9SkillAfterimageView.prefab	203		2		3			15			26		
+14311	Assets/Art/UI/Module/Effect/Prefabs/UIM5SkillChargeUpEffectView.prefab	6		2		3			15			26		
+14312	Assets/Art/UI/Module/Effect/Prefabs/UIAreaScreenDimmedView.prefab	603		2		3			15			26		
+14313	Assets/Art/UI/Module/Effect/Prefabs/UIAreaScreenDimmedFriendlyEICView.prefab	4		2		3			15			26		
+14314	Assets/Art/UI/Module/Effect/Prefabs/UIInterferenceEffectCopyView.prefab	4		2		3			15			26		
+14315	Assets/Art/UI/Module/Effect/Prefabs/UIM2Skill1EffectView.prefab	203		2		3			15			26		
+14316	Assets/Art/UI/Module/Effect/Prefabs/UIAreaScreenDimmedFriendlyView.prefab	4		2		3			15			26		
+14317	Assets/Art/UI/Module/Effect/Prefabs/UIInterferenceHUDEffectView.prefab	4		2		3			15			26		
+14318	Assets/Art/UI/Module/Effect/Prefabs/UIInterferenceMapEffectView.prefab	4		2		3			15			26		
+14319	Assets/Art/UI/Module/Effect/Prefabs/UIM2SkillD2AfterimageView.prefab	203		2		3			15			26		
+14320	Assets/Art/UI/Module/Effect/Prefabs/UILeftEdgeWarningEffectView.prefab	602		2		3			15			26		
+14321	Assets/Art/UI/Module/Effect/Prefabs/UIRightEdgeWarningEffectView.prefab	602		2		3			15			26		
+15002	Assets/Art/UI/Module/Recruit/Prefabs/UIRecruitModeView.prefab	103				0	104	1	15			27		
+15003	Assets/Art/UI/Module/Recruit/Prefabs/UIRecruitInfoView.prefab	103				0	103	2	15			27		
+15004	Assets/Art/UI/Module/Recruit/Prefabs/UIApplyRecruitView.prefab	103				0	1	1	15			27		
+15005	Assets/Art/UI/Module/Recruit/Prefabs/UIMechaPreferencesView.prefab	103				0	104	1	15			27		
+15006	Assets/Art/UI/Module/Recruit/Prefabs/UIRecurtSearchView.prefab	202	2410			0	91	1	15			27		
+15007	Assets/Art/UI/Module/Recruit/Prefabs/UIRecruitApplyListView.prefab	103				0	1	1	15			27		
+15056	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopView.prefab	202		1		4	1	2	15		5	28		
+15057	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopDialogView.prefab	202		1		4	1000	1	15		5	28		
+15058	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopMechaView.prefab	202	1102,1101,15056	1		4	2	2	15		5	28		
+15059	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopEquipDetailView.prefab	202	1102,1101,15056	1		4	3	2	15		5	28		
+15060	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopEquipView.prefab	202	1102,1101,15056,15059,14204,14210	1		4	4	2	15		5	28		
+15061	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopAccessoryDetailView.prefab	202	1102,1101,15056,15059	1		4	4	2	15		5	28		
+15062	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopAccessoryView.prefab	202	1102,1101,15056,15059,15061,14205	1		4	5	2	15		5	28		
+15063	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopTaskListView.prefab	202	1102,1101,15056,15059,15061,14205,14204,14209,14210	1		4	6	2	15		5	28		
+15065	Assets/Art/UI/Module/Develop/Prefabs/UIDevelopRewardView.prefab	202	1102,1101,15056,15059,15061,14205,14204,15063,15058,15060,15062	1		4	8	2	15		5	28		
+15201	Assets/Art/UI/Module/Shop/Prefabs/UIShopGiftPreviewView.prefab	202	2008	1		0	97	2	15		5	29		
+15202	Assets/Art/UI/Module/Shop/Prefabs/UIShopMoreDialogView.prefab	202				0	1000	1	15			29		
+15203	Assets/Art/UI/Module/Shop/Prefabs/UIShopRechargeView.prefab	202	2008	1		4	98	2	15		5	29		
+15204	Assets/Art/UI/Module/Shop/Prefabs/UIShopMonthCardPreviewView.prefab	202		1		0	99	2	15		5	29		
+15205	Assets/Art/UI/Module/Shop/Prefabs/UIShopGoldGiftPreviewView.prefab	202	2008	1		0	99	2	15		5	29		
+15302	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementRankView.prefab	203		4	1	4	202	2	15			30		
+15303	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementAchievementView.prefab	203		4	1	0	202	2	15			30		
+15304	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementBPView.prefab	203		4	1	4	202	2	15			30		
+15305	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementScreenShotView.prefab	202				0			15			30		
+15306	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementStatisticsView.prefab	203		4	1	4	202	2	15		7	30		
+15307	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementView.prefab	203	1401,1405	4	1	0	202	2	15		7	30		
+15308	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementBlackBgView.prefab	202			1	0	1		15			30		
+15309	Assets/Art/UI/Module/Settlement/Prefabs/UIMvpSvpView.prefab	203			1	0			15			30		
+15310	Assets/Art/UI/Module/Settlement/Prefabs/UISettlementTeamView.prefab	203			1	0			15			30		
+15402	Assets/Art/UI/Module/Social/Prefabs/UIMessageBoxDialogView.prefab	103		1		0	100	1	15		5	31		
+15502	Assets/Art/UI/Module/Trade/Prefabs/UITradeBuyDialogView.prefab	202		1		4	1000	1	15		5	32		
+15503	Assets/Art/UI/Module/Trade/Prefabs/UITradeBuyView.prefab	202	2008	1		4	91	1	15		5	32		
+15504	Assets/Art/UI/Module/Trade/Prefabs/UITradeSelectView.prefab	202	2008,15505	1		4	92	1	15		5	32		
+15505	Assets/Art/UI/Module/Trade/Prefabs/UITradeOrderView.prefab	202	2008	1		4	91	1	15		5	32		
+15507	Assets/Art/UI/Module/Trade/Prefabs/UITradeOrderDetailView.prefab	202	15505			0	92	1	15			32		
+15508	Assets/Art/UI/Module/Trade/Prefabs/UITradeCancelOrderDialogView.prefab	202		1		4	1000	1	15		5	32		
+15509	Assets/Art/UI/Module/Trade/Prefabs/UITradeOrderBuyDialogView.prefab	202		1		4	1000	1	15		5	32		
+15510	Assets/Art/UI/Module/Trade/Prefabs/UITradeSortDialogView.prefab	202		1		4	1000	1	15		5	32		
+15511	Assets/Art/UI/Module/Trade/Prefabs/UITradeOrderAgainView.prefab	202	15505	1		4	92	1	15		5	32		
+15512	Assets/Art/UI/Module/Trade/Prefabs/UITradeJumpDialogView.prefab	203				4	1000	1	15			32		
+15513	Assets/Art/UI/Module/Trade/Prefabs/UITradeCreateOrderDialogView.prefab	202		1		4	1000	1	15		5	32		
+15602	Assets/Art/UI/Module/Quest/Prefabs/UIBattleMarshmackQuestView.prefab	201		2		0		0	15		11	33		
+15702	Assets/Art/UI/Module/Team/Prefabs/UIBattleTeammateView.prefab	201		2		0		0	15		11	34		
+15802	Assets/Art/UI/Module/BattleCommit/Prefabs/UIBattleCommitTimeView.prefab	201		2		0		0	15		11	35		
