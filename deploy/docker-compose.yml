@@ -7,3 +7,4 @@ services:
     command: tail -f /dev/null
     volumes:
       - ../:/home/youling/:rw
+    network_mode: bridge

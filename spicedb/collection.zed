@@ -1,0 +1,9 @@
+definition user {}
+
+definition object {
+    relation owner: user // 所有者
+    relation authorized: user // 授权使用
+
+    permission dominate = owner
+    permission use = owner + authorized // 使用权限
+}
