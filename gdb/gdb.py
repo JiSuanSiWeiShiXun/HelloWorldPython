@@ -4,7 +4,6 @@
 测试使用的GDB版本: GNU gdb (Debian 10.1-1.7) 10.1.90.20210103-git
 """
 from pygdbmi.gdbcontroller import GdbController
-from pygdbmi.constants import GdbTimeoutError
 from pprint import pprint
 
 def pygdb(game_exec_path: str,

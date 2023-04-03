@@ -135,4 +135,5 @@ dmypy.json
 # projects
 venv*/
 gdb/symbol/*
+gdb/147-coredump/*
 gdb/147-coredump.tar.gz

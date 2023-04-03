@@ -7,7 +7,7 @@ import inotify.constants
 
 def _main():
     i = inotify.adapters.Inotify()
-    # 监控指定文件夹
+    # 监控指定文件夹的指定事件
     i.add_watch('./coredump', mask=inotify.constants.IN_CREATE)
     i.add_watch('./symbol', mask=inotify.constants.IN_DELETE)
     # 更新监控文件夹
