@@ -2,7 +2,7 @@
 services:
   python-dev-env:
     image: python:3.10.9
-    container_name: python-dev-env
+    container_name: python3.10-dev-env
     working_dir: /home/youling/
     command: tail -f /dev/null
     volumes:
