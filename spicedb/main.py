@@ -1,146 +1,143 @@
 # coding=utf-8
-from authzed.api.v1 import (
-    Client,
-    ObjectReference,
-    Relationship,
-    RelationshipUpdate,
-    SubjectReference,
-    WriteRelationshipsRequest,
-    WriteSchemaRequest,
-    ReadSchemaRequest,
-    LookupResourcesRequest
-)
-from grpcutil import insecure_bearer_token_credentials
-
-client = Client(
-    "localhost:50051",
-    insecure_bearer_token_credentials("somerandomkeyhere"),
-    # For SpiceDB behind TLS, use:
-    # bearer_token_credentials("kingsoft"),
-)
-
-def init_schema():
-    """
-    创建/覆盖重写schema
-    """
-    with open("collection.zed", encoding="utf-8") as schema_file:
-        client.WriteSchema(WriteSchemaRequest(schema=schema_file.read()))
-        print("ok")
+from spicedb import init_client, init_schema, \
+    write_relationship, delete_relationship, check_permission, \
+    lookup_resources_of_user, lookup_resources, read_relationship, \
+    grant_system_admin, \
+    licObjectType, licRelation, licPermission, licSingletonID
 
 
-def read_schema():
-    """
-    查询schema
-    """
-    schema_text = client.ReadSchema(ReadSchemaRequest())
-    print("xxx", schema_text)
-
-def add_relationship(*,
-                     subject_type: str,
-                     subject_id: str,
-                     relation: str,
-                     resource_type: str,
-                     resource_id: str,
-                     ) -> str:
-    """
-    add relationship
-    """
-    relationship = Relationship(
-        resource=ObjectReference(object_type=resource_type,
-                                 object_id=resource_id),
-        relation=relation,
-        subject=SubjectReference(object=ObjectReference(
-            object_type=subject_type,
-            object_id=subject_id
-        ))
+def add_app(app_key):
+    write_relationship(
+        resource_type=licObjectType.APP,
+        resource_id=app_key,
+        relation=licRelation.APP_BELONG_TO,
+        subject_type=licObjectType.SYSTEM,
+        subject_id=licSingletonID.SYSTEM_ID.value,
     )
-    resp = client.WriteRelationships(
-        WriteRelationshipsRequest(
-            updates=[
-                RelationshipUpdate(
-                    operation=RelationshipUpdate.Operation.OPERATION_CREATE,
-                    relationship=relationship
-                )
-            ]
+
+def create_projects(app_key):
+    """创建3000个project, 归属到指定的app下, 将app归属到全局系统下"""
+    # 先删除指定app下的所有project
+    delete_relationship(
+        resource_type=licObjectType.PROJECT,
+        optional_relation=licRelation.PROJECT_PARENT,
+        optional_subject_type=licObjectType.APP,
+        optional_subject_id=app_key,
+    )
+    write_relationship(
+        resource_type=licObjectType.APP,
+        resource_id=app_key,
+        relation=licRelation.APP_BELONG_TO,
+        subject_type=licObjectType.SYSTEM,
+        subject_id=licSingletonID.SYSTEM_ID.value,
+    )
+    for i in range(3000):
+        write_relationship(
+            resource_type=licObjectType.PROJECT,
+            resource_id=f"project{i+1}",
+            relation=licRelation.PROJECT_PARENT,
+            subject_type=licObjectType.APP,
+            subject_id=app_key,
         )
+
+def auth_glimpse(uid, project_id):
+    lookup_resources_of_user(
+        uid=uid,
+        resource_type=licObjectType.PROJECT,
+        permission=licPermission.PROJECT_VIEW
     )
-    print("create success", resp.written_at.token)
-    return resp.written_at.token
 
-def remove_relationship(*,
-                     subject_type: str,
-                     subject_id: str,
-                     relation: str,
-                     resource_type: str,
-                     resource_id: str,
-                     ) -> str:
-    """
-    remove relationship
-    """
-    relationship = Relationship(
-        resource=ObjectReference(object_type=resource_type,
-                                 object_id=resource_id),
-        relation=relation,
-        subject=SubjectReference(object=ObjectReference(
-            object_type=subject_type,
-            object_id=subject_id
-        ))
+    check_permission(
+        resource_type=licObjectType.PROJECT, 
+        resource_id=project_id,
+        subject_type=licObjectType.USER, 
+        subject_id=uid,
+        permission=licPermission.PROJECT_VIEW
     )
-    resp = client.WriteRelationships(
-        WriteRelationshipsRequest(
-            updates=[
-                RelationshipUpdate(
-                    operation=RelationshipUpdate.Operation.OPERATION_DELETE,
-                    relationship=relationship
-                )
-            ]
-        )
+    read_relationship(
+        resource_type=licObjectType.PROJECT,
+        optional_resource_id=project_id,
+        optional_relation=licRelation.PROJECT_PARENT,
+        optional_subject_type=licObjectType.APP
     )
-    print("delete success", resp.written_at.token)
-    return resp.written_at.token
 
-
-# [查] 查询object实例：（查询某人有哪些物品？某物品的主人是谁？查询某）LookupResources
-# [CheckPermission]查询是否有操作权限？
-# [查] 查询resources
-def lookup_resources(*,
-                     resource_type: str,
-                     permission: str, # ???
-                     ):
-    """
-    look up resources
-    """
-    req = LookupResourcesRequest(
-        resource_object_type=resource_type,
-        permission=permission,
-        subject=SubjectReference(object=ObjectReference(
-                object_id="",
-                object_type=""
-            )
-        )
+def reparent(project_id, app_key):
+    # relationships = read_relationship(
+    #     resource_type=licObjectType.PROJECT,
+    #     optional_resource_id=project_id,
+    #     optional_relation=licRelation.PROJECT_PARENT,
+    #     optional_subject_type=licObjectType.APP,
+    # )
+    # for r in relationships:
+    #     write_relationship(
+    #         resource_type=licObjectType(r["resource_type"]),
+    #         resource_id=r["resource_id"],
+    #         relation=licRelation(r["relation"]),
+    #         subject_type=licObjectType(r["subject_type"]),
+    #         subject_id=r["subject_id"],
+    #         operation_type=RelationshipUpdate.Operation.OPERATION_DELETE,
+    #     )
+    delete_relationship(
+        resource_type=licObjectType.PROJECT,
+        optional_resource_id=project_id,
+        optional_relation=licRelation.PROJECT_PARENT,
+    ) # 一个案例同时只能属于一个项目，所以要先删除所有的父级
+    write_relationship(
+        subject_type=licObjectType.APP,
+        subject_id=app_key,
+        relation=licRelation.PROJECT_PARENT,
+        resource_type=licObjectType.PROJECT,
+        resource_id=project_id
     )
-    client.LookupResources(request=req)
+    
+def other_check(user_id, appKey, project_id):
+    lookup_resources_of_user(
+        uid=user_id,
+        resource_type=licObjectType.PROJECT,
+        permission=licPermission.PROJECT_VIEW
+    )
+    check_permission(
+        subject_type=licObjectType.SYSTEM,
+        subject_id=licSingletonID.SYSTEM_ID.value,
+        permission=licRelation.APP_BELONG_TO,
+        resource_type=licObjectType.APP,
+        resource_id=appKey,
+    )
+    check_permission(
+        subject_type=licObjectType.APP,
+        subject_id=appKey,
+        permission=licRelation.PROJECT_PARENT,
+        resource_type=licObjectType.PROJECT,
+        resource_id=project_id,
+    )
+    check_permission(
+        resource_type=licObjectType.SYSTEM, 
+        resource_id=licSingletonID.SYSTEM_ID.value,
+        subject_type=licObjectType.USER, 
+        subject_id=user_id,
+        permission=licRelation.SYSTEM_ADMIN
+    )
 
-# 【改schema】
-# 1. 增、删、改：object｜relation｜permission
-# 2. 查询schema
 
+if __name__ == "__main__":
+    init_client()
+    init_schema()
+    former_app_key = "default"
+    current_app_key = "JX3"
+    project_id = "project1"
+    user_id = "youling"
+    # grant_system_admin(user_id)
+    # create_projects(former_app_key)
+    # add_app("JX3")
 
-# # [增] 增加object实例：用户、物品（增加物品同时也会增加relation
-# add_relationship(
-#     subject_type="user",
-#     subject_id="xiezhh",
-#     relation="owner",
-#     resource_type="object",
-#     resource_id="licha"
-# )
-
-# # [删] 删除relationship
-# remove_relationship(
-#     subject_type="user",
-#     subject_id="xiezhh",
-#     relation="owner",
-#     resource_type="object",
-#     resource_id="licha"
-# )
-
+    lookup_resources(
+        subject_type=licObjectType.APP,
+        subject_id=former_app_key,
+        resource_type=licObjectType.PROJECT,
+        permission=licRelation.PROJECT_PARENT,
+    )
+    auth_glimpse(user_id, project_id)
+    # print('*'*20 + " start delete " + '*'*20)
+    # reparent(project_id, current_app_key)
+    # print('*'*20 + " after delete " + '*'*20)
+    # auth_glimpse(user_id, project_id)

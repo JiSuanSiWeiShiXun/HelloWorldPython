@@ -1,0 +1,35 @@
+definition user {}
+
+definition system {
+    relation admin: user // 超级管理员
+
+    permission root_access = admin
+}
+
+definition application {
+    relation belong_to: system
+    relation manager: user // 项目管理员
+    relation member: user | user:* // 项目成员
+    relation tourist: user // 访客
+
+    permission view = belong_to->root_access + manager + member + tourist
+    /* 按照权限，将本层/上层角色聚和到一起，供分配具体权限的下层调用 */
+    permission project_edit = belong_to->root_access + manager + member
+    permission project_view = belong_to->root_access + manager + member + tourist
+}
+
+definition project {
+    relation parent: application
+
+    permission edit = parent->project_edit // 案例编辑权限
+    permission execute = parent->project_edit // 案例执行权限
+    permission view = parent->project_view // 案例查看权限
+}
+
+definition label {
+    relation parent: system
+    relation authorized_user: user | user:* // to implement public label
+
+    permission edit = parent->admin // 系统管理员才能修改发压机记录
+    permission access = authorized_user + parent->admin
+}
