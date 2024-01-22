@@ -1,5 +1,6 @@
 # coding=utf-8
 import logging
+import re
 from enum import Enum
 from typing import Union, List
 
@@ -13,7 +14,7 @@ from authzed.api.v1 import (
     WriteRelationshipsRequest, WriteSchemaRequest,
     DeleteRelationshipsRequest, DeleteRelationshipsResponse, 
     ReadRelationshipsRequest, ReadRelationshipsResponse,
-    ReadSchemaRequest,
+    ReadSchemaRequest, ReadSchemaResponse, 
     CheckPermissionRequest, CheckPermissionResponse,
     LookupResourcesRequest, LookupResourcesResponse,
     LookupSubjectsRequest, LookupSubjectsResponse,
@@ -51,7 +52,8 @@ def init_client(crt_path: str="") -> Client:
     #     insecure_bearer_token_credentials("kingsoft"),
     # )
     client = Client(
-        "8.219.5.187:50051",
+        # "8.219.5.187:50051",
+        "10.11.11.213:50051",
         bearer_token_credentials("kingsoft", certChain=ca_cert),
     )
     return client
@@ -138,184 +140,309 @@ class LookupPermissionship(Enum):
 	LOOKUP_PERMISSIONSHIP_HAS_PERMISSION = 1
 	LOOKUP_PERMISSIONSHIP_CONDITIONAL_PERMISSION = 2
 
-def init_schema():
-    """
-    创建/覆盖重写schema
-    """
-    with open("permission.zed", encoding="utf-8") as schema_file:
-        client.WriteSchema(WriteSchemaRequest(schema=schema_file.read()))
-        print("write schema ok!")
-
-def read_schema():
-    """
-    查询schema
-    """
-    schema_text = client.ReadSchema(ReadSchemaRequest())
-    print("[read schema]", schema_text)
-
-def read_relationship(*,
-                    resource_type: licObjectType,
-                    optional_resource_id: str = "",
-                    optional_relation: Union[licRelation, None] = None,
-                    optional_subject_type: Union[licObjectType, None] = None,
-                    optional_subject_id: str = ""
-                ) -> List[Relationship]:
-    """
-    查询relationship, 流式调用
-    read relationship不能用于处理permission
-    """
-    if optional_subject_type:
-        relationship_filter = RelationshipFilter(
-            resource_type=resource_type.value,
-            optional_subject_filter=SubjectFilter(
-                subject_type=optional_subject_type.value,
-            ),
-        )
-    else:
-        relationship_filter = RelationshipFilter(
-            resource_type=resource_type.value,
-        )
-
-    if optional_resource_id:
-        relationship_filter.optional_resource_id = optional_resource_id
-    if optional_relation:
-        relationship_filter.optional_relation = optional_relation.value
-    if optional_subject_id:
-        relationship_filter.optional_subject_filter.optional_subject_id = optional_subject_id
-
-    req = ReadRelationshipsRequest(
-        relationship_filter=relationship_filter,
-        consistency=Consistency(fully_consistent=True)
-    )
-    relationships = []
-    relationships_repr = [] # relationship转化成字符串
-    tokens = set() # zed token
-    for resp in client.ReadRelationships(request=req):
-        resp: ReadRelationshipsResponse
-        # logging.debug("xxx%s, %s", resp, type(resp.relationship))
-        relationship = {
-            "resource_type": resp.relationship.resource.object_type,
-            "resource_id": resp.relationship.resource.object_id,
-            "relation": resp.relationship.relation,
-            "subject_type": resp.relationship.subject.object.object_type,
-            "subject_id": resp.relationship.subject.object.object_id,
-        }
-        relationships.append(relationship)
-        relationships_repr.append("%s:%s#%s@%s:%s" % 
-            (resp.relationship.resource.object_type, resp.relationship.resource.object_id,
-            resp.relationship.relation,
-            resp.relationship.subject.object.object_type, resp.relationship.subject.object.object_id))
-        tokens.add(resp.read_at.token)
-        
-    logging.debug("[read relationship condition] [resourceType] %s [resourceID] %s [relation/permission] %s [subjectType] %s [subjectID] %s",
-        resource_type, optional_resource_id, optional_relation, optional_subject_type, optional_subject_id)
-    logging.info("[zedToken] %s [read relationship] success [%s]", tokens, relationships_repr)
-    return relationships
-
-def write_relationship(*,
-                     subject_type: licObjectType,
-                     subject_id: str,
-                     relation: licRelation,
-                     resource_type: licObjectType,
-                     resource_id: str,
-                     operation_type: RelationshipUpdate.Operation.ValueType=RelationshipUpdate.Operation.OPERATION_TOUCH,
-                     ) -> str:
-    """
-    写入 relationship
-    默认使用touch而不是create, 也可以传入delete类型用于删除relationship
-    """
-    relationship = Relationship(
-        resource=ObjectReference(object_type=resource_type.value,
-                                 object_id=resource_id),
-        relation=relation.value,
+def str_2_relationship(relationship_str: str) -> Relationship:
+    tmp_list = re.split("[:@#]", relationship_str.strip())
+    if len(tmp_list) != 5:
+        raise Exception(f"[{relationship_str}] not recognized")
+    
+    print(tmp_list)
+    resource_type = tmp_list[0]
+    resource_id = tmp_list[1]
+    relation = tmp_list[2]
+    subject_type = tmp_list[3]
+    subject_id = tmp_list[4]
+    return Relationship(
+        resource=ObjectReference(object_type=resource_type,
+                                object_id=resource_id),
+        relation=relation,
         subject=SubjectReference(object=ObjectReference(
-            object_type=subject_type.value,
+            object_type=subject_type,
             object_id=subject_id
         ))
     )
-    resp = client.WriteRelationships(
-        WriteRelationshipsRequest(
-            updates=[
-                RelationshipUpdate(
-                    operation=operation_type,
-                    relationship=relationship
-                )
-            ]
-        )
-    )
-    logging.info(f"[zedToken] {resp.written_at.token} [relationship] {resource_type.value}:{resource_id}#{relation.value}@{subject_type.value}:{subject_id} operate[{OperationType(operation_type).name}] write success")
-    return resp.written_at.token
 
-def delete_relationship(*,
+class SpiceDBClient(object):
+    def __init__(self, endpoint="", token="", crt_path=""):
+        if not crt_path:
+            crt_path = "./ca.crt"
+        with open(crt_path, "rb") as f:
+            ca_cert = f.read()
+        
+        self.endpoint = endpoint
+        self.token = token
+        if not endpoint:
+            self.endpoint = "10.11.11.213:50051" # "8.219.5.187:50051"
+        if not token:
+            self.token = "kingsoft"
+        
+        # self.client = Client(
+        #     "localhost:50051",
+        #     insecure_bearer_token_credentials("kingsoft"),
+        # )
+        self.client = Client(
+            self.endpoint,
+            bearer_token_credentials(self.token, certChain=ca_cert),
+        )
+
+    def init_schema(self, path: str="permission.zed"):
+        """
+        创建/覆盖重写schema
+        """
+        with open(path, encoding="utf-8") as schema_file:
+            self.client.WriteSchema(WriteSchemaRequest(schema=schema_file.read()))
+            print("write schema ok!")
+
+    def read_schema(self) -> str:
+        """
+        查询schema
+        @return schema路径
+        """
+        resp: ReadSchemaResponse = self.client.ReadSchema(ReadSchemaRequest())
+        print("[read schema]", resp)
+        
+        path = f"{self.endpoint}.zed"
+        with open(path, "w") as f:
+            f.write(str(resp.schema_text))
+        return path
+
+    def read_relationship(self, *,
                         resource_type: licObjectType,
-                        optional_resource_id: Union[str, None] = None,
+                        optional_resource_id: str = "",
                         optional_relation: Union[licRelation, None] = None,
                         optional_subject_type: Union[licObjectType, None] = None,
-                        optional_subject_id: Union[str, None] = None,
-                        ) -> str:
-    """
-    批量删除符合条件的relationship
-    """
-    params = {"resource_type": resource_type.value}
-    if optional_resource_id:
-        params["optional_resource_id"] = optional_resource_id
-    if optional_relation:
-        params["optional_relation"] = optional_relation.value
-    if optional_subject_type:
-        subject_filter_param = {"subject_type": optional_subject_type.value}
+                        optional_subject_id: str = ""
+                    ) -> List[Relationship]:
+        """
+        [流式调用] 查询relationship
+        read relationship不能用于处理permission
+        """
+        if optional_subject_type:
+            relationship_filter = RelationshipFilter(
+                resource_type=resource_type.value,
+                optional_subject_filter=SubjectFilter(
+                    subject_type=optional_subject_type.value,
+                ),
+            )
+        else:
+            relationship_filter = RelationshipFilter(
+                resource_type=resource_type.value,
+            )
+
+        if optional_resource_id:
+            relationship_filter.optional_resource_id = optional_resource_id
+        if optional_relation:
+            relationship_filter.optional_relation = optional_relation.value
         if optional_subject_id:
-            subject_filter_param["optional_subject_id"] = optional_subject_id
-        params["optional_subject_filter"] = SubjectFilter(**subject_filter_param)
+            relationship_filter.optional_subject_filter.optional_subject_id = optional_subject_id
 
-    req = DeleteRelationshipsRequest(
-        relationship_filter=RelationshipFilter(**params)
-    )
-    # print(req)
-    resp:DeleteRelationshipsResponse = client.DeleteRelationships(request=req)
-    # logging.debug(resp)
-    token = resp.deleted_at.token
-    logging.debug("[delete relationship filter] [resourceType] %s [resourceID] %s [relation/permission] %s [subjectType] %s [subjectID] %s",
-        resource_type, optional_resource_id, optional_relation, optional_subject_type, optional_subject_id)
-    logging.info("[zedToken] %s [delete relationship]", token)
-    return resp.deleted_at.token
+        req = ReadRelationshipsRequest(
+            relationship_filter=relationship_filter,
+            consistency=Consistency(fully_consistent=True)
+        )
+        relationships = []
+        relationships_repr = [] # relationship转化成字符串
+        tokens = set() # zed token
+        for resp in self.client.ReadRelationships(request=req):
+            resp: ReadRelationshipsResponse
+            # logging.debug("xxx%s, %s", resp, type(resp.relationship))
+            relationship = {
+                "resource_type": resp.relationship.resource.object_type,
+                "resource_id": resp.relationship.resource.object_id,
+                "relation": resp.relationship.relation,
+                "subject_type": resp.relationship.subject.object.object_type,
+                "subject_id": resp.relationship.subject.object.object_id,
+            }
+            relationships.append(relationship)
+            relationships_repr.append("%s:%s#%s@%s:%s" % 
+                (resp.relationship.resource.object_type, resp.relationship.resource.object_id,
+                resp.relationship.relation,
+                resp.relationship.subject.object.object_type, resp.relationship.subject.object.object_id))
+            tokens.add(resp.read_at.token)
+            
+        logging.debug("[read relationship condition] [resourceType] %s [resourceID] %s [relation/permission] %s [subjectType] %s [subjectID] %s",
+            resource_type, optional_resource_id, optional_relation, optional_subject_type, optional_subject_id)
+        logging.info("[zedToken] %s [read relationship] success [%s]", tokens, relationships_repr)
+        return relationships
 
-def check_permission(*,
-                     subject_type: licObjectType,
-                     subject_id: str,
-                     resource_type: licObjectType,
-                     resource_id: str,
-                     permission: Union[licRelation, licPermission]
-                     ) -> bool:
+    def write_relationship(self, *,
+                        subject_type: licObjectType,
+                        subject_id: str,
+                        relation: licRelation,
+                        resource_type: licObjectType,
+                        resource_id: str,
+                        operation_type: RelationshipUpdate.Operation.ValueType=RelationshipUpdate.Operation.OPERATION_TOUCH,
+                        ) -> str:
+        """
+        写入 relationship
+        默认使用touch而不是create, 也可以传入delete类型用于删除relationship
+        """
+        relationship = Relationship(
+            resource=ObjectReference(object_type=resource_type.value,
+                                    object_id=resource_id),
+            relation=relation.value,
+            subject=SubjectReference(object=ObjectReference(
+                object_type=subject_type.value,
+                object_id=subject_id
+            ))
+        )
+        resp = self.client.WriteRelationships(
+            WriteRelationshipsRequest(
+                updates=[
+                    RelationshipUpdate(
+                        operation=operation_type,
+                        relationship=relationship
+                    )
+                ]
+            )
+        )
+        logging.info(f"[zedToken] {resp.written_at.token} [relationship] {resource_type.value}:{resource_id}#{relation.value}@{subject_type.value}:{subject_id} operate[{OperationType(operation_type).name}] write success")
+        return resp.written_at.token
+
+    def delete_relationship(self, *,
+                            resource_type: licObjectType,
+                            optional_resource_id: Union[str, None] = None,
+                            optional_relation: Union[licRelation, None] = None,
+                            optional_subject_type: Union[licObjectType, None] = None,
+                            optional_subject_id: Union[str, None] = None,
+                            ) -> str:
+        """
+        批量删除符合条件的relationship
+        """
+        params = {"resource_type": resource_type.value}
+        if optional_resource_id:
+            params["optional_resource_id"] = optional_resource_id
+        if optional_relation:
+            params["optional_relation"] = optional_relation.value
+        if optional_subject_type:
+            subject_filter_param = {"subject_type": optional_subject_type.value}
+            if optional_subject_id:
+                subject_filter_param["optional_subject_id"] = optional_subject_id
+            params["optional_subject_filter"] = SubjectFilter(**subject_filter_param)
+
+        req = DeleteRelationshipsRequest(
+            relationship_filter=RelationshipFilter(**params)
+        )
+        # print(req)
+        resp:DeleteRelationshipsResponse = self.client.DeleteRelationships(request=req)
+        # logging.debug(resp)
+        token = resp.deleted_at.token
+        logging.debug("[delete relationship filter] [resourceType] %s [resourceID] %s [relation/permission] %s [subjectType] %s [subjectID] %s",
+            resource_type, optional_resource_id, optional_relation, optional_subject_type, optional_subject_id)
+        logging.info("[zedToken] %s [delete relationship]", token)
+        return resp.deleted_at.token
+
+    def check_permission(self, *,
+                        subject_type: licObjectType,
+                        subject_id: str,
+                        resource_type: licObjectType,
+                        resource_id: str,
+                        permission: Union[licRelation, licPermission]
+                        ) -> bool:
+        """
+        查询是否有permission/relation
+        不能对wildcard关系进行check_permission查询
+        @ return: 有权限返回true, 否则返回false
+        """
+        re = ObjectReference(
+            object_type=resource_type.value,
+            object_id=resource_id
+        )
+        sub = SubjectReference(object=ObjectReference(
+            object_type=subject_type.value,
+            object_id=subject_id
+        ))
+        req = CheckPermissionRequest(
+            resource=re,
+            permission=permission.value,
+            subject=sub,
+            consistency=Consistency(fully_consistent=True)
+        )
+        resp: CheckPermissionResponse = self.client.CheckPermission(req)
+        logging.info("[zedToken] %s [permissionship]:%s %s:%s#%s@%s:%s ", 
+            resp.checked_at.token, Permissionship(resp.permissionship).name, 
+            resource_type.value, resource_id, permission.value, subject_type, subject_id)
+        return resp.permissionship == Permissionship.PERMISSIONSHIP_HAS_PERMISSION.value
+
+
+
+    def lookup_resources(self, *,
+                        subject_type: licObjectType,
+                        subject_id: str,
+                        resource_type: licObjectType,
+                        permission: Union[licRelation, licPermission]
+                        )->List[str]:
+        """[流式调用] 查询指定subject，指定relation/permission对应有哪些resourceID"""
+        req = LookupResourcesRequest(
+            resource_object_type=resource_type.value,
+            permission=permission.value,
+            subject=SubjectReference(object=ObjectReference(
+                object_type=subject_type.value,
+                object_id=subject_id,
+            )),
+            consistency=Consistency(fully_consistent=True),
+        )
+        resource_id_list = []
+        zed_tokens = set()
+        for resp in self.client.LookupResources(request=req):
+            # logging.debug(f"[lookup resource] {resp}")
+            resp: LookupResourcesResponse
+            zed_tokens.add(resp.looked_up_at.token)
+            if resp.permissionship == LookupPermissionship.LOOKUP_PERMISSIONSHIP_HAS_PERMISSION.value:
+                resource_id_list.append(resp.resource_object_id)
+        logging.info("[zedToken] %s %s:%s have [role/permission] %s over %s:%s", 
+                    zed_tokens, subject_type.value, subject_id, permission.value, resource_type.value, resource_id_list)
+        return resource_id_list
+
+    def lookup_subjects(self, *,
+                        resource_type: licObjectType,
+                        resource_id: str,
+                        subject_type: licObjectType,
+                        permission: Union[licRelation, licPermission]
+                        )->List[str]:
+        """
+        [流式调用] 查询指定relationship中的subject id有哪些
+        不支持filter
+        """
+        req = LookupSubjectsRequest(
+            permission = permission.value,
+            resource = ObjectReference(
+                object_type=resource_type.value,
+                object_id=resource_id
+                ),
+            subject_object_type=subject_type.value,
+            consistency=Consistency(fully_consistent=True)
+        )
+        subject_ids = []
+        zed_tokens = set() # 因为是流式调用，我不确定返回的每个subject的zed token是不是一致的
+        # 流式调用
+        # print(f"hello~ client={client}") # stuck here
+        for resp in self.client.LookupSubjects(request=req):
+            # print(f"[lookup user] {resp}")      # this never ouput when API called in flask view functions
+            resp: LookupSubjectsResponse
+            zed_tokens.add(resp.looked_up_at.token)
+            if resp.subject.permissionship == LookupPermissionship.LOOKUP_PERMISSIONSHIP_HAS_PERMISSION.value:
+                subject_ids.append(resp.subject.subject_object_id)
+        logging.info("[zedToken] %s %ss who have [%s] role/permission towards [%s:%s] are %s", 
+                    zed_tokens, subject_type.value, permission.value, resource_type.value, resource_id, subject_ids)
+        return subject_ids
+
+
+def grant_system_admin(user_id: str):
     """
-    查询是否有permission/relation
-    @ return: 有权限返回true, 否则返回false
+    添加(touch)系统管理员角色，角色可以代表一系列的权限
     """
-    re = ObjectReference(
-        object_type=resource_type.value,
-        object_id=resource_id
+    write_relationship(
+        subject_type=licObjectType.USER, subject_id=user_id,
+        relation=licRelation.SYSTEM_ADMIN,
+        resource_type=licObjectType.SYSTEM, resource_id=licSingletonID.SYSTEM_ID.value
     )
-    sub = SubjectReference(object=ObjectReference(
-        object_type=subject_type.value,
-        object_id=subject_id
-    ))
-    req = CheckPermissionRequest(
-        resource=re,
-        permission=permission.value,
-        subject=sub,
-        consistency=Consistency(fully_consistent=True)
-    )
-    resp: CheckPermissionResponse = client.CheckPermission(req)
-    logging.info("[zedToken] %s [permissionship]:%s %s:%s#%s@%s:%s ", 
-        resp.checked_at.token, Permissionship(resp.permissionship).name, 
-        resource_type.value, resource_id, permission.value, subject_type, subject_id)
-    return resp.permissionship == Permissionship.PERMISSIONSHIP_HAS_PERMISSION.value
-
-def check_user_permission(*,
-                     user_id: str,
-                     resource_type: licObjectType,
-                     resource_id: str,
-                     permission: Union[licRelation, licPermission]
-                     ) -> bool:
+    
+def check_user_permission(self, *,
+                    user_id: str,
+                    resource_type: licObjectType,
+                    resource_id: str,
+                    permission: Union[licRelation, licPermission]
+                    ) -> bool:
     """
     issues a check on whether a subject has a permission
     or is a member of a relation, on a specific resource.
@@ -331,104 +458,34 @@ def check_user_permission(*,
         permission=permission
     )
 
-def lookup_users_of_resource(*,
+def lookup_users_of_resource(self, *,
                 resource_type: licObjectType,
                 resource_id: str,
                 permission: Union[licRelation, licPermission]
                 )->List[str]:
     """
-    指定资源的relation/permission 分配给了哪些用户
+    [流式调用] 指定资源的relation/permission 分配给了哪些用户
     resource_type:resource_id#permission@user:uid --> 对uid进行查询
     """
-    req = LookupSubjectsRequest(
-        permission = permission.value,
-        resource = ObjectReference(
-            object_type=resource_type.value,
-            object_id=resource_id
-            ),
-        subject_object_type=licObjectType.USER.value,
-        consistency=Consistency(fully_consistent=True)
+    return lookup_subjects(
+        resource_type=resource_type,
+        resource_id=resource_id,
+        subject_type=licObjectType.USER,
+        permission=permission,
     )
-    user_list = []
-    zed_tokens = set() # 因为是流式调用，我不确定返回的每个subject的zed token是不是一致的
-    # 流式调用
-    # print(f"hello~ client={client}") # stuck here
-    for resp in client.LookupSubjects(request=req):
-        # print(f"[lookup user] {resp}")      # this never ouput when API called in flask view functions
-        resp: LookupSubjectsResponse
-        zed_tokens.add(resp.looked_up_at.token)
-        if resp.subject.permissionship == LookupPermissionship.LOOKUP_PERMISSIONSHIP_HAS_PERMISSION.value:
-            user_list.append(resp.subject.subject_object_id)
-    logging.info("[zedToken] %s users who have [%s] role/permission towards [%s:%s] are %s", 
-                zed_tokens, permission.value, resource_type.value, resource_id, user_list)
-    return user_list
 
-def lookup_resources_of_user(*,
-                     uid: str,
-                     resource_type: licObjectType,
-                     permission: Union[licRelation, licPermission]
-                     )->List[str]:
+def lookup_resources_of_user(self, *,
+                    uid: str,
+                    resource_type: licObjectType,
+                    permission: Union[licRelation, licPermission]
+                    )->List[str]:
     """
-    指定用户 指定permission/relationship 拥有什么资源
+    [流式调用] 指定用户 指定permission/relationship 拥有什么资源
     resource_type:resource_id#permission@user:uid --> 对resource_id进行查询
     """
-    req = LookupResourcesRequest(
-        resource_object_type=resource_type.value,
-        permission=permission.value,
-        subject=SubjectReference(object=ObjectReference(
-            object_type=licObjectType.USER.value,
-            object_id=uid,
-        )),
-        consistency=Consistency(fully_consistent=True),
-    )
-    resource_id_list = []
-    zed_tokens = set()
-    for resp in client.LookupResources(request=req):
-        # logging.debug(f"[lookup resource] {resp}")
-        resp: LookupResourcesResponse
-        zed_tokens.add(resp.looked_up_at.token)
-        if resp.permissionship == LookupPermissionship.LOOKUP_PERMISSIONSHIP_HAS_PERMISSION.value:
-            resource_id_list.append(resp.resource_object_id)
-    logging.info("[zedToken] %s user:%s have [role/permission] %s over %s:%s [len]%s", 
-                zed_tokens, uid, permission.value, resource_type.value, resource_id_list, len(resource_id_list))
-    return resource_id_list
-
-def lookup_resources(*,
-                     subject_type: licObjectType,
-                     subject_id: str,
-                     resource_type: licObjectType,
-                     permission: Union[licRelation, licPermission]
-                     )->List[str]:
-    """查询指定subject，指定relation/permission对应有哪些resourceID"""
-    req = LookupResourcesRequest(
-        resource_object_type=resource_type.value,
-        permission=permission.value,
-        subject=SubjectReference(object=ObjectReference(
-            object_type=subject_type.value,
-            object_id=subject_id,
-        ))
-    )
-    resource_id_list = []
-    zed_tokens = set()
-    for resp in client.LookupResources(request=req):
-        # logging.debug(f"[lookup resource] {resp}")
-        resp: LookupResourcesResponse
-        zed_tokens.add(resp.looked_up_at.token)
-        if resp.permissionship == LookupPermissionship.LOOKUP_PERMISSIONSHIP_HAS_PERMISSION.value:
-            resource_id_list.append(resp.resource_object_id)
-    logging.info("[zedToken] %s %s:%s have [role/permission] %s over %s:%s", 
-                zed_tokens, subject_type, subject_id, permission.value, resource_type.value, resource_id_list)
-    return resource_id_list
-
-def lookup_subjects():
-    pass
-
-def grant_system_admin(user_id: str):
-    """
-    添加(touch)系统管理员角色，角色可以代表一系列的权限
-    """
-    write_relationship(
-        subject_type=licObjectType.USER, subject_id=user_id,
-        relation=licRelation.SYSTEM_ADMIN,
-        resource_type=licObjectType.SYSTEM, resource_id=licSingletonID.SYSTEM_ID.value
+    return lookup_resources(
+        subject_type=licObjectType.USER,
+        subject_id=uid,
+        resource_type=resource_type,
+        permission=permission,
     )
