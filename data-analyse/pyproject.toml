@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data-analyse"
+version = "0.1.0"
+description = ""
+authors = ["youling66 <youling66@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+requests = "^2.31.0"
+pyarrow = "^15.0.0"
+xlrd = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
