@@ -4,7 +4,7 @@
 @Time    :   2024/02/20 14:44:36
 @Author  :   youling 
 @Contact :   xiezhihong@kingsoft.com
-@Desc    :   导出日志数据csv
+@Desc    :   从指定网站获取excel文件，处理excel文件中的内容得到目标格式的csv
 '''
 import re
 
