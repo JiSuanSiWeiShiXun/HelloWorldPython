@@ -1,0 +1,6 @@
+# TYPE fps gauge
+# TYPE LoadInfo gauge
+snake_custom_loaded{groupname="GameServer:gs_10001_10.11.81.100",instance="10.11.81.100",job="prometheus"} 0 1708514747
+# TYPE SceneInfo gauge
+snake_custom_playerCount{groupname="GameServer:gs_10001_10.11.69.121",instance="10.11.69.121",job="prometheus",sceneTemplateID="1001",sceneInstanceID="1",lineID="1"} 0 1708514748
+# EOF

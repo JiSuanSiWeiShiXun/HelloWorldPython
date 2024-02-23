@@ -10,6 +10,7 @@ from celery import Celery
 
 app = Celery('demo',
              broker='amqp://rabbit:123456@10.11.89.55:5672',
+            #  backend="redis://10.11.89.55:6370",
              include=['demo.tasks'])
 app.conf.broker_connection_retry_on_startup = True
 
