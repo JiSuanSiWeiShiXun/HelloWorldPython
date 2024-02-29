@@ -7,6 +7,7 @@
 @Desc    :   从指定网站获取excel文件，处理excel文件中的内容得到目标格式的csv
 '''
 import re
+from datetime import datetime, timedelta
 
 import requests
 import pandas as pd
@@ -14,11 +15,14 @@ import pandas as pd
 
 def get_log_data(
     appkey: str,
-    fromtime: str, # "2024-02-19"
-    totime: str, # "2024-02-19"
-    project_versions: str, # "0.7.0.426684"
     log_string: str,
+    fromtime: str = (datetime.today() - timedelta(days=15)).strftime('%Y-%m-%d'), # "2024-02-19"
+    totime: str = datetime.today().strftime('%Y-%m-%d'), # "2024-02-19"
+    project_versions: str = None, # "0.7.0.426684"
 ) -> str:
+    if fromtime > totime:
+        raise Exception("fromtime should be less than totime.")
+
     # 获取CSV文件
     url = "https://logapi.testplus.cn/api/statistic/csv"
     payload = {
@@ -28,11 +32,12 @@ def get_log_data(
         "fromtime": fromtime,
         "totime": totime,
         "merge_type": 0,
-        "project_versions": [project_versions], # 版本号
         "compare_with_project_version": "gte", # 大于等于
         "skip": 0,
         "log_string": log_string,
     }
+    if project_versions:
+        payload["project_versions"] = [project_versions] # 版本号
     response = requests.post(url, json=payload)
     filename = "original.xls"
     with open(filename, 'wb') as file:
@@ -62,9 +67,9 @@ def process_log_string(xls_path: str):
 if __name__ == "__main__":
     original_csv_path = get_log_data(
         appkey="mecha",
-        fromtime="2024-02-19",
-        totime="2024-02-19",
-        project_versions="0.7.0.426684",
+        # fromtime="2024-02-19",
+        # totime="2024-02-19",
         log_string="Keywords not perfectly matched. ShaderName:"
+        # project_versions="0.7.0.426684",
     )
     process_log_string(original_csv_path)
