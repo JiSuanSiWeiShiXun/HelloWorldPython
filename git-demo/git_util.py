@@ -7,19 +7,22 @@
 @Desc    :   用GitPython库操作git项目
 '''
 import pathlib
-import shutil
+import tempfile
 import zipfile
 import os
-from typing import List
+from typing import List, Union
 from urllib.parse import urlparse, urlunparse
 
 import git
 
 
-def git_clone_to_path(path: str, git_url: str, token: str = None):
+def git_clone_to_path(path: str, git_url: str, branch: str = "", token: str = None):
     """
     在path目录git clone项目
-    @param auth: 令牌字符串 使用令牌时只允许使用https地址
+    @param path: 项目clone到的目录
+    @param git_url: git项目地址
+    @param branch: 分支
+    @param token: 令牌字符串 使用令牌时只允许使用https地址
     """
     # Parse the URL
     parsed_url = urlparse(git_url)
@@ -33,7 +36,10 @@ def git_clone_to_path(path: str, git_url: str, token: str = None):
         repo_url = git_url
     
     print(repo_url)
-    repo = git.Repo.clone_from(repo_url, path)
+    if branch:
+        git.Repo.clone_from(repo_url, path, branch=branch)
+    else:
+        git.Repo.clone_from(repo_url, path)
 
 def zipdir(path: str, ziph: zipfile.ZipFile, exclude: List[str]):
     """
@@ -52,14 +58,19 @@ def zipdir(path: str, ziph: zipfile.ZipFile, exclude: List[str]):
 
 
 if __name__ == "__main__":
-    temporary_path = "./data/"
-
-    temporary_path = pathlib.Path(temporary_path)
-    git_clone_to_path(temporary_path.__str__(), "https://ngitlab.testplus.cn/xiezhihong/tgame-config-check.git", "glpat-e52ZQ6EWA5XHXcDT7tG8")
-    exclude = [
-        temporary_path.joinpath(".git/").__str__(),
-        temporary_path.joinpath("tgame-localization-check.exe").__str__(),
-    ]  # folders to exclude
-    zipf = zipfile.ZipFile('data.zip', 'w', zipfile.ZIP_DEFLATED)
-    zipdir(temporary_path.__str__(), zipf, exclude)
-    zipf.close()
+    # Create a temporary directory
+    with tempfile.TemporaryDirectory() as temporary_git_dir:
+        # Clone the git repository into the temporary directory
+        print(temporary_git_dir)
+        temporary_git_dir = pathlib.Path(temporary_git_dir)
+        git_clone_to_path(temporary_git_dir, "https://ngitlab.testplus.cn/xiezhihong/benchmark.git", "locust", token="glpat-e52ZQ6EWA5XHXcDT7tG8")
+        exclude = [
+            temporary_git_dir.joinpath(".git/").__str__(),
+            temporary_git_dir.joinpath("tgame-localization-check.exe").__str__(),
+        ]  # folders to exclude
+        
+        with tempfile.NamedTemporaryFile(suffix=".zip", delete=True) as temp_git_zip:
+            print(temp_git_zip.name)
+            zipf = zipfile.ZipFile(temp_git_zip.name, 'w', zipfile.ZIP_DEFLATED)
+            zipdir(temporary_git_dir.__str__(), zipf, exclude)
+            zipf.close()
