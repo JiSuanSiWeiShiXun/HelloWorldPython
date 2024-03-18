@@ -3,6 +3,10 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy, BaseQuery
 from flask_migrate import Migrate
 
+# from .blueprint import bp
+from .api.user import mod as user_mod
+
+
 tmp = "nice"
 db = SQLAlchemy(query_class=BaseQuery)
 migrate = Migrate()
@@ -19,7 +23,7 @@ def create_app():
     migrate.init_app(app, db) # 初始化mysql迁移工具
     # export FLASK_APP=flaskr
 
-    from . import blueprint
-    app.register_blueprint(blueprint.bp)
+    # app.register_blueprint(bp)
+    app.register_blueprint(user_mod)
 
     return app
