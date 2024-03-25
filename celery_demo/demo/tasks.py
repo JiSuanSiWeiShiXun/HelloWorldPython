@@ -111,7 +111,7 @@ def search_yy_log_analysis_data(
                         resp: dict = json.loads(resp)
                         break
                 except Exception as e:
-                    # logging.error("gmp request [attempt] %d failed: [exception] %s" % (attempt, e))
+                    print("gmp request [attempt] %d failed: [exception] %s" % (attempt, e))
                     time.sleep(1)
             if not resp or resp["code"] != 0:
                 # logging.error("gpm request failed: [code] %s [resp] %s" % (content["code"], content))
